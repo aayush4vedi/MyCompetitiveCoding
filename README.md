@@ -1,0 +1,3 @@
+# CP3-problems
+I now walk into the wild...
+This repo is the victim of my serious learning of competitive coding by solving the problems of CP3 by Steven Halim
