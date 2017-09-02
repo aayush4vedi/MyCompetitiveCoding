@@ -1,9 +1,5 @@
 # Topics and Resources I've covered #
 
 * ## Computational Geometry
-  * Convex Hull
-    * sub head
-      *sub sub
-    *sub head 2
-   *head 2
-
+  * Orientation
+    **[To see if 2 lines intersect or not.](http://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/)**Find all the 4 slopes  and check of opposite orientation of both the pairs.
