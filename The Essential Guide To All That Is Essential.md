@@ -8,7 +8,7 @@
 
 paragraphing of the topic 2
 
-```
-this is code line
+```C++
+cout<<"this is code line";
 ````
 and this is not
