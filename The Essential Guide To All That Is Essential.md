@@ -1,6 +1,6 @@
 # Topics and Resources
 
-## list
+* ## list
 
 * topic 1
 * topic 2
