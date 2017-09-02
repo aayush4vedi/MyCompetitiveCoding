@@ -1,5 +1,9 @@
-# Topics and Resources I've covered
+# Topics and Resources I've covered #
 
 * ## Computational Geometry
-** what is this
+  * Convex Hull
+    * sub head
+      *sub sub
+    *sub head 2
+   *head 2
 
