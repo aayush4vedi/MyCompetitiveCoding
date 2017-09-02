@@ -21,7 +21,7 @@
 * ## DP
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
-     : Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
+      Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
     ```cpp
     int knapsack(int n, int wmax, int val[], int wt[]){
        if(n==0 || wmax ==0){
