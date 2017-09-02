@@ -7,9 +7,9 @@
      * [Jarvis Algorithm](http://www.geeksforgeeks.org/convex-hull-set-1-jarviss-algorithm-or-wrapping/). Time Complexity: **n^2**
        1. Pick the leftmost point *P*
        2. Repeat until *P* is reached:
-          *A.Next point *Q* is such that pair *(p,q,r)* is in anticlock [orientataion](http://www.geeksforgeeks.org/orientation-3-ordered-points/).
-          * B.next[*P*] = *Q*
-          * C. *P* = *Q*
+          * Next point *Q* is such that pair *(p,q,r)* is in anticlock [orientataion](http://www.geeksforgeeks.org/orientation-3-ordered-points/).
+          * next[*P*] = *Q*
+          * *P* = *Q*
               
           
     * [Graham's Algorithm](http://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/). Time Complexity: **nlogn**
