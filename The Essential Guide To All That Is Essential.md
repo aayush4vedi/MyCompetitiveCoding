@@ -1,6 +1,7 @@
 # Topics and Resources #
 
 * ## Computational Geometry
+
   * **Orientation**
      * [To see if 2 lines intersect or not.](http://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/)Find all the 4 slopes  and check of opposite orientation of both the pairs.
   * **Convex Hull**
@@ -17,4 +18,5 @@
        2. Sort all points w.r.t *P* to find the closed path.
        3. Move on the path and pick a point if counter-clock rotation found.
        
+* ## DP
   
