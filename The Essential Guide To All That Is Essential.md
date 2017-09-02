@@ -19,4 +19,20 @@
        3. Move on the path and pick a point if counter-clock rotation found.
        
 * ## DP
+ * # **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
+     short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
+    '''cpp
+    int knapsack(int n, int wmax, int val[], int wt[]){
+  if(n==0 || wmax ==0){
+    return 0;
+  }
+  else if(wt[n-1] > wmax) return knapsack(n-1, wmax, val, wt);
+  else return max(val[n-1]+ knapsack(n-1, wmax- wt[n-1],val, wt), knapsack(n-1, wmax,val, wt));
+
+}
+    '''
+ 
+
+
+* ## Strings
   
