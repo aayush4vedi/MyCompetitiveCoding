@@ -20,6 +20,7 @@
        
 * ## DP
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
+ 
      : Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
     ```cpp
     int knapsack(int n, int wmax, int val[], int wt[]){
@@ -30,8 +31,11 @@
        else return max(val[n-1]+ knapsack(n-1, wmax- wt[n-1],val, wt), knapsack(n-1, wmax,val, wt));
     }
     ```
- 
-
+ * Longest Chain Subsequence
+ * DP-prob
+ * DP-prob
+ * DP-prob
+  
 
 * ## Strings
   
