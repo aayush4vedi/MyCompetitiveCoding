@@ -19,6 +19,8 @@
        3. Move on the path and pick a point if counter-clock rotation found.
        
 * ## DP
+  # Some cool links:
+     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
       Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
