@@ -20,7 +20,7 @@
        
 * ## DP
   ### Some cool links:
-     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
+      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
       Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
@@ -93,8 +93,13 @@
  *
  *
  *
- 
- 
+ ### Problems:
+ * **Standard Problems** should be really familiar with these types
+ [ ] [Creature Training](https://community.topcoder.com/stat?c=problem_statement&pm=8570&rd=12012&rm=269199&cr=7581406)
+          -[editorial](https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tco08rd2)
+ [ ] []
+ * **State Space Reduction**
+ [ ]
  
  
  
