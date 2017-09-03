@@ -37,9 +37,25 @@
       
       And [here](http://www.geeksforgeeks.org/printing-longest-common-subsequence/) is is how to print it([my code](http://ide.geeksforgeeks.org/7Bj9wu
 )).
- * Matrix Chain Multiplication
+ * Matrix Chain Multiplication 
+     lite
+ * **[Subset Sum Problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)**
+        [Video link](https://www.youtube.com/watch?v=s6FhG--P7z0&index=4&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+        Just see this and move on.
+        ```cpp
+        if(j<set[i-1])
+         subset[i][j] = subset[i-1][j];
+         if (j >= set[i-1])
+           subset[i][j] = subset[i-1][j] || subset[i - 1][j-set[i-1]];
+         ```  
+                                         ````
  * DP-prob
- * DP-prob
+ *
+ *
+ *
+ 
+ 
+ 
   
 
 * ## Strings
