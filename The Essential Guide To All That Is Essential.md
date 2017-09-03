@@ -51,7 +51,10 @@
        subset[i][j] = subset[i-1][j] || subset[i - 1][j-set[i-1]];
      ```  
                                         
- * DP-prob
+ * **[Optimal Binary Search Tree](http://www.geeksforgeeks.org/dynamic-programming-set-24-optimal-binary-search-tree/)**
+ 
+    [Video link](https://www.youtube.com/watch?v=hgA4xxlVvfQ&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&t=-7)
+    - [ ] TBDL
  *
  *
  *
