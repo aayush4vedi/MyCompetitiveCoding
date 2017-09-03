@@ -55,7 +55,8 @@
  
     [Video link](https://www.youtube.com/watch?v=hgA4xxlVvfQ&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&t=-7)
     - [ ] TBDL
- *
+ * **[Coin Change](http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)**
+      Simple shit
  *
  *
  
