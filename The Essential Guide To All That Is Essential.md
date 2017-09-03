@@ -67,7 +67,8 @@
       - [n^2](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
       - [nlogn](http://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/)
       - Examples:
-          - [x] [ZigZag](https://community.topcoder.com/stat?c=problem_statement&pm=1259&rd=4493)
+          - [x] [ZigZag](https://community.topcoder.com/stat?c=problem_statement&pm=1259&rd=4493) : if(a[i].a[j]<0) z[i] = 1+max(d[i],d[j]);
+          
  *  **[Minimum Edit Distance](http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)**
  
        [Video](https://www.youtube.com/watch?v=We3YDTzNXEk&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=8)
