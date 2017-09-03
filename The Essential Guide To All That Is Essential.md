@@ -58,11 +58,11 @@
     - [ ] TBDL
  * **[Coin Change](http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)**
                 
-                Simple shit
+        Simple shit
  *  **Longest Increasing Subsequence**
          
-         - [n^2](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
-         - [nlogn](http://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/)
+      - [n^2](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
+      - [nlogn](http://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/)
  *
  *
  *
