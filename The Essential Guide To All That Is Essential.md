@@ -38,6 +38,7 @@
       And [here](http://www.geeksforgeeks.org/printing-longest-common-subsequence/) is is how to print it([my code](http://ide.geeksforgeeks.org/7Bj9wu
 )).
  * Matrix Chain Multiplication 
+     
      lite
  * **[Subset Sum Problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)**
  
@@ -56,6 +57,7 @@
     [Video link](https://www.youtube.com/watch?v=hgA4xxlVvfQ&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&t=-7)
     - [ ] TBDL
  * **[Coin Change](http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)**
+      
       Simple shit
  *
  *
