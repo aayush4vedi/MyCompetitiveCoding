@@ -95,11 +95,11 @@
  *
  ### Problems:
  * **Standard Problems** should be really familiar with these types
- [ ] [Creature Training](https://community.topcoder.com/stat?c=problem_statement&pm=8570&rd=12012&rm=269199&cr=7581406)
+     [ ] [Creature Training](https://community.topcoder.com/stat?c=problem_statement&pm=8570&rd=12012&rm=269199&cr=7581406)
           -[editorial](https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tco08rd2)
- [ ] []
+     [ ] []
  * **State Space Reduction**
- [ ]
+     [ ]
  
  
  
