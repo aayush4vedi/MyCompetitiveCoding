@@ -19,7 +19,7 @@
        3. Move on the path and pick a point if counter-clock rotation found.
        
 * ## DP
-  # Some cool links:
+  ### Some cool links:
      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
