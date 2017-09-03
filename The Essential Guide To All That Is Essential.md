@@ -78,6 +78,7 @@
        Intresting one!
        This [video](https://www.youtube.com/watch?v=3hcaVyX00_4&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=13) is alone enough.
  *   **[Cutting Rod Problem](http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/)**
+            [Video](https://www.youtube.com/watch?v=IRwVmTmN6go)
  *   **[Minimum path cost](https://www.youtube.com/watch?v=lBRtnuxg-gU&index=20&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)**
        
        That *blow*(sigh!)
