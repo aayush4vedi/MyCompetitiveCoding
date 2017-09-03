@@ -74,7 +74,14 @@
  *   **[Weighted Job Scheduling Dynamic Programming](http://www.geeksforgeeks.org/weighted-job-scheduling/)**
        - sort by ending time and apply [LIS](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
        - [Video](https://www.youtube.com/watch?v=cr6Ip0J9izc&index=12&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
+ *   **[Egg Dropping Problem]**
+       Intresting one!
+       This [video](https://www.youtube.com/watch?v=3hcaVyX00_4&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=13)is alone enough.
  *
+ *
+ *
+ *
+ 
  
  
  
