@@ -62,7 +62,10 @@
          
       - [n^2](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
       - [nlogn](http://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/)
- *
+ *  **[Minimum Edit Distance](http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)**
+       [Video](https://www.youtube.com/watch?v=We3YDTzNXEk&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=8)
+      [my code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/editdist.cpp)
+      
  *
  *
  *
