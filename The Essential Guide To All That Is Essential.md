@@ -20,8 +20,8 @@
        
 * ## DP
   ### Some cool links:
-      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
-      * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)      
+     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
+     * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)      
                Awesome thou art.
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
