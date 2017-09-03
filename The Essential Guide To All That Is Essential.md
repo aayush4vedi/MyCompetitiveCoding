@@ -57,8 +57,12 @@
     [Video link](https://www.youtube.com/watch?v=hgA4xxlVvfQ&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&t=-7)
     - [ ] TBDL
  * **[Coin Change](http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)**
-      
-      Simple shit
+            Simple shit
+ *  **Longest Increasing Subsequence**
+         1. [n^2](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
+         2. [nlogn](http://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/)
+ *
+ *
  *
  *
  
