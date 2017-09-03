@@ -35,8 +35,9 @@
  
       [Video Link](https://www.youtube.com/watch?v=NnD96abizww&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=2).
       
-      And [here](http://www.geeksforgeeks.org/printing-longest-common-subsequence/) is is how to print it.
- * DP-prob
+      And [here](http://www.geeksforgeeks.org/printing-longest-common-subsequence/) is is how to print it([my code](http://ide.geeksforgeeks.org/7Bj9wu
+)).
+ * Matrix Chain Multiplication
  * DP-prob
  * DP-prob
   
