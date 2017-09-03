@@ -94,6 +94,7 @@
        - Examples:
            - [ ] [Chess Metric](https://community.topcoder.com/tc?module=ProblemDetail&rd=4482&pm=1592)
            - [x] [Avoid Road](https://community.topcoder.com/tc?module=ProblemDetail&rd=4709&pm=1889)
+           - [ ] top->bottom->top [MiniPaint](https://community.topcoder.com/tc?module=ProblemDetail&rd=4710&pm=1996)
  
  *   **[Maximum Sum Rectangular Submatrix in Matrix ](https://www.youtube.com/watch?v=yCQN096CwWM&index=15&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)**
        Uses [kadane's algorithm](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) for 2D array.
