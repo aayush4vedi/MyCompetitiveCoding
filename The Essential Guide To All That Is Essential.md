@@ -20,9 +20,8 @@
        
 * ## DP
   ### Some cool links:
-     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)
-     * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)      
-               Awesome thou art.
+     * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  Awesome thou art.
+     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try 
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
       Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
