@@ -118,4 +118,10 @@
   
 
 * ## Strings
+* ## Greedy
+  * [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
+    
+*
+*
+
   
