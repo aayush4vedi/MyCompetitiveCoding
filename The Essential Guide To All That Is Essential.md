@@ -124,6 +124,8 @@
 * ## Storage Scalabitily
 
 * ## Arrays
+  -[x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
+  -[x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
 * ## Binary Search
 * ## Strings
 * ## Bit Manipulation
