@@ -120,6 +120,7 @@
 * ## Strings
 * ## Greedy
   * [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
+  * [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
     
 *
 *
