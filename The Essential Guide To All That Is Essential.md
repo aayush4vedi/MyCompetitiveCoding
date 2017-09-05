@@ -124,11 +124,11 @@
 * ## Storage Scalabitily
 
 * ## Arrays
-  -[x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
-  -[x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
-  -[x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
-  -[x] [Find the repeating and the missing](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/) -simple application of the duplictaes prob above
-  -[x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
+  - [x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
+  - [x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
+  - [x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+  - [x] [Find the repeating and the missing](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/) -simple application of the duplictaes prob above
+  - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
  
 * ## Binary Search
 * ## Strings
