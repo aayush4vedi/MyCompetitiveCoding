@@ -131,8 +131,9 @@
   - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
  
 * ## Binary Search
-* ## Strings
-* ## Bit Manipulation
+  - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
+  - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
+  - [ ]
 * ## Linked List
 * ## Stacks & Queues
 * ## Backtracking
