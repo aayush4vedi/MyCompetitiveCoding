@@ -122,9 +122,16 @@
   * Print all permutations of a string
      1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
+     
+  * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
 * ## Greedy
   * [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   * [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
+  * [Activity Selection Problem](http://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)
+  * [Kruskal’s Minimum Spanning Tree Algorithm](http://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
+  * [Prim's MST](http://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
+  * [Huffman Coding](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)
+  * [KMP](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
   
 * ## Storage Scalabitily
 
