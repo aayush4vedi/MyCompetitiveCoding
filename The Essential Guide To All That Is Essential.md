@@ -180,7 +180,13 @@
   * [Minimum no. of iterations to pass information to all nodes in the tree](http://www.geeksforgeeks.org/minimum-iterations-pass-information-nodes-tree/)
   
   
-*
+* ## Bit Manipulation
+  * [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
+  * [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
+  * [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
+  * [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
+  * [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
+  * [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
 *
 
   
