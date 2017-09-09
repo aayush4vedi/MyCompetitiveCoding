@@ -1,5 +1,7 @@
 # Topics and Resources #
 
+## [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf)
+
 * ## Computational Geometry
 
   * **Orientation**
@@ -129,6 +131,8 @@
   - [x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
   - [x] [Find the repeating and the missing](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/) -simple application of the duplictaes prob above
   - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
+  - [ ] [Majority Element in unsorted Array](http://www.geeksforgeeks.org/majority-element/)
+  - [ ] [Majority element in sorted array](http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/)
  
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
