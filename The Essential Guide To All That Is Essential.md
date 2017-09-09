@@ -127,6 +127,7 @@
      
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
+  * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
 * ## Greedy
   - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
@@ -139,6 +140,7 @@
   - [Rearrange a string so that all same characters become d distance away](http://www.geeksforgeeks.org/rearrange-a-string-so-that-all-same-characters-become-at-least-d-distance-away/)
   - [Fitting Shelves Problem](http://www.geeksforgeeks.org/fitting-shelves-problem/)
   - [Egyptian Fraction](http://www.geeksforgeeks.org/greedy-algorithm-egyptian-fraction/)
+  - [Find if two rectangles overlap](http://www.geeksforgeeks.org/find-two-rectangles-overlap/)
   
 * ## Storage Scalabitily
 
@@ -168,6 +170,10 @@
   - [Merge 2 sorted arrays](http://www.geeksforgeeks.org/merge-two-sorted-arrays/)
   - [Maximum sum such that no two elements are adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
   - [Binary Heaps: insertion, deletion,removal, updation](http://www.geeksforgeeks.org/binary-heap/)
+  - [Find position of an element in a sorted array of infinite numbers](http://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/)
+  - [Sort an array of 0s, 1s and 2s](http://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)
+  - [Search in a row wise and column wise sorted matrix](http://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
+  - [Matrix traversal in diagonal form/Zigzag](http://www.geeksforgeeks.org/zigzag-or-diagonal-traversal-of-matrix/)
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
   - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
@@ -178,6 +184,7 @@
   - [Find Middle element](http://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)
   - [Merge sort for doubly linked list](http://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
   - [Insertion Sort](http://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
+  - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
 * ## Stacks & Queues
   - [ ] Largest Area under histogram:
         1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
@@ -193,6 +200,13 @@
   - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
   - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
 * ## Heaps & Maps
+* ## Stacks & Queues
+  * [Trapping Rain Water](http://www.geeksforgeeks.org/trapping-rain-water/)
+  * [Generate All Parenthesis](http://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/)
+  * [Min Stack](http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
+  * [Redundant Braces](http://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
+  * [Nearest Smalles element](http://qa.geeksforgeeks.org/3824/qa.geeksforgeeks.org/3824/find-the-nearest-smaller-elements)
+  
 * ## Trees
   * Search:
       1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
@@ -219,6 +233,17 @@
   * [Removing half nodes in Binary Trees](http://www.geeksforgeeks.org/given-a-binary-tree-how-do-you-remove-all-the-half-nodes/)
   * [Convert given tree to sum tree](http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/)
   * [Convert an arbitrary Binary Tree to a tree that holds Children Sum Property](http://www.geeksforgeeks.org/convert-an-arbitrary-binary-tree-to-a-tree-that-holds-children-sum-property/)
+  * [Check if two trees are Mirror](http://www.geeksforgeeks.org/check-if-two-trees-are-mirror/)
+  * [Convert a Binary Tree into its Mirror Tree](http://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/)
+  * Vertical Sum in a given Binary Tree
+        A.[HashMap](http://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/)
+        B.[Doubly Linked List](http://www.geeksforgeeks.org/vertical-sum-in-binary-tree-set-space-optimized/)
+  * Convert a given Binary Tree to Doubly Linked List
+        1.[Set1](http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/)
+        2.[Set2](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-2/)
+        3.[Set3](http://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/)
+        4.[Set4](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-4/)
+  * [Print all nodes at distance k from a given node](http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
   * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
   * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
   * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
