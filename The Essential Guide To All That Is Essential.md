@@ -102,9 +102,6 @@
  
  *
  *
- *
- *
- *
  ### Problems:
  * **Standard Problems** should be really familiar with these types
   
@@ -118,7 +115,10 @@
  
  
  
-  
+* ## Strings
+  * Print all permutations of a string
+     1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
+     2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
 * ## Greedy
   * [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   * [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
@@ -133,6 +133,9 @@
   - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
   - [ ] [Majority Element in unsorted Array](http://www.geeksforgeeks.org/majority-element/)
   - [ ] [Majority element in sorted array](http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/)
+  - Number of shapes in Boolean Matrix
+       1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/)
+       2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/)
  
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
