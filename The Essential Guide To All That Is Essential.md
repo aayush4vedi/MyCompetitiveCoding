@@ -102,6 +102,8 @@
        Uses [kadane's algorithm](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) for 2D array.
  
  *   **[K-th smallest element in array](http://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)**
+ *    **[Minimum number of railway sattions reqd](http://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/)**
+ *
  *
  ### Problems:
  * **Standard Problems** should be really familiar with these types
