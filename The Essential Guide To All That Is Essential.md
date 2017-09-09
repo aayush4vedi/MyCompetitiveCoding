@@ -128,6 +128,7 @@
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
   * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
+  * [Minimum number of deletions to make a string palindrome](http://www.geeksforgeeks.org/minimum-number-deletions-make-string-palindrome/)
 * ## Greedy
   - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
@@ -174,6 +175,9 @@
   - [Sort an array of 0s, 1s and 2s](http://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)
   - [Search in a row wise and column wise sorted matrix](http://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
   - [Matrix traversal in diagonal form/Zigzag](http://www.geeksforgeeks.org/zigzag-or-diagonal-traversal-of-matrix/)
+  - [Find the rotation point in a rotated sorted array](http://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
+  - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
+  - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
   - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
@@ -185,6 +189,7 @@
   - [Merge sort for doubly linked list](http://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
   - [Insertion Sort](http://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
   - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
+  - [Segregate even and odd nodes](http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/)
 * ## Stacks & Queues
   - [ ] Largest Area under histogram:
         1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
@@ -199,7 +204,8 @@
   - [Find Recurring Sequence in a Fraction](http://www.geeksforgeeks.org/find-recurring-sequence-fraction/)
   - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
   - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
-* ## Heaps & Maps
+* ## Heaps & Maps & Graphs
+  - [Detect Cycle in a Directed Graph](http://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
 * ## Stacks & Queues
   * [Trapping Rain Water](http://www.geeksforgeeks.org/trapping-rain-water/)
   * [Generate All Parenthesis](http://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/)
@@ -244,6 +250,8 @@
         3.[Set3](http://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/)
         4.[Set4](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-4/)
   * [Print all nodes at distance k from a given node](http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
+  * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
+  * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
   * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
   * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
   * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
