@@ -125,13 +125,17 @@
      
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
 * ## Greedy
-  * [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
-  * [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
-  * [Activity Selection Problem](http://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)
-  * [Kruskal’s Minimum Spanning Tree Algorithm](http://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
-  * [Prim's MST](http://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
-  * [Huffman Coding](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)
-  * [KMP](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
+  - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
+  - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
+  - [Activity Selection Problem](http://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)
+  - [Kruskal’s Minimum Spanning Tree Algorithm](http://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
+  - [Prim's MST](http://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
+  - [Huffman Coding](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)
+  - [KMP](http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/)
+  - [Rearrange characters in a string such that no two adjacent are same](http://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/)
+  - [Rearrange a string so that all same characters become d distance away](http://www.geeksforgeeks.org/rearrange-a-string-so-that-all-same-characters-become-at-least-d-distance-away/)
+  - [Fitting Shelves Problem](http://www.geeksforgeeks.org/fitting-shelves-problem/)
+  - [Egyptian Fraction](http://www.geeksforgeeks.org/greedy-algorithm-egyptian-fraction/)
   
 * ## Storage Scalabitily
 
@@ -146,18 +150,35 @@
   - Number of shapes in Boolean Matrix
        1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/)
        2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/)
+  - Union and Intersection of:
+       1. [Sorted Array](http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
+       2. [Unsorted Array](http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/)
+  - [Collect maximum points in an array with k moves](http://www.geeksforgeeks.org/collect-maximum-points-array-k-moves/)
+  - [Find an element in array such that sum of left array is equal to sum of right array](http://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/)
+  - [Find minimum cost to buy all books](http://www.geeksforgeeks.org/find-minimum-cost-buy-books/)
+  - [Remove elements from array](http://www.geeksforgeeks.org/delete-an-element-from-array-using-two-traversals-and-one-traversal/) : 2 pointer
+  - [Remove duplicate elements from sorted array](http://www.geeksforgeeks.org/remove-duplicates-sorted-array/) : 2 pointer
  
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
   - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
   - [ ]
 * ## Linked List
+  - [Clone a link list with next](http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)
 * ## Stacks & Queues
   - [ ] Largest Area under histogram:
         1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
         2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
 * ## Backtracking
+  - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
 * ## Hashing 
+  - [Longest Consecutive Subsequence](http://www.geeksforgeeks.org/longest-consecutive-subsequence/)
+  - Anagrams
+        1. [Usign Hashing](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/)
+        2. [Using Treis](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/)
+  - [Find Recurring Sequence in a Fraction](http://www.geeksforgeeks.org/find-recurring-sequence-fraction/)
+  - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
+  - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
 * ## Heaps & Maps
 * ## Trees
   * Search:
@@ -181,12 +202,16 @@
   
   
 * ## Bit Manipulation
-  * [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
-  * [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
-  * [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
-  * [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
-  * [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
-  * [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
+  - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
+  - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
+  - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
+  - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
+  - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
+  - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
+  - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
+  - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
+  - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
+  
 *
 
   
