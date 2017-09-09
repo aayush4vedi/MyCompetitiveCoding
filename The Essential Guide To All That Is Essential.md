@@ -1,6 +1,7 @@
 # Topics and Resources #
 
 ## [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf)
+## [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
 
 * ## Computational Geometry
 
@@ -37,6 +38,7 @@
        else return max(val[n-1]+ knapsack(n-1, wmax- wt[n-1],val, wt), knapsack(n-1, wmax,val, wt));
     }
     ```
+ * [Unbounded Knapsack (Repetition of items allowed)](http://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/)
  * **[Longest Common Subsequence](http://www.geeksforgeeks.org/longest-common-subsequence/)**
  
       [Video Link](https://www.youtube.com/watch?v=NnD96abizww&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=2).
@@ -124,6 +126,7 @@
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
      
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
+  * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
 * ## Greedy
   - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
@@ -140,6 +143,7 @@
 * ## Storage Scalabitily
 
 * ## Arrays
+  - [ ] [Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
   - [x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
   - [x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
   - [x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
@@ -158,13 +162,22 @@
   - [Find minimum cost to buy all books](http://www.geeksforgeeks.org/find-minimum-cost-buy-books/)
   - [Remove elements from array](http://www.geeksforgeeks.org/delete-an-element-from-array-using-two-traversals-and-one-traversal/) : 2 pointer
   - [Remove duplicate elements from sorted array](http://www.geeksforgeeks.org/remove-duplicates-sorted-array/) : 2 pointer
- 
+  - [2sum](http://www.geeksforgeeks.org/count-pairs-with-given-sum/)
+  - [3Sum](http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/)
+  - [Power Set](http://www.geeksforgeeks.org/power-set/)
+  - [Merge 2 sorted arrays](http://www.geeksforgeeks.org/merge-two-sorted-arrays/)
+  - [Maximum sum such that no two elements are adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
+  - [Binary Heaps: insertion, deletion,removal, updation](http://www.geeksforgeeks.org/binary-heap/)
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
   - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
   - [ ]
 * ## Linked List
   - [Clone a link list with next](http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)
+  - [Reverse a link list](http://www.geeksforgeeks.org/reverse-a-linked-list/)
+  - [Find Middle element](http://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)
+  - [Merge sort for doubly linked list](http://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
+  - [Insertion Sort](http://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
 * ## Stacks & Queues
   - [ ] Largest Area under histogram:
         1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
@@ -184,6 +197,7 @@
   * Search:
       1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
       2. [BFS](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+          A.[Minimum time required to rot all oranges](http://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/)
   * [Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) :Preorder, Inorder, Postorder
   * [Lowest common ancestor](http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
   * [Flattenng a binary tree to linked list](http://qa.geeksforgeeks.org/3976/flattening-a-binary-tree)
@@ -193,13 +207,21 @@
   * [Connect Nodes at same level](http://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/) :Asked by Microsoft
   * [Identical Binary Tree] (http://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/)
   * [Zigzag level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
+  * [Spiral level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
   * Sum:
        1. [Root to leaf path sum](http://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/)
        2. [Maximum Path Sum](http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
        3. [Print all k-sums](http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/)
   * [k-th smallest element in bst](http://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
   * [Minimum no. of iterations to pass information to all nodes in the tree](http://www.geeksforgeeks.org/minimum-iterations-pass-information-nodes-tree/)
-  
+  * [Two nodes of a BST are swapped, correct the BST](http://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
+  * [Find height of a special binary tree whose leaf nodes are connected](http://www.geeksforgeeks.org/find-height-of-a-special-binary-tree-whose-leaf-nodes-are-connected/)
+  * [Removing half nodes in Binary Trees](http://www.geeksforgeeks.org/given-a-binary-tree-how-do-you-remove-all-the-half-nodes/)
+  * [Convert given tree to sum tree](http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/)
+  * [Convert an arbitrary Binary Tree to a tree that holds Children Sum Property](http://www.geeksforgeeks.org/convert-an-arbitrary-binary-tree-to-a-tree-that-holds-children-sum-property/)
+  * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
+  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
+  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
   
 * ## Bit Manipulation
   - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
@@ -211,6 +233,7 @@
   - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
   - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
   - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
+  - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
   
 *
 
