@@ -140,6 +140,21 @@
 * ## Hashing 
 * ## Heaps & Maps
 * ## Trees
+  * [Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) :Preorder, Inorder, Postorder
+  * [Lowest common ancestor](http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
+  * [Flattenng a binary tree to linked list](http://qa.geeksforgeeks.org/3976/flattening-a-binary-tree)
+  * [to check if a binary tree is BST or not](http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+  * [Sorted Array to BST](http://www.geeksforgeeks.org/sorted-array-to-balanced-bst/)
+  * [Symmetric Binary Tree](http://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/)
+  * [Connect Nodes at same level](http://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/) :Asked by Microsoft
+  * [Identical Binary Tree] (http://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/)
+  * [Zigzag level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
+  * Sum:
+       1. [Root to leaf path sum](http://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/)
+       2. [Maximum Path Sum](http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
+       3. [Print all k-sums](http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/)
+  * [k-th smallest element in bst](http://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
+
 * ## Greedy 
   
 *
