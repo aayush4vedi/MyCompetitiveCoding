@@ -24,6 +24,7 @@
   ### Some cool links:
      * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  Awesome thou art.
      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try 
+ * **[Fractional Knapsack](http://www.geeksforgeeks.org/fractional-knapsack-problem/)**
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
  
       Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
@@ -100,7 +101,7 @@
  *   **[Maximum Sum Rectangular Submatrix in Matrix ](https://www.youtube.com/watch?v=yCQN096CwWM&index=15&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)**
        Uses [kadane's algorithm](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) for 2D array.
  
- *
+ *   **[K-th smallest element in array](http://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)**
  *
  ### Problems:
  * **Standard Problems** should be really familiar with these types
@@ -143,6 +144,9 @@
   - [ ]
 * ## Linked List
 * ## Stacks & Queues
+  - [ ] Largest Area under histogram:
+        1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
+        2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
 * ## Backtracking
 * ## Hashing 
 * ## Heaps & Maps
@@ -164,7 +168,8 @@
        2. [Maximum Path Sum](http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
        3. [Print all k-sums](http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/)
   * [k-th smallest element in bst](http://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
-
+  * [Minimum no. of iterations to pass information to all nodes in the tree](http://www.geeksforgeeks.org/minimum-iterations-pass-information-nodes-tree/)
+  
   
 *
 *
