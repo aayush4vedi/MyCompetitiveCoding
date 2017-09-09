@@ -140,6 +140,9 @@
 * ## Hashing 
 * ## Heaps & Maps
 * ## Trees
+  * Search:
+      1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+      2. [BFS](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
   * [Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) :Preorder, Inorder, Postorder
   * [Lowest common ancestor](http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
   * [Flattenng a binary tree to linked list](http://qa.geeksforgeeks.org/3976/flattening-a-binary-tree)
@@ -155,7 +158,6 @@
        3. [Print all k-sums](http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/)
   * [k-th smallest element in bst](http://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
 
-* ## Greedy 
   
 *
 *
