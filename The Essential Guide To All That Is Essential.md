@@ -256,7 +256,7 @@
   * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
   * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
   
-* ## Bit Manipulation
+* ## Bit Manipulation  | [Tut on bitwise operator](http://www.cprogramming.com/tutorial/bitwise_operators.html)
   - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
   - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
   - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
