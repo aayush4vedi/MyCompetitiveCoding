@@ -142,6 +142,7 @@
   - [Fitting Shelves Problem](http://www.geeksforgeeks.org/fitting-shelves-problem/)
   - [Egyptian Fraction](http://www.geeksforgeeks.org/greedy-algorithm-egyptian-fraction/)
   - [Find if two rectangles overlap](http://www.geeksforgeeks.org/find-two-rectangles-overlap/)
+  * [Huffman Encoding](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)
   
 * ## Storage Scalabitily
 
