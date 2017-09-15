@@ -4,7 +4,7 @@
 
 ###[BigO cheat sheet](http://bigocheatsheet.com/)
 
-#Data Structures#
+## Data Structures ##
 
 * **Arrays**
   * [Dynamic alloaction of arrays: example](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
@@ -12,7 +12,7 @@
 
 
 
-#Algorithms#
+# Algorithms #
 
 
 * ## Computational Geometry
