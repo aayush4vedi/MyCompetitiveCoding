@@ -2,7 +2,9 @@
 
 ###### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
 
-* ###[BigO cheat sheet](http://bigocheatsheet.com/)
+###[BigO cheat sheet](http://bigocheatsheet.com/)
+
+
 #Algorithms
 * ## Computational Geometry
 
