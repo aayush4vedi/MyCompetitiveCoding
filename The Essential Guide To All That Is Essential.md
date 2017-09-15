@@ -4,12 +4,46 @@
 
 ###[BigO cheat sheet](http://bigocheatsheet.com/)
 
-## Data Structures ##
+# Data Structures #
 
 * **Arrays**
   * [Dynamic alloaction of arrays: example](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
   * C++ dynamic arrays = vectors
-
+  
+  **Problems**
+  
+  - [ ] [Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
+  - [x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
+  - [x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
+  - [x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+  - [x] [Find the repeating and the missing](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/) -simple application of the duplictaes prob above
+  - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
+  - [ ] [Majority Element in unsorted Array](http://www.geeksforgeeks.org/majority-element/)
+  - [ ] [Majority element in sorted array](http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/)
+  - Number of shapes in Boolean Matrix
+       1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/)
+       2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/)
+  - Union and Intersection of:
+       1. [Sorted Array](http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
+       2. [Unsorted Array](http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/)
+  - [Collect maximum points in an array with k moves](http://www.geeksforgeeks.org/collect-maximum-points-array-k-moves/)
+  - [Find an element in array such that sum of left array is equal to sum of right array](http://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/)
+  - [Find minimum cost to buy all books](http://www.geeksforgeeks.org/find-minimum-cost-buy-books/)
+  - [Remove elements from array](http://www.geeksforgeeks.org/delete-an-element-from-array-using-two-traversals-and-one-traversal/) : 2 pointer
+  - [Remove duplicate elements from sorted array](http://www.geeksforgeeks.org/remove-duplicates-sorted-array/) : 2 pointer
+  - [2sum](http://www.geeksforgeeks.org/count-pairs-with-given-sum/)
+  - [3Sum](http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/)
+  - [Power Set](http://www.geeksforgeeks.org/power-set/)
+  - [Merge 2 sorted arrays](http://www.geeksforgeeks.org/merge-two-sorted-arrays/)
+  - [Maximum sum such that no two elements are adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
+  - [Binary Heaps: insertion, deletion,removal, updation](http://www.geeksforgeeks.org/binary-heap/)
+  - [Find position of an element in a sorted array of infinite numbers](http://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/)
+  - [Sort an array of 0s, 1s and 2s](http://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)
+  - [Search in a row wise and column wise sorted matrix](http://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
+  - [Matrix traversal in diagonal form/Zigzag](http://www.geeksforgeeks.org/zigzag-or-diagonal-traversal-of-matrix/)
+  - [Find the rotation point in a rotated sorted array](http://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
+  - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
+  - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
 
 
 # Algorithms #
@@ -159,38 +193,6 @@
 * ## Storage Scalabitily
 
 * ## Arrays
-  - [ ] [Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
-  - [x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
-  - [x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
-  - [x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
-  - [x] [Find the repeating and the missing](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/) -simple application of the duplictaes prob above
-  - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
-  - [ ] [Majority Element in unsorted Array](http://www.geeksforgeeks.org/majority-element/)
-  - [ ] [Majority element in sorted array](http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/)
-  - Number of shapes in Boolean Matrix
-       1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/)
-       2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/)
-  - Union and Intersection of:
-       1. [Sorted Array](http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
-       2. [Unsorted Array](http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/)
-  - [Collect maximum points in an array with k moves](http://www.geeksforgeeks.org/collect-maximum-points-array-k-moves/)
-  - [Find an element in array such that sum of left array is equal to sum of right array](http://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/)
-  - [Find minimum cost to buy all books](http://www.geeksforgeeks.org/find-minimum-cost-buy-books/)
-  - [Remove elements from array](http://www.geeksforgeeks.org/delete-an-element-from-array-using-two-traversals-and-one-traversal/) : 2 pointer
-  - [Remove duplicate elements from sorted array](http://www.geeksforgeeks.org/remove-duplicates-sorted-array/) : 2 pointer
-  - [2sum](http://www.geeksforgeeks.org/count-pairs-with-given-sum/)
-  - [3Sum](http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/)
-  - [Power Set](http://www.geeksforgeeks.org/power-set/)
-  - [Merge 2 sorted arrays](http://www.geeksforgeeks.org/merge-two-sorted-arrays/)
-  - [Maximum sum such that no two elements are adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
-  - [Binary Heaps: insertion, deletion,removal, updation](http://www.geeksforgeeks.org/binary-heap/)
-  - [Find position of an element in a sorted array of infinite numbers](http://www.geeksforgeeks.org/find-position-element-sorted-array-infinite-numbers/)
-  - [Sort an array of 0s, 1s and 2s](http://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)
-  - [Search in a row wise and column wise sorted matrix](http://www.geeksforgeeks.org/search-in-row-wise-and-column-wise-sorted-matrix/)
-  - [Matrix traversal in diagonal form/Zigzag](http://www.geeksforgeeks.org/zigzag-or-diagonal-traversal-of-matrix/)
-  - [Find the rotation point in a rotated sorted array](http://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
-  - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
-  - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
 * ## Binary Search
   - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
   - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
