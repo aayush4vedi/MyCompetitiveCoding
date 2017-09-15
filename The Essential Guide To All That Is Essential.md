@@ -72,7 +72,8 @@
   - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
 
 * **Linked List**
-  * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
+  
+  * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
   * Link list strucure:
      ```cpp
           typedef struct node                                                
@@ -80,7 +81,13 @@
            int data;               // will store information
            node *next;             // the reference to the next node
      };  
+     //Insertion from front
+     node *head = NULL;             //empty linked list
+     temp->data = info;             // store data(first field)
+     temp->next=head;  // store the address of the pointer head(second field)
+     head = temp;                  // transfer the address of 'temp' to 'head'
      ```
+   
 
 * ****
   
