@@ -2,7 +2,7 @@
 
 ###### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
 
-###[BigO cheat sheet](http://bigocheatsheet.com/)
+### [BigO cheat sheet](http://bigocheatsheet.com/)
 
 
 # Data Structures #
@@ -11,23 +11,24 @@
   * [Dynamic alloaction of arrays: example](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
   * C++ dynamic arrays = vectors
        * freqFuncs
-             * vector<int>v(5,5) //size 5 ; all elements 5
-             * vi (arr, arr+n);
-             * sort(v.begin(),v.end()) //sort
-             * sort(v.rbegin(),.rend()) //reverse sort
-             * random_shuffle(v.begin(),v.begin()+2, v.end()) //partial shuffle
-             * set_intersection(v1.begin(),v1.end(),v2.begin(),v2.end()) 
-             * vector<int>:: iterator j;
-             * j= lower_bound(v.begin(),v.end(), key); if(j== v.end())cout<<"not found"; //binary search for lower bound
-             * next_permutation(v.begin(),v.end());
-             * v.size() - number of items
-             * v.is_empty() //retrurns 0-1
-             * v.at(index) - returns item at given index, blows up if index out of bounds
-             * v.push(item) | v.push_back(item) | v.push_front(item)
-             * v.insert(index, item)
-             * v.pop_back(); //Removes the last element in the vector, reducing size by one,destroys the removed element.
-             * v.find(key) //looks for value and returns first index with that value, -1 if not found
-             * v.resize(new_capacity)
+         * vector<int>v(5,5) //size 5 ; all elements 5
+         * vi (arr, arr+n);
+         * sort(v.begin(),v.end()) //sort
+         * sort(v.rbegin(),.rend()) //reverse sort
+         * random_shuffle(v.begin(),v.begin()+2, v.end()) //partial shuffle
+         * set_intersection(v1.begin(),v1.end(),v2.begin(),v2.end()) 
+         * vector<int>:: iterator j;
+         * j= lower_bound(v.begin(),v.end(), key); if(j== v.end())cout<<"not found"; //binary search for lower bound
+         * next_permutation(v.begin(),v.end());
+         * v.size() - number of items
+         * v.is_empty() //retrurns 0-1
+         * v.at(index) - returns item at given index, blows up if index out of bounds
+         * v.push(item) | v.push_back(item) | v.push_front(item)
+         * v.insert(index, item)
+         * v.pop_back(); //Removes the last element in the vector, reducing size by one,destroys the removed element.
+         * v.find(key) //looks for value and returns first index with that value, -1 if not found
+         * v.resize(new_capacity)
+
        * Time
              * O(1) to add/remove at end
              * O(n) to insert/remove elsewhere
