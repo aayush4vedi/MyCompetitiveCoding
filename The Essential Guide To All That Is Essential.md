@@ -30,14 +30,12 @@
          * v.resize(new_capacity)
 
        * Time
-             * O(1) to add/remove at end
-             * O(n) to insert/remove elsewhere
+         * O(1) to add/remove at end
+         * O(n) to insert/remove elsewhere
        * Space
-             * contiguous in memory, so proximity helps performance
-             * space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
-
-         
-  
+         * contiguous in memory, so proximity helps performance
+         * space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
+       
   ***Problems***
   
   - [ ] [Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
@@ -73,6 +71,19 @@
   - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
   - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
 
+* **Linked List**
+  * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
+  * Link list strucure:
+     ```cpp
+          typedef struct node                                                
+     {                                                               
+           int data;               // will store information
+           node *next;             // the reference to the next node
+     };  
+     ```
+
+* ****
+  
 
 # Algorithms #
 
