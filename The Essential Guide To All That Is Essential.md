@@ -4,8 +4,17 @@
 
 ###[BigO cheat sheet](http://bigocheatsheet.com/)
 
+#Data Structures#
 
-#Algorithms
+* **Arrays**
+  * [Dynamic alloaction of arrays: example](http://www.fredosaurus.com/notes-cpp/newdelete/55dynexample.html)
+  * C++ dynamic arrays = vectors
+
+
+
+#Algorithms#
+
+
 * ## Computational Geometry
 
   * **Orientation**
