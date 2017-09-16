@@ -74,19 +74,15 @@
 * **Linked List**
   
   * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
-  * Link list strucure:
-     ```cpp
-          typedef struct node                                                
-     {                                                               
-           int data;               // will store information
-           node *next;             // the reference to the next node
-     };  
-     //Insertion from front
-     node *head = NULL;             //empty linked list
-     temp->data = info;             // store data(first field)
-     temp->next=head;  // store the address of the pointer head(second field)
-     head = temp;                  // transfer the address of 'temp' to 'head'
-     ```
+  * [Creation and Traversal](http://www.geeksforgeeks.org/linked-list-set-1-introduction/) | [Insertion](http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/) | [Deletion](http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
+  * 
+  
+  
+  ***Problems***
+  - [Adding with carry](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
+  -
+  -
+
    
 
 * ****
