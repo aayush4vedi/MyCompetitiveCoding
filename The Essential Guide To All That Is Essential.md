@@ -114,14 +114,14 @@
 * **[Queues]**
    * Implementation:
         * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
-                  - enqueue(value) - adds item at end of available storage
-                  - dequeue() - returns value and removes least recently added element
-                  - empty()
-                  - full()
+                  * enqueue(value) - adds item at end of available storage
+                  * dequeue() - returns value and removes least recently added element
+                  * empty()
+                  * full()
         * [link list implementation](http://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/)
-                  - enqueue(value) - adds value at position at tail
-                  - dequeue() - returns value and removes least recently added element (front)
-                  - empty()
+                  * enqueue(value) - adds value at position at tail
+                  * dequeue() - returns value and removes least recently added element (front)
+                  * empty()
         * [stacks implementation](http://www.geeksforgeeks.org/?p=5009)
    * [Priority_queues](http://www.geeksforgeeks.org/priority-queue-set-1-introduction/) - are implemented using heaps
         ```cpp
@@ -136,7 +136,12 @@
           - [ ] [Implementing k queues in single array](http://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
           - [ ] [Implement a stack using single queue](http://www.geeksforgeeks.org/implement-a-stack-using-single-queue/)
    
-* ****
+* **Hash Table**
+  #### [Awesome Hackerearth tut](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
+  #### Problems:
+     - [ ]
+     - [ ]
+     
 * ****
   
 
