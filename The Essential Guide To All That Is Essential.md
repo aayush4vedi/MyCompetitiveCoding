@@ -114,7 +114,14 @@
 * **[Queues]**
    * Implementation:
         * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
+              - enqueue(value) - adds item at end of available storage
+              - dequeue() - returns value and removes least recently added element
+              - empty()
+              - full()
         * [link list implementation](http://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/)
+              - enqueue(value) - adds value at position at tail
+              - dequeue() - returns value and removes least recently added element (front)
+              - empty()
         * [stacks implementation](http://www.geeksforgeeks.org/?p=5009)
    * [Priority_queues](http://www.geeksforgeeks.org/priority-queue-set-1-introduction/) - are implemented using heaps
         ```cpp
