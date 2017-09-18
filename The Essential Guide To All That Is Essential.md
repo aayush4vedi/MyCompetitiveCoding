@@ -77,7 +77,9 @@
   #### [Intro video](https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr) ####
   * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
   * [Creation and Traversal](http://www.geeksforgeeks.org/linked-list-set-1-introduction/) | [Insertion](http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/) | [Deletion](http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
-  * 
+  * * [c++ stl](http://www.geeksforgeeks.org/list-cpp-stl/) *:
+      -
+      -
   
   
   ***Problems***
