@@ -111,6 +111,25 @@
       - s.top()
       - s.isEmpty(): Returns true if stack is empty, else false
       
+* **[Queues]**
+   * Implementation:
+        * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
+        * [link list implementation](http://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/)
+        * [stacks implementation](http://www.geeksforgeeks.org/?p=5009)
+   * [Priority_queues](http://www.geeksforgeeks.org/priority-queue-set-1-introduction/) - are implemented using heaps
+        ```cpp
+        priority_queue<pair<int, string>>pooh;
+        pooh.push(make_pair(1,"tigger"));    // O(logn)
+        pair<int, string> rerult = pooh.top; // O(1)
+        pooh.pop();                          // O(logn)
+        ```
+    * [Dequeue](http://www.geeksforgeeks.org/deque-set-1-introduction-applications/) STL c++ -> std::deque
+    *  ## [Problems: ] ##
+          - 
+          -
+
+   
+* ****
 * ****
   
 
