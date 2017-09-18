@@ -1,6 +1,14 @@
 # Topics and Resources #
+To write Git commit msg
 
-###### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
+this will be "second line"
+THis can be a paraTHis can be a para
+THis can be a para#THis can be a para#THis can be a paraTHis can be a paraTHis can be a paraTHis can be a paraTHis can be a paraTHis can be a para.
+
+And yet another line.
+
+
+#### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
 
 ### [BigO cheat sheet](http://bigocheatsheet.com/)
 
