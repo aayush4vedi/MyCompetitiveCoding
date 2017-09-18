@@ -104,6 +104,13 @@
 
    
 
+* **Stacks**
+   * ### [stl c++](http://www.geeksforgeeks.org/stack-data-structure/) ###:
+      - s.push(val)
+      - s.pop()
+      - s.top()
+      - s.isEmpty(): Returns true if stack is empty, else false
+      
 * ****
   
 
