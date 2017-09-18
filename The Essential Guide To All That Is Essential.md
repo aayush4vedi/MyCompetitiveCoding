@@ -78,22 +78,22 @@
   * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
   * [Creation and Traversal](http://www.geeksforgeeks.org/linked-list-set-1-introduction/) | [Insertion](http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/) | [Deletion](http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
   * ### [c++ stl](http://www.geeksforgeeks.org/list-cpp-stl/): ###
-      -front() – Returns reference to the first element in the list
-      -back() – Returns reference to the last element in the list
-      -push_front(g) – Adds a new element ‘g’ at the beginning of the list
-      -push_back(g) – Adds a new element ‘g’ at the end of the list
-      -pop_front() – Removes the first element of the list, and reduces size of the list by 1
-      -pop_back() – Removes the last element of the list, and reduces size of the list by 1
-      -begin() – Returns an iterator pointing to the first element of the list
-      -end() – Returns an iterator pointing to the theoretical last element which follows the last element
-      -empty() – Returns whether the list is empty(1) or not(0)
-      -insert() – Inserts new elements in the list before the element at a specified position
-      -erase() – Removes a single element or a range of elements from the list
-      -assign() – Assigns new elements to list by replacing current elements and resizes the list
-      -remove() – Removes all the elements from the list, which are equal to given element
-      -reverse() – Reverses the list
-      -size() – Returns the number of elements in the list
-      -sort() – Sorts the list in increasing order
+         -front() – Returns reference to the first element in the list
+         -back() – Returns reference to the last element in the list
+         -push_front(g) – Adds a new element ‘g’ at the beginning of the list
+         -push_back(g) – Adds a new element ‘g’ at the end of the list
+         -pop_front() – Removes the first element of the list, and reduces size of the list by 1
+         -pop_back() – Removes the last element of the list, and reduces size of the list by 1
+         -begin() – Returns an iterator pointing to the first element of the list
+         -end() – Returns an iterator pointing to the theoretical last element which follows the last element
+         -empty() – Returns whether the list is empty(1) or not(0)
+         -insert() – Inserts new elements in the list before the element at a specified position
+         -erase() – Removes a single element or a range of elements from the list
+         -assign() – Assigns new elements to list by replacing current elements and resizes the list
+         -remove() – Removes all the elements from the list, which are equal to given element
+         -reverse() – Reverses the list
+         -size() – Returns the number of elements in the list
+         -sort() – Sorts the list in increasing order
       
   
   
@@ -124,7 +124,7 @@
         pooh.pop();                          // O(logn)
         ```
     * [Dequeue](http://www.geeksforgeeks.org/deque-set-1-introduction-applications/) STL c++ -> std::deque
-    *  ## [Problems: ] ##
+    *  ## Problems:
           - 
           -
 
