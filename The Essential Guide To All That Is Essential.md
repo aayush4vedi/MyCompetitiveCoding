@@ -105,7 +105,7 @@
    
 
 * **Stacks**
-   * ### [stl c++](http://www.geeksforgeeks.org/stack-data-structure/) ###:
+   * ### [stl c++](http://www.geeksforgeeks.org/stack-data-structure/):
       - s.push(val)
       - s.pop()
       - s.top()
@@ -125,9 +125,9 @@
         ```
     * [Dequeue](http://www.geeksforgeeks.org/deque-set-1-introduction-applications/) STL c++ -> std::deque
     *  ## Problems:
-          - 
-          -
-
+          - [ ] [Generate binary numbers from 1 to n](http://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/)
+          - [ ] [Implementing k queues in single array](http://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
+          - [ ] [Implement a stack using single queue](http://www.geeksforgeeks.org/implement-a-stack-using-single-queue/)
    
 * ****
 * ****
