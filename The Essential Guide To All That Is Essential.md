@@ -1,5 +1,5 @@
 # Topics and Resources #
-
+Just tryna github
 ###### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
 
 ### [BigO cheat sheet](http://bigocheatsheet.com/)
@@ -16,7 +16,7 @@
          * sort(v.begin(),v.end()) //sort
          * sort(v.rbegin(),.rend()) //reverse sort
          * random_shuffle(v.begin(),v.begin()+2, v.end()) //partial shuffle
-         * set_intersection(v1.begin(),v1.end(),v2.begin(),v2.end()) 
+         * set_intersection(v1.begin(),v1.end(),v2.begin(),v2.end())
          * vector<int>:: iterator j;
          * j= lower_bound(v.begin(),v.end(), key); if(j== v.end())cout<<"not found"; //binary search for lower bound
          * next_permutation(v.begin(),v.end());
@@ -35,15 +35,15 @@
        * Space
          * contiguous in memory, so proximity helps performance
          * space needed = (array capacity, which is >= n) * size of item, but even if 2n, still O(n)
-       
+
   ***Problems***
-  
+
   - [ ] [Next Greater Element](http://www.geeksforgeeks.org/next-greater-element/)
   - [x] [Rotate Array by 90 anti-clock](http://www.geeksforgeeks.org/inplace-rotate-square-matrix-by-90-degrees/) - some weired rotation trick; see once
   - [x] [Find duplicates in O(n) time](http://www.geeksforgeeks.org/find-duplicates-in-on-time-and-constant-extra-space/) - smarty art thou
   - [x] [Print the array in spiral form](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
   - [x] [Find the repeating and the missing](http://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/) -simple application of the duplictaes prob above
-  - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending 
+  - [x] [Arrange given numbers to form the biggest number](http://www.geeksforgeeks.org/given-an-array-of-numbers-arrange-the-numbers-to-form-the-biggest-number/) - make an bool compare function, based on result of appending
   - [ ] [Majority Element in unsorted Array](http://www.geeksforgeeks.org/majority-element/)
   - [ ] [Majority element in sorted array](http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/)
   - Number of shapes in Boolean Matrix
@@ -73,7 +73,7 @@
 
 * **Linked List**
   
-  
+
   #### [Intro video](https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr) ####
   * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
   * [Creation and Traversal](http://www.geeksforgeeks.org/linked-list-set-1-introduction/) | [Insertion](http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/) | [Deletion](http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
@@ -94,15 +94,15 @@
          -reverse() – Reverses the list
          -size() – Returns the number of elements in the list
          -sort() – Sorts the list in increasing order
-      
-  
-  
+
+
+
   ***Problems***
   - [Adding with carry](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
   -
   -
 
-   
+
 
 * **Stacks**
    * ### [stl c++](http://www.geeksforgeeks.org/stack-data-structure/):
@@ -110,7 +110,7 @@
       - s.pop()
       - s.top()
       - s.isEmpty(): Returns true if stack is empty, else false
-      
+
 * **[Queues]**
    * Implementation:
         * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
@@ -135,15 +135,15 @@
           - [ ] [Generate binary numbers from 1 to n](http://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/)
           - [ ] [Implementing k queues in single array](http://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
           - [ ] [Implement a stack using single queue](http://www.geeksforgeeks.org/implement-a-stack-using-single-queue/)
-   
+
 * **Hash Table**
   #### [Awesome Hackerearth tut](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
   #### Problems:
      - [ ]
      - [ ]
-     
+
 * ****
-  
+
 
 # Algorithms #
 
@@ -159,20 +159,20 @@
           * Next point *Q* is such that pair *(p,q,r)* is in anticlock [orientataion](http://www.geeksforgeeks.org/orientation-3-ordered-points/).
           * next[*P*] = *Q*
           * *P* = *Q*
-              
-          
+
+
     * [Graham's Algorithm](http://www.geeksforgeeks.org/convex-hull-set-2-graham-scan/). Time Complexity: **nlogn**
        1. Initialize bottom-most(leftmost, if multiple) point *P*.
        2. Sort all points w.r.t *P* to find the closed path.
        3. Move on the path and pick a point if counter-clock rotation found.
-       
+
 * ## DP
   ### Some cool links:
      * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  Awesome thou art.
-     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try 
+     * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try
  * **[Fractional Knapsack](http://www.geeksforgeeks.org/fractional-knapsack-problem/)**
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
- 
+
       Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
     ```cpp
     int knapsack(int n, int wmax, int val[], int wt[]){
@@ -185,48 +185,48 @@
     ```
  * [Unbounded Knapsack (Repetition of items allowed)](http://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/)
  * **[Longest Common Subsequence](http://www.geeksforgeeks.org/longest-common-subsequence/)**
- 
+
       [Video Link](https://www.youtube.com/watch?v=NnD96abizww&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=2).
-      
+
       And [here](http://www.geeksforgeeks.org/printing-longest-common-subsequence/) is is how to print it([my code](http://ide.geeksforgeeks.org/7Bj9wu
 )).
- * Matrix Chain Multiplication 
-     
+ * Matrix Chain Multiplication
+
      lite
  * **[Subset Sum Problem](http://www.geeksforgeeks.org/dynamic-programming-subset-sum-problem/)**
- 
+
       [Video link](https://www.youtube.com/watch?v=s6FhG--P7z0&index=4&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)
         Just see this and move on.
-        
+
      ```cpp
      if(j<set[i-1])
        subset[i][j] = subset[i-1][j];
      if (j >= set[i-1])
        subset[i][j] = subset[i-1][j] || subset[i - 1][j-set[i-1]];
      ```  
-                                        
+
  * **[Optimal Binary Search Tree](http://www.geeksforgeeks.org/dynamic-programming-set-24-optimal-binary-search-tree/)**
- 
+
     [Video link](https://www.youtube.com/watch?v=hgA4xxlVvfQ&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&t=-7)
     - [ ] TBDL
  * **[Coin Change](http://www.geeksforgeeks.org/dynamic-programming-set-7-coin-change/)**
   Simple shit
  *  **Longest Increasing Subsequence**
-         
+
       - [n^2](http://www.geeksforgeeks.org/longest-increasing-subsequence/)
       - [nlogn](http://www.geeksforgeeks.org/longest-monotonically-increasing-subsequence-size-n-log-n/)
       - Examples:
           - [x] [ZigZag](https://community.topcoder.com/stat?c=problem_statement&pm=1259&rd=4493) : if(a[i].a[j]<0) z[i] = 1+max(d[i],d[j]);
           - [ ] [Bad Neighbours](https://community.topcoder.com/tc?module=ProblemDetail&rd=5009&pm=2402)
           - [ ] [Flower Garden](https://community.topcoder.com/tc?module=ProblemDetail&rd=5006&pm=1918)
-          
+
  *  **[Minimum Edit Distance](http://www.geeksforgeeks.org/dynamic-programming-set-5-edit-distance/)**
- 
+
        [Video](https://www.youtube.com/watch?v=We3YDTzNXEk&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=8)
       [my code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/editdist.cpp)
-      
+
  *   **[Longest Palindrome Sequence](http://www.geeksforgeeks.org/dynamic-programming-set-12-longest-palindromic-subsequence/)**
- 
+
        [Video](https://www.youtube.com/watch?v=_nCsPn7_OgI&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr&index=9)
        [Nacheez ka code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/longestPalindrome.cpp)
  *   **[Weighted Job Scheduling Dynamic Programming](http://www.geeksforgeeks.org/weighted-job-scheduling/)**
@@ -238,45 +238,45 @@
  *   **[Cutting Rod Problem](http://www.geeksforgeeks.org/dynamic-programming-set-13-cutting-a-rod/)**
             [Video](https://www.youtube.com/watch?v=IRwVmTmN6go)
  *   **[Minimum path cost](https://www.youtube.com/watch?v=lBRtnuxg-gU&index=20&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)**
-       
+
        That *blow*(sigh!)
        - Examples:
            - [ ] [Chess Metric](https://community.topcoder.com/tc?module=ProblemDetail&rd=4482&pm=1592)
            - [x] [Avoid Road](https://community.topcoder.com/tc?module=ProblemDetail&rd=4709&pm=1889)
            - [ ] top->bottom->top [MiniPaint](https://community.topcoder.com/tc?module=ProblemDetail&rd=4710&pm=1996)
- 
+
  *   **[Maximum Sum Rectangular Submatrix in Matrix ](https://www.youtube.com/watch?v=yCQN096CwWM&index=15&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr)**
        Uses [kadane's algorithm](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/) for 2D array.
- 
+
  *   **[K-th smallest element in array](http://www.geeksforgeeks.org/k-largestor-smallest-elements-in-an-array/)**
  *    **[Minimum number of railway sattions reqd](http://www.geeksforgeeks.org/minimum-number-platforms-required-railwaybus-station/)**
  *
  *
  ### Problems:
  * **Standard Problems** should be really familiar with these types
-  
+
      - [ ] [Creature Training](https://community.topcoder.com/stat?c=problem_statement&pm=8570&rd=12012&rm=269199&cr=7581406)
           -[editorial](https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tco08rd2)
      -  [X] [noOfEncodings](http://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/)
      -  [x] [Palindrome Partition](https://www.youtube.com/watch?v=lDYIvtBVmgo)
  * **State Space Reduction**
      - [ ]
- 
- 
- 
- 
+
+
+
+
 * ## Strings
   * Print all permutations of a string
      1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
-     
+
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
   * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
   * [Minimum number of deletions to make a string palindrome](http://www.geeksforgeeks.org/minimum-number-deletions-make-string-palindrome/)
 * ## Greedy
   - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
-  - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0) 
+  - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0)
   - [Activity Selection Problem](http://www.geeksforgeeks.org/greedy-algorithms-set-1-activity-selection-problem/)
   - [Kruskal’s Minimum Spanning Tree Algorithm](http://www.geeksforgeeks.org/greedy-algorithms-set-2-kruskals-minimum-spanning-tree-mst/)
   - [Prim's MST](http://www.geeksforgeeks.org/greedy-algorithms-set-5-prims-minimum-spanning-tree-mst-2/)
@@ -288,7 +288,7 @@
   - [Egyptian Fraction](http://www.geeksforgeeks.org/greedy-algorithm-egyptian-fraction/)
   - [Find if two rectangles overlap](http://www.geeksforgeeks.org/find-two-rectangles-overlap/)
   * [Huffman Encoding](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)
-  
+
 * ## Storage Scalabitily
 
 * ## Arrays
@@ -310,7 +310,7 @@
         2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
 * ## Backtracking
   - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
-* ## Hashing 
+* ## Hashing
   - [Longest Consecutive Subsequence](http://www.geeksforgeeks.org/longest-consecutive-subsequence/)
   - Anagrams
         1. [Usign Hashing](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/)
@@ -326,7 +326,7 @@
   * [Min Stack](http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
   * [Redundant Braces](http://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
   * [Nearest Smalles element](http://qa.geeksforgeeks.org/3824/qa.geeksforgeeks.org/3824/find-the-nearest-smaller-elements)
-  
+
 * ## Trees
   * Search:
       1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
@@ -369,7 +369,7 @@
   * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
   * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
   * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
-  
+
 * ## Bit Manipulation  | [Tut on bitwise operator](http://www.cprogramming.com/tutorial/bitwise_operators.html)
   - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
   - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
@@ -381,7 +381,5 @@
   - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
   - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
   - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
-  
-*
 
-  
+*
