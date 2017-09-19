@@ -1,16 +1,9 @@
 # Topics and Resources #
-To write Git commit msg
-
-this will be "second line"
-THis can be a paraTHis can be a para
-THis can be a para#THis can be a para#THis can be a paraTHis can be a paraTHis can be a paraTHis can be a paraTHis can be a paraTHis can be a para.
-
-And yet another line.
-
 
 #### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
 
-### [BigO cheat sheet](http://bigocheatsheet.com/)
+### Cheat Sheets
+  * [BigO cheat sheet](http://bigocheatsheet.com/) | [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
 
 
 # Data Structures #
@@ -158,9 +151,58 @@ And yet another line.
 * #### Binary Search
   * [recursive implementation](http://www.geeksforgeeks.org/binary-search/)
   * [iterative implementation](http://www.geeksforgeeks.org/binary-search/)
+* ## Bitwise Opertions
+  * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
+  * [video] to understand &, |, ^, ~, >>, <<
+      * set a given bit to 1:( *it's like multiplying with 2^position* )
+        ```cpp
+        def set_bit(x,position):  // x        00000110
+            mask = 1 << position  //position  00000101 i.e.set 5th bit to 1
+            return x | mask       //mask      00100000 1 got r. shifted by 5
+                           //returned value   00100110
+        ```
+      * clear a bit- make it 0 :( *it's like dividing with 2^position* )
+        ```cpp
+        def clear_bit(x, position):  // x        00000110
+          mask = 1 << position      //position  00000010
+          return x & ~mask          //mask      00000100
+                                    //~mask     11111011
+                           //returned value     00000010   
+        ```
+      * flip bit:
+        ```cpp
+        def flip_bit(x, postion): // x     01100110
+          maks = 1 << position //position 00000010
+          return x ^ mask     //mask      00000100
+                        //returned value  01100010
+        ```
+
+      * is bit at given position set or not(boolean return)
+      ```cpp
+      def is_bit_set(x, position): //    x 01100110
+        shifted = x >> position //position 00000101
+        return shifted & 1       //shifted 00000011
+                          //returned value 00000001
+      ```
+      * modifying bit at given position(state=1 ->set_bit; state=0 ->clear_bit )
+      ```cpp
+      def modify_bit(x, position, state): //state 00000001
+        mask = 1 << position             //-state 11111111
+        return (x & ~mask) | (-state & mask)
+      ```
+  * Bit tricks:
+      * Check_if_even : ```if((x & 1)==0)even   ```
+      * check_if_power_of_2 :(means only 1 bit will be set)
+          ```cpp
+          if((x & x-1)==0)return true   //x 1000
+                                      //x-1 0111    
+                                      //&   0000
+
+          ```
+
 * ## Computational Geometry
 
-  
+
   * **Orientation**
      * [To see if 2 lines intersect or not.](http://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/)Find all the 4 slopes  and check of opposite orientation of both the pairs.
   * **Convex Hull**
