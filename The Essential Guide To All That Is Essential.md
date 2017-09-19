@@ -100,7 +100,14 @@
 
   ***Problems***
   - [Adding with carry](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
-  -
+  - [Clone a link list with next](http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)
+  - [Reverse a link list](http://www.geeksforgeeks.org/reverse-a-linked-list/)
+  - [Find Middle element](http://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)
+  - [Merge sort for doubly linked list](http://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
+  - [Insertion Sort](http://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
+  - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
+  - [Segregate even and odd nodes](http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/)
+
   -
 
 
@@ -136,14 +143,71 @@
           - [ ] [Generate binary numbers from 1 to n](http://www.geeksforgeeks.org/interesting-method-generate-binary-numbers-1-n/)
           - [ ] [Implementing k queues in single array](http://www.geeksforgeeks.org/efficiently-implement-k-queues-single-array/)
           - [ ] [Implement a stack using single queue](http://www.geeksforgeeks.org/implement-a-stack-using-single-queue/)
+          - [ ] [Trapping Rain Water](http://www.geeksforgeeks.org/trapping-rain-water/)
+          - [ ] [Generate All Parenthesis](http://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/)
+          - [ ] [Min Stack](http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
+          - [ ] [Redundant Braces](http://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
+          - [ ] [Nearest Smalles element](http://qa.geeksforgeeks.org/3824/qa.geeksforgeeks.org/3824/find-the-nearest-smaller-elements)
+          - [ ] Largest Area under histogram:
+                1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
+                2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
+
 
 * **Hash Table**
   #### [Awesome Hackerearth tut](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
   #### Problems:
-     - [ ]
-     - [ ]
 
-* ****
+     - [Longest Consecutive Subsequence](http://www.geeksforgeeks.org/longest-consecutive-subsequence/)
+     - Anagrams
+           1. [Usign Hashing](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/)
+           2. [Using Treis](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/)
+     - [Find Recurring Sequence in a Fraction](http://www.geeksforgeeks.org/find-recurring-sequence-fraction/)
+     - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
+     - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
+
+* **Trees**
+ * Search:
+     1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
+     2. [BFS](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+         A.[Minimum time required to rot all oranges](http://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/)
+ * [Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) :Preorder, Inorder, Postorder
+ * [Lowest common ancestor](http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
+ * [Flattenng a binary tree to linked list](http://qa.geeksforgeeks.org/3976/flattening-a-binary-tree)
+ * [to check if a binary tree is BST or not](http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
+ * [Sorted Array to BST](http://www.geeksforgeeks.org/sorted-array-to-balanced-bst/)
+ * [Symmetric Binary Tree](http://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/)
+ * [Connect Nodes at same level](http://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/) :Asked by Microsoft
+ * [Identical Binary Tree] (http://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/)
+ * [Zigzag level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
+ * [Spiral level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
+ * Sum:
+      1. [Root to leaf path sum](http://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/)
+      2. [Maximum Path Sum](http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
+      3. [Print all k-sums](http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/)
+ * [k-th smallest element in bst](http://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
+ * [Minimum no. of iterations to pass information to all nodes in the tree](http://www.geeksforgeeks.org/minimum-iterations-pass-information-nodes-tree/)
+ * [Two nodes of a BST are swapped, correct the BST](http://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
+ * [Find height of a special binary tree whose leaf nodes are connected](http://www.geeksforgeeks.org/find-height-of-a-special-binary-tree-whose-leaf-nodes-are-connected/)
+ * [Removing half nodes in Binary Trees](http://www.geeksforgeeks.org/given-a-binary-tree-how-do-you-remove-all-the-half-nodes/)
+ * [Convert given tree to sum tree](http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/)
+ * [Convert an arbitrary Binary Tree to a tree that holds Children Sum Property](http://www.geeksforgeeks.org/convert-an-arbitrary-binary-tree-to-a-tree-that-holds-children-sum-property/)
+ * [Check if two trees are Mirror](http://www.geeksforgeeks.org/check-if-two-trees-are-mirror/)
+ * [Convert a Binary Tree into its Mirror Tree](http://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/)
+ * Vertical Sum in a given Binary Tree
+       A.[HashMap](http://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/)
+       B.[Doubly Linked List](http://www.geeksforgeeks.org/vertical-sum-in-binary-tree-set-space-optimized/)
+ * Convert a given Binary Tree to Doubly Linked List
+       1.[Set1](http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/)
+       2.[Set2](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-2/)
+       3.[Set3](http://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/)
+       4.[Set4](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-4/)
+ * [Print all nodes at distance k from a given node](http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
+ * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
+ * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
+ * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
+ * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
+ * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
+
 
 
 # Algorithms #
@@ -151,6 +215,10 @@
 * #### Binary Search
   * [recursive implementation](http://www.geeksforgeeks.org/binary-search/)
   * [iterative implementation](http://www.geeksforgeeks.org/binary-search/)
+  * problems:
+      - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
+      - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
+      - [ ]
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
@@ -259,21 +327,33 @@
 
 
       * Compute modulus division by 1 << s without a division operator
-      ```
+      ```cpp
       const unsigned int n;          // numerator
       const unsigned int s;
       const unsigned int d = 1U << s; // So d will be one of: 1, 2, 4, 8, 16, 32, ...
       unsigned int m;                // m will be n % d
       m = n & (d - 1);
       ```
-      * find log base 2 of given interger
-      ```int resulg t=0; while(x >>= 1){result++;}```
-      *
+      * find log base 2 of given interger ``` int resulg t=0; while(x >>= 1){result++;} ```
+
+
 
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
   * [bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operation)
-  *
+  * Problems:
+      - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
+      - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
+      - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
+      - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
+      - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
+      - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
+      - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
+      - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
+      - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
+      - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
 
+* ## Sorting
+  tobedonefromhere
 * ## Computational Geometry
 
 
@@ -416,97 +496,15 @@
   - [Find if two rectangles overlap](http://www.geeksforgeeks.org/find-two-rectangles-overlap/)
   * [Huffman Encoding](http://www.geeksforgeeks.org/greedy-algorithms-set-3-huffman-coding/)
 
-* ## Storage Scalabitily
 
-* ## Arrays
-* ## Binary Search
-  - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
-  - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-  - [ ]
-* ## Linked List
-  - [Clone a link list with next](http://www.geeksforgeeks.org/a-linked-list-with-next-and-arbit-pointer/)
-  - [Reverse a link list](http://www.geeksforgeeks.org/reverse-a-linked-list/)
-  - [Find Middle element](http://www.geeksforgeeks.org/write-a-c-function-to-print-the-middle-of-the-linked-list/)
-  - [Merge sort for doubly linked list](http://www.geeksforgeeks.org/merge-sort-for-doubly-linked-list/)
-  - [Insertion Sort](http://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
-  - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
-  - [Segregate even and odd nodes](http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/)
-* ## Stacks & Queues
-  - [ ] Largest Area under histogram:
-        1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
-        2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
+
 * ## Backtracking
   - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
-* ## Hashing
-  - [Longest Consecutive Subsequence](http://www.geeksforgeeks.org/longest-consecutive-subsequence/)
-  - Anagrams
-        1. [Usign Hashing](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together/)
-        2. [Using Treis](http://www.geeksforgeeks.org/given-a-sequence-of-words-print-all-anagrams-together-set-2/)
-  - [Find Recurring Sequence in a Fraction](http://www.geeksforgeeks.org/find-recurring-sequence-fraction/)
-  - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
-  - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
+
 * ## Heaps & Maps & Graphs
   - [Detect Cycle in a Directed Graph](http://www.geeksforgeeks.org/detect-cycle-in-a-graph/)
-* ## Stacks & Queues
-  * [Trapping Rain Water](http://www.geeksforgeeks.org/trapping-rain-water/)
-  * [Generate All Parenthesis](http://www.geeksforgeeks.org/print-all-combinations-of-balanced-parentheses/)
-  * [Min Stack](http://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
-  * [Redundant Braces](http://www.geeksforgeeks.org/find-expression-duplicate-parenthesis-not/)
-  * [Nearest Smalles element](http://qa.geeksforgeeks.org/3824/qa.geeksforgeeks.org/3824/find-the-nearest-smaller-elements)
 
-* ## Trees
-  * Search:
-      1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
-      2. [BFS](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-          A.[Minimum time required to rot all oranges](http://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/)
-  * [Traversal](http://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/) :Preorder, Inorder, Postorder
-  * [Lowest common ancestor](http://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
-  * [Flattenng a binary tree to linked list](http://qa.geeksforgeeks.org/3976/flattening-a-binary-tree)
-  * [to check if a binary tree is BST or not](http://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/)
-  * [Sorted Array to BST](http://www.geeksforgeeks.org/sorted-array-to-balanced-bst/)
-  * [Symmetric Binary Tree](http://www.geeksforgeeks.org/symmetric-tree-tree-which-is-mirror-image-of-itself/)
-  * [Connect Nodes at same level](http://www.geeksforgeeks.org/connect-nodes-at-same-level-with-o1-extra-space/) :Asked by Microsoft
-  * [Identical Binary Tree] (http://www.geeksforgeeks.org/write-c-code-to-determine-if-two-trees-are-identical/)
-  * [Zigzag level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
-  * [Spiral level order traversal](http://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
-  * Sum:
-       1. [Root to leaf path sum](http://www.geeksforgeeks.org/root-to-leaf-path-sum-equal-to-a-given-number/)
-       2. [Maximum Path Sum](http://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
-       3. [Print all k-sums](http://www.geeksforgeeks.org/print-k-sum-paths-binary-tree/)
-  * [k-th smallest element in bst](http://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/)
-  * [Minimum no. of iterations to pass information to all nodes in the tree](http://www.geeksforgeeks.org/minimum-iterations-pass-information-nodes-tree/)
-  * [Two nodes of a BST are swapped, correct the BST](http://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/)
-  * [Find height of a special binary tree whose leaf nodes are connected](http://www.geeksforgeeks.org/find-height-of-a-special-binary-tree-whose-leaf-nodes-are-connected/)
-  * [Removing half nodes in Binary Trees](http://www.geeksforgeeks.org/given-a-binary-tree-how-do-you-remove-all-the-half-nodes/)
-  * [Convert given tree to sum tree](http://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/)
-  * [Convert an arbitrary Binary Tree to a tree that holds Children Sum Property](http://www.geeksforgeeks.org/convert-an-arbitrary-binary-tree-to-a-tree-that-holds-children-sum-property/)
-  * [Check if two trees are Mirror](http://www.geeksforgeeks.org/check-if-two-trees-are-mirror/)
-  * [Convert a Binary Tree into its Mirror Tree](http://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/)
-  * Vertical Sum in a given Binary Tree
-        A.[HashMap](http://www.geeksforgeeks.org/vertical-sum-in-a-given-binary-tree/)
-        B.[Doubly Linked List](http://www.geeksforgeeks.org/vertical-sum-in-binary-tree-set-space-optimized/)
-  * Convert a given Binary Tree to Doubly Linked List
-        1.[Set1](http://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/)
-        2.[Set2](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-2/)
-        3.[Set3](http://www.geeksforgeeks.org/convert-given-binary-tree-doubly-linked-list-set-3/)
-        4.[Set4](http://www.geeksforgeeks.org/convert-a-given-binary-tree-to-doubly-linked-list-set-4/)
-  * [Print all nodes at distance k from a given node](http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
-  * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
-  * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
-  * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
-  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
-  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
-* ## Bit Manipulation  | [Tut on bitwise operator](http://www.cprogramming.com/tutorial/bitwise_operators.html)
-  - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
-  - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
-  - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
-  - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
-  - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
-  - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
-  - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
-  - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
-  - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
-  - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
+
 
 *
