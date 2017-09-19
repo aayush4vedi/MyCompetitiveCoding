@@ -151,7 +151,7 @@
 * #### Binary Search
   * [recursive implementation](http://www.geeksforgeeks.org/binary-search/)
   * [iterative implementation](http://www.geeksforgeeks.org/binary-search/)
-* ## Bitwise Opertions
+* ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [video] to understand &, |, ^, ~, >>, <<
       * set a given bit to 1:( *it's like multiplying with 2^position* )
@@ -199,6 +199,10 @@
                                       //&   0000
 
           ```
+      * compute the sign of an integer: ```int sign = -(x < 0) // if v < 0 then -1, else 0.```
+  * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
+  * [bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operation)
+  *
 
 * ## Computational Geometry
 
