@@ -257,18 +257,7 @@
       * Swapping ```#define SWAP(a, b) (((a) ^= (b)), ((b) ^= (a)), ((a) ^= (b))) ```
       * Returns the rightmost 1 in binary representation of x ```x ^ ( x & (x-1)) ```
 
-      unsigned int v;     // input bits to be reversed
-      unsigned int r = v; // r will be reversed bits of v; first get LSB of v
-      int s = sizeof(v) * CHAR_BIT - 1; // extra shift needed at end
 
-      for (v >>= 1; v; v >>= 1)
-      {   
-        r <<= 1;
-        r |= v & 1;
-        s--;
-      }
-      r <<= s; // shift when v's highest bits are zero
-      ```
       * Compute modulus division by 1 << s without a division operator
       ```
       const unsigned int n;          // numerator
@@ -277,7 +266,8 @@
       unsigned int m;                // m will be n % d
       m = n & (d - 1);
       ```
-      * find log base 2 of given interger ```int resulg t=0; while(x >>= 1){result++;}```
+      * find log base 2 of given interger
+      ```int resulg t=0; while(x >>= 1){result++;}```
       *
 
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
