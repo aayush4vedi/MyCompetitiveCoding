@@ -155,9 +155,12 @@ And yet another line.
 
 # Algorithms #
 
-
+* #### Binary Search
+  * [recursive implementation](http://www.geeksforgeeks.org/binary-search/)
+  * [iterative implementation](http://www.geeksforgeeks.org/binary-search/)
 * ## Computational Geometry
 
+  
   * **Orientation**
      * [To see if 2 lines intersect or not.](http://www.geeksforgeeks.org/check-if-two-given-line-segments-intersect/)Find all the 4 slopes  and check of opposite orientation of both the pairs.
   * **Convex Hull**
