@@ -153,7 +153,8 @@
   * [iterative implementation](http://www.geeksforgeeks.org/binary-search/)
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
-  * [video] to understand &, |, ^, ~, >>, <<
+  * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
+  * [video] to understand &, |, ^, ~, >>, << {(1 << n = 2^n), (1 >> n = 2^-n)}
       * set a given bit to 1:( *it's like multiplying with 2^position* )
         ```cpp
         def set_bit(x,position):  // x        00000110
@@ -190,7 +191,9 @@
         mask = 1 << position             //-state 11111111
         return (x & ~mask) | (-state & mask)
       ```
-  * Bit tricks:
+  * [1's Complement](https://en.wikipedia.org/wiki/Ones%27_complement) : reverse the bit
+  * [2's complement](https://en.wikipedia.org/wiki/Two%27s_complement) : reverse and add 1 from last bit
+  * [Bit tricks](https://graphics.stanford.edu/~seander/bithacks.html) | [Hackerearth](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/):
       * Check_if_even : ```if((x & 1)==0)even   ```
       * check_if_power_of_2 :(means only 1 bit will be set)
           ```cpp
@@ -199,7 +202,84 @@
                                       //&   0000
 
           ```
+      * Count the number of ones in the binary representation of the given number ```while( n ){ n = n&(n-1);count++;  }  //O(k), k is no of one's in bin form```
+      * find the largest power of 2, which is <= x
+        :Change all the bits which are at the right side of the most significant digit, to 1
+      ```
+      int highestPowerof2(unsigned int n)
+      {
+          // Invalid input
+          if (n < 1)
+              return 0;
+
+          int res = 1;
+
+          // Try all powers starting from 2^1
+          for (int i=0; i<8*sizeof(unsigned int); i++)
+          {
+              int curr = 1 << i;
+
+              // If current power is more than n, break
+              if (curr > n)
+                 break;
+
+              res = curr;
+          }
+
+          return res;
+      }
+      ```
       * compute the sign of an integer: ```int sign = -(x < 0) // if v < 0 then -1, else 0.```
+      * Detect if two integers have opposite signs ```bool f = ((x ^ y) < 0); // true iff x and y have opposite signs ```
+      * Compute the minimum (min) or maximum (max) of two integers without branching:  
+          ```
+          result = y ^ ((x ^ y) & -(x < y)); // min(x, y)
+          result = x ^ ((x ^ y) & -(x < y)); // max(x, y)
+          ```
+
+      * Counting bits set
+          ```
+          for (count = 0; x; x >>= 1)
+          {
+            count += x & 1;
+          }
+                    ```
+      * Computing parity in given number(Parity of a number refers to whether it contains an odd or even number of 1-bits. )
+      ```
+      unsigned int v;       // word value to compute the parity of
+      bool parity = false;  // parity will be the parity of v
+      while (v)
+      {
+        parity = !parity;
+        v = v & (v - 1);
+      }
+      ```
+      * Swapping ```#define SWAP(a, b) (((a) ^= (b)), ((b) ^= (a)), ((a) ^= (b))) ```
+      * Returns the rightmost 1 in binary representation of x ```x ^ ( x & (x-1)) ```
+
+      unsigned int v;     // input bits to be reversed
+      unsigned int r = v; // r will be reversed bits of v; first get LSB of v
+      int s = sizeof(v) * CHAR_BIT - 1; // extra shift needed at end
+
+      for (v >>= 1; v; v >>= 1)
+      {   
+        r <<= 1;
+        r |= v & 1;
+        s--;
+      }
+      r <<= s; // shift when v's highest bits are zero
+      ```
+      * Compute modulus division by 1 << s without a division operator
+      ```
+      const unsigned int n;          // numerator
+      const unsigned int s;
+      const unsigned int d = 1U << s; // So d will be one of: 1, 2, 4, 8, 16, 32, ...
+      unsigned int m;                // m will be n % d
+      m = n & (d - 1);
+      ```
+      * find log base 2 of given interger ```int resulg t=0; while(x >>= 1){result++;}```
+      *
+
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
   * [bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operation)
   *
