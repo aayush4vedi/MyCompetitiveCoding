@@ -215,8 +215,82 @@
     1. Objects and Pointers
     2. Adjacency matrix
     3. Adjacency list
-    4. Adjacency Map
+    4. Edge List
+  * [for simplified understanding-no code](https://www.khanacademy.org/computing/computer-science/algorithms/graph-representation/a/representing-graphs)
+  2.Adjacency matrix
 
+  ```cpp
+      int AdjMat[100][100];
+
+      // Adj Matrix
+      //   for each line: |V| entries, 0 or the weight
+      /*
+      0  10   0   0 100   0
+     10   0   7   0   8   0
+      0   7   0   9   0   0
+      0   0   9   0  20   5
+    100   8   0  20   0   0
+      0   0   0   5   0   0
+      */
+      Inputting: like 2-D matrix
+      for (int i = 0; i < V; i++)
+        for (int j = 0; j < V; j++)
+          scanf("%d", &AdjMat[i][j]);
+
+      Outputting:
+      printf("Neighbors of vertex 0:\n");
+      for (int j = 0; j < V; j++)                                    
+        if (AdjMat[0][j])
+          printf("Edge 0-%d (weight = %d)\n", j, AdjMat[0][j]);
+  ```
+  3. Adjacency List: vector of vector of pairs or array of linked list
+  ```cpp
+  typedef pair<int, int> ii;
+  typedef vector<ii> vii;
+  vector<vii> AdjList;
+  /*
+  2 2 10 5 100
+  3 1 10 3 7 5 8
+  2 2 7 4 9
+  3 3 9 5 20 6 5
+  3 1 100 2 8 4 20
+  1 4 5
+  */
+  scanf("%d", &V);
+  AdjList.assign(V, vii()); // quick way to initialize AdjList with V entries of vii
+  for (int i = 0; i < V; i++) {
+    scanf("%d", &total_neighbors);
+    for (int j = 0; j < total_neighbors; j++) {
+      scanf("%d %d", &id, &weight);
+      AdjList[i].push_back(ii(id - 1, weight));    // some index adjustment
+    }
+  }
+
+  printf("Neighbors of vertex 0:\n");
+  for (vii::iterator j = AdjList[0].begin(); j != AdjList[0].end(); j++)
+    // AdjList[0] contains the required information
+    // O(k), where k is the number of neighbors
+    printf("Edge 0-%d (weight = %d)\n", j->first, j->second);
+
+  ```
+  3.Edge List
+  ```cpp
+  priority_queue< pair<int, ii> > EdgeList;   // one way to store Edge List
+  scanf("%d", &E);
+  for (int i = 0; i < E; i++) {
+    scanf("%d %d %d", &a, &b, &weight);
+    EdgeList.push(make_pair(-weight, ii(a, b))); // trick to reverse sort order
+  }
+
+  // edges sorted by weight (smallest->largest)
+  for (int i = 0; i < E; i++) {
+    pair<int, ii> edge = EdgeList.top(); EdgeList.pop();
+    // negate the weight again
+    printf("weight: %d (%d-%d)\n", -edge.first, edge.second.first, edge.second.second);
+  }
+
+  ```
+>>>>>>> 49d26473812afa1d2bb9243d34fa814d54791176
 
   * 2.Adjacency matrix
 
@@ -290,6 +364,8 @@
   }
 
   ```
+
+  * When asked a question, look for a graph-based solution first, then move on if none.
 
 # Algorithms #
 
