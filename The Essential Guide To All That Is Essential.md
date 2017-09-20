@@ -289,8 +289,8 @@
     printf("weight: %d (%d-%d)\n", -edge.first, edge.second.first, edge.second.second);
   }
 
-  ```
->>>>>>> 49d26473812afa1d2bb9243d34fa814d54791176
+  
+
 
   * 2.Adjacency matrix
 
