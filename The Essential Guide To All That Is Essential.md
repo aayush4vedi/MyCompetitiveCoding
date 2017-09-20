@@ -1,9 +1,9 @@
 # Topics and Resources #
 
-#### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Sorting: CS50](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
+#### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) |
 
 ### Cheat Sheets
-  * [BigO cheat sheet](http://bigocheatsheet.com/) 
+  * [BigO cheat sheet](http://bigocheatsheet.com/)
   * [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
      * ceil(x) //if x=6.79; cout=7
 
@@ -355,7 +355,24 @@
       - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
 
 * ## Sorting
-  tobedonefromhere
+  - [CS50 : ](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
+  - [Visual Representation](https://visualgo.net/bn/sorting?slide=7) : pure gold
+  - Sorting algo:
+        - [Bubble sort](https://www.tutorialspoint.com/data_structures_algorithms/bubble_sort_algorithm.htm)
+        - [Insertion](https://www.tutorialspoint.com/data_structures_algorithms/insertion_sort_algorithm.htm)
+        - [Selection](https://www.tutorialspoint.com/data_structures_algorithms/selection_sort_algorithm.htm)
+        - [Merge](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)
+        - [Quick](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm)
+        - [Heap](http://www.geeksforgeeks.org/heap-sort/)
+        - [Radix](http://www.geeksforgeeks.org/radix-sort/)
+  - [Merged Sort For Linked list](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+
+
+
+
+
+  * FUN- visual representation of 15 [sorting algorithms](https://www.youtube.com/watch?v=kPRA0W1kECg)
+
 * ## Computational Geometry
 
 
