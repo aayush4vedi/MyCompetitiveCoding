@@ -218,32 +218,32 @@
     4. Adjacency Map
 
 
-  2.Adjacency matrix
-  ```cpp
-  int AdjMat[100][100];
+  * 2.Adjacency matrix
 
-  // Adj Matrix
-  //   for each line: |V| entries, 0 or the weight
-  /*
-  0  10   0   0 100   0
- 10   0   7   0   8   0
-  0   7   0   9   0   0
-  0   0   9   0  20   5
-100   8   0  20   0   0
-  0   0   0   5   0   0
-  */
-  Inputting: like 2-D matrix
-  for (int i = 0; i < V; i++)
-    for (int j = 0; j < V; j++)
-      scanf("%d", &AdjMat[i][j]);
+    ```cpp
+    int AdjMat[100][100];
 
-  Outputting:
-  printf("Neighbors of vertex 0:\n");
-  for (int j = 0; j < V; j++)                                    
-    if (AdjMat[0][j])
-      printf("Edge 0-%d (weight = %d)\n", j, AdjMat[0][j]);
-  ```
-  3. Adjacency List
+
+    /*
+    0  10   0   0 100   0
+   10   0   7   0   8   0
+    0   7   0   9   0   0
+    0   0   9   0  20   5
+  100   8   0  20   0   0
+    0   0   0   5   0   0
+    */
+    Inputting: like 2-D matrix
+    for (int i = 0; i < V; i++)
+      for (int j = 0; j < V; j++)
+        scanf("%d", &AdjMat[i][j]);
+
+    Outputting:
+    printf("Neighbors of vertex 0:\n");
+    for (int j = 0; j < V; j++)                                    
+      if (AdjMat[0][j])
+        printf("Edge 0-%d (weight = %d)\n", j, AdjMat[0][j]);
+    ```
+  *  3. Adjacency List
   ```cpp
   typedef pair<int, int> ii;
   typedef vector<ii> vii;
@@ -273,7 +273,7 @@
     printf("Edge 0-%d (weight = %d)\n", j->first, j->second);
 
   ```
-  3.Edge List
+  * 4.Edge List
   ```cpp
   priority_queue< pair<int, ii> > EdgeList;   // one way to store Edge List
   scanf("%d", &E);
