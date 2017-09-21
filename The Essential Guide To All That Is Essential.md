@@ -1,6 +1,6 @@
 # Topics and Resources #
 
-#### [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) |
+#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) |
 
 ### Cheat Sheets
   * [BigO cheat sheet](http://bigocheatsheet.com/)
@@ -207,6 +207,10 @@
  * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
  * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
  * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
+    * [trie- a neglected DS](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
+    * [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
+    forget not the problems at bottom
+    * [Sedgewick video lecture](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
