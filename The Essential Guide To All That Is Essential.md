@@ -369,26 +369,25 @@
   * [BFS in graph](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
   * [DFS in graph](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
   * Graph Algorithms:
+    * [Sorting](https://www.youtube.com/watch?v=ddTC4Zovtbc&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * Single source shortest path:
+        1.[Dijkstra's algo](https://www.youtube.com/watch?v=lAXZGERcDf4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=2)
+        2. [Bellman-Ford](https://www.youtube.com/watch?v=-mOEd_3gTK0&index=6&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * All pair shortest path [Floyd Warshell](https://www.youtube.com/watch?v=LwJdNfdLF9s&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=8)
+    * MSP:
+        1.[Kruskal's algo](https://www.youtube.com/watch?v=fAuF0EuZVCk&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=3)
+        2. [Prim's algo](https://www.youtube.com/watch?v=oP2-8ysT3QQ&index=4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * [Travelling salesman](https://www.youtube.com/watch?v=-JjA4BLQyqE&index=5&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * Strongly connected components: [Kosaraju's algo](https://www.youtube.com/watch?v=RpgcYiky7uw&index=9&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * Max Flow [Ford Fulkerson/Edmonds Karp](https://www.youtube.com/watch?v=GiN3jRdgxU4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=10)
+    * Detecting cycles:
+          * [in unidirected graphs ](https://www.youtube.com/watch?v=n_t0a_8H8VY&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=11)
+          *  [in directed gaphs](https://www.youtube.com/watch?v=rKQaZuoUR4M&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=12)
+          * all simple cycles in directed graphs: [Johnson's algo](https://www.youtube.com/watch?v=johyrWospv0&index=14&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
+    * [Articulation points algo](https://www.youtube.com/watch?v=2kREIkF9UAs&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=13)
 
-        * [Sorting](https://www.youtube.com/watch?v=ddTC4Zovtbc&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
-        * Single source shortest path:
-            1.[Dijkstra's algo](https://www.youtube.com/watch?v=lAXZGERcDf4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=2)
-            2. [Bellman-Ford](https://www.youtube.com/watch?v=-mOEd_3gTK0&index=6&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
-        * All pair shortest path [Floyd Warshell](https://www.youtube.com/watch?v=LwJdNfdLF9s&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=8)
-        * MSP:
-            1.[Kruskal's algo](https://www.youtube.com/watch?v=fAuF0EuZVCk&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=3)
-            2. [Prim's algo](https://www.youtube.com/watch?v=oP2-8ysT3QQ&index=4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
-        * [Travelling salesman](https://www.youtube.com/watch?v=-JjA4BLQyqE&index=5&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
-        * Strongly connected components: [Kosaraju's algo](https://www.youtube.com/watch?v=RpgcYiky7uw&index=9&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
-        * Max Flow [Ford Fulkerson/Edmonds Karp](https://www.youtube.com/watch?v=GiN3jRdgxU4&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=10)
-        * Detecting cycles:
-              * [in unidirected graphs ](https://www.youtube.com/watch?v=n_t0a_8H8VY&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=11)
-              *  [in directed gaphs](https://www.youtube.com/watch?v=rKQaZuoUR4M&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=12)
-              * all simple cycles in directed graphs: [Johnson's algo](https://www.youtube.com/watch?v=johyrWospv0&index=14&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j)
-        * [Articulation points algo](https://www.youtube.com/watch?v=2kREIkF9UAs&list=PLrmLmBdmIlpu2f2g8ltqaaCZiq6GJvl1j&index=13)
-
-        * [count connected components in unidirected graphs](http://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)
-        * [check for bipartite graph](http://www.geeksforgeeks.org/bipartite-graph/)
+    * [count connected components in unidirected graphs](http://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)
+    * [check for bipartite graph](http://www.geeksforgeeks.org/bipartite-graph/)
 
 
 
@@ -707,3 +706,12 @@
 
 
 *
+* ## Other Topics
+  * NP complete
+    * [halting problem](https://www.youtube.com/watch?v=2PaOjhnyQ9o)
+    * [Turing Machine](https://www.youtube.com/watch?v=ezf-f2-TO08)
+    * P, NP complete, NP hard:
+        * [stacksoverflow](https://stackoverflow.com/questions/6916162/what-are-np-and-np-complete-problems)
+        * [GfG](http://www.geeksforgeeks.org/np-completeness-set-1/)
+        * [Quora](https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard)
+    * [Near optimal solution for tavelling salesman problem](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
