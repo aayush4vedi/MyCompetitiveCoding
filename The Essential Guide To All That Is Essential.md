@@ -1,6 +1,6 @@
 # Topics and Resources #
 
-#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [LeetCode questions collection](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 
 ### Cheat Sheets
   * [BigO cheat sheet](http://bigocheatsheet.com/)
@@ -406,7 +406,25 @@
   * problems:
       - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
       - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-      - [x] [Find median of 2 sorted array](http://www.geeksforgeeks.org/median-of-two-sorted-arrays/) : [idea](https://www.programcreek.com/2012/12/leetcode-median-of-two-sorted-arrays-java/)
+      - [ ] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
+      ```cpp
+      int NoPowMod( int x, int y, int z )
+      {
+      	int a = x % z;
+      	int t = 1;
+      	while( y > 0 )
+      	{
+      		// Y is odd
+      		if( y & 1 )
+      		{
+      			t = (t * a) % z;
+      		}
+      		y >>= 1;
+      		a = (a * a) % z;
+      	}
+      	return(t);
+      }
+      ```
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
