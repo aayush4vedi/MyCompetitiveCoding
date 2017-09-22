@@ -34,22 +34,26 @@ typedef vector<pii> vii;
 #define pq priority_queue
 inline ll Power(int b, int p) { ll ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
 
-template<class TYPE>
-void PrintTwice(TYPE data)
-{
-    cout<<"Twice: " << data * 2 << endl;
-}
-
-
 int main(){
-  // int a;cin>>a;
-  // cout<<"for int: "<<PrintTwice(a)<<endl;
-  // float b;cin>>b;
-  // long c;cin>>c;
-  // cout<<"for float: "<<PrintTwice(b)<<endl;
-  // cout<<"for long: "<<PrintTwice(c)<<endl;
-  PrintTwice(12);
-  PrintTwice(2.31);
+  int n;cin>>n;
+  int x[n],y[n];
+  FOR(i,0,n)cin>>x[i];
+  FOR(i,0,n)cin>>y[i];
+
+  int sigx=0,sigy=0;
+  int sigxsq =0, sigysq =0;
+  int sigxy =0;
+
+  FOR(i,0,n){
+    sigx += x[i];
+    sigy += y[i];
+    sigxsq += x[i]*x[i];
+    sigysq += y[i]*y[i];
+    sigxy += x[i]*y[i];
+  }
+  float m = ( (float)n*(float)sigxy - (float)sigx * (float)sigy )/((float)n*(float)sigxsq - (float)sigx * (float)sigx );
+  float c = ( (float)sigy *(float)sigxsq - (float)sigx * (float)sigxy )/((float)n*(float)sigxsq - (float)sigx * (float)sigx );
+  cout<<"y = x* "<<m<<" + "<<c<<endl;
 
   return 0;
 }

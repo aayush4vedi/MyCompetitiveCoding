@@ -7,7 +7,7 @@
   * [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
      * ceil(x) //if x=6.79; cout=7
 
-
+#### [getting better at given language](http://exercism.io/languages)
 # Data Structures #
 
 * **Arrays**
