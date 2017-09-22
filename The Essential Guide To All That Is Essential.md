@@ -73,8 +73,9 @@
   - [Find the rotation point in a rotated sorted array](http://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
   - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
   - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
-  - [-] To print nth row of Pascal's triangle [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/kth%20line%20in%20pascals%20triangle.jpg)
-  - [-]Find ele that appear more than n/k times: [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/count%20element%20occurance.jpg)
+  - [x]  To print nth row of Pascal's triangle [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/kth%20line%20in%20pascals%20triangle.jpg)
+  - [x]  Find ele that appear more than n/k times: [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/count%20element%20occurance.jpg)
+  - [x] [Print the array in wave form](https://www.interviewbit.com/problems/wave-array/) :you can deduce the first method; look up here for second
 
 * **Linked List**
   
