@@ -521,7 +521,7 @@
       m = n & (d - 1);
       ```
       * find log base 2 of given interger ``` int resulg t=0; while(x >>= 1){result++;} ```
-
+      * [-] [Add one to a number](http://www.geeksforgeeks.org/add-1-to-a-given-number/)
 
 
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
