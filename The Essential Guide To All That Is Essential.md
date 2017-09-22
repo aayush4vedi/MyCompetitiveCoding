@@ -73,6 +73,7 @@
   - [Find the rotation point in a rotated sorted array](http://www.geeksforgeeks.org/find-rotation-count-rotated-sorted-array/)
   - [Rearrange positive and negative numbers in O(n) time and O(1) extra space](http://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers-publish/)
   - [Rearrange array in alternating positive & negative items ](http://www.geeksforgeeks.org/rearrange-array-alternating-positive-negative-items-o1-extra-space/)
+  - [ ] To print nth row of Pascal's triangle [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/kth%20line%20in%20pascals%20triangle.jpg)
 
 * **Linked List**
   
@@ -520,7 +521,7 @@
       m = n & (d - 1);
       ```
       * find log base 2 of given interger ``` int resulg t=0; while(x >>= 1){result++;} ```
-
+      * [-] [Add one to a number](http://www.geeksforgeeks.org/add-1-to-a-given-number/)
 
 
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
