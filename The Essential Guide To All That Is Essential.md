@@ -406,24 +406,8 @@
   * problems:
       - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
       - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-      - [ ] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
-      ```cpp
-      int NoPowMod( int x, int y, int z )
-      {
-      	int a = x % z;
-      	int t = 1;
-      	while( y > 0 )
-      	{
-      		// Y is odd
-      		if( y & 1 )
-      		{
-      			t = (t * a) % z;
-      		}
-      		y >>= 1;
-      		a = (a * a) % z;
-      	}
-      	return(t);
-      }
+      - [x] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
+      - [x] [searching in a rotated sorted array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
       ```
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
