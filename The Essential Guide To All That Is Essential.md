@@ -76,6 +76,7 @@
   - [x]  To print nth row of Pascal's triangle [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/kth%20line%20in%20pascals%20triangle.jpg)
   - [x]  Find ele that appear more than n/k times: [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/count%20element%20occurance.jpg)
   - [x] [Print the array in wave form](https://www.interviewbit.com/problems/wave-array/) :you can deduce the first method; look up here for second
+  - [x] [Max Cont subarry sum](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/): [Richa's code]()
 
 * **Linked List**
   
