@@ -408,7 +408,7 @@
       - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
       - [x] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
       - [x] [searching in a rotated sorted array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
-      ```
+      - [ ] [Painter's problem-Google](http://articles.leetcode.com/the-painters-partition-problem/) - toBDoneFromHere 
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
