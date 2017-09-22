@@ -406,7 +406,7 @@
   * problems:
       - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
       - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-      - [ ]
+      - [x] [Find median of 2 sorted array](http://www.geeksforgeeks.org/median-of-two-sorted-arrays/) : [idea](https://www.programcreek.com/2012/12/leetcode-median-of-two-sorted-arrays-java/)
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
