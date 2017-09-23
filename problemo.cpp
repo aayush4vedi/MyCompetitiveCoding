@@ -34,37 +34,29 @@ typedef vector<pii> vii;
 #define pq priority_queue
 inline ll Power(int b, int p) { ll ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
 
+const int MAX_N = 100;
+
+
+
 // template<class TYPE>
 // void PrintTwice(TYPE data)
 // {
 //     cout<<"Twice: " << data * 2 << endl;
 // }
 
+int findMax(int a[], int n, int k){
+  int M[MAX_N +1][MAX_N +1] = {0};
+  int cum[MAX_N +1] = {0};
+  FOR(i,1,n+1)cum[i] = cum[i-1]+A[i-1];
+
+}
 
 int main(){
+  int k;cin>>k;
   int t;cin>>t;
-  while(t--){
+  int n;cin>>n;
+  int a[n];FOR(i,0,n)cin>>a[i];
 
-    int n;cin>>n;
-    int a[n];FOR(i,0,n)cin>>a[i];
-    int k;cin>>k;
-    int cnt=0;
-    int freq = n/k;
-    map<int, int> m;
-    FOR(i,0,n){
-      if(m.count(a[i])==0){
-        m[a[i]]=1;
-
-      }else{
-        m[a[i]]++;
-      }
-
-    }
-    for(map<int,int>::iterator it = m.begin(); it != m.end(); it++){
-      if(it -> second >freq) cnt++;
-    }
-    cout<<cnt<<endl;
-  }
 
 
   return 0;
