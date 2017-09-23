@@ -749,3 +749,11 @@
         * [GfG](http://www.geeksforgeeks.org/np-completeness-set-1/)
         * [Quora](https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard)
     * [Near optimal solution for tavelling salesman problem](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+    
+    
+### Puzzles:  | [technical interview puzzles set](https://www.techinterview.org/) | [GfG puzzles set](http://www.geeksforgeeks.org/puzzles/) : must do
+ - [x] [Daughters age](https://www.techinterview.org/post/526335645/daughters-ages/)
+ - [x] [cross the bridge](http://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/)
+ - [x] [Divide the cake](https://puzzlersworld.com/logical-puzzles/rectangular-cake-puzzle/)
+ - [x] [2 Eggs and 100 Floors](http://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/)
+ - [ ] [Ratio of Boys and Girls in a Country where people want only boys](http://www.geeksforgeeks.org/puzzle-17-ratio-of-boys-and-girls-in-a-country-where-people-want-only-boys/)
