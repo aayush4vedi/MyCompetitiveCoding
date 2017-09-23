@@ -674,8 +674,7 @@
           -[editorial](https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tco08rd2)
      -  [X] [noOfEncodings](http://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/)
      -  [x] [Palindrome Partition](https://www.youtube.com/watch?v=lDYIvtBVmgo)
- * **State Space Reduction**
-     - [ ]
+     -  [ ] [Painters Problem](http://articles.leetcode.com/the-painters-partition-problem/) - undone!
 
 
 
