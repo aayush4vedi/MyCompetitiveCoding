@@ -62,6 +62,7 @@
   - [Remove duplicate elements from sorted array](http://www.geeksforgeeks.org/remove-duplicates-sorted-array/) : 2 pointer
   - [2sum](http://www.geeksforgeeks.org/count-pairs-with-given-sum/)
   - [3Sum](http://www.geeksforgeeks.org/find-a-triplet-that-sum-to-a-given-value/)
+  - [4sum](https://leetcode.com/problems/4sum/description/) : [soln](http://www.geeksforgeeks.org/find-four-elements-that-sum-to-a-given-value-set-2/)
   - [Power Set](http://www.geeksforgeeks.org/power-set/)
   - [Merge 2 sorted arrays](http://www.geeksforgeeks.org/merge-two-sorted-arrays/)
   - [Maximum sum such that no two elements are adjacent](http://www.geeksforgeeks.org/maximum-sum-such-that-no-two-elements-are-adjacent/)
@@ -76,8 +77,8 @@
   - [x]  To print nth row of Pascal's triangle [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/kth%20line%20in%20pascals%20triangle.jpg)
   - [x]  Find ele that appear more than n/k times: [CodePic](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Codepics/count%20element%20occurance.jpg)
   - [x] [Print the array in wave form](https://www.interviewbit.com/problems/wave-array/) :you can deduce the first method; look up here for second
-  - [x] [Max Cont subarry sum](https://www.interviewbit.com/problems/max-sum-contiguous-subarray/): [Richa's code]()
-
+  - [Find three closest elements from given three sorted arrays](http://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/)
+  - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 * **Linked List**
   
 
@@ -114,7 +115,7 @@
   - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
   - [Segregate even and odd nodes](http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/)
 
-  -
+
 
 
 
@@ -157,6 +158,8 @@
           - [ ] Largest Area under histogram:
                 1. [Using Divide and Conquer](http://www.geeksforgeeks.org/largest-rectangular-area-in-a-histogram-set-1/): *O(nlogn)*
                 2. [Using Stacks](http://www.geeksforgeeks.org/largest-rectangle-under-histogram/) : *O(n)*
+          - [Sliding Window Maximum (Maximum of all subarrays of size k)](http://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/)
+          - [N Queens](http://www.geeksforgeeks.org/backtracking-set-3-n-queen-problem/)
 
 
 * **Hash Table**
@@ -170,6 +173,7 @@
      - [Find Recurring Sequence in a Fraction](http://www.geeksforgeeks.org/find-recurring-sequence-fraction/)
      - [Maxm points on the same line](http://www.geeksforgeeks.org/count-maximum-points-on-same-line/)
      - [Longest substring without repeat](http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-characters/)
+     - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
 
 * **Trees**
  * Search:
@@ -210,6 +214,7 @@
  * [Print all nodes at distance k from a given node](http://www.geeksforgeeks.org/print-nodes-distance-k-given-node-binary-tree/)
  * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
  * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
+ - [ ] [Invert a binary tree](http://www.geeksforgeeks.org/flip-binary-tree/)
  * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
     * [trie- a neglected DS](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     * [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
@@ -407,9 +412,25 @@
   * problems:
       - [x] [Square root of Integer](http://www.geeksforgeeks.org/square-root-of-an-integer/)
       - [ ] [Decimal to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
-      - [x] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
-      - [x] [searching in a rotated sorted array](http://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
-      - [ ] [Painter's problem-Google](http://articles.leetcode.com/the-painters-partition-problem/) - toBDoneFromHere 
+      - [ ] [calculate (x^y)%z without pow()](https://www.careercup.com/question?id=22767685)
+      ```cpp
+      int NoPowMod( int x, int y, int z )
+      {
+      	int a = x % z;
+      	int t = 1;
+      	while( y > 0 )
+      	{
+      		// Y is odd
+      		if( y & 1 )
+      		{
+      			t = (t * a) % z;
+      		}
+      		y >>= 1;
+      		a = (a * a) % z;
+      	}
+      	return(t);
+      }
+      ```
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
@@ -542,7 +563,8 @@
       - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
       - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
       - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
-
+      - [Single Number 1](https://leetcode.com/problems/single-number/description/)
+      - [single Number 2](https://leetcode.com/problems/single-number-ii/description/)
 * ## Sorting
   - [CS50 : ](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
   - [Visual Representation](https://visualgo.net/bn/sorting?slide=7) : pure gold
@@ -674,7 +696,8 @@
           -[editorial](https://community.topcoder.com/tc?module=Static&d1=match_editorials&d2=tco08rd2)
      -  [X] [noOfEncodings](http://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/)
      -  [x] [Palindrome Partition](https://www.youtube.com/watch?v=lDYIvtBVmgo)
-     -  [ ] [Painters Problem](http://articles.leetcode.com/the-painters-partition-problem/) - undone!
+ * **State Space Reduction**
+     - [ ]
 
 
 
@@ -688,6 +711,8 @@
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
   * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
   * [Minimum number of deletions to make a string palindrome](http://www.geeksforgeeks.org/minimum-number-deletions-make-string-palindrome/)
+  * [Multiply strings](https://leetcode.com/problems/multiply-strings/description/)
+  * [Text Justification](https://leetcode.com/problems/text-justification/description/)
 * ## Greedy
   - [Gas station](https://www.interviewbit.com/problems/gas-station/)  [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/gasStation.cpp)
   - [stock buy and sell](http://practice.geeksforgeeks.org/problems/stock-buy-and-sell/0)
