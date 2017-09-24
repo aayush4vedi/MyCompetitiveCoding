@@ -777,3 +777,14 @@
 **Arrays**
 -[x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
 -[x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+
+**String**
+-[x] [Reverse a string word by word](http://www.geeksforgeeks.org/reverse-words-in-a-given-string/)
+-[x] [Implement strstr()] (http://practice.geeksforgeeks.org/viewSol.php?subId=3935511&pid=700320&user=srashmi032)
+
+**linkedlist**
+-[x] [Swap linked list nodes in pairs] (http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
+-[x][Remove Duplicates from sorted list] (http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
+
+**Stacks and queues**
+-[x][]()
