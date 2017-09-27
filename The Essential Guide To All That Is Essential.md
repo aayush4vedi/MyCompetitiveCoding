@@ -1,6 +1,17 @@
 # Topics and Resources #
 
+<<<<<<< HEAD
 #### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
+=======
+#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) 
+```diff
++ green?
+-red?
+
+```
+* ###  [Super Collection of interview questions](http://tristan-interview.blogspot.in/2012/02/enumerate-all-possible-binary-trees.html)
+ 
+>>>>>>> d01a311828efc4ada11c3f8caf3e55ce00f6c1d8
 
 ### Cheat Sheets
   * [BigO cheat sheet](http://bigocheatsheet.com/)
@@ -434,6 +445,10 @@
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
+  * counting number of set bits in a number: ``` cout<< __builtin_popcount (4);//1```
+      1.__builtin_popcount = int
+      2.__builtin_popcountl = long int
+      3.__builtin_popcountll = long long
   * [video] to understand &, |, ^, ~, >>, << {(1 << n = 2^n), (1 >> n = 2^-n)}
       * set a given bit to 1:( *it's like multiplying with 2^position* )
         ```cpp
@@ -706,7 +721,7 @@
   * Print all permutations of a string
      1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
-
+     3.[see this](https://github.com/neel123456/SolutionToDiscoAssign1/blob/master/Q18.cpp)
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
   * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
@@ -749,3 +764,24 @@
         * [GfG](http://www.geeksforgeeks.org/np-completeness-set-1/)
         * [Quora](https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard)
     * [Near optimal solution for tavelling salesman problem](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
+    
+    
+### Puzzles:  | [technical interview puzzles set](https://www.techinterview.org/) | [GfG puzzles set](http://www.geeksforgeeks.org/puzzles/) : must do
+ - [x] [Daughters age](https://www.techinterview.org/post/526335645/daughters-ages/)
+ - [x] [cross the bridge](http://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/)
+ - [x] [Divide the cake](https://puzzlersworld.com/logical-puzzles/rectangular-cake-puzzle/)
+ - [x] [2 Eggs and 100 Floors](http://www.geeksforgeeks.org/puzzle-set-35-2-eggs-and-100-floors/)
+ - [ ] [Ratio of Boys and Girls in a Country where people want only boys](http://www.geeksforgeeks.org/puzzle-17-ratio-of-boys-and-girls-in-a-country-where-people-want-only-boys/)
+
+##Richa's Work[InterviewBit Microsoft questions]##
+**Math**
+-[x] [Trailing zeros in Factorial] (http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)
+
+**Binary Search**
+-[x] [Rotated Sorted Array SearchBookmark Suggest Edit] (http://practice.geeksforgeeks.org/problems/finding-number/0)
+-[x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
+-[x] [Find the Median](http://practice.geeksforgeeks.org/problems/find-the-median/0)
+
+**Arrays**
+-[x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+-[x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
