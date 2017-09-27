@@ -1,8 +1,6 @@
 # Topics and Resources #
 
-<<<<<<< HEAD
-#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
-=======
+
 #### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) 
 ```diff
 + green?
@@ -234,7 +232,7 @@
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
-* ***Graphs***
+* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what no
   * Graph representation:
     1. Objects and Pointers
     2. Adjacency matrix
