@@ -717,7 +717,7 @@
   * Print all permutations of a string
      1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
-
+     3.[see this](https://github.com/neel123456/SolutionToDiscoAssign1/blob/master/Q18.cpp)
   * [smallest window in a string containing all characters of another string](http://www.geeksforgeeks.org/find-the-smallest-window-in-a-string-containing-all-characters-of-another-string/)
   * [Minimum number of bracket reversals needed to make an expression balanced](http://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
   * [Given a string, find its first non-repeating character](http://www.geeksforgeeks.org/given-a-string-find-its-first-non-repeating-character/)
