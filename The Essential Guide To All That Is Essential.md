@@ -441,6 +441,10 @@
 * ## Bitwise Opertions  *~ means 1's complement*
   * [Bits Cheat Sheet](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/bits-cheat-cheet.pdf) ghot from 2^1 to 2^16 & 2^32
   * [creative use of bitwise operators in calendar events](https://snook.ca/archives/javascript/creative-use-bitwise-operators)
+  * counting number of set bits in a number: ``` cout<< __builtin_popcount (4);//1```
+      1.__builtin_popcount = int
+      2.__builtin_popcountl = long int
+      3.__builtin_popcountll = long long
   * [video] to understand &, |, ^, ~, >>, << {(1 << n = 2^n), (1 >> n = 2^-n)}
       * set a given bit to 1:( *it's like multiplying with 2^position* )
         ```cpp
