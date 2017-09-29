@@ -578,7 +578,7 @@
       - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
       - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
       - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
-      - [ ] [Find the Maximum of Two Integers without Comparison](http://tristan-interview.blogspot.in/2012/04/find-maximum-of-two-integers-without.html)
+      - [ ] [Find the Maximum of Two Integers without Comparison](http://tristan-interview.blogspot.in/2012/04/find-maximum-of-two-integers-without.html)  Logic: if(a-b >=0, max(a,b)=a;else max(a,b) = a-(a-b)
       
 * ## Sorting
   - [CS50 : ](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
