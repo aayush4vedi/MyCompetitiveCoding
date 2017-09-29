@@ -566,18 +566,20 @@
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
   * [bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operation)
   * Problems:
-      - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
-      - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
-      - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
-      - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
-      - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
-      - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
       - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
       - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
       - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
       - [nth magic number](http://www.geeksforgeeks.org/find-nth-magic-number/)
       - [Single Number 1](https://leetcode.com/problems/single-number/description/)
       - [single Number 2](https://leetcode.com/problems/single-number-ii/description/)
+      - [ ] [Count set bits in an integer](http://www.geeksforgeeks.org/count-set-bits-in-an-integer/)
+      - [ ] [Count total set bits in all numbers from 1 to n](http://www.geeksforgeeks.org/count-numbers-from-1-to-n-that-have-4-as-a-a-digit/)
+      - [ ] [Swap bits in a given number](http://www.geeksforgeeks.org/swap-bits-in-a-given-number/)
+      - [ ] [Count number of bits to be flipped to convert A to B](http://www.geeksforgeeks.org/count-number-of-bits-to-be-flipped-to-convert-a-to-b/)
+      - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
+      - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
+      - [ ] [Find the Maximum of Two Integers without Comparison](http://tristan-interview.blogspot.in/2012/04/find-maximum-of-two-integers-without.html)
+      
 * ## Sorting
   - [CS50 : ](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
   - [Visual Representation](https://visualgo.net/bn/sorting?slide=7) : pure gold
