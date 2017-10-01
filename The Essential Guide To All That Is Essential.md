@@ -1,14 +1,14 @@
 # Topics and Resources #
 
 
-#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/) 
+#### [MIT interview material](https://web.archive.org/web/20160906124824/http://courses.csail.mit.edu/iap/interview/materials.php) | [Interview Questions](https://ashayraut.files.wordpress.com/2014/05/interview-preparation-best-100-ashay-raut.pdf) | [Google Interview Ques](https://gist.github.com/KWMalik/3734578) | [Career Cup Google](https://www.careercup.com/page?pid=google-interview-questions&job=software-engineer-interview-questions) | [Leetcode](https://www.programcreek.com/2012/11/top-10-algorithms-for-coding-interview/)
 ```diff
 + green?
 -red?
 
 ```
 * ###  [Super Collection of interview questions](http://tristan-interview.blogspot.in/2012/02/enumerate-all-possible-binary-trees.html)
- 
+
 
 ### Cheat Sheets
   * [BigO cheat sheet](http://bigocheatsheet.com/)
@@ -89,7 +89,7 @@
   - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
 * **Linked List**
   
-
+  * [link list essential code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/linklistessential.cpp)
   #### [Intro video](https://www.codementor.io/codementorteam/a-comprehensive-guide-to-implementation-of-singly-linked-list-using-c_plus_plus-ondlm5azr) ####
   * [Pointers](https://www.codeproject.com/Articles/24684/How-to-create-Linked-list-using-C-C) - [video](https://www.youtube.com/watch?v=h-HBipu_1P0&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_) '&' means 'address of' and '*' means 'value at'
   * [Creation and Traversal](http://www.geeksforgeeks.org/linked-list-set-1-introduction/) | [Insertion](http://www.geeksforgeeks.org/linked-list-set-2-inserting-a-node/) | [Deletion](http://www.geeksforgeeks.org/linked-list-set-3-deleting-node/)
@@ -578,7 +578,7 @@
       - [ ] [n-th number whose binary representation is a palindrome](http://www.geeksforgeeks.org/find-n-th-number-whose-binary-representation-palindrome/)
       - [ ] [Check whether all the bits are set in the given range](http://www.geeksforgeeks.org/check-whether-bits-set-given-range/)
       - [ ] [Find the Maximum of Two Integers without Comparison](http://tristan-interview.blogspot.in/2012/04/find-maximum-of-two-integers-without.html)  Logic: if(a-b >=0, max(a,b)=a;else max(a,b) = a-(a-b)
-      
+
 * ## Sorting
   - [CS50 : ](https://www.youtube.com/watch?v=EeQ8pwjQxTM&list=PLSwY8rzKAeZJOu6CnpdW10HquwgOP-5a7)
   - [Visual Representation](https://visualgo.net/bn/sorting?slide=7) : pure gold
@@ -763,8 +763,8 @@
         * [GfG](http://www.geeksforgeeks.org/np-completeness-set-1/)
         * [Quora](https://www.quora.com/What-are-P-NP-NP-complete-and-NP-hard)
     * [Near optimal solution for tavelling salesman problem](http://nbviewer.jupyter.org/url/norvig.com/ipython/TSP.ipynb)
-    
-    
+
+
 ### Puzzles:  | [technical interview puzzles set](https://www.techinterview.org/) | [GfG puzzles set](http://www.geeksforgeeks.org/puzzles/) : must do
  - [x] [Daughters age](https://www.techinterview.org/post/526335645/daughters-ages/)
  - [x] [cross the bridge](http://www.geeksforgeeks.org/puzzle-18-torch-and-bridge/)
