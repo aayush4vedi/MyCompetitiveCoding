@@ -137,15 +137,11 @@
 * **[Queues]**
    * Implementation:
         * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
-                  * enqueue(value) - adds item at end of available storage
-                  * dequeue() - returns value and removes least recently added element
-                  * empty()
-                  * full()
+            [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/array%20implementation%20of%20queue%20C%2B%2B.cpp)
         * [link list implementation](http://www.geeksforgeeks.org/queue-set-2-linked-list-implementation/)
-                  * enqueue(value) - adds value at position at tail
-                  * dequeue() - returns value and removes least recently added element (front)
-                  * empty()
+            [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/link%20list%20implementation%20of%20queue.cpp)
         * [stacks implementation](http://www.geeksforgeeks.org/?p=5009)
+            [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/stack%20implementation%20of%20queues.cpp)
    * [Priority_queues](http://www.geeksforgeeks.org/priority-queue-set-1-introduction/) - are implemented using heaps
         ```cpp
         priority_queue<pair<int, string>>pooh;
