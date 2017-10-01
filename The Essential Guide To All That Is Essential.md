@@ -9,7 +9,6 @@
 ```
 * ###  [Super Collection of interview questions](http://tristan-interview.blogspot.in/2012/02/enumerate-all-possible-binary-trees.html)
  
->>>>>>> d01a311828efc4ada11c3f8caf3e55ce00f6c1d8
 
 ### Cheat Sheets
   * [BigO cheat sheet](http://bigocheatsheet.com/)
