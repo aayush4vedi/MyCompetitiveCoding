@@ -37,7 +37,7 @@ inline ll Power(int b, int p) { ll ret = 1; for ( int i = 1; i <= p; i++ ) ret *
 const int MAX_N = 100;
 
 //1.
-/*
+/**/
 int main() {
 	vi v;
   map<int, int>m;
@@ -116,7 +116,7 @@ int main() {
 }
 /**/
 //6.
-
+/*
 int main() {
 	int n;cin>>n;
   string s;
