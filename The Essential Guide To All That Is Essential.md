@@ -789,5 +789,6 @@
 -[x] [Swap linked list nodes in pairs] (http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
 -[x][Remove Duplicates from sorted list] (http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
 
-**Stacks and queues**
--[x][]()
+**Trees**
+-[x][Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)
+-[x][lowest common ancester in BT](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
