@@ -770,25 +770,27 @@
 
 ## Richa's Work[InterviewBit Microsoft questions]##
 **Math**
-  -[x] [Trailing zeros in Factorial] (http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)
+  - [x] [Trailing zeros in Factorial](http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)
 
 **Binary Search**
-  -[x] [Rotated Sorted Array SearchBookmark Suggest Edit] (http://practice.geeksforgeeks.org/problems/finding-number/0)
-  -[x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
-  -[x] [Find the Median](http://practice.geeksforgeeks.org/problems/find-the-median/0)
+  - [x] [Rotated Sorted Array SearchBookmark Suggest Edit](http://practice.geeksforgeeks.org/problems/finding-number/0)
+  - [x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
+  - [x] [Find the Median](http://practice.geeksforgeeks.org/problems/find-the-median/0)
 
 **Arrays**
-  -[x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
-  -[x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
+  - [x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+  - [x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
 
 **String**
-  -[x] [Reverse a string word by word](http://www.geeksforgeeks.org/reverse-words-in-a-given-string/)
-  -[x] [Implement strstr()] (http://practice.geeksforgeeks.org/viewSol.php?subId=3935511&pid=700320&user=srashmi032)
+  - [x] [Reverse a string word by word](ttp://www.geeksforgeeks.org/reverse-words-in-a-given-string/)
+  - [x] [Implement strstr()](http://practice.geeksforgeeks.org/viewSol.php?subId=3935511&pid=700320&user=srashmi032)
 
 **linkedlist**
-  -[x] [Swap linked list nodes in pairs] (http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
-  -[x][Remove Duplicates from sorted list] (http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
+  - [x] [Swap linked list nodes in pairs](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
+  - [x][Remove Duplicates from sorted list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
 
 **Trees**
-  -[x][Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)
-  -[x][lowest common ancester in BT](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
+  - [x] [LevelOrderTraversal using queue lib and vector stl in c++](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)
+  - [x] [Level Order traversal lineby line](http://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1)
+  - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)
+  - [x] [lowest common ancester in BT](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
