@@ -786,6 +786,8 @@
 **String**
   - [x] [Reverse a string word by word](ttp://www.geeksforgeeks.org/reverse-words-in-a-given-string/)
   - [x] [Implement strstr()](http://practice.geeksforgeeks.org/viewSol.php?subId=3935511&pid=700320&user=srashmi032)
+  - [X] [Integer to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
+  - [x] [Length of last word](http://www.geeksforgeeks.org/length-of-last-word-in-a-string/)
 
 **linkedlist**
   - [x] [Swap linked list nodes in pairs](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
