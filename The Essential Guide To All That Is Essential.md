@@ -801,4 +801,6 @@
   - [x] [lowest common ancester in BT](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
   
 **Graph**
-  - [x] [Breadth First Search] (http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+  - [x] [Breadth First Search](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+**Greedy**
+  - [x] [Job sequencing](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)
