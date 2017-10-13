@@ -772,16 +772,21 @@
 
 ## Richa's Work[InterviewBit Microsoft questions]##
 **Math**
+  - [x] [Nth Fibonaccii no.s] (http://practice.geeksforgeeks.org/problems/nth-fibonacci-number/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4016123&pid=294&user=RC0709)
   - [x] [Find the median](http://practice.geeksforgeeks.org/problems/find-the-median/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3918466&pid=1175&user=RC0709)- [my diff soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931848&pid=1175&user=RC0709)
   - [x] [Count the squares](http://practice.geeksforgeeks.org/problems/count-squares/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3919408&pid=1427&user=RC0709)
   - [x] [Trailing zeros in Factorial](http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931576&pid=187&user=RC0709)
-
+  
+**Sorting**
+  - [x] [k largest elements](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4160859&pid=601&user=RC0709)
+  
 **Binary Search**
   - [x] [Rotated Sorted Array SearchBookmark Suggest Edit](http://practice.geeksforgeeks.org/problems/finding-number/0)
   - [x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
   - [x] [Find the Median](http://practice.geeksforgeeks.org/problems/find-the-median/0)
 
 **Arrays**
+  - [x] [Majority elements](http://practice.geeksforgeeks.org/problems/majority-element/0)- [x](http://practice.geeksforgeeks.org/viewSol.php?subId=4166697&pid=305&user=RC0709)
   - [x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
   - [x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
   - [x] [k largest element in an array](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)
@@ -793,20 +798,33 @@
   - [x] [Length of last word](http://www.geeksforgeeks.org/length-of-last-word-in-a-string/)
 
 **linkedlist**
-  - [x] [Remove duplicate from sorted linked list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3939333&pid=700196&user=RC0709)
+  - [x] [Find middle element in a linked list](http://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) [my soln ](http://practice.geeksforgeeks.org/viewSol.php?subId=4099717&pid=700171&user=RC0709)
+  - [x] [n'th node from end of the linked list](http://practice.geeksforgeeks.org/problems/nth-node-from-end-of-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099771&pid=700170&user=RC0709)
+  - [x] [Occurence of an integer in a linked list](http://practice.geeksforgeeks.org/problems/occurence-of-an-integer-in-a-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099870&pid=700019&user=RC0709)
+  - [x] [Remove duplicate from sorted linked list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3939333&pid=700196&user=RC0709) -[my diff soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4128007&pid=700196&user=RC0709)
   - [x] [Pairwise swap elements of a linked list by swaping data](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3938197&pid=700024&user=RC0709)
   - [x] [linked list insertion](http://practice.geeksforgeeks.org/problems/linked-list-insertion/1) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3870743&pid=700525&user=RC0709)
   - [x] [Swap linked list nodes in pairs](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
-  - [x][Remove Duplicates from sorted list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
-
-**Trees**
+  - [x] [Count nodes of linked list](http://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4092471&pid=700039&user=RC0709)
+  - [x] [node at a given index of linked list](http://practice.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099668&pid=700040&user=RC0709)
+  
+ **Tree** 
+  - [x] [Level order traversal](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)- [my sol](http://practice.geeksforgeeks.org/viewSol.php?subId=4141622&pid=700511&user=RC0709)
   - [x] [k distancefrom root](http://practice.geeksforgeeks.org/problems/k-distance-from-root/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3897678&pid=700154&user=RC0709)
+  - [x] [Lowest common ancestor in binary tree](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4144833&pid=700221&user=RC0709)
   - [x] [LevelOrderTraversal using queue lib and vector stl in c++](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)
   - [x] [Level Order traversal lineby line](http://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1)
-  - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)- [my soln]()
-  - [x] [lowest common ancester in BT](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
+  - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4144111&pid=700236&user=RC0709)
+ 
   
 **Graph**
   - [x] [Breadth First Search](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
+  
 **Greedy**
-  - [x] [Job sequencing](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)
+  - [x] [Job sequencing](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4172997&pid=443&user=RC0709)
+  
+**Dyanamic Programming**
+  - [x] [Kadane's Algorithm](http://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4019087&pid=106&user=RC0709)
+  - [x] [Longest increasing subsequence ](http://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4029928&pid=134&user=RC0709)
+  
+ 
