@@ -772,7 +772,9 @@
 
 ## Richa's Work[InterviewBit Microsoft questions]##
 **Math**
-  - [x] [Trailing zeros in Factorial](http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)
+  - [x] [Find the median](http://practice.geeksforgeeks.org/problems/find-the-median/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3918466&pid=1175&user=RC0709)- [my diff soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931848&pid=1175&user=RC0709)
+  - [x] [Count the squares](http://practice.geeksforgeeks.org/problems/count-squares/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3919408&pid=1427&user=RC0709)
+  - [x] [Trailing zeros in Factorial](http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931576&pid=187&user=RC0709)
 
 **Binary Search**
   - [x] [Rotated Sorted Array SearchBookmark Suggest Edit](http://practice.geeksforgeeks.org/problems/finding-number/0)
@@ -791,13 +793,17 @@
   - [x] [Length of last word](http://www.geeksforgeeks.org/length-of-last-word-in-a-string/)
 
 **linkedlist**
+  - [x] [Remove duplicate from sorted linked list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3939333&pid=700196&user=RC0709)
+  - [x] [Pairwise swap elements of a linked list by swaping data](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3938197&pid=700024&user=RC0709)
+  - [x] [linked list insertion](http://practice.geeksforgeeks.org/problems/linked-list-insertion/1) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3870743&pid=700525&user=RC0709)
   - [x] [Swap linked list nodes in pairs](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
   - [x][Remove Duplicates from sorted list](http://practice.geeksforgeeks.org/problems/remove-duplicate-element-from-sorted-linked-list/1)
 
 **Trees**
+  - [x] [k distancefrom root](http://practice.geeksforgeeks.org/problems/k-distance-from-root/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3897678&pid=700154&user=RC0709)
   - [x] [LevelOrderTraversal using queue lib and vector stl in c++](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)
   - [x] [Level Order traversal lineby line](http://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1)
-  - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)
+  - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)- [my soln]()
   - [x] [lowest common ancester in BT](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)
   
 **Graph**
