@@ -791,6 +791,7 @@
   - [x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
   - [x] [k largest element in an array](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)
   - [x] [Rotate and delete](http://practice.geeksforgeeks.org/problems/rotate-and-delete/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4219645&pid=1529&user=RC0709)
+  - [x] [if there is a pair with given sum](http://www.geeksforgeeks.org/given-a-sorted-and-rotated-array-find-if-there-is-a-pair-with-a-given-sum/) - [my soln](http://ide.geeksforgeeks.org/fVZSyJ)
 
   - [x] [Reversal algorithm](http://practice.geeksforgeeks.org/problems/reversal-algorithm/0) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4220012&pid=924&user=RC0709)
 
