@@ -790,6 +790,7 @@
   - [x] [Max Sum Contaguous Sub array](http://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
   - [x] [Print a given matrix in spiral order](http://www.geeksforgeeks.org/print-a-given-matrix-in-spiral-form/)
   - [x] [k largest element in an array](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)
+  - [x] [Find an element in array](http://practice.geeksforgeeks.org/problems/finding-number/0/?ref=self) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4220320&pid=365&user=RC0709)
 
 **String**
   - [x] [Reverse a string word by word](ttp://www.geeksforgeeks.org/reverse-words-in-a-given-string/)
