@@ -836,6 +836,10 @@
   - [x] [Edit distance](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178625&pid=164&user=RC0709)
   - [x] [Longest Common Subsequence](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178986&pid=152&user=RC0709)
   
+**Stacks**
+ - [x] [Stok span problem](http://practice.geeksforgeeks.org/problems/stock-span-problem/0) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4230209&pid=605&user=RC0709)
+ 
+ 
  
 ** Computer Network video link**
 https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
