@@ -784,6 +784,7 @@
   - [x] [Rotated Sorted Array SearchBookmark Suggest Edit](http://practice.geeksforgeeks.org/problems/finding-number/0)
   - [x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
   - [x] [Find the Median](http://practice.geeksforgeeks.org/problems/find-the-median/0)
+  - [x] [comparing the time in linear search and binary search](http://practice.geeksforgeeks.org/problems/who-will-win/0) [soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4235827&pid=1071&user=Ghanendra%20Shrivastava)
 
 **Arrays**
   - [x] [Majority elements](http://practice.geeksforgeeks.org/problems/majority-element/0)- [x](http://practice.geeksforgeeks.org/viewSol.php?subId=4166697&pid=305&user=RC0709)
