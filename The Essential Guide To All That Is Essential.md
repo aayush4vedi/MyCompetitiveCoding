@@ -839,3 +839,6 @@
  
 ** Computer Network video link**
 https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
+
+**Bit Manipulation**
+- [tutorial link:](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) 
