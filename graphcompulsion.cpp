@@ -83,13 +83,16 @@ public:
 	deque<Vertex*> TS;
   int cycle;   //remove if cycle not reqd
 public:
+	//creation of vertices and edges with edge weight 1
 	SGraph(vector<int> ver,vector< pair<int,int> > edge){
+		//this will create vertices in space out of the elements of vector ver
 		vector<int>::iterator v;
 		for(v=ver.begin();v!=ver.end();v++)
 			V[*v]=new Vertex(*v);
 
-		//cout<<"vertex created successfully"<<endl;
+		cout<<"vertices created successfully"<<endl;
 
+		//will create edges-undirected or directed
 		vector< pair<int,int> >::iterator e;
 		for(e=edge.begin();e!=edge.end();e++)
 		{
@@ -97,17 +100,18 @@ public:
 			V[(*e).first]->adj.insert(a);
 
 			//remove the following line/s if graph is directed::
-			//pair<int,Vertex*> b(1,V[(*e).first]);
-			//V[(*e).second]->adj.insert(b);
+			// pair<int,Vertex*> b(1,V[(*e).first]);
+			// V[(*e).second]->adj.insert(b);
 
 		}
 	}
+	//creation of vertices and edges with diff edge weights
 	SGraph(vector<int> ver,vector< pair<int,int> > edge,vector<int> weight){
 		vector<int>::iterator v;
 		for(v=ver.begin();v!=ver.end();v++)
 			V[*v]=new Vertex(*v);
 
-		//cout<<"vertex created successfully"<<endl;
+		cout<<"vertex created successfully"<<endl;
 
 		vector< pair<int,int> >::iterator e;
 		vector<int>::iterator w;
@@ -117,8 +121,8 @@ public:
 			V[(*e).first]->adj.insert(a);
 
 			//remove the following line/s if graph is directed::
-			pair<int,Vertex*> b(*w,V[(*e).first]);
-			V[(*e).second]->adj.insert(b);
+			//pair<int,Vertex*> b(*w,V[(*e).first]);
+			//V[(*e).second]->adj.insert(b);
 
 			//making edge weight map
 			E[*e]=*w;
@@ -229,47 +233,30 @@ public:
 int main()
 {
 	vector<int> ver;
+
 	int n,m;
-	cin>>n>>m;
+	cout<<"enter no of verteices,n: \n";
+	cin>>n;
+	cout<<"enter no of edges,n: \n";
+	cin>>m;
+	cout<<"enter the vertices: \n";
 	for(int i=0;i<n;i++)
 		ver.pb(i);
-  cout<<"now enter edges:\n";
+  cout<<"enter the edges:\n";
 	vector< pair<int,int> > edge;
 	for(int i=0;i<m;i++)
 	{
 		int x, y;
+		cout<<"enter: \n";
 		cin>>x>>y;
 		edge.pb(make_pair(x,y));
 	}
 	SGraph a(ver,edge);
 	a.setDFS();
-  //for cycles
-  /*
-  if(a.cycle == 1)
-    cout<<"Not Possible";
-  else
-    cout<<"Possible";
-  */
-
-  //for BFS
-  /*
-  for(int i = 0; i < n; i++){
-		int printed = 0;
-		a.setBFS(i);
-		for(int j = 0; j < n ; j++){
-			if(j == i)
-				continue;
-			else{
-				if(a.isReachable(i,j))
-					printed = 1,cout<<j<<" ";
-			}
-		}
-		if(printed == 0)
-			cout<<"-";
-		cout<<endl;
-		a.reset();
-	}
-  */
+	//cout<<"enter source for DFS\n";
+	//int x;cin>>x;
+	//a.setBFS(x);
+	//a.DFSVisit();
 	a.showTS();
 	return 0;
 }

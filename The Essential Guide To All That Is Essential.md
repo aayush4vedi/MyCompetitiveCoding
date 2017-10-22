@@ -58,8 +58,8 @@
   - [ ] [Majority Element in unsorted Array](http://www.geeksforgeeks.org/majority-element/)
   - [ ] [Majority element in sorted array](http://www.geeksforgeeks.org/check-for-majority-element-in-a-sorted-array/)
   - Number of shapes in Boolean Matrix
-       1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/)
-       2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/)
+       1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/) - create an equivalent array and keep increasing the count; the name DFS is just to scare the shit out of you
+       2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/) -lite lo na
   - Union and Intersection of:
        1. [Sorted Array](http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
        2. [Unsorted Array](http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/)
@@ -379,7 +379,7 @@
     // negate the weight again
     printf("weight: %d (%d-%d)\n", -edge.first, edge.second.first, edge.second.second);
   }
-  
+
   vedio link:https://www.youtube.com/watch?v=5pNIul92cj0&list=PLTZbNwgO5eboNKSj5qUbXnmuGQb86PuQf&t=2
 
   ```
@@ -776,10 +776,10 @@
   - [x] [Find the median](http://practice.geeksforgeeks.org/problems/find-the-median/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3918466&pid=1175&user=RC0709)- [my diff soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931848&pid=1175&user=RC0709)
   - [x] [Count the squares](http://practice.geeksforgeeks.org/problems/count-squares/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3919408&pid=1427&user=RC0709)
   - [x] [Trailing zeros in Factorial](http://practice.geeksforgeeks.org/problems/trailing-zeroes-in-factorial/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3931576&pid=187&user=RC0709)
-  
+
 **Sorting**
   - [x] [k largest elements](http://practice.geeksforgeeks.org/problems/k-largest-elements/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4160859&pid=601&user=RC0709)
-  
+
 **Binary Search**
   - [x] [Rotated Sorted Array SearchBookmark Suggest Edit](http://practice.geeksforgeeks.org/problems/finding-number/0)
   - [x] [Cout Squares](http://practice.geeksforgeeks.org/problems/count-squares/0)
@@ -815,35 +815,35 @@
   - [x] [Swap linked list nodes in pairs](http://practice.geeksforgeeks.org/problems/pairwise-swap-elements-of-a-linked-list-by-swapping-data/1)
   - [x] [Count nodes of linked list](http://practice.geeksforgeeks.org/problems/count-nodes-of-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4092471&pid=700039&user=RC0709)
   - [x] [node at a given index of linked list](http://practice.geeksforgeeks.org/problems/node-at-a-given-index-in-linked-list/1) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4099668&pid=700040&user=RC0709)
-  
- **Tree** 
+
+ **Tree**
   - [x] [Level order traversal](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)- [my sol](http://practice.geeksforgeeks.org/viewSol.php?subId=4141622&pid=700511&user=RC0709)
   - [x] [k distancefrom root](http://practice.geeksforgeeks.org/problems/k-distance-from-root/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=3897678&pid=700154&user=RC0709)
   - [x] [Lowest common ancestor in binary tree](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-binary-tree/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4144833&pid=700221&user=RC0709)
   - [x] [LevelOrderTraversal using queue lib and vector stl in c++](http://practice.geeksforgeeks.org/problems/level-order-traversal/1)
   - [x] [Level Order traversal lineby line](http://practice.geeksforgeeks.org/problems/level-order-traversal-line-by-line/1)
   - [x] [Lowestcommon ancester in BST](http://practice.geeksforgeeks.org/problems/lowest-common-ancestor-in-a-bst/1)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4144111&pid=700236&user=RC0709)
- 
-  
+
+
 **Graph**
   - [x] [Breadth First Search](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
-  
+
 **Greedy**
   - [x] [Job sequencing](http://practice.geeksforgeeks.org/problems/n-meetings-in-one-room/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4172997&pid=443&user=RC0709)
-  
+
 **Dyanamic Programming**
   - [x] [Kadane's Algorithm](http://practice.geeksforgeeks.org/problems/kadanes-algorithm/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4019087&pid=106&user=RC0709)
   - [x] [Longest increasing subsequence ](http://practice.geeksforgeeks.org/problems/longest-increasing-subsequence/0) [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4029928&pid=134&user=RC0709)
   - [x] [Edit distance](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178625&pid=164&user=RC0709)
   - [x] [Longest Common Subsequence](http://practice.geeksforgeeks.org/problems/longest-common-subsequence/0)- [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4178986&pid=152&user=RC0709)
-  
+
 **Stacks**
  - [x] [Stok span problem](http://practice.geeksforgeeks.org/problems/stock-span-problem/0) - [my soln](http://practice.geeksforgeeks.org/viewSol.php?subId=4230209&pid=605&user=RC0709)
- 
- 
- 
+
+
+
 ** Computer Network video link**
 https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
 
 **Bit Manipulation**
-- [tutorial link:](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/) 
+- [tutorial link:](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
