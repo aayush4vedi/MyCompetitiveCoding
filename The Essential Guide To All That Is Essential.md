@@ -61,8 +61,8 @@
        1. [Using DFS](http://www.geeksforgeeks.org/find-number-of-islands/) - create an equivalent array and keep increasing the count; the name DFS is just to scare the shit out of you
        2. [Using Disjoint Set](http://www.geeksforgeeks.org/find-the-number-of-islands-set-2-using-disjoint-set/) -lite lo na
   - Union and Intersection of:
-       1. [Sorted Array](http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/)
-       2. [Unsorted Array](http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/)
+       1. [Sorted Array](http://www.geeksforgeeks.org/union-and-intersection-of-two-sorted-arrays-2/) - easy peasy, binary search
+       2. [Unsorted Array](http://www.geeksforgeeks.org/find-union-and-intersection-of-two-unsorted-arrays/) - same as above, either sort the smaller array or make a new one and do binary search
   - [Collect maximum points in an array with k moves](http://www.geeksforgeeks.org/collect-maximum-points-array-k-moves/)
   - [Find an element in array such that sum of left array is equal to sum of right array](http://www.geeksforgeeks.org/find-element-array-sum-left-array-equal-sum-right-array/)
   - [Find minimum cost to buy all books](http://www.geeksforgeeks.org/find-minimum-cost-buy-books/)
