@@ -37,36 +37,30 @@
        ```
     * solve linear Diophantine equations of type  ax+by =c
        ```
-       int gcdExtended(int a, int b, int *x, int *y)
-       {
-           // Base Case
-           if (a == 0)
-           {
-               *x = 0;
-               *y = 1;
-               return b;
+       extendedEuclid(int A, int B) {
+           if(B == 0) {
+               d = A;
+               x = 1;
+               y = 0;
            }
-
-           int x1, y1; // To store results of recursive call
-           int gcd = gcdExtended(b%a, a, &x1, &y1);
-
-           // Update x and y using results of recursive
-           // call
-           *x = y1 - (b/a) * x1;
-           *y = x1;
-
-           return gcd;
-       }
+           else {
+               extendedEuclid(B, A%B);
+               int temp = x;
+               x = y;
+               y = temp - (A/B)*y;
+           }
+       }                                                                  
        ```
-  
+                                                                  **O(Log(max(A,B))**
  * Geometry
      * Pick’s Theorem for area of polynomials ``` Area = B/2 + I - 1 ```
-        ``` B = number of lattice points on the boundary of the polygon
+        ``` 
+            B = number of lattice points on the boundary of the polygon
             I = number of lattice points in the interior of the polygon```
      
      * Euler’s Formula for polygonal nets ``` V - E + F = 2 ```
-     
-       ``` V = number of vertices
+     ```
+           V = number of vertices
            E = number of edges
            F = number of faces ```
  * Fractions/complex numbers- store num and denom in pairs
@@ -88,7 +82,36 @@
        a[1]/=b;
     }
     ``` 
+ * Modular arithmetic
+      * (a+-b)%c = (a%c +- b%c)%c
+      * (a*/b)%c = ((a%c)*/(b%c))%c
  
+ * Exponantiation
+      * BinaryExponentiation      //**O(logN)**
+    ```
+    int binaryExponentiation(int x,int n)
+    {
+        if(n==0)
+            return 1;
+        else if(n%2 == 0)        //n is even
+            return binaryExponentiation(x*x,n/2);
+        else                             //n is odd
+            return x*binaryExponentiation(x*x,(n-1)/2);
+    }
+    ```
+      * modularExponentiation
+      ```
+      int modularExponentiation(int x,int n,int M)
+       {
+           if(n==0)
+               return 1;
+           else if(n%2 == 0)        //n is even
+               return modularExponentiation((x*x)%M,n/2,M);
+           else                             //n is odd
+               return (x*modularExponentiation((x*x)%M,(n-1)/2,M))%M;
+
+       }
+       ***
 
 # Data Structures #
 
