@@ -61,14 +61,10 @@
             B = number of lattice points on the boundary of the polygon
             I = number of lattice points in the interior of the polygon```
      
-     * Euler’s Formula for polygonal nets ``` V - E + F = 2 ```
-     ```
-           V = number of vertices
-           E = number of edges
-           F = number of faces 
-           ```
+     * Euler’s Formula for polygonal nets ``` V - E + F = 2;V = number of vertices,E = number of edges,F = number of faces  ```
+
            
-      * line sweep technique
+     * line sweep technique
           * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
           * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
       
