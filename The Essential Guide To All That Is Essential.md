@@ -18,7 +18,10 @@
 #### [getting better at given language](http://exercism.io/languages)
 # Mathematics #
  * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
- * Prime - seive of Eratosthenes 
+ * Prime 
+   * seive of Eratosthenes 
+   * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
+   * Fermat's Little Theorem - ```given a prime number P, and any number a (where 0<a<p0), then a^(p−1) = 1modp ```
  * Euclid's algo
      * GCD
         ```
@@ -63,6 +66,10 @@
            V = number of vertices
            E = number of edges
            F = number of faces ```
+      * line sweep technique
+          * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
+          * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
+      
  * Fractions/complex numbers- store num and denom in pairs
     * adding 2 fractions(make denom same first)
      ```
