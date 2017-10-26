@@ -68,6 +68,8 @@
           * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
           * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
      * [Area of polynomial](https://www.topcoder.com/community/data-science/data-science-tutorials/geometry-concepts-basic-concepts/)
+     * line-line intersection: orientation
+     * 
       
  * Fractions/complex numbers- store num and denom in pairs
     * adding 2 fractions(make denom same first)
