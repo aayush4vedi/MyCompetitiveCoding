@@ -16,6 +16,31 @@
      * ceil(x) //if x=6.79; cout=7
 
 #### [getting better at given language](http://exercism.io/languages)
+# Mathematics #
+ * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
+ * Prime - seive of Eratosthenes 
+ * Euclid's algo
+     * GCD
+        ```
+        public int GCD(int a, int b)
+        {
+          if (b==0) return a;
+          return GCD(b,a%b);
+        }
+        ```
+    * lcm - use !...
+        ```
+        public int LCM(int a, int b)
+        {
+          return b*a/GCD(a,b);    // as a*b = gcd*lcm
+        }
+       ```
+    * solve linear Diophantine equations of type  ax+by =c
+  
+ *
+ *
+ 
+
 # Data Structures #
 
 * **Arrays**
