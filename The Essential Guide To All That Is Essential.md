@@ -65,7 +65,9 @@
      ```
            V = number of vertices
            E = number of edges
-           F = number of faces ```
+           F = number of faces 
+           ```
+           
       * line sweep technique
           * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
           * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
