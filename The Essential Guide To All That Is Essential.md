@@ -65,10 +65,29 @@
             I = number of lattice points in the interior of the polygon```
      
      * Euler’s Formula for polygonal nets ``` V - E + F = 2 ```
+     
        ``` V = number of vertices
            E = number of edges
            F = number of faces ```
- *
+ * Fractions/complex numbers- store num and denom in pairs
+    * adding 2 fractions(make denom same first)
+     ```
+     public int[] addFractions(int[] a, int[] b)
+     {
+        int denom=LCM(a[1],b[1]);
+        int[] c={denom/a[1]*a[0] + denom/b[1]*b[0], denom};
+        return c;
+     }
+     ```
+    * reduce a fraction to its simplest form - when the GCD of the numerator and denominator is equal to 1
+    ``` 
+    public void reduceFraction(int[] a)
+    {
+       int b=GCD(a[0],a[1]);
+       a[0]/=b;
+       a[1]/=b;
+    }
+    ``` 
  
 
 # Data Structures #
