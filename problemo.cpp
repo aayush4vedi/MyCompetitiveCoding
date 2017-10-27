@@ -116,6 +116,11 @@ int main(){
 //   }
 //   cout<<ans<<endl;
 // }
+
+
+/*============================HackerEarht===============================*/
+/*============================1.AdjList handeling=======================*/
+/*
 vector <int> adj[10];
 
     int main()
@@ -141,3 +146,226 @@ vector <int> adj[10];
     }
     return 0;
     }
+*/
+
+/*===============================BFS-to find level of each node===============================*/
+/*
+vector <int> v[10] ;   //Vector for maintaining adjacency list explained above
+int level[10]; //To determine the level of each node
+bool vis[10]; //Mark the node if visited
+void bfs(int s) {
+    queue <int> q;
+    q.push(s);
+    level[ s ] = 0 ;  //Setting the level of the source node as 0
+    vis[ s ] = true;
+    while(!q.empty())
+    {
+        int p = q.front();
+        q.pop();
+        for(int i = 0;i < v[ p ].size() ; i++)
+        {
+            if(vis[ v[ p ][ i ] ] == false)
+            {
+        //Setting the level of each node with an increment in the level of parent node
+                level[ v[ p ][ i ] ] = level[ p ]+1;
+                 q.push(v[ p ][ i ]);
+                 vis[ v[ p ][ i ] ] = true;
+  }
+        }
+    }
+}
+
+*/
+/*============================0-1BFS===============================*/
+/*
+void bfs (int start)
+{
+      deque <int > Q;     //Double-ended queue
+      Q.push_back( start);
+      distance[ start ] = 0;
+      while( !Q.empty ())
+      {
+          int v = Q.front( );
+          Q.pop_front();
+          for( int i = 0 ; i < edges[v].size(); i++)
+         {
+
+
+// if distance of neighbour of v from start node is greater than sum of distance of v from start node and edge weight between v and its neighbour (distance between v and its neighbour of v) ,then change it
+
+
+              if(distance[ edges[ v ][ i ].first ] > distance[ v ] + edges[ v ][ i ].second )
+          {
+
+              distance[ edges[ v ][ i ].first ] = distance[ v ] + edges[ v ][ i ].second;
+              if(edges[ v ][ i ].second == 0)
+              {
+                  Q.push_front( edges[ v ][ i ].first);
+              }
+              else
+              {
+                      Q.push_back( edges[ v ][ i ].first);
+              }
+          }
+        }
+     }
+}
+*/
+/*=============================DFS-conncected components=============*/
+/*
+vector <int> adj[10];
+    bool visited[10];
+
+    void dfs(int s) {
+        visited[s] = true;
+        for(int i = 0;i < adj[s].size();++i)    {
+         if(visited[adj[s][i]] == false)
+             dfs(adj[s][i]);
+        }
+    }
+
+    void initialize() {
+        for(int i = 0;i < 10;++i)
+         visited[i] = false;
+    }
+
+    int main() {
+        int nodes, edges, x, y, connectedComponents = 0;
+        cin >> nodes;                       //Number of nodes
+        cin >> edges;                       //Number of edges
+        for(int i = 0;i < edges;++i) {
+         cin >> x >> y;
+     //Undirected Graph
+         adj[x].push_back(y);                   //Edge from vertex x to vertex y
+         adj[y].push_back(x);                   //Edge from vertex y to vertex x
+        }
+
+        initialize();                           //Initialize all nodes as not visited
+
+        for(int i = 1;i <= nodes;++i) {
+         if(visited[i] == false)     {
+             dfs(i);
+             connectedComponents++;
+         }
+        }
+        cout << "Number of connected components: " << connectedComponents << endl;
+        return 0;
+    }
+    */
+/*======================Kruskal's Algo[O(ElogV)]==============================*/
+/*
+int id[MAX], nodes, edges;
+pair <long long, pair<int, int> > p[MAX];
+
+void initialize()
+{
+    for(int i = 0;i < MAX;++i)
+        id[i] = i;
+}
+
+int root(int x)
+{
+    while(id[x] != x)
+    {
+        id[x] = id[id[x]];
+        x = id[x];
+    }
+    return x;
+}
+
+void union1(int x, int y)
+{
+    int p = root(x);
+    int q = root(y);
+    id[p] = id[q];
+}
+
+long long kruskal(pair<long long, pair<int, int> > p[])
+{
+    int x, y;
+    long long cost, minimumCost = 0;
+    for(int i = 0;i < edges;++i)
+    {
+        // Selecting edges one by one in increasing order from the beginning
+        x = p[i].second.first;
+        y = p[i].second.second;
+        cost = p[i].first;
+        // Check if the selected edge is creating a cycle or not
+        if(root(x) != root(y))
+        {
+            minimumCost += cost;
+            union1(x, y);
+        }
+    }
+    return minimumCost;
+}
+
+int main()
+{
+    int x, y;
+    long long weight, cost, minimumCost;
+    initialize();
+    cin >> nodes >> edges;
+    for(int i = 0;i < edges;++i)
+    {
+        cin >> x >> y >> weight;
+        p[i] = make_pair(weight, make_pair(x, y));
+    }
+    // Sort the edges in the ascending order
+    sort(p, p + edges);
+    minimumCost = kruskal(p);
+    cout << minimumCost << endl;
+    return 0;
+}
+*/
+/*=====================Prim's Algo-)((V+E)logV)======================*/
+/*
+typedef pair<long long, int> PII;
+bool marked[MAX];
+vector <PII> adj[MAX];
+
+long long prim(int x)
+{
+    priority_queue<PII, vector<PII>, greater<PII> > Q;
+    int y;
+    long long minimumCost = 0;
+    PII p;
+    Q.push(make_pair(0, x));
+    while(!Q.empty())
+    {
+        // Select the edge with minimum weight
+        p = Q.top();
+        Q.pop();
+        x = p.second;
+        // Checking for cycle
+        if(marked[x] == true)
+            continue;
+        minimumCost += p.first;
+        marked[x] = true;
+        for(int i = 0;i < adj[x].size();++i)
+        {
+            y = adj[x][i].second;
+            if(marked[y] == false)
+                Q.push(adj[x][i]);
+        }
+    }
+    return minimumCost;
+}
+
+int main()
+{
+    int nodes, edges, x, y;
+    long long weight, minimumCost;
+    cin >> nodes >> edges;
+    for(int i = 0;i < edges;++i)
+    {
+        cin >> x >> y >> weight;
+        adj[x].push_back(make_pair(weight, y));
+        adj[y].push_back(make_pair(weight, x));
+    }
+    // Selecting 1 as the starting node
+    minimumCost = prim(1);
+    cout << minimumCost << endl;
+    return 0;
+}
+*/
