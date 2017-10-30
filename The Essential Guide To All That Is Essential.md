@@ -16,6 +16,111 @@
      * ceil(x) //if x=6.79; cout=7
 
 #### [getting better at given language](http://exercism.io/languages)
+# Mathematics #
+ * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
+ * Prime 
+   * seive of Eratosthenes 
+   * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
+   * Fermat's Little Theorem - ```given a prime number P, and any number a (where 0<a<p0), then a^(p−1) = 1modp ```
+ * Euclid's algo
+     * GCD
+        ```
+        public int GCD(int a, int b)
+        {
+          if (b==0) return a;
+          return GCD(b,a%b);
+        }
+        ```
+    * lcm - use !...
+        ```
+        public int LCM(int a, int b)
+        {
+          return b*a/GCD(a,b);    // as a*b = gcd*lcm
+        }
+       ```
+    * solve linear Diophantine equations of type  ax+by =c
+       ```
+       extendedEuclid(int A, int B) {
+           if(B == 0) {
+               d = A;
+               x = 1;
+               y = 0;
+           }
+           else {
+               extendedEuclid(B, A%B);
+               int temp = x;
+               x = y;
+               y = temp - (A/B)*y;
+           }
+       }                                                                  
+       ```
+                                                                  **O(Log(max(A,B))**
+ * Geometry
+     * Pick’s Theorem for area of polynomials ``` Area = B/2 + I - 1 ```
+        ``` 
+            B = number of lattice points on the boundary of the polygon
+            I = number of lattice points in the interior of the polygon```
+     
+     * Euler’s Formula for polygonal nets ``` V - E + F = 2;V = number of vertices,E = number of edges,F = number of faces  ```
+
+           
+     * line sweep technique
+          * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
+          * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
+     * [Area of polynomial](https://www.topcoder.com/community/data-science/data-science-tutorials/geometry-concepts-basic-concepts/)
+     * line-line intersection: orientation
+     * 
+      
+ * Fractions/complex numbers- store num and denom in pairs
+    * adding 2 fractions(make denom same first)
+     ```
+     public int[] addFractions(int[] a, int[] b)
+     {
+        int denom=LCM(a[1],b[1]);
+        int[] c={denom/a[1]*a[0] + denom/b[1]*b[0], denom};
+        return c;
+     }
+     ```
+    * reduce a fraction to its simplest form - when the GCD of the numerator and denominator is equal to 1
+    ``` 
+    public void reduceFraction(int[] a)
+    {
+       int b=GCD(a[0],a[1]);
+       a[0]/=b;
+       a[1]/=b;
+    }
+    ``` 
+ * Modular arithmetic
+      * (a+-b)%c = (a%c +- b%c)%c
+      * (a*/b)%c = ((a%c)*/(b%c))%c
+ 
+ * Exponantiation
+      * BinaryExponentiation      //**O(logN)**
+    ```
+    int binaryExponentiation(int x,int n)
+    {
+        if(n==0)
+            return 1;
+        else if(n%2 == 0)        //n is even
+            return binaryExponentiation(x*x,n/2);
+        else                             //n is odd
+            return x*binaryExponentiation(x*x,(n-1)/2);
+    }
+    ```
+      * modularExponentiation
+      ```
+      int modularExponentiation(int x,int n,int M)
+       {
+           if(n==0)
+               return 1;
+           else if(n%2 == 0)        //n is even
+               return modularExponentiation((x*x)%M,n/2,M);
+           else                             //n is odd
+               return (x*modularExponentiation((x*x)%M,(n-1)/2,M))%M;
+
+       }
+       ***
+
 # Data Structures #
 
 * **Arrays**
@@ -227,7 +332,8 @@
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
-* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what no
+* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what not
+## [GraphEssential](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/GraphEssential.cpp) :My codes for all graph algo's from [hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/min-cut/tutorial/)
   * Graph representation:
     1. Objects and Pointers
     2. Adjacency matrix
@@ -848,5 +954,9 @@ https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
 **Bit Manipulation**
 - [tutorial link:](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
 
-**NP Problems**
-- [tut link](http://www.geeksforgeeks.org/np-completeness-set-1/)
+
+
+**Graphs**
+- [Graph basic representation](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
+
+

@@ -33,32 +33,46 @@ typedef vector<pii> vii;
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
 inline ll Power(int b, int p) { ll ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
+const int MAX = 1e4 + 5;
 
-
-
-int main(){
-  int n,m;cin>>n>>m;
-  vi v[1000];
-  FOR(i,0,m){
-    int x,y;cin>>x>>y;
-    v[x].pb(y);
-    v[y].pb(x);
-  }
-  int q;cin>>q;
-  int flag=0;
-  while(q--){
-    flag=0;
-    int a,b;cin>>a>>b;
-    FOR(j,0,v[a].size()){
-      if(v[a][j] == b){flag++;}
-    }
-    // if(v[a]==b || v[b]==a)cout<<"YES\n";
-    // else cout<<"NO\n";
-    if(flag)cout<<"YES\n";
-    else cout<<"NO\n";
-  }
-
-
-  return 0;
-
+int visited[11][11];
+int mat[11][11],n,m;
+int x=1,y=1;
+int DFS(int x,int y)
+{
+if(x==n&&y==m)
+return 1;
+if(x>n||y>m)
+return 0;
+if(x<1||y<1)
+return 0;
+if(visited[x][y]==1)
+return 0;
+if(mat[x][y]==0)
+return 0;
+visited[x][y]=1;
+if(DFS(x+1,y))
+return 1;
+if(DFS(x-1,y))
+return 1;
+if(DFS(x,y+1))
+return 1;
+if(DFS(x,y-1))
+return 1;
+return 0;
+}
+int main()
+{
+cin >> n >> m;
+for(int i=1;i<=n;i++)
+{
+for(int j=1;j<=m;j++)
+cin >> mat[i][j];
+}
+if(DFS(x,y))
+cout << "Yes\n";
+else
+cout << "No\n";
+//cout << "Hello World!" << endl;
+return 0;
 }
