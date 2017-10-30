@@ -447,3 +447,197 @@ for(int k = 1; k <= n; k++){
     }
 }
 */
+/*================Flood-fill Algorithm===============================*/
+
+/*
+int visited[11][11];
+int mat[11][11],n,m;
+int x=1,y=1;
+int DFS(int x,int y)
+{
+if(x==n&&y==m)
+return 1;
+if(x>n||y>m)
+return 0;
+if(x<1||y<1)
+return 0;
+if(visited[x][y]==1)
+return 0;
+if(mat[x][y]==0)
+return 0;
+visited[x][y]=1;
+if(DFS(x+1,y))
+return 1;
+if(DFS(x-1,y))
+return 1;
+if(DFS(x,y+1))
+return 1;
+if(DFS(x,y-1))
+return 1;
+return 0;
+}
+int main()
+{
+cin >> n >> m;
+for(int i=1;i<=n;i++)
+{
+for(int j=1;j<=m;j++)
+cin >> mat[i][j];
+}
+if(DFS(x,y))
+cout << "Yes\n";
+else
+cout << "No\n";
+//cout << "Hello World!" << endl;
+return 0;
+}
+
+*/
+
+
+
+
+
+/*===============Articulation Point-O(v+E)===================*/
+/*
+
+
+int parent [MXSIZE];
+int child  [MXSIZE];
+int low    [MXSIZE];
+int tym    [MXSIZE];
+bool seen  [MXSIZE];
+bool is_cut[MXSIZE];
+
+vector <vector <int> > adj (MXSIZE); //adjancy graph
+
+void dfs(int s)
+{
+
+ /* static variable gets declared only  once till the program runs
+  static int c=0;
+
+  seen[s]=true;   // mark s as visited
+
+  low[s]=tym[s]=c++; // first assigns and then increment c.
+
+ // checking all children of s
+  for(int i=0;i<adj[s].size();i++)
+  {
+     int curr = adj[s][i];
+
+     if(curr==parent[s])
+      continue;         // do nothing if curr is its parent
+
+    if(!seen[curr])
+    {
+
+      child[s]++; // one more independent child of s
+      parent[curr]=s;
+      dfs(curr);
+
+
+      /* the low time of the oldest ancestor
+        reachable from both
+      low[s] = min(low[s] , low[curr]);
+
+
+     /* if curr has greater or equal
+        low time than visited time of s then if we cut s then
+        curr will get disconnected from the graph
+      if(low[curr] >= tym[s])
+        is_cut[s]=true;
+
+    }
+    else
+    {
+      /* here instead of low[curr] I used
+         tym[curr] , I have explained it below
+      low[s]= min(low[s],tym[curr]);
+    }
+
+
+  }
+
+}
+
+int main()
+{
+  ios_base::sync_with_stdio(false);cin.tie(0);
+
+      int n,m;
+      cin>>n>>m;  // no. of vertices and edges
+
+      for(int i=1;i<=m;i++)
+      {
+          int a,b;
+          // undirected edge between a and b
+          cin>>a>>b;
+          adj[a].push_back(b);
+          adj[b].push_back(a);
+      }
+
+      parent[1]=-1;
+      dfs(1);
+
+      /* the vertex from where we started dfs
+         must have atleast two independent children
+         otherwise it is not a cut vertex  
+      is_cut[1]= child[1]>1 ? true : false;
+
+
+      for(int i=1;i<=n;i++)
+      {
+        if(is_cut[i])
+          cout<<i<<" is cut vertex"<<endl;
+      }
+
+
+
+    return 0;
+}
+
+
+*/
+/*=====================Bridges=================================*/
+/*
+
+function find_bridges(adj[][], V, Edge[], E, isBridge[])
+    for i = 0 to E
+        adj[Edge[i].u][Edge[i].v]=adj[Edge[i].v][Edge[i].u]=0
+        for j = 0 to V
+            visited[j] = false
+        Queue.Insert(Edge[i].u])
+        visited[Edge[i].u] = true
+        check = false
+        while Queue.isEmpty() == false
+            x = Queue.top()
+            if x == Edge[i].v
+                check = true
+                BREAK
+            Queue.Delete()
+            for j = 0 to V
+                if adj[x][j] == true AND visited[j] == false
+                    Queue.insert(j)
+                    visited[j] = true
+        adj[Edge[i].u][Edge[i].v]=adj[Edge[i].v][Edge[i].u]=1
+        if check == false
+            isBridge[i] = true
+
+            time = 0
+            function DFS(adj[][], disc[], low[], visited[], parent[], vertex, n)
+                    visited[vertex] = true
+                    disc[vertex] = low[vertex] = time+1
+                    child = 0
+                    for i = 0 to n
+                            if adj[vertex][i] == true
+                                    if visited[i] == false
+                                            child = child + 1
+                                            parent[i] = vertex
+                                            DFS(adj, disc, low, visited, parent, i, n, time+1)
+                                            low[vertex] = minimum(low[vertex], low[i])
+                                            if low[i] > disc[vertex]
+                                                    print vertex, i
+                                    else if parent[vertex] != i
+                                            low[vertex] = minimum(low[vertex], disc[i])
+*/
