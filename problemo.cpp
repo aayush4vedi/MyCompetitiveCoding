@@ -582,7 +582,7 @@ int main()
 
       /* the vertex from where we started dfs
          must have atleast two independent children
-         otherwise it is not a cut vertex  
+         otherwise it is not a cut vertex
       is_cut[1]= child[1]>1 ? true : false;
 
 
@@ -640,4 +640,48 @@ function find_bridges(adj[][], V, Edge[], E, isBridge[])
                                                     print vertex, i
                                     else if parent[vertex] != i
                                             low[vertex] = minimum(low[vertex], disc[i])
+*/
+/*=================Biconneceted Graph- no Articulation points=========*/
+
+/*code: just as Articulation point; return false if found any*/
+
+/*find biconnected components in a graph*/
+/*
+time = 0
+function DFS(vertex, adj[][], low[], disc[], parent[], visited[], V, stack)
+    disc[vertex]=low[vertex]=time+1
+    time = time + 1
+    visited[vertex]=true
+    child = 0
+    for i = 0 to V
+        if adj[vertex][i] == true
+            if visited[i] == false
+                child = child + 1
+                push edge(u,v) to stack
+                parent[i] = vertex
+                DFS(i, adj, low, disc, visited, V, time, stack)
+                low[vertex] = minimum(low[vertex], low[i])
+                if parent[vertex] == nil AND child > 1
+                    while last element of stack != (u,v)
+                        print last element of stack
+                        pop from stack
+                    print last element of stack
+                    pop from stack
+                if parent[vertex] != nil AND low[i] >= disc[vertex]
+                    while last element of stack != (u,v)
+                        print last element of stack
+                        pop from stack
+                    print last element of stack
+                    pop from stack
+            else if parent[vertex] != i AND disc[i] < low[vertex]
+                low[vertex] = disc[i]
+                push edge(u,v) to stack
+
+fuction biconnected_components(adj[][], V)
+    for i = 0 to V
+        if visited[i] == false
+            DFS(i, adj, low, disc, parent, visited, V, time, stack)
+            while stack is not empty
+                print last element of stack
+                pop from stack
 */
