@@ -285,6 +285,7 @@
      - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
 
 * **Trees**
+ * All about BST's:[source code](http://sleepincode.blogspot.in/2017/06/all-about-binary-search-trees.html?m=1) -contains all the BST algos
  * Search:
      1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
      2. [BFS](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
