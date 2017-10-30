@@ -332,7 +332,8 @@
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
-* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what no
+* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what not
+## [GraphEssential]() :My codes for all graph algo's from [hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/min-cut/tutorial/)
   * Graph representation:
     1. Objects and Pointers
     2. Adjacency matrix
