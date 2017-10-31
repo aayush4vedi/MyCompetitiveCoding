@@ -967,3 +967,6 @@ https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
 - [Graph basic representation](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
 
 
+**Hashing**
+- [tutorial link](https://www.youtube.com/playlist?list=PLTZbNwgO5ebqw1v0ODk8cPLW9dQ99Te8f)
+
