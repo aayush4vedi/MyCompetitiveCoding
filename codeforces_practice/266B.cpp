@@ -41,15 +41,20 @@ int main(){
   char a[n];
   FOR(i,0,n)cin>>a[i];
   int x=1;
-  while(t--){
+  while(x<=t){
     for(int i=0;i<n;i++){
       if(a[i]=='B'&& a[i+1]=='G'){
         swap(a[i],a[i+1]);
-        i +=2;
+        i ++;
       }
 
     }
-    
+    //cout<<"x is: "<<x<<endl;
+    // FOR(i,0,n){
+    //   cout<<a[i];
+    // }
+    // cout<<endl;
+    x++;
   }
 
   FOR(i,0,n){
