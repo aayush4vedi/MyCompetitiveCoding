@@ -285,6 +285,7 @@
      - [Valid sudoku](http://www.geeksforgeeks.org/backtracking-set-7-suduku/)
 
 * **Trees**
+ * All about BST's:[source code](http://sleepincode.blogspot.in/2017/06/all-about-binary-search-trees.html?m=1) -contains all the BST algos
  * Search:
      1. [DFS](http://www.geeksforgeeks.org/depth-first-traversal-for-a-graph/)
      2. [BFS](http://www.geeksforgeeks.org/breadth-first-traversal-for-a-graph/)
@@ -324,15 +325,22 @@
  * [Find diameter of tree](http://www.geeksforgeeks.org/diameter-of-a-binary-tree/)
  * [Find median of BST](http://www.geeksforgeeks.org/find-median-bst-time-o1-space/)
  - [ ] [Invert a binary tree](http://www.geeksforgeeks.org/flip-binary-tree/)
- * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)**
+ * **[Trie](http://www.geeksforgeeks.org/trie-display-content/)** -for strings/dictionary/genome
+    * [hackerEarht](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/trie-keyword-tree/tutorial/)
     * [trie- a neglected DS](https://www.toptal.com/java/the-trie-a-neglected-data-structure)
     * [Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/using-tries/)
     forget not the problems at bottom
     * [Sedgewick video lecture](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
+ * **Fenwick Tree** - for sum till indices; prob with SumArray is that it requires full updation on a single change in number array
+    * [HackerEarth](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/)
+    * [Tushar Roy](https://www.youtube.com/watch?v=CWDQJGaN1gY)
+ * Segment Tree
+    * [HackerEath](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
-* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what no
+* ***Graphs*** | [Graph compulsion](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/graphcompulsion.cpp) :1 place to find BFS,DFS and what not
+## [GraphEssential](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/GraphEssential.cpp) :My codes for all graph algo's from [hackerearth](https://www.hackerearth.com/practice/algorithms/graphs/min-cut/tutorial/)
   * Graph representation:
     1. Objects and Pointers
     2. Adjacency matrix
@@ -952,3 +960,10 @@ https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
 
 **Bit Manipulation**
 - [tutorial link:](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
+
+
+
+**Graphs**
+- [Graph basic representation](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
+
+
