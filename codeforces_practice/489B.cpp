@@ -33,54 +33,31 @@ typedef vector<pii> vii;
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
 inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
-
 const int MAX = 1000;
-lli sumOfDig(lli n){
- lli ans=0;
-  while(n>0){
-    ans += n%10;
-    n = n/10;
-  }
-  return ans;
-}
-
 
 
 int main(){
-  int m;
-  lli s;
-  cin>>m>>s;
-  int n=m;
-  int flag1 =0, flag2=0;
-  lli l=1,h=1;
-  while(n>1){
-    l *= 10;n--;
-  }
-  n=m;
-  while(n--){
-    h *= 10;
-  }
-  h--;
-  while(l<=h){
-    if(sumOfDig(l)==s){
-      flag1++;break;
+  int n;cin>>n;
+  int a[n];
+  FOR(i,0,n)cin>>a[i];
+  int m;cin>>m;
+  int b[m];FOR(i,0,m)cin>>b[i];
+  sort(a,a+n);
+  sort(b,b+m);
+  int ans =0;
+  int i=0,j=0;
+  while(i<n && j<m){
+    if(abs(a[i]-b[j]) <= 1){
+      ans++;i++;j++;
+    }else if(a[i]<b[j]){
+      i++;
     }else{
-      l++;
+      j++;
     }
+
   }
-  while(l<=h){
-    if(sumOfDig(h)==s){
-      flag2++;break;
-    }else{
-      h--;
-    }
-  }
-  if(flag1 == 0)cout<<"-1 ";
-  if(flag2 ==0)cout<<"-1\n";
-  if(flag1 >0)cout<<l<<" ";
-  if(flag2 >0)cout<<h<<"\n";
-  //cout<<l<<" "<<h<<endl;
-  //cout<<sumOfDig(h)<<endl;
-  //cout<<flag1<<" "<<flag2<<endl;
+  cout<<ans<<endl;
+
+
   return 0;
 }

@@ -3,10 +3,10 @@
 using namespace std;
 
 #define nl endl
-#define lli long long int
+#define ll long long
 #define vb vector<bool>
 typedef vector<int> vi;
-typedef vector<lli> vll;
+typedef vector<ll> vll;
 typedef vector<double> vd;
 typedef vector<char> vc;
 typedef vector<string> vs;
@@ -32,55 +32,35 @@ typedef vector<pii> vii;
 #define isEven(i) (!(i&1))
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
-inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
+inline ll Power(int b, int p) { ll ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
 
 const int MAX = 1000;
-lli sumOfDig(lli n){
- lli ans=0;
-  while(n>0){
-    ans += n%10;
-    n = n/10;
-  }
-  return ans;
-}
-
-
 
 int main(){
-  int m;
-  lli s;
-  cin>>m>>s;
-  int n=m;
-  int flag1 =0, flag2=0;
-  lli l=1,h=1;
-  while(n>1){
-    l *= 10;n--;
-  }
-  n=m;
-  while(n--){
-    h *= 10;
-  }
-  h--;
-  while(l<=h){
-    if(sumOfDig(l)==s){
-      flag1++;break;
-    }else{
-      l++;
+  int n,t;cin>>n>>t;
+  char a[n];
+  FOR(i,0,n)cin>>a[i];
+  int x=1;
+  while(x<=t){
+    for(int i=0;i<n;i++){
+      if(a[i]=='B'&& a[i+1]=='G'){
+        swap(a[i],a[i+1]);
+        i ++;
+      }
+
     }
+    //cout<<"x is: "<<x<<endl;
+    // FOR(i,0,n){
+    //   cout<<a[i];
+    // }
+    // cout<<endl;
+    x++;
   }
-  while(l<=h){
-    if(sumOfDig(h)==s){
-      flag2++;break;
-    }else{
-      h--;
-    }
+
+  FOR(i,0,n){
+    cout<<a[i];
   }
-  if(flag1 == 0)cout<<"-1 ";
-  if(flag2 ==0)cout<<"-1\n";
-  if(flag1 >0)cout<<l<<" ";
-  if(flag2 >0)cout<<h<<"\n";
-  //cout<<l<<" "<<h<<endl;
-  //cout<<sumOfDig(h)<<endl;
-  //cout<<flag1<<" "<<flag2<<endl;
+  cout<<endl;
+
   return 0;
 }

@@ -3,10 +3,10 @@
 using namespace std;
 
 #define nl endl
-#define lli long long int
+#define ll long long
 #define vb vector<bool>
 typedef vector<int> vi;
-typedef vector<lli> vll;
+typedef vector<ll> vll;
 typedef vector<double> vd;
 typedef vector<char> vc;
 typedef vector<string> vs;
@@ -32,55 +32,48 @@ typedef vector<pii> vii;
 #define isEven(i) (!(i&1))
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
-inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
+inline ll Power(int b, int p) { ll ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
 
 const int MAX = 1000;
-lli sumOfDig(lli n){
- lli ans=0;
-  while(n>0){
-    ans += n%10;
-    n = n/10;
+
+bool isPossible(double a[], int n, int l, double d){
+  pair<double, double> p[n];
+  FOR(i,0,n){
+    p[i]= mp(a[i]-d, a[i]+d);
   }
-  return ans;
+  sort(p,p+n);
+  int tmp=0;
+  int i=0;
+  double x;
+  while(i<n-1){
+    if(p[i].second<p[i+1].first){tmp++;x=p[i+1].second;break;}
+    else {i++;x=p[i+1].second;}
+  }
+  if(x <l)tmp++;
+
+  if(tmp>0)return false;
+  else return true;
 }
 
-
-
 int main(){
-  int m;
-  lli s;
-  cin>>m>>s;
-  int n=m;
-  int flag1 =0, flag2=0;
-  lli l=1,h=1;
-  while(n>1){
-    l *= 10;n--;
-  }
-  n=m;
-  while(n--){
-    h *= 10;
-  }
-  h--;
-  while(l<=h){
-    if(sumOfDig(l)==s){
-      flag1++;break;
+  int n,l;cin>>n>>l;
+  double a[n];
+  FOR(i,0,n)cin>>a[i];
+  // sort(a,a+n);
+  double d=0;
+  while(d<=n/2){
+    if(isPossible(a,n,l,d)){
+      //cout<<std::setprecision(10)<<d<<endl;
+      cout<<d<<endl;
+      break;
     }else{
-      l++;
+      d += 0.5;
+      cout<<"+\n";
     }
   }
-  while(l<=h){
-    if(sumOfDig(h)==s){
-      flag2++;break;
-    }else{
-      h--;
-    }
-  }
-  if(flag1 == 0)cout<<"-1 ";
-  if(flag2 ==0)cout<<"-1\n";
-  if(flag1 >0)cout<<l<<" ";
-  if(flag2 >0)cout<<h<<"\n";
-  //cout<<l<<" "<<h<<endl;
-  //cout<<sumOfDig(h)<<endl;
-  //cout<<flag1<<" "<<flag2<<endl;
+
+
+
+
   return 0;
 }
