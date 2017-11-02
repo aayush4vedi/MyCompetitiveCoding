@@ -24,7 +24,6 @@ typedef vector<pii> vii;
 #define REP(i, n) for (int i=0; i<n; i++)
 #define IterV (j, v) for(vector<int>::iterator j = v.begin(); j!=v.end();j++)
 #define pb push_back
-#define pf push_front
 #define mp make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
@@ -33,20 +32,26 @@ typedef vector<pii> vii;
 #define isEven(i) (!(i&1))
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
-inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
+inline lli Power(int b, int 4747p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
 const int MAX = 1000;
 
 
 int main(){
-  string s;cin>>s;
-  FOR(i,0,s.length()){
-    int x = s[i]-'0';
-    cout<<min(x,9-x > 0 ? 9-x : x);
-
+  vector<pii> p;
+  int n;cin>>n;
+  int sum=0;
+  vi v;
+  while(n--){
+    int a;cin>>a;
+    sum += a;
+    v.pb(sum);
   }
-  cout<<endl;
-  
+  int m;cin>>m;
+  while(m--){
+    int x;cin>>x;
 
-
+    int pos = lower_bound(v.begin(),v.end(),x) - v.begin();
+    cout<<pos+1<<endl;
+  }
   return 0;
 }

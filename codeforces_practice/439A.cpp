@@ -24,7 +24,6 @@ typedef vector<pii> vii;
 #define REP(i, n) for (int i=0; i<n; i++)
 #define IterV (j, v) for(vector<int>::iterator j = v.begin(); j!=v.end();j++)
 #define pb push_back
-#define pf push_front
 #define mp make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
@@ -38,14 +37,15 @@ const int MAX = 1000;
 
 
 int main(){
-  string s;cin>>s;
-  FOR(i,0,s.length()){
-    int x = s[i]-'0';
-    cout<<min(x,9-x > 0 ? 9-x : x);
-
+  int n,d;cin>>n>>d;
+  int sum=0;
+  int a[n];FOR(i,0,n){cin>>a[i];sum += a[i];}
+  int x= sum + 10*(n-1);
+  if(x > d)cout<<"-1\n";
+  else{
+    cout<<(d-sum)/5<<endl;
   }
-  cout<<endl;
-  
+
 
 
   return 0;

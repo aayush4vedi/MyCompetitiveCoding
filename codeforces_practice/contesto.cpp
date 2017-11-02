@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-
+//#include <string.h>
 using namespace std;
 
 #define nl endl
@@ -12,6 +12,8 @@ typedef vector<char> vc;
 typedef vector<string> vs;
 typedef vector<vector<int> > vvi;
 typedef vector<vector<char> > vvc;
+typedef stack<int> si;
+typedef queue<int> qi;
 typedef map<int, int> mii;
 typedef map<string, int> msi;
 typedef map<int, string> mis;
@@ -24,7 +26,6 @@ typedef vector<pii> vii;
 #define REP(i, n) for (int i=0; i<n; i++)
 #define IterV (j, v) for(vector<int>::iterator j = v.begin(); j!=v.end();j++)
 #define pb push_back
-#define pf push_front
 #define mp make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
@@ -33,20 +34,64 @@ typedef vector<pii> vii;
 #define isEven(i) (!(i&1))
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
-inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
-const int MAX = 1000;
+
+const int MAX_N = 100;
+
+//A.
+/*
+int main() {
+	int n;cin>>n;
+	lli t;cin>>t;
+	lli x=86400;
+	lli b=0;
+	int cnt=0;
+	FOR(i,0,n){
+		lli a;cin>>a;
+		b += x-a;
+		cnt++;
+		if(b== t){
+			cout<<cnt<<endl;
+			break;
+		}
+	}
 
 
-int main(){
-  string s;cin>>s;
-  FOR(i,0,s.length()){
-    int x = s[i]-'0';
-    cout<<min(x,9-x > 0 ? 9-x : x);
-
-  }
-  cout<<endl;
-  
-
-
-  return 0;
+	return 0;
 }
+/**/
+//B
+/**/
+int main() {
+	int n,x;cin>>n>>x;int sum=n-1;
+	FOR(i,0,n){
+		int a;cin>>a;
+		sum +=a;
+	}
+	if(sum ==x)cout<<"YES\n";
+	else cout<<"NO\n";
+
+	return 0;
+}
+/**/
+//C
+/*
+int main() {
+
+	return 0;
+}
+/**/
+//D
+/*
+int main() {
+
+	return 0;
+}
+/**/
+
+//6
+/*
+int main() {
+
+	return 0;
+}
+/**/

@@ -41,11 +41,11 @@ int main(){
   string s;cin>>s;
   FOR(i,0,s.length()){
     int x = s[i]-'0';
-    cout<<min(x,9-x > 0 ? 9-x : x);
+    cout<<min(x,9-x > 0 || i>0 ? 9-x : x);
 
   }
   cout<<endl;
-  
+
 
 
   return 0;
