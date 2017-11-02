@@ -40,6 +40,20 @@ const int MAX_N = 100;
 //A.
 /*
 int main() {
+	int n;cin>>n;
+	lli t;cin>>t;
+	lli x=86400;
+	lli b=0;
+	int cnt=0;
+	FOR(i,0,n){
+		lli a;cin>>a;
+		b += x-a;
+		cnt++;
+		if(b== t){
+			cout<<cnt<<endl;
+			break;
+		}
+	}
 
 
 	return 0;
@@ -48,6 +62,13 @@ int main() {
 //B
 /*
 int main() {
+	int n,x;cin>>n>>x;int sum=n-1;
+	FOR(i,0,n){
+		int a;cin>>a;
+		sum +=a;
+	}
+	if(sum ==x)cout<<"YES\n";
+	else cout<<"NO\n";
 
 	return 0;
 }
@@ -60,22 +81,25 @@ int main() {
 }
 /**/
 //D
-/*
+/**/
 int main() {
-
+	int n;cin>>n;
+	int a[n];
+	int sum=0;
+	FOR(i,0,n){
+		cin>>a[i];
+		sum += a[i];
+	}
+	sort(a,a+n);
+	if(n==1) cout<<"1\n";
+	else{
+		int cost=sum;
+	}
 	return 0;
 }
 /**/
 
-//E
-/*
-int main() {
-
-	return 0;
-}
-/**/
-
-//F
+//6
 /*
 int main() {
 
