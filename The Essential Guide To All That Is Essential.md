@@ -337,6 +337,9 @@
     * [Tushar Roy](https://www.youtube.com/watch?v=CWDQJGaN1gY)
  * Segment Tree
     * [HackerEath](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+    * [Proper code](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+    * [2D segment tree](http://kaidul.xyz/2d-segment-quad-tree-problem-solving/)
+    * [Codechef prob](http://codeforces.com/contest/869/problem/E)
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
