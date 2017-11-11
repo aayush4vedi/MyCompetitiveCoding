@@ -13,6 +13,7 @@
 ### Cheat Sheets
   * [BigO cheat sheet](http://bigocheatsheet.com/)
   * [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
+  * [C++ tricks-codeforces](http://codeforces.com/blog/entry/15643)
      * ceil(x) //if x=6.79; cout=7
 
 #### [getting better at given language](http://exercism.io/languages)
@@ -334,8 +335,11 @@
  * **Fenwick Tree** - for sum till indices; prob with SumArray is that it requires full updation on a single change in number array
     * [HackerEarth](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/)
     * [Tushar Roy](https://www.youtube.com/watch?v=CWDQJGaN1gY)
- * Segment Tree
+ * **Segment Tree**
     * [HackerEath](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+    * [Proper code](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+    * [2D segment tree](http://kaidul.xyz/2d-segment-quad-tree-problem-solving/) - [video tut](https://www.youtube.com/watch?v=kKlZ9B3cS14)
+    * [Codechef prob](http://codeforces.com/contest/869/problem/E)
  * **[Red Black Tree](http://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)**
  * **[AVL Trees](http://www.geeksforgeeks.org/avl-tree-set-1-insertion/)**
 
@@ -732,6 +736,8 @@
   ### Some cool links:
      * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  Awesome thou art.
      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try
+ * **[nCr using DP](https://algoriddles.wordpress.com/2012/02/18/calculate-ncr-using-dp/)**
+ * **[nCr mod P using DP](http://www.geeksforgeeks.org/compute-ncr-p-set-2-lucas-theorem/)**
  * **[Fractional Knapsack](http://www.geeksforgeeks.org/fractional-knapsack-problem/)**
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
 
