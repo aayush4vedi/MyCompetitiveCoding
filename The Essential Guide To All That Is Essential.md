@@ -733,6 +733,8 @@
   ### Some cool links:
      * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  Awesome thou art.
      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try
+ * **[nCr using DP](https://algoriddles.wordpress.com/2012/02/18/calculate-ncr-using-dp/)**
+ * **[nCr mod P using DP](http://www.geeksforgeeks.org/compute-ncr-p-set-2-lucas-theorem/)**
  * **[Fractional Knapsack](http://www.geeksforgeeks.org/fractional-knapsack-problem/)**
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
 
