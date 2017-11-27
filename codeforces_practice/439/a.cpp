@@ -58,33 +58,17 @@ const int SIZE = 1e6+10;
 const int MAX = 4e6+7;
 
 
-
-//A.O(n*n)
-
 int main(){
-  DRI(n);
-  DRA(a,2*n);
-  bool d[MAX];
-  memset(d,false,sizeof(d));
-  REP(i,2*n)d[a[i]]=true;
-  int cnt=0;
-  REP(i,2*n){
-    REP(j,2*n){
-      if(d[a[i]^a[j]])cnt++;
-    }
+  DRIII(n,m,k);
+  DRI(a,n);DRI(b,n);
+  int ans = m*k;
+
+  REP(i,n){
+      int x = a[i]*b[i];
+      if(x>ans)ans=x;
   }
-  if(cnt%2 == 0 )cout<<"Karen\n";
-  else cout<<"Koyomi\n";
+  cout<<ans;
+  NL;
+  
   return 0;
 }
-
-//B.Magic
-/*
-int main(){
-  DRI(n);
-  DRA(a,2*n);
-  cout<<"Karen\n";
-
-  return 0;
-}
-*/
