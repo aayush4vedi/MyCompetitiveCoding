@@ -19,8 +19,8 @@
 #### [getting better at given language](http://exercism.io/languages)
 # Mathematics #
  * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
- * Prime 
-   * seive of Eratosthenes 
+ * Prime
+   * seive of Eratosthenes
    * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
    * Fermat's Little Theorem - ```given a prime number P, and any number a (where 0<a<p0), then a^(p−1) = 1modp ```
  * Euclid's algo
@@ -39,7 +39,8 @@
           return b*a/GCD(a,b);    // as a*b = gcd*lcm
         }
        ```
-    * solve linear Diophantine equations of type  ax+by =c
+    * solve linear Diophantine equations of type  ax+by =d, d=GCD(a,b) find x,y:
+
        ```
        extendedEuclid(int A, int B) {
            if(B == 0) {
@@ -56,22 +57,40 @@
        }                                                                  
        ```
                                                                   **O(Log(max(A,B))**
+                                                        * Modular multiplicative inverse
+                                                               ** For given A, M find B such that (A.B)%M =1 **
+                                                               * Maths:
+                                                                    * A.B = 1(mod M)
+                                                                    * B is in range[1,M-1] {(A.B)%M = (A%M * B%M)%M and B=0 is invalid}
+                                                                    * **Existence of modular multiplicative inverse** only when A and M are coprime i.e. GCD(A,M)=1
+                                                               * Methods:
+                                                                    * Naive: try for all the values of B in [1,M-1] // O(M)
+                                                                    * extendedEuclid: If A & M are coprime, Ax + My =1; then x is the answer. //O(log(Max(A,M)))
+                                                                    * Fermat's Little Theorem- works only when M is prime:
+                                                                        since A^(M-1) = 1(mod M) => A^(-1) = (A^(M-2))(mod M), which is the **ans** i.e.
+                                                                        ```int modInverse(int A,int M)
+                        {
+                            return modularExponentiation(A,M-2,M);
+                        }
+                        //O(logM)                                                ```
+
+
  * Geometry
      * Pick’s Theorem for area of polynomials ``` Area = B/2 + I - 1 ```
-        ``` 
+        ```
             B = number of lattice points on the boundary of the polygon
             I = number of lattice points in the interior of the polygon```
-     
+
      * Euler’s Formula for polygonal nets ``` V - E + F = 2;V = number of vertices,E = number of edges,F = number of faces  ```
 
-           
+
      * line sweep technique
           * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
           * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
      * [Area of polynomial](https://www.topcoder.com/community/data-science/data-science-tutorials/geometry-concepts-basic-concepts/)
      * line-line intersection: orientation
-     * 
-      
+     *
+
  * Fractions/complex numbers- store num and denom in pairs
     * adding 2 fractions(make denom same first)
      ```
@@ -83,18 +102,18 @@
      }
      ```
     * reduce a fraction to its simplest form - when the GCD of the numerator and denominator is equal to 1
-    ``` 
+    ```
     public void reduceFraction(int[] a)
     {
        int b=GCD(a[0],a[1]);
        a[0]/=b;
        a[1]/=b;
     }
-    ``` 
+    ```
  * Modular arithmetic
       * (a+-b)%c = (a%c +- b%c)%c
       * (a*/b)%c = ((a%c)*/(b%c))%c
- 
+
  * Exponantiation
       * BinaryExponentiation      //**O(logN)**
     ```
@@ -971,5 +990,3 @@ https://www.youtube.com/channel/UCJjC1hn78yZqTf0vdTC6wAQ/playlists
 
 **Graphs**
 - [Graph basic representation](https://www.hackerearth.com/practice/algorithms/graphs/graph-representation/tutorial/)
-
-
