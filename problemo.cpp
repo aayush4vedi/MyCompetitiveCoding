@@ -21,36 +21,63 @@ typedef map<string, char> msc;
 typedef pair<int, int> pii;
 typedef vector<pii> vii;
 #define FOR(i,a,b) for(int i=a; i<b;i++)
-#define REP(i, n) for (int i=0; i<n; i++)
-#define IterV (j, v) for(vector<int>::iterator j = v.begin(); j!=v.end();j++)
+#define REPV (j, v) for(vector<int>::iterator j = v.begin(); j!=v.end();j++)
 #define pb push_back
+//#define pf push_front
 #define mp make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
-
+#define SZ(X) ((int)(X).size())
+#define ALL(X) (X).begin(), (X).end()
+#define REP(I, N) for (int I = 0; I < (N); ++I)
+#define VREP(I, N) for (int I = N-1; I >=0; I--)
+#define REP1(I, N) for (int I = 1; I < (N); ++I)
+#define REPV1(I, N) for (int I = N-1; I >=1; I--)
+#define REPP(I, A, B) for (int I = (A); I < (B); ++I)
+#define RI(X) scanf("%d", &(X))
+#define RII(X, Y) scanf("%d%d", &(X), &(Y))
+#define RIII(X, Y, Z) scanf("%d%d%d", &(X), &(Y), &(Z))
+#define DRI(X) int (X); scanf("%d", &X)
+#define DRII(X, Y) int X, Y; scanf("%d%d", &X, &Y)
+#define DRIII(X, Y, Z) int X, Y, Z; scanf("%d%d%d", &X, &Y, &Z)
+#define RS(X) scanf("%s", (X))
+#define DRA(a,n) int a[n]; REP(i,n)cin>>a[i]
+#define l_b lower_bound
+#define u_b upper_bound
+#define MS0(X) memset((X), 0, sizeof((X)))
+#define MS1(X) memset((X), -1, sizeof((X)))
+#define LEN(X) strlen(X)
+#define NL cout<<endl
 #define isOdd(i) (i&1)
 #define isEven(i) (!(i&1))
 #define all(ar) ar.begin(), ar.end()
 #define pq priority_queue
 inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
-
-const int MAX = 1000;
+const int MOD = 1e9+7;
+const int SIZE = 1e6+10;
+const int MAX = 100000;
 
 
 int main(){
-    int ax,bx,ay,by,cx,cy,xx,xy,yx,yy;//pointnme_cordin
-    cin>>ax>>ay>>bx>>by>>cx>>cy>>xx>>xy>>yx>>yy;
-    int dab=abs(ax-bx)+abs(ay-by);
-    int dac = abs(ax-cx)+abs(ay-cy);
-    int dcyyb = abs(cx-yx)+abs(cy-yy)+abs(yx-bx)+abs(yy-by);
-    int dcxxb = abs(cx-xx)+abs(cy-xy)+abs(xx-bx)+abs(xy-by);
-    if(((dac+dcyyb)>2*dab)&&((dac+dcxxb)>2*dab)){
-      cout<<"-1\n";
-    }else if((dac+dcyyb)<(dac+dcxxb)){
-      cout<<"2\n";
-    }else{
-      cout<<"1\n";
+  DRII(n,m);
+  vi v[n];int level[n];bool vis[n];
+  while(m--){
+    DRII(x,y);
+    v[x].pb(y);
+  }
+  DRI(s);
+  queue<int> q;
+  q.push(s);level[s]=0;vis[s]=true;
+  while(!q.empty()){
+    int p = q.front();
+    q.pop();
+    REP(i,v[p].size()){
+      if(vis[v[p][i]] == false){
+        vis[v[p][i]]= true;level[v[p][i]]= level[p]+1;q.push(v[p][i]);
+      }
     }
+  }
+  REP(i,n)cout<<i<<": @level "<<level[i]<<endl;
 
 
   return 0;

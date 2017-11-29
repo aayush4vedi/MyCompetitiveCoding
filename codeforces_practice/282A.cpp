@@ -56,118 +56,18 @@ inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret
 const int MOD = 1e9+7;
 const int SIZE = 1e6+10;
 const int MAX = 1000;
-/*
-int w[MAX][MAX];
-int a[MAX*MAX],b[MAX*MAX],c[MAX*MAX];
-//.cpp
-vector<int>g[100];
-bool flag = 0;
-bitset<100>status;
-int N, M, counter = 0;
-void dfs(int i ){
-  if(++counter == N){flag = 1; return;}
-  for(auto v: g[i]){
-    if(!status[v]){
-      cout<<v<<" ";
-      status[v] = 1;
-      dfs(v);
-
-    }
-  }
-  counter--;
-}
-int main(){
-
-cin>>N>>M;
-for(int i =0; i < M; i++){
-  int a, b;cin>>a>>b;
-  g[a].pb(b);
-  //g[b].pb(a);
-}
-int i =0;
-cout<<i<<" ";
-dfs(i);
-cout<<i;
-NL;
-//printf("%s", flag?"YES":"NO");
-return 0;
-}
-
-//.c
-int n,a[1000][1000],vis[1000],res[1005],len=0;
-
-void dfs(int root)
-{
-    res[len++]=root;
-    vis[root]=1;
-    int i;
-    for(i=0;i<n;i++)
-    {
-        if(a[root][i] && !vis[i])
-            dfs(i);
-    }
-    if(len!=n)
-    {
-        len--;
-        vis[root]=0;
-    }
-    else
-    {
-        for(i=0;i<len;i++)
-            printf("%d ",res[i]);
-        exit(0);
-    }
-}
-
-int main()
-{
-    int m,i,j;
-    scanf("%d %d",&n,&m);
-
-    for(i=0;i<n;i++)
-    {
-        for(j=0;j<n;j++)
-            a[i][j]=0;
-    }
-    for(i=0;i<n;i++)
-        vis[i]=0;
-
-    for(i=0;i<m;i++)
-    {
-        int l,r;
-        scanf("%d %d",&l,&r);
-        a[l][r]=1;
-        a[r][l]=1;
-    }
-
-    dfs(0);
-    res[len++]=0;
-    printf("No");
-}
-*/
-
-int n;vi vis, v[n];
-void dfs(int s){
-  vis[s]=1;
-  REP(i,v[s].size()){
-    if(vis[i]==0){
-      cout<<i<<" ";
-      vis[i]=1;
-      dfs(i);
-    }
-  }
-}
 
 int main(){
-  cin>>n;
-  DRI(m);
-  REP(i,n)vis[i]=0;
-  //vi v[n];
-  REP(i,m){
-    DRII(x,y);
-    v[x].pb(y);
-    v[y].pb(x);
-  }
-  dfs(0);
+  DRI(t);
+  int x=0;
+  while(t--){
+    string s;cin>>s;
+    //getline(cin,s);
 
+    if(s == "++X" || s =="X++")x++;
+    else x--;
+  }
+  cout<<x;
+  NL;
+  return 0;
 }
