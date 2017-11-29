@@ -19,6 +19,7 @@
 #### [getting better at given language](http://exercism.io/languages)
 # Mathematics #
  * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
+ * [Print Divisors](http://www.geeksforgeeks.org/find-divisors-natural-number-set-1/) //O(sqrt(n))
  * Prime
    * seive of Eratosthenes
    * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
