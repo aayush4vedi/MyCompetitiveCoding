@@ -20,7 +20,7 @@
 # Mathematics #
  * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
  * [Print Divisors](http://www.geeksforgeeks.org/find-divisors-natural-number-set-1/) //O(sqrt(n))
- * [Print Pythaogorean triplets in O(n)](http://www.geeksforgeeks.org/generate-pythagorean-triplets/)
+ * [Print Pythaogorean triplets in O(n)](http://www.geeksforgeeks.org/generate-pythagorean-triplets/) | [Better one](http://www.mathblog.dk/pythagorean-triplets/)
  * Prime
    * seive of Eratosthenes
    * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
