@@ -218,6 +218,11 @@
   - [x] [Print the array in wave form](https://www.interviewbit.com/problems/wave-array/) :you can deduce the first method; look up here for second
   - [Find three closest elements from given three sorted arrays](http://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/)
   - [Container With Most Water](https://leetcode.com/problems/container-with-most-water/description/)
+  - [Sort an array by given column](https://stackoverflow.com/questions/31370380/c-method-to-order-a-matrix-by-elements-in-a-column-the-same-of-sortrows-in-ma)
+  - [find-three-closest-elements-from-given-three-sorted-arrays](http://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/)
+  - [check for pair in A[] with sum as x](http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
+  - [farthest-co-prime](https://discuss.leetcode.com/topic/61775/farthest-co-prime)
+  - 
 * **Linked List**
   
   * [link list essential code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/linklistessential.cpp)
@@ -253,8 +258,8 @@
   - [Insertion Sort](http://www.geeksforgeeks.org/insertion-sort-for-singly-linked-list/)
   - [Add 1 to a number represented as linked list](http://www.geeksforgeeks.org/add-1-number-represented-linked-list/)
   - [Segregate even and odd nodes](http://www.geeksforgeeks.org/segregate-even-and-odd-elements-in-a-linked-list/)
-
-
+  - [Rearrange ll such that all even and odd positioned noes are together](http://www.geeksforgeeks.org/rearrange-a-linked-list-such-that-all-even-and-odd-positioned-nodes-are-together/)
+  - [Merge two sorted linked lists such that merged list is in reverse order](http://www.geeksforgeeks.org/merge-two-sorted-linked-lists-such-that-merged-list-is-in-reverse-order/)
 
 
 
@@ -709,6 +714,7 @@
   * [bit manipulation-wiki](https://en.wikipedia.org/wiki/Bit_manipulation)
   * [bitwise operations](https://en.wikipedia.org/wiki/Bitwise_operation)
   * Problems:
+      - [check-binary-representation-number-palindrome](http://www.geeksforgeeks.org/check-binary-representation-number-palindrome/)
       - [Reverse bits](http://www.geeksforgeeks.org/write-an-efficient-c-program-to-reverse-bits-of-a-number/)
       - [Single Number](https://stackoverflow.com/questions/35185/finding-a-single-number-in-a-list)
       - [Divide without dividing](http://qa.geeksforgeeks.org/3794/divide-integers-without-multiplication-division-operator)
@@ -771,7 +777,8 @@
  * **[nCr mod P using DP](http://www.geeksforgeeks.org/compute-ncr-p-set-2-lucas-theorem/)**
  * **[Fractional Knapsack](http://www.geeksforgeeks.org/fractional-knapsack-problem/)**
  * **[0-1 Knapsack problem](http://www.geeksforgeeks.org/knapsack-problem/)**
-
+ * [longest AP](http://www.geeksforgeeks.org/length-of-the-longest-arithmatic-progression-in-a-sorted-array/)
+ 
       Here's a short [video](https://www.youtube.com/watch?v=8LusJS5-AGo&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr) to understand how to form a DP table.Implementation:
     ```cpp
     int knapsack(int n, int wmax, int val[], int wt[]){
@@ -955,6 +962,7 @@
   - [x] [Implement strstr()](http://practice.geeksforgeeks.org/viewSol.php?subId=3935511&pid=700320&user=srashmi032)
   - [X] [Integer to Roman](http://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
   - [x] [Length of last word](http://www.geeksforgeeks.org/length-of-last-word-in-a-string/)
+  - [ ] [Search in an array of strings where non-empty strings are sorted](http://www.geeksforgeeks.org/search-in-an-array-of-strings-where-non-empty-strings-are-sorted/)
 
 **linkedlist**
   - [x] [Find middle element in a linked list](http://practice.geeksforgeeks.org/problems/finding-middle-element-in-a-linked-list/1) [my soln ](http://practice.geeksforgeeks.org/viewSol.php?subId=4099717&pid=700171&user=RC0709)
