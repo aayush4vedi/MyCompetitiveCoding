@@ -58,26 +58,26 @@
                int temp = x;
                x = y;
                y = temp - (A/B)*y;
-           }
-       }                                                                  
-       ```
-                                                                  **O(Log(max(A,B))**
-                                                        * Modular multiplicative inverse
-                                                               ** For given A, M find B such that (A.B)%M =1 **
-                                                               * Maths:
-                                                                    * A.B = 1(mod M)
-                                                                    * B is in range[1,M-1] {(A.B)%M = (A%M * B%M)%M and B=0 is invalid}
-                                                                    * **Existence of modular multiplicative inverse** only when A and M are coprime i.e. GCD(A,M)=1
-                                                               * Methods:
-                                                                    * Naive: try for all the values of B in [1,M-1] // O(M)
-                                                                    * extendedEuclid: If A & M are coprime, Ax + My =1; then x is the answer. //O(log(Max(A,M)))
-                                                                    * Fermat's Little Theorem- works only when M is prime:
-                                                                        since A^(M-1) = 1(mod M) => A^(-1) = (A^(M-2))(mod M), which is the **ans** i.e.
-                                                                        ```int modInverse(int A,int M)
-                        {
-                            return modularExponentiation(A,M-2,M);
-                        }
-                        //O(logM)                                                ```
+           }   * Naive: try for all the values of B in [1,M-1] // O(M)
+     * extendedEuclid: If A & M are coprime, Ax + My =1; then x is the answer. //O(log(Max(A,M)))
+     * Fermat's Little Theorem- works only when M is prime:
+         since A^(M-1) = 1(mod M) => A^(-1) = (A^(M-2))(mod M), which is the **ans** i.e.
+         ```int modInverse(int A,int M)
+              {
+              return modularExponentiation(A,M-2,M);
+              }
+              //O(logM)                                                ```
+              }         
+        **O(Log(max(A,B))**
+```
+     * Modular multiplicative inverse
+      ** For given A, M find B such that (A.B)%M =1 **
+      * Maths:
+       * A.B = 1(mod M)
+       * B is in range[1,M-1] {(A.B)%M = (A%M * B%M)%M and B=0 is invalid}
+       * **Existence of modular multiplicative inverse** only when A and M are coprime i.e. GCD(A,M)=1
+      * Methods:
+
 
 
  * Geometry
@@ -89,7 +89,7 @@
      * Euler’s Formula for polygonal nets ``` V - E + F = 2;V = number of vertices,E = number of edges,F = number of faces  ```
 
 
-     * line sweep technique
+     * Line sweep technique
           * [closest pair](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
           * [Union of rectangles](https://www.hackerearth.com/practice/math/geometry/line-sweep-technique/tutorial/)
      * [Area of polynomial](https://www.topcoder.com/community/data-science/data-science-tutorials/geometry-concepts-basic-concepts/)
