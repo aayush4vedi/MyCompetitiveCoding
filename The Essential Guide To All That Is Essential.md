@@ -59,17 +59,18 @@
                x = y;
                y = temp - (A/B)*y;
            }   * Naive: try for all the values of B in [1,M-1] // O(M)
+      ```
      * extendedEuclid: If A & M are coprime, Ax + My =1; then x is the answer. //O(log(Max(A,M)))
      * Fermat's Little Theorem- works only when M is prime:
          since A^(M-1) = 1(mod M) => A^(-1) = (A^(M-2))(mod M), which is the **ans** i.e.
-         ```int modInverse(int A,int M)
+         ```
+         int modInverse(int A,int M)
               {
               return modularExponentiation(A,M-2,M);
               }
               //O(logM)                                                ```
               }         
-        **O(Log(max(A,B))**
-```
+       O(Log(max(A,B))```
      * Modular multiplicative inverse
       ** For given A, M find B such that (A.B)%M =1 **
       * Maths:
