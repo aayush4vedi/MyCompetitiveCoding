@@ -735,6 +735,7 @@
         - [Heap](http://www.geeksforgeeks.org/heap-sort/)
         - [Radix](http://www.geeksforgeeks.org/radix-sort/) || [hE](https://www.hackerearth.com/practice/notes/radix-sort/)
   - [Merged Sort For Linked list](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
+  - [Median of stream of running integers](http://www.geeksforgeeks.org/median-of-stream-of-integers-running-integers/)
 
 
 
