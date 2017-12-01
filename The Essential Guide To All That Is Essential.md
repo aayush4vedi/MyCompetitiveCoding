@@ -5,8 +5,10 @@
 ```diff
 + green?
 -red?
-
 ```
+* [Good coding practices-why do we love coding](https://www.hackerearth.com/practice/notes/competitive-programming-in-java/)
+* [Memory layout of C program](https://www.hackerearth.com/practice/notes/memory-layout-of-c-program/)
+* [Trick with the loops](https://www.hackerearth.com/practice/notes/small-tricks-in-for-loop/)
 * ###  [Super Collection of interview questions](http://tristan-interview.blogspot.in/2012/02/enumerate-all-possible-binary-trees.html)
 
 
@@ -21,6 +23,7 @@
  * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
  * [Print Divisors](http://www.geeksforgeeks.org/find-divisors-natural-number-set-1/) //O(sqrt(n))
  * [Print Pythaogorean triplets in O(n)](http://www.geeksforgeeks.org/generate-pythagorean-triplets/) | [Better one](http://www.mathblog.dk/pythagorean-triplets/)
+ * [Lucas thm-Wilson thm](https://www.hackerearth.com/practice/notes/lucas-theorem-wilsons-theorem/)
  * Prime
    * seive of Eratosthenes
    * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
@@ -262,6 +265,7 @@
       - s.isEmpty(): Returns true if stack is empty, else false
 
 * **Queues**
+   * [hE: heaps and PQs](https://www.hackerearth.com/practice/notes/heaps-and-priority-queues/)
    * Implementation:
         * [array implementation](http://www.geeksforgeeks.org/queue-set-1introduction-and-array-implementation/)
             : [My code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/array%20implementation%20of%20queue%20C%2B%2B.cpp)
@@ -354,10 +358,11 @@
     forget not the problems at bottom
     * [Sedgewick video lecture](https://www.youtube.com/watch?v=00YaFPcC65g&list=PLe-ggMe31CTe9IyG9MB8vt5xUJeYgOYRQ)
  * **Fenwick Tree** - for sum till indices; prob with SumArray is that it requires full updation on a single change in number array
-    * [HackerEarth](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/)
+    * [HackerEarth](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/fenwick-binary-indexed-trees/tutorial/) || [hE](https://www.hackerearth.com/practice/notes/binary-indexed-tree-or-fenwick-tree/)
     * [Tushar Roy](https://www.youtube.com/watch?v=CWDQJGaN1gY)
  * **Segment Tree**
     * [HackerEath](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+    * [hE](https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/)
     * [Proper code](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
     * [2D segment tree](http://kaidul.xyz/2d-segment-quad-tree-problem-solving/) - [video tut](https://www.youtube.com/watch?v=kKlZ9B3cS14)
     * [Codechef prob](http://codeforces.com/contest/869/problem/E)
@@ -549,8 +554,10 @@
 
 
 # Algorithms #
+* [Mo's algorithm](https://www.hackerearth.com/practice/notes/mos-algorithm/)
 
 * #### Binary Search
+  * [hE: the real power of binary search](https://www.hackerearth.com/practice/notes/power-of-binary-search/)
   * [recursive implementation](http://www.geeksforgeeks.org/binary-search/)
   * [iterative implementation](http://www.geeksforgeeks.org/binary-search/)
   * problems:
@@ -725,7 +732,7 @@
         - [Merge](https://www.tutorialspoint.com/data_structures_algorithms/merge_sort_algorithm.htm)
         - [Quick](https://www.tutorialspoint.com/data_structures_algorithms/quick_sort_algorithm.htm)
         - [Heap](http://www.geeksforgeeks.org/heap-sort/)
-        - [Radix](http://www.geeksforgeeks.org/radix-sort/)
+        - [Radix](http://www.geeksforgeeks.org/radix-sort/) || [hE](https://www.hackerearth.com/practice/notes/radix-sort/)
   - [Merged Sort For Linked list](http://www.geeksforgeeks.org/merge-sort-for-linked-list/)
 
 
@@ -755,6 +762,7 @@
 
 * ## DP
   ### Some cool links:
+     * [hE: DP for beginners](https://www.hackerearth.com/practice/notes/dynamic-programming-for-beginners-part-2-1-d/)
      * [DP:Novice to Advanced-Topcoder](https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/)  Awesome thou art.
      * [everythingOnDP-codeforces](http://codeforces.com/blog/entry/43256)-Noobs don't try
  * **[nCr using DP](https://algoriddles.wordpress.com/2012/02/18/calculate-ncr-using-dp/)**
@@ -855,6 +863,7 @@
 
 
 * ## Strings
+  * [hE:Exact string matching algorithms](https://www.hackerearth.com/practice/notes/exact-string-matching-algorithms/)
   * Print all permutations of a string
      1.[w/o STL](http://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
      2.[with STL](http://www.geeksforgeeks.org/permutations-of-a-given-string-using-stl/)
