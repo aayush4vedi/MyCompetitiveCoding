@@ -222,6 +222,9 @@
   - [find-three-closest-elements-from-given-three-sorted-arrays](http://www.geeksforgeeks.org/find-three-closest-elements-from-given-three-sorted-arrays/)
   - [check for pair in A[] with sum as x](http://www.geeksforgeeks.org/write-a-c-program-that-given-a-set-a-of-n-numbers-and-another-number-x-determines-whether-or-not-there-exist-two-elements-in-s-whose-sum-is-exactly-x/)
   - [farthest-co-prime](https://discuss.leetcode.com/topic/61775/farthest-co-prime)
+  - Sorting an array:
+      - [set 1](http://www.geeksforgeeks.org/sorting-2d-vector-in-c-set-1-by-row-and-column/)
+      - [set 2](http://www.geeksforgeeks.org/sorting-2d-vector-c-set-3-number-columns/)
   - 
 * **Linked List**
   
