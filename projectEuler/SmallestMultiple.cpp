@@ -6,7 +6,7 @@ using namespace std;
 #define lli long long int
 #define vb vector<bool>
 typedef vector<int> vi;
-typedef vector<lli> vll;
+typedef vector<lli> vlli;
 typedef vector<double> vd;
 typedef vector<char> vc;
 typedef vector<string> vs;
@@ -33,7 +33,7 @@ typedef vector<pllilli> vllilli;
 #define SZ(X) ((int)(X).size())
 #define ALL(X) (X).begin(), (X).end()
 #define REP(I, A, B) for (int I = (A); I < (B); ++I)
-#define REPR(I, A, B) for (int I = (B); I < (A); I--)
+#define REPR(I, A, B) for (int I = (B); I > (A); I--)
 #define RI(X) scanf("%d", &(X))
 #define RII(X, Y) scanf("%d%d", &(X), &(Y))
 #define RIII(X, Y, Z) scanf("%d%d%d", &(X), &(Y), &(Z))
@@ -60,72 +60,25 @@ inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret
 const int MOD = 1e9+7;
 const int SIZE = 4e6+10;
 const int MAX = 1e9+1;
-//
-// int main(){
-//   DRII(n,m);
-//   int ans= 2*m*n;
-//   int a[n][m];
-//   REP(i,0,n){
-//     REP(j,0,m){
-//       DRI(x);
-//       a[i][j]=x;
-//       if((i==0 && j==0) || (i ==n-1) || (j==m-1)){
-//         ans += 2*x;
-//       }
-//     }
-//   }
-//   REP(i,0,n){
-//     REP(j,0,m-1){
-//       ans += abs(a[i][j]-a[i][j+1]);
-//     }
-//   }
-//   REP(i,0,n-1){
-//     REP(j,0,n){
-//       ans += abs(a[i][j]-a[i+1][j]);
-//     }
-//   }
-//   cout<<ans;
-//   NL;
-//
-//   zzz;
-// }
-void sortrows(vector<vector<int>>& matrix, int col) {
-    sort(matrix.begin(),
-              matrix.end(),
-              [col](const vector<int>& lhs, const vector<int>& rhs) {
-                  return lhs[col] > rhs[col];
-              });
-}
 
 int main(){
-  DRII(n,m);
-  vector<vector<int>> v;
-  for(int i=0;i<n;++i) {
-		//Create a vector
-		vector<int> row;
-		for(int j=0;j<m;++j){
-			int value;
-			cin >> value;
-			row.push_back(value);
-		}
-		//Push the row in matrix
-		v.push_back(row);
-	}
-  int col;cin>>col;
-  sortrows(v,col);
-  // REP(i,0,n){
-  //   for(auto itr = v[i].begin(); itr != v[i].end();itr++){
-  //     cout<<*itr<<" ";
-  //   }
-  //   NL;
-  // }
-  for(int i=0;i<n;++i) {
-		for(int j=0;j<m;++j){
-			std::cout << v[i][j] << " ";
-		}
-		std::cout << "\n";
-	}
+  DRI(n);//max number
+  int k=1;
+  int ans =n;
+  while(n>0){
 
+    k=1;ans=ans*k;
+    while(ans%n != 0){
+      k++;
+      cout<<"here "<<k;NL;
 
+    }
+    cout<<ans;NL;
+    k--;
+    n--;
+  }
+  cout<<ans;NL;
   zzz;
+
+
 }
