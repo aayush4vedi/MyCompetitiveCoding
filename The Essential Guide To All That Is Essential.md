@@ -1,8 +1,6 @@
 <details open >
  
-<summary>
-
-Cheat Sheets
+<summary> # Cheat Sheets
 
 </summary>
 <br>
@@ -76,7 +74,7 @@ Cheat Sheets
 
 
  
-<details>
+<details open>
 
 
  ```diff
