@@ -3,7 +3,7 @@
 <details>
 <summary>Data Structures</summary>
 <br>
-
+<details>
 <details>
 <summary>Algorithms</summary>
 <br>
