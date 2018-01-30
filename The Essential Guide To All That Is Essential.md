@@ -7,7 +7,9 @@
   * [C++ tricks-codeforces](http://codeforces.com/blog/entry/15643)
      * ceil(x) //if x=6.79; cout=7 
 </summary>
-
+<details>
+ 
+<details>
 
 
  ```diff
