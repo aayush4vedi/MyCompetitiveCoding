@@ -1,8 +1,18 @@
 <details>
-<summary>How do I dropdown?</summary>
+<summary>
+### Cheat Sheets
+  * [BigO cheat sheet](http://bigocheatsheet.com/)
+  * [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
+  * [C++ tricks-codeforces](http://codeforces.com/blog/entry/15643)
+     * ceil(x) //if x=6.79; cout=7 
+</summary>
 <br>
-This is how you dropdown.
+
 <details>
+ ```diff
++ green?
+-red?
+ 
 
 # Topics and Resources #
 
