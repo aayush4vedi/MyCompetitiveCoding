@@ -1,13 +1,83 @@
-<details>
+<details open >
+ 
 <summary>
 
 ### Cheat Sheets
+
+</summary>
+<br>
+
   * [BigO cheat sheet](http://bigocheatsheet.com/)
   * [c++ STL](https://github.com/jwasham/coding-interview-university/blob/master/extras/cheat%20sheets/STL%20Quick%20Reference%201.29.pdf)
   * [C++ tricks-codeforces](http://codeforces.com/blog/entry/15643)
      * ceil(x) //if x=6.79; cout=7 
-</summary>
 <details>
+ <summary>
+ 
+ # Mathematics #
+ </summary>
+ 
+ * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
+ * [Print Divisors](http://www.geeksforgeeks.org/find-divisors-natural-number-set-1/) //O(sqrt(n))
+ * [Print Pythaogorean triplets in O(n)](http://www.geeksforgeeks.org/generate-pythagorean-triplets/) | [Better one](http://www.mathblog.dk/pythagorean-triplets/)
+ * [Lucas thm-Wilson thm](https://www.hackerearth.com/practice/notes/lucas-theorem-wilsons-theorem/)
+ * Prime
+   * seive of Eratosthenes
+   * Miller-Rabin Primality Testing ``` if X*X = (Y*Y)modN && X != +-YmodN, then N is composite ```
+   * Fermat's Little Theorem - ```given a prime number P, and any number a (where 0<a<p0), then a^(p−1) = 1modp ```
+ * Euclid's algo
+     * GCD
+        ```
+        public int GCD(int a, int b)
+        {
+          if (b==0) return a;
+          return GCD(b,a%b);
+        }
+        ```
+    * lcm - use !...
+        ```
+        public int LCM(int a, int b)
+        {
+          return b*a/GCD(a,b);    // as a*b = gcd*lcm
+        }
+       ```
+    * solve linear Diophantine equations of type  ax+by =d, d=GCD(a,b) find x,y:
+
+       ```
+       extendedEuclid(int A, int B) {
+           if(B == 0) {
+               d = A;
+               x = 1;
+               y = 0;
+           }
+           else {
+               extendedEuclid(B, A%B);
+               int temp = x;
+               x = y;
+               y = temp - (A/B)*y;
+           }   * Naive: try for all the values of B in [1,M-1] // O(M)
+      ```
+     * extendedEuclid: If A & M are coprime, Ax + My =1; then x is the answer. //O(log(Max(A,M)))
+     * Fermat's Little Theorem- works only when M is prime:
+         since A^(M-1) = 1(mod M) => A^(-1) = (A^(M-2))(mod M), which is the **ans** i.e.
+         ```
+         int modInverse(int A,int M)
+              {
+              return modularExponentiation(A,M-2,M);
+              }
+              //O(logM)                                                ```
+              }         
+       O(Log(max(A,B))```
+     * Modular multiplicative inverse
+      ** For given A, M find B such that (A.B)%M =1 **
+      * Maths:
+       * A.B = 1(mod M)
+       * B is in range[1,M-1] {(A.B)%M = (A%M * B%M)%M and B=0 is invalid}
+       * **Existence of modular multiplicative inverse** only when A and M are coprime i.e. GCD(A,M)=1
+      * Methods:
+
+
+
  
 <details>
 
