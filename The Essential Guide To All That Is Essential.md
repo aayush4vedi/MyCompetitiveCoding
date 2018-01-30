@@ -2,7 +2,7 @@
  
 <summary>
 
-### Cheat Sheets
+Cheat Sheets
 
 </summary>
 <br>
@@ -12,10 +12,7 @@
   * [C++ tricks-codeforces](http://codeforces.com/blog/entry/15643)
      * ceil(x) //if x=6.79; cout=7 
 <details>
- <summary>
- 
- # Mathematics #
- </summary>
+ <summary>Mathematics</summary>
  
  * [Number theory- HN](https://www.hackerearth.com/practice/math/number-theory/basic-number-theory-1/tutorial/)
  * [Print Divisors](http://www.geeksforgeeks.org/find-divisors-natural-number-set-1/) //O(sqrt(n))
