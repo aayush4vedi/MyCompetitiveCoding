@@ -17,7 +17,8 @@
       Is a binary tree with ( "node->left < node < node -> right)
       <details>
       <summary>---------------------Declaration</summary>
-        --------------------------[Code](#https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
+        <a href='#https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp' id='code' class='anchor' aria-hidden='true'>Code</a>
+        --------------------------[Code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
         <br>
         ---------------------------------Includes:
         <br>
