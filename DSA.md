@@ -137,7 +137,6 @@
         ---------------------------------------------4.1 Range Min Query
         </details>
     </details>
-    </details>
     <details>
       <summary>---------------Uses</summary>
       <details>
