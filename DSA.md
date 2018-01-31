@@ -17,7 +17,6 @@
       Is a binary tree with ( "node->left < node < node -> right)
       <details>
       <summary>---------------------Declaration</summary>
-        <a href='#https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp' id='code' class='anchor' aria-hidden='true'>Code</a>
         --------------------------[Code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
         <br>
         ---------------------------------Includes:
@@ -30,8 +29,12 @@
         ------------------------------------6.Has path sum<br>
         ------------------------------------7.Height of a node<br>
         ------------------------------------8.Diameter of tree<br>
-        ------------------------------------9.
-    </details>
+        ------------------------------------9.Mirror a tree<br>
+        ------------------------------------10.LCA-using BST properties, so won't work on tree !=BST<br>
+        ------------------------------------11.Print ancestors of a node<br>
+        ------------------------------------12.Print Vertically<br>
+        ------------------------------------13.Diagonal Print-not working with class(goto GfG)<br>
+           </details>
     </details>
     <details>
       <summary>---------------Uses</summary>
