@@ -8,6 +8,21 @@
     
   <details>
     <summary>------Binary Tree</summary>
+    Khaali
+  </details>
+  <details>
+    <summary>------Binary Search Tree</summary>
+    <details>
+      <summary>About</summary>
+    </details>
+    <details>
+      <summary>Uses</summary>
+    </details>
+    <details>
+      <summary>Questions</summary>
+    </details>
+  
+    
   </details>
   <details>
     <summary>------BIT/Fenwick Tree</summary>
@@ -17,9 +32,6 @@
   </details>
   <details>
     <summary>------Trie</summary>
-  </details>
-  <details>
-    <summary>------Binary Search Tree</summary>
   </details>
   <details>
     <summary>------AVL Tree</summary>
