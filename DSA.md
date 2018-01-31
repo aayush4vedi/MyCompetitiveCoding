@@ -17,6 +17,7 @@
       write here...
       <details>
       <summary>---------------------Declaration</summary>
+        
         ```cpp 
         code;
         ```
