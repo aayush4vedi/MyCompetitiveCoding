@@ -62,11 +62,51 @@ const int MOD = 1e9+7;
 const int SIZE = 4e6+10;
 const int MAX = 1e9+1;
 
-int getMid(int s, int e)
+// A utility function to get minimum of two numbers
+int minVal(int x, int y) { return (x < y)? x: y; }
+
+// A utility function to get the middle index from corner indexes.
+int getMid(int s, int e) {  return s + (e -s)/2;  }
+
+/*  A recursive function to get the minimum value in a given range
+     of array indexes. The following are parameters for this function.
+
+    st    --> Pointer to segment tree
+    index --> Index of current node in the segment tree. Initially
+              0 is passed as root is always at index 0
+    ss & se  --> Starting and ending indexes of the segment represented
+                  by current node, i.e., st[index]
+    qs & qe  --> Starting and ending indexes of query range */
+int RMQUtil(int *st, int ss, int se, int qs, int qe, int index)
 {
-    return s + (e - s) / 2;
+    // If segment of this node is a part of given range, then return
+    //  the min of the segment
+    if (qs <= ss && qe >= se)
+        return st[index];
+
+    // If segment of this node is outside the given range
+    if (se < qs || ss > qe)
+        return INT_MAX;
+
+    // If a part of this segment overlaps with the given range
+    int mid = getMid(ss, se);
+    return minVal(RMQUtil(st, ss, mid, qs, qe, 2*index+1),
+                  RMQUtil(st, mid+1, se, qs, qe, 2*index+2));
 }
 
+// Return minimum of elements in range from index qs (quey start) to
+// qe (query end).  It mainly uses RMQUtil()
+int RMQ(int *st, int n, int qs, int qe)
+{
+    // Check for erroneous input values
+    if (qs < 0 || qe > n-1 || qs > qe)
+    {
+        printf("Invalid Input");
+        return -1;
+    }
+
+    return RMQUtil(st, 0, n-1, qs, qe, 0);
+}
 int getSumUtil(int *st, int ss, int se, int qs, int qe, int index)
 {
     if (qs <= ss && qe >= se)
@@ -75,22 +115,6 @@ int getSumUtil(int *st, int ss, int se, int qs, int qe, int index)
         return 0;
     int mid = getMid(ss, se);
     return getSumUtil(st, ss, mid, qs, qe, 2 * index + 1) + getSumUtil(st, mid + 1, se, qs, qe, 2 * index + 2);
-}
-//to update elements within range [i,j]with value val
-void updateRange(int arr[],int *st,int a, int b,int i, int j,int val)
-{
-  if(a>b || a>j || b<i)return;//current segment is not in range
-  if(a==b){
-    //leaf node
-    st[a] += val;
-    return;
-  }
-  else{
-    int mid = getMid(a,b);
-    updateRange(arr,st,a,mid,i,j,val);
-    updateRange(arr,st,mid+1,b,i,j,val);
-  }
-
 }
 
 void updateValueAtIndexUtil(int *st, int ss, int se, int i, int diff, int index)
@@ -165,13 +189,8 @@ int main()
       cout<<arr[i]<<" ";
     }
     NL;
-    cout<<"updating value in range 2 to 4: increase all by 2\n";
-    updateRange(arr,st,0,n,2,4,2);
-    REP(i,0,n){
-      cout<<arr[i]<<" ";
-    }
-    NL;
-    cout<<"Updated sum of values in given range:"<<getSum(st, n, 1, 3);
-    NL;
+    int qs=1;
+    int qe=4;
+    cout<<RMQ(st,n,qs,qe);NL;
     zzz;
 }

@@ -1,7 +1,67 @@
-// Program to show segment tree to demonstrate lazy
-// propagation
-#include <stdio.h>
-#include <math.h>
+#include<bits/stdc++.h>
+
+using namespace std;
+
+#define nl endl
+#define lli long long int
+#define ld long double
+#define vb vector<bool>
+typedef vector<int> vi;
+typedef vector<lli> vlli;
+typedef vector<double> vd;
+typedef vector<char> vc;
+typedef vector<string> vs;
+typedef vector<vector<int> > vvi;
+typedef vector<vector<char> > vvc;
+typedef priority_queue<int> pq; //maxHeap
+typedef priority_queue <int, vector<int>, greater<int> > pqn; //minHEAP
+typedef map<int, int> mii;
+typedef map<string, int> msi;
+typedef map<int, string> mis;
+typedef map<string, bool> msb;
+typedef map<string, string> mss;
+typedef map<string, char> msc;
+typedef pair<int, int> pii;
+typedef pair<lli, lli> pllilli;
+typedef vector<pii> vii;
+typedef vector<pllilli> vllilli;
+//vector<int>::iterator j;
+#define REPV (j, v) for(vector<int>::iterator j = v.begin(); j!=v.end();j++)
+#define pb push_back
+//#define pf push_front
+#define mp make_pair
+#define min3(a,b,c) min(a,min(b,c))
+#define max3(a,b,c) max(a,max(b,c))
+#define SZ(X) ((int)(X).size())
+#define ALL(X) (X).begin(), (X).end()
+#define REP(I, A, B) for (int I = (A); I < (B); ++I)
+#define REPR(I, A, B) for (int I = (B); I > (A); I--)
+#define RI(X) scanf("%d", &(X))
+#define RII(X, Y) scanf("%d%d", &(X), &(Y))
+#define RIII(X, Y, Z) scanf("%d%d%d", &(X), &(Y), &(Z))
+#define DRI(X) int (X); scanf("%d", &X)
+#define DRLLI(X) lli (X); scanf("%lld", &X)
+#define DRII(X, Y) int X, Y; scanf("%d%d", &X, &Y)
+#define DRLLILLI(X, Y) lli X, Y; scanf("%lld%lld", &X, &Y)
+#define DRIII(X, Y, Z) int X, Y, Z; scanf("%d%d%d", &X, &Y, &Z)
+#define DRLLILLILLI(X, Y, Z) lli X, Y, Z; scanf("%lld%lld%lld", &X, &Y, &Z)
+#define RS(X) scanf("%s", (X))
+#define DRA(a,n) int a[n]; REP(i,n)cin>>a[i]
+#define l_b lower_bound
+#define u_b upper_bound
+#define MS0(X) memset((X), 0, sizeof((X)))
+#define MS1(X) memset((X), -1, sizeof((X)))
+#define LEN(X) strlen(X)
+#define NL cout<<endl
+#define isOdd(i) (i&1)
+#define isEven(i) (!(i&1))
+#define all(ar) ar.begin(), ar.end()
+#define zzz return 0
+inline lli Power(int b, int p) { lli ret = 1; for ( int i = 1; i <= p; i++ ) ret *= b; return ret; }
+const int MOD = 1e9+7;
+const int SIZE = 4e6+10;
+const int MAX = 1e9+1;
+
 #define MAX 1000
 
 // Ideally, we should not use global variables and large
@@ -148,7 +208,69 @@ int getSumUtil(int ss, int se, int qs, int qe, int si)
     return getSumUtil(ss, mid, qs, qe, 2*si+1) +
            getSumUtil(mid+1, se, qs, qe, 2*si+2);
 }
+// A utility function to get the middle index from corner indexes.
+int getMid(int s, int e) {  return s + (e -s)/2;  }
 
+/*  A recursive function to get the minimum value in a given range
+     of array indexes. The following are parameters for this function.
+
+    st    --> Pointer to segment tree
+    index --> Index of current node in the segment tree. Initially
+              0 is passed as root is always at index 0
+    ss & se  --> Starting and ending indexes of the segment represented
+                  by current node, i.e., st[index]
+    qs & qe  --> Starting and ending indexes of query range */
+int RMQUtil(int *st, int ss, int se, int qs, int qe, int index)
+{
+    if (lazy[index] != 0)
+    {
+        // Make pending updates to this node. Note that this
+        // node represents sum of elements in arr[ss..se] and
+        // all these elements must be increased by lazy[si]
+        tree[index] += (se-ss+1)*lazy[index];
+
+        // checking if it is not leaf node because if
+        // it is leaf node then we cannot go further
+        if (ss != se)
+        {
+            // Since we are not yet updating children os si,
+            // we need to set lazy values for the children
+            lazy[index*2+1] += lazy[index];
+            lazy[index*2+2] += lazy[index];
+        }
+
+        // unset the lazy value for current node as it has
+        // been updated
+        lazy[index] = 0;
+    }
+    // If segment of this node is a part of given range, then return
+    //  the min of the segment
+    if (qs <= ss && qe >= se)
+        return st[index];
+
+    // If segment of this node is outside the given range
+    if (se < qs || ss > qe)
+        return INT_MAX;
+
+    // If a part of this segment overlaps with the given range
+    int mid = getMid(ss, se);
+    return min(RMQUtil(st, ss, mid, qs, qe, 2*index+1),
+                  RMQUtil(st, mid+1, se, qs, qe, 2*index+2));
+}
+
+// Return minimum of elements in range from index qs (quey start) to
+// qe (query end).  It mainly uses RMQUtil()
+int RMQ(int *st, int n, int qs, int qe)
+{
+    // Check for erroneous input values
+    if (qs < 0 || qe > n-1 || qs > qe)
+    {
+        printf("Invalid Input");
+        return -1;
+    }
+
+    return RMQUtil(st, 0, n-1, qs, qe, 0);
+}
 // Return sum of elements in range from index qs (quey
 // start) to qe (query end).  It mainly uses getSumUtil()
 int getSum(int n, int qs, int qe)
