@@ -13,13 +13,43 @@
   <details>
     <summary>------Binary Search Tree</summary>
     <details>
-      <summary>About</summary>
+      <summary>---------------About</summary>
+      <details>
+      <summary>---------------------Declaration</summary>
+      </details>
     </details>
     <details>
-      <summary>Uses</summary>
+      <summary>---------------Uses</summary>
+      <details>
+      <summary>---------------------Use1</summary>
+          <details>
+          <summary>---------------------------code</summary>
+          </details>
+      </details>
+      <details>
+      <summary>---------------------Use2</summary>
+          <details>
+          <summary>---------------------------code</summary>
+          </details>
+      </details>
+      <details>
+      <summary>---------------------Use3</summary>
+          <details>
+          <summary>---------------------------code</summary>
+          </details>
+      </details>
     </details>
     <details>
-      <summary>Questions</summary>
+      <summary>---------------Questions</summary>
+          <details>
+          <summary>---------------------------Topic</summary>
+          </details>
+           <details>
+          <summary>---------------------------Topic</summary>
+          </details>
+          <details>
+          <summary>---------------------------Topic</summary>
+          </details>
     </details>
   
     
