@@ -90,12 +90,47 @@ class BST
         void display(node *, int);
         int height(node *);
         int diameter(node *);
+        void mirror(node *);
         bool hasPathSum(node * , int);
+        int lca(node *,int,int);//build using BST properties
+        bool printAncestors(node *, int);
+        //  void diagonalPrint(node *);
+        //  void diagonalPrintUtil(node *, int , map<int, vector<int > > ){
+        //following 3 to print the tree vertically
+        void findMinMax(node *, int *, int *, int );
+        void printVertically(node * , int,int);
+        void verticalOrder(node * );
         BST()
         {
             root = NULL;
         }
 };
+/*
+lca-build using BST properties and won't work for tree != BST
+while traversing from top to bottom, the first node n we encounter with value
+between n1 and n2, i.e., n1 < n < n2 or same as one of the n1 or n2, is LCA of
+ n1 and n2 (assuming that n1 < n2)
+*/
+int lca(node *node, int a, int b){
+  if(node == NULL)return 0;
+  if(node ->data >a && node->data >b)return lca(node->left,a,b);
+  if(node ->data <a && node->data <b)return lca(node->right,a,b);
+  return node->data;
+
+}
+/*
+prints all the ancestors of a node with data 'val'
+*/
+bool printAncestors(node * node, int val){
+  if(node == NULL)return false;
+  if(node ->data == val)return true;
+
+  if((printAncestors(node->right,val))||(printAncestors(node->left, val))){
+    cout<< node->data<<" ";
+    return true;
+  }
+  return false;
+}
 /*
  * Find Element in the Tree
  */
@@ -290,7 +325,24 @@ void BST::case_c(node *par, node *loc)
     suc->left = loc->left;
     suc->right = loc->right;
 }
-
+/*
+Mirror the tree i.e. swap every pair of children
+starting from the node
+*/
+void mirror(node * node)
+{
+  if(node ==NULL)return;
+  else{
+    //do the subtrees
+    mirror(node->left);
+    mirror(node->right);
+    swap(node->left, node->right);// won't work with pinters ;P
+    // node* tmp;
+    // tmp = node->left;
+    // node->left = node->right;
+    // node->right = tmp;
+  }
+}
 /*
  * Pre Order Traversal
  */
@@ -366,6 +418,57 @@ void BST::display(node *ptr, int level)
     }
 }
 /*
+Diagonal Print: https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/
+
+void diagonalPrintUtil(node * node, int d, map<int, vector<int > > &m){
+  if(root == NULL)return;
+  // Store all nodes of same line together as a vector
+  m[d].pb(node->data);
+  // Increase the vertical distance if left child
+  diagonalPrintUtil(node->left, d+1,m);
+  // Vertical distance remains same for right child
+  diagonalPrintUtil(node->left, d+1,m);
+}
+void diagonalPrint(node * node){
+  map<int, vector<int>>m;
+  diagonalPrintUtil(node, 0,m);
+  for(auto it=m.begin();it != m.end();it++){
+    for(auto i=it->second.begin();i!= it->second.end();i++){
+      cout<<*i<<" ";
+    }NL;
+  }
+}
+
+*/
+/*
+Print tree in vertical order- https://www.geeksforgeeks.org/print-binary-tree-vertical-order/
+*/
+//to find min/max distance from root to any node
+void findMinMax(node *node, int *min, int *max, int curr){
+  if(node == NULL)return;
+  if(curr < *min) *min=curr;
+  else if(curr > *max) *max = curr;
+  findMinMax(node->left, min, max, curr-1);
+  findMinMax(node->right, min, max, curr+1);
+}
+//utility function
+void printVertically(node * node, int l,int curr){
+  if(node == NULL)return;
+  if(curr== l)cout<< node->data<<" ";
+  printVertically(node->left, l,curr-1);
+  printVertically(node->right, l,curr+1);
+}
+//final function to print the treee printVertically
+void verticalOrder(node * node){
+  int min =0,max=0;
+  findMinMax(node, &min, &max,0);
+  REP(i,min,max+1){
+    printVertically(node, i,0);
+    NL;
+  }
+}
+
+/*
 find height of a node
 */
 int height(node * node){
@@ -431,6 +534,11 @@ int main()
         cout<<"7.Height of tree\n";
         cout<<"8.Diameter of tree\n";
         cout<<"9.Has path sum\n";
+        cout<<"10.Mirror the BST\n";
+        cout<<"11.diagonal print the tree-not working\n";
+        cout<<"12.print tree verically\n";
+        cout<<"13.LCA\n";
+        cout<<"14.Print ancestors of a node\n";
         cout<<"0.Quit"<<endl;
         cout<<"Enter your choice : ";
         cin>>choice;
@@ -482,9 +590,35 @@ int main()
             break;
         case 9:
             cout<<"check if root to leaf sum equals your sum\n";
-            if(hasPathSum(root))cout<<"YES\n";
+            int sum;cin>>sum;
+            if(hasPathSum(root,sum))cout<<"YES\n";
             else cout<<"NO\n";
             NL;
+            break;
+        case 10:
+            mirror(root);
+            cout<<"your tree just got mirrored\n";
+            break;
+        case 11:
+            //diagonalPrint(root);
+            cout<<"bol na, not working\n";
+            cout<<"go check https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/ and do it w/o class\n";
+            break;
+        case 12:
+            verticalOrder(root);
+            break;
+        case 13:
+            cout<<"enter nodes\n";
+            int a,b;
+            cin>>a>>b;
+            if(a>b)swap(a,b);
+            cout<<"lca is: "<<lca(root,a,b);;
+            NL;
+            break;
+        case 14:
+            cout<<"Enter data of node\n";
+            int v;cin>>v;
+            printAncestors(root,v);NL;
             break;
         case 0:
             exit(1);
