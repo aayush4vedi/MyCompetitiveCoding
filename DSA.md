@@ -93,20 +93,20 @@
     <summary>------Segment Tree</summary>
     <details>
       <summary>---------------About</summary>
-      Is a height balanced binary tree with static structure(str can't be changed once made)
-      <br>Height = log2(n)// n is #ele in array
-      <br>#Internal nodes = n-1
-      <br>#total nodes = n+n-1
+      ---Is a height balanced binary tree with static structure(str can't be changed once made)
+      <br><br>------Height = log2(n)// n is #ele in array
+      <br>------#Internal nodes = n-1
+      <br>------#total nodes = n+n-1
+      <br><br>
+      ---Used in Range Queries.
       <br>
-      Used in Range Queries.
+      ---Easy to think and code.
       <br>
-      Easy to think and code.
+      ---Fundamental operations:
       <br>
-      Fundamental operations:
+      ------(1)Merge: (going up) storing information(e.g. sum,min/max ele) of 2 nodes into a singe node
       <br>
-      (1)Merge:(going up)storing information(e.g. sum,min/max ele) of 2 nodes into a singe node
-      <br>
-      (2)Split:(going down)propagation of information(like: update)from parent node to it's children.It's done in **Lazy Manner.
+      ------(2)Split: (going down) propagation of information(like: update)from parent node to it's children.It's done in **Lazy Manner.
       <details>
       <summary>---------------------SegTree</summary>
         --------------------------[Code for SegTree](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/SegmentTree/template.cpp)
