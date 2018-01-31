@@ -45,10 +45,15 @@
   <details>
     <summary>Suffix Tree</summary>
   </details>
+  <details>
+  <summary>Prefix Tree</summary>
+  </details>
   </details>
   <details>
   <summary>Graph</summary>
-    
+    <details>
+    <summary>Graph Theory</summary>
+    </details>
   </details>
   <details>
   <summary>Stack</summary>
@@ -65,7 +70,7 @@
   <summary>Disjoint Set</summary>
     
   </details>
-    <details>
+  <details>
   <summary>Array</summary>
     
   </details>
@@ -75,7 +80,35 @@
 
 <details open>
 <summary>Algorithms</summary>
-<br>
+  <details>
+  <summary>DP</summary>
+    
+  </details>
+    <details>
+  <summary>Greedy</summary>
+    
+  </details>
+  <details>
+    <summary>Binary and Ternary Search</summary>
+  </details>
+  <details>
+    <summary>String ALgo<summary>
+  </details>
 
+</details>
+<details open>
+<summary>Game Theory</summary>
 
+</details>
+<details open>
+    <summary>Maths</summary>
+    <details>
+    <summary>Number Theory</summary>
+    </details>
+    <details>
+    <summary>Combinotrics</summary>
+    </details>
+    <details>
+    <summary>Geomatry</summary>
+    </details>
 </details>
