@@ -17,8 +17,7 @@
       write here...
       <details>
       <summary>---------------------Declaration</summary>
-        
-        ```cpp 
+        ``` cpp 
         code;
         ```
       </details>
@@ -68,6 +67,7 @@
           <details>
           <summary>---------------------------Topic</summary>
             Link:
+            <br>
             Solution:
           </details>
     </details>
