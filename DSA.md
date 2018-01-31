@@ -115,18 +115,20 @@
         <br>
         ------------------------------------1.Build tree-O(N)<br>
         ------------------------------------2.Update an index-O(logN)<br>
+        ------------------------------------2.Update an Rante-O(NlogN) // the code gives SSGIV<br>
         ------------------------------------4.Range Query-O(logN)<br>
         ---------------------------------------------4.1 Range Sum Query
         ---------------------------------------------4.1 Range Min Query
         </details>
         <details>
         <summary>---------------------Lazy Propagation-segTree</summary>
-        --------------------------[Code for SegTree]-LAZY PROPAGATION](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
+        --------------------------[Code for SegTree]-LAZY PROPAGATION](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/SegmentTree/template_lazyPropagation.cpp)
         <br>
         ---------------------------------Includes:
         <br>
         ------------------------------------1.Build tree-O(N)<br>
         ------------------------------------2.Update an index-O(logN)<br>
+        ------------------------------------2.Update an range-O(logN) //while upar wala does in O(nlogN)<br>
         ------------------------------------4.Range Query-O(logN)<br>
         ---------------------------------------------4.1 Range Sum Query
         ---------------------------------------------4.1 Range Min Query
@@ -135,40 +137,16 @@
     <details>
       <summary>---------------Uses</summary>
       <details>
-      <summary>---------------------Range Queries</summary>
-          <details>
-          <summary>---------------------------code</summary>
-            ```cpp 
-            code;
-            ```
-          </details>
-      </details>
-      <details>
-      <summary>---------------------Use2</summary>
-          <details>
-          <summary>---------------------------code</summary>
-            ```cpp 
-            code;
-            ```
-          </details>
-      </details>
-      <details>
-      <summary>---------------------Use3</summary>
-          <details>
-          <summary>---------------------------code</summary>
-            ```cpp 
-            code;
-            ```
-          </details>
+      <summary>---------------------Range Queries in O(logN)</summary>
       </details>
     </details>
     <details>
       <summary>---------------Questions</summary>
           <details>
           <summary>---------------------------Topic</summary>
-            Link: http://www.spoj.com/problems/BST/
+            Link: 
             <br>
-            Solution: https://www.quora.com/What-is-the-approach-to-solve-this-question-SPOJ-com-Problem-BST
+            Solution: 
           </details>
            <details>
           <summary>---------------------------Topic</summary>
