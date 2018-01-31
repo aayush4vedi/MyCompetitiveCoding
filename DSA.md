@@ -49,66 +49,81 @@
   <summary>Prefix Tree</summary>
   </details>
   </details>
+  <br>
   <details>
+  
   <summary>Graph</summary>
     <details>
     <summary>Graph Theory</summary>
     </details>
   </details>
+  <br>
   <details>
   <summary>Stack</summary>
     
   </details>
+  <br>
   <details>
   <summary>Queue</summary>
     
   </details>
+  <br>
   <details>
   <summary>Heap</summary>
-  <details>
-  </details>  
+  </details>
+  <br>
+  <details>  
+  
   <summary>Disjoint Set</summary>
     
   </details>
+  <br>
   <details>
   <summary>Array</summary>
     
   </details>
 </details>
-
+<br><br><br>
 
 
 <details open>
 <summary>Algorithms</summary>
+  <br>
   <details>
   <summary>DP</summary>
     
   </details>
-    <details>
+  <br>
+  <details>
   <summary>Greedy</summary>
     
   </details>
+  <br>  
   <details>
     <summary>Binary and Ternary Search</summary>
   </details>
+  <br>
   <details>
     <summary>String ALgo<summary>
   </details>
 
 </details>
+<br><br><br>
 <details open>
 <summary>Game Theory</summary>
 
 </details>
+<br><br><br>
 <details open>
-    <summary>Maths</summary>
+    <summary>Maths</summary><br>
     <details>
     <summary>Number Theory</summary>
-    </details>
+    </details><br>
     <details>
     <summary>Combinotrics</summary>
-    </details>
+    </details><br>
     <details>
     <summary>Geomatry</summary>
-    </details>
+    </details><br>
 </details>
+<br><br><br>
