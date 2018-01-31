@@ -93,35 +93,44 @@
     <summary>------Segment Tree</summary>
     <details>
       <summary>---------------About</summary>
-      Is a height balanced binary tree with static structure.
+      Is a height balanced binary tree with static structure(str can't be changed once made)
+      <br>Height = log2(n)// n is #ele in array
+      <br>#Internal nodes = n-1
+      <br>#total nodes = n+n-1
       <br>
       Used in Range Queries.
       <br>
       Easy to think and code.
       <br>
       Fundamental operations:
-      * **Merge
-      * **Split
+      <br>
+      (1)Merge:(going up)storing information(e.g. sum,min/max ele) of 2 nodes into a singe node
+      <br>
+      (2)Split:(going down)propagation of information(like: update)from parent node to it's children.It's done in **Lazy Manner.
       <details>
-      <summary>---------------------Declaration</summary>
-        --------------------------[Code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
+      <summary>---------------------SegTree</summary>
+        --------------------------[Code for SegTree](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/SegmentTree/template.cpp)
         <br>
         ---------------------------------Includes:
         <br>
-        ------------------------------------1.Inserting a node<br>
-        ------------------------------------2.Deletion of a node<br>
-        ------------------------------------3.Searching for a node<br>
-        ------------------------------------4.Tree traversal(preorder,inorder, postorder)<br>
-        ------------------------------------5.Printing the tree(display)<br>
-        ------------------------------------6.Has path sum<br>
-        ------------------------------------7.Height of a node<br>
-        ------------------------------------8.Diameter of tree<br>
-        ------------------------------------9.Mirror a tree<br>
-        ------------------------------------10.LCA-using BST properties, so won't work on tree !=BST<br>
-        ------------------------------------11.Print ancestors of a node<br>
-        ------------------------------------12.Print Vertically<br>
-        ------------------------------------13.Diagonal Print-not working with class(goto GfG)<br>
-           </details>
+        ------------------------------------1.Build tree-O(N)<br>
+        ------------------------------------2.Update an index-O(logN)<br>
+        ------------------------------------4.Range Query-O(logN)<br>
+        ---------------------------------------------4.1 Range Sum Query
+        ---------------------------------------------4.1 Range Min Query
+        </details>
+        <details>
+        <summary>---------------------Lazy Propagation-segTree</summary>
+        --------------------------[Code for SegTree]-LAZY PROPAGATION](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
+        <br>
+        ---------------------------------Includes:
+        <br>
+        ------------------------------------1.Build tree-O(N)<br>
+        ------------------------------------2.Update an index-O(logN)<br>
+        ------------------------------------4.Range Query-O(logN)<br>
+        ---------------------------------------------4.1 Range Sum Query
+        ---------------------------------------------4.1 Range Min Query
+        </details>
     </details>
     <details>
       <summary>---------------Uses</summary>
