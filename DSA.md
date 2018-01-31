@@ -108,6 +108,9 @@
       <br>
       ------(2)Split: (going down) propagation of information(like: update)from parent node to it's children.It's done in **Lazy Manner.
       <details>
+      <details>
+      <summary>---------------Implementation</summary>  
+      <details>
       <summary>---------------------SegTree</summary>
         --------------------------[Code for SegTree](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/SegmentTree/template.cpp)
         <br>
@@ -133,6 +136,7 @@
         ---------------------------------------------4.1 Range Sum Query
         ---------------------------------------------4.1 Range Min Query
         </details>
+    </details>
     </details>
     <details>
       <summary>---------------Uses</summary>
