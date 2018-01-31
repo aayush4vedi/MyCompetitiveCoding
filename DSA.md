@@ -14,13 +14,23 @@
     <summary>------Binary Search Tree</summary>
     <details>
       <summary>---------------About</summary>
-      write here...
+      Is a binary tree with (node->left <node<node->right)
       <details>
       <summary>---------------------Declaration</summary>
-        ``` cpp 
-        code;
-        ```
-      </details>
+        [Code](https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/spoj/tree/BST/templateBST.cpp)
+        <br>
+        Includes:
+        </br>
+        1.Inserting a node</br>
+        2.Deletion of a node<br>
+        3.Searching for a node<br>
+        4.Tree traversal(preorder,inorder, postorder)<br>
+        5.Printing the tree(display)<br>
+        6.Has path sum<br>
+        7.Height of a node<br>
+        8.Diameter of tree<br>
+        9.
+    </details>
     </details>
     <details>
       <summary>---------------Uses</summary>
