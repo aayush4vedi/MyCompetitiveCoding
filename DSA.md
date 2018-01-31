@@ -108,7 +108,6 @@
       <br>
       ------(2)Split: (going down) propagation of information(like: update)from parent node to it's children.It's done in **Lazy Manner.
       <details>
-      <details>
       <summary>---------------Implementation</summary>  
       <details>
       <summary>---------------------SegTree</summary>
