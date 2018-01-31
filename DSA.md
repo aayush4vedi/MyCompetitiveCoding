@@ -145,8 +145,8 @@
                       </details>
              </details>
               <br>
+      </details>
       <details>
-  
   <summary>---Graph</summary>
     <details>
     <summary>------Graph Theory</summary>
