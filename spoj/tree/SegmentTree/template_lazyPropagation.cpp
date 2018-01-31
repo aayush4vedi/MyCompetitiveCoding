@@ -137,7 +137,10 @@ void updateRangeUtil(int si, int ss, int se, int us,
 
     // And use the result of children calls to update this
     // node
+    //TODO:do following when query is for sum
     tree[si] = tree[si*2+1] + tree[si*2+2];
+    //TODO: do following when RMQ type query ho
+    //tree[si] = min(tree[si*2+1],tree[si*2+2]);
 }
 
 // Function to update a range of values in segment

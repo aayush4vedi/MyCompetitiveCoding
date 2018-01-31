@@ -90,7 +90,7 @@ int RMQUtil(int *st, int ss, int se, int qs, int qe, int index)
 
     // If a part of this segment overlaps with the given range
     int mid = getMid(ss, se);
-    return minVal(RMQUtil(st, ss, mid, qs, qe, 2*index+1),
+    return min(RMQUtil(st, ss, mid, qs, qe, 2*index+1),
                   RMQUtil(st, mid+1, se, qs, qe, 2*index+2));
 }
 
@@ -106,6 +106,30 @@ int RMQ(int *st, int n, int qs, int qe)
     }
 
     return RMQUtil(st, 0, n-1, qs, qe, 0);
+}
+/*
+update tree over interval [i,j] without LAZY PROPAGATION
+*/
+void update_rangeUtil(int *st,int ss,int se,int i, int j,int val,int index){
+  if(se < i || ss >j)return;
+  if(se == ss){
+    st[index] += val;
+    return;
+  }
+  int mid = getMid(ss,se);
+  update_rangeUtil(st,ss,mid,i,j,val,2*index +1);
+  update_rangeUtil(st,ss,mid+1,i,j,val,2*index +2);
+  //st[index]=max(st[index*2 +1],st[index*2+2]);//TODO:for RMQ type query
+  //TODO:for sum type qurry: do This->
+  st[index]=st[index*2 +1]+st[index*2+2];//TODO:for RMQ type query
+
+}
+void update_range(int *st,int n,int i,int j,int val){
+  if(i>j || i<0 ||j>n-1){
+    cout<<"invalid input";
+    return;
+  }
+  return update_rangeUtil(st,0,n-1,i,j,val,0);
 }
 int getSumUtil(int *st, int ss, int se, int qs, int qe, int index)
 {
@@ -189,8 +213,15 @@ int main()
       cout<<arr[i]<<" ";
     }
     NL;
+    cout<<"now updating values in range [2,4]by 1 w/o using Lazy\n";
+    update_range(st,n,2,4,1);
+    REP(i,0,n){
+      cout<<arr[i]<<" ";
+    }
+    NL;
     int qs=1;
     int qe=4;
+    cout<<"RMQ in [1-4]is: \n";
     cout<<RMQ(st,n,qs,qe);NL;
     zzz;
 }
