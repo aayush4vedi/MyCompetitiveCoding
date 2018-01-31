@@ -22,6 +22,7 @@
   <details>
   <summary>Heap</summary>
   <details>
+  </details>  
   <summary>Disjoint Set</summary>
     
   </details>
