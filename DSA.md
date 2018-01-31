@@ -5,7 +5,6 @@
 <br>
   <details>
   <summary>---Tree</summary>
-          <details> 
                     <details>
                             <summary>------Binary Tree</summary>
                              Khaali
