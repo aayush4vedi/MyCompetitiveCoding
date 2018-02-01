@@ -105,6 +105,13 @@
                         <details>
                                 <summary>---------------Questions</summary>
                                 <details>
+                                        <summary>---------------------------Simple SegTree</summary>
+                                                  Link: http://codeforces.com/contest/380/problem/C
+                                                  <br>
+                                                  Solution: https://sidhantgoyal.wordpress.com/2014/02/05/sereja-and-brackets/
+                                                  <br>https://github.com/jhonber/Programming-Contest/blob/47b0e6685c18dc4dc3640fc7e1982628681ad718/codeforces/Codeforces%20Round%20%23223%20%28Div.%201%29/C.cpp
+                                 </details>
+                                 <details>
                                         <summary>---------------------------Topic</summary>
                                                   Link: 
                                                   <br>
@@ -116,7 +123,13 @@
                                 <summary>------Trie</summary>
                         </details>
                         <details>
-                                <summary>------AVL Tree</summary>
+                                <summary>------BIT/AVL Tree</summary>
+                                <details>
+                                         <summary>Uses</summary>
+                                          <details>
+                                                   <summary>Find kth smallest element in array after sorting for each query</summary>
+                                          </details>                                  
+                                </details>
                         </details>
                         <details>
                                 <summary>------Heap</summary>
