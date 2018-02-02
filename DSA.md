@@ -112,11 +112,11 @@
                                                   <br>https://github.com/jhonber/Programming-Contest/blob/47b0e6685c18dc4dc3640fc7e1982628681ad718/codeforces/Codeforces%20Round%20%23223%20%28Div.%201%29/C.cpp
                                  </details>
                                  <details>
-                                        <summary>---------------------------Topic</summary>
-                                                  Link: 
-                                                  <br>
-                                                  Solution: 
+                                        <summary>---------------------------CodeForces collection-undone: http://codeforces.com/blog/entry/15890</summary>
                                  </details>
+                                 <details>
+                                        <summary>---------------------------Another collection-All done</summary>
+                                                  Link: http://jaskamalkainth.github.io/Segment-tree-Problems/                                                    </details>
                         </details>
                         </details>
                         <details>
