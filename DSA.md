@@ -69,6 +69,7 @@
                                   ------(1)Merge: (going up) storing information(e.g. sum,min/max ele) of 2 nodes into a singe node
                                   <br>
                                   ------(2)Split: (going down) propagation of information(like: update)from parent node to it's children.It's done in **Lazy Manner.
+                                  <br>Heavy light decompostion:https://blog.anudeep2011.com/heavy-light-decomposition/
                         </details>
                         <details>
                                 <summary>---------------------Code: SegTree</summary>
