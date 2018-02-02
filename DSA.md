@@ -93,6 +93,8 @@
                                           ------------------------------------1.Build tree-O(N)<br>
                                           ------------------------------------2.Update an index-O(logN)<br>
                                           ------------------------------------2.Update an range-O(logN) //while upar wala does in O(nlogN)<br>
+                                          ------------------------------------5.Point-Query//to see updated array(logN)
+                                          <br>
                                           ------------------------------------4.Range Query-O(logN)
                                           <br>
                                           ---------------------------------------------4.1 Range Sum Query<br>
