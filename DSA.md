@@ -96,7 +96,7 @@
                                           ------------------------------------2.Update an range-O(logN) //while upar wala does in O(nlogN)<br>
                                           ------------------------------------5.Point-Query//to see updated array(logN)
                                           <br>
-                                          ------------------------------------TIP.To traverse array-REP(i,0,n)cout<<pointer-query(0,n-1,i-1);
+                                          ------------------------------------TIP.To traverse array-REP(i,0,n)cout< < pointer-query(0,n-1,i-1);<br>
                                           ------------------------------------6.Range Query-O(logN)
                                           <br>
                                           ---------------------------------------------4.1 Range Sum Query<br>
