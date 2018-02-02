@@ -24,7 +24,8 @@ int main(){
   string s;cin>>s;
   int n= s.size();
   for(int i=0;i<n;i++){
-    s[i]= (s[i]+2)%25;
+    if(s[i]=='z')s[i]='c';
+    s[i]= (s[i]+2);
   }
   cout<<s;cout<<"\n";
   return 0;

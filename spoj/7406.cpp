@@ -1,4 +1,5 @@
 
+
 #include<bits/stdc++.h>
 
 using namespace std;
@@ -125,47 +126,3 @@ using namespace std;
 //
 //
 // }
-//
-// int main()
-// {
-//     int n;cin>>n;
-//     string s= encode_hex(n);cout<<s;cout<<endl;
-//     //decToHexa(n);
-//
-//     return 0;
-// }
-// //
-*/
- string solution(vector <int >v){
-   string s;
-   s.append(v[0]);
-   int count =1;
-
-   for(int i =1;i<v.size();i++ ){
-     if(v[i]==v[i+1])count++;
-     else{
-       if(count > 2){
-         s.append("-");
-       }else{
-         s.append("-");
-       }
-       if(count>1){
-         s.append(v[i]);s.append(", ");
-       }
-       s.append(v[i+1]);
-       count =1;
-     }
-   }
-   return s;
- }
-
-int main(){
-  int n;cin>>n;
-  vector <int >v;
-  for(int i=0;i<n;i++){
-    int x;cin>>x;v.pb(x);
-  }
-  string s = solution(v);
-  cout<<s;NL;\
-  zzz;
-}

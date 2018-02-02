@@ -69,7 +69,7 @@ cout << "time: " << (stop_s-start_s)/double(CLOCKS_PER_SEC)*1000 << endl;
 */
 deque<int>q;
 void reverse(deque<int>q){
-  int i=0;int j=q.size();
+  int i=0;int j=q.size()-1ss;
   while(i<j){
     swap(q.at(i),q.at(j));
     i++;j--;

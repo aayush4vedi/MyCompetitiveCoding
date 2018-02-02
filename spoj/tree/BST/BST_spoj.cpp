@@ -136,7 +136,7 @@ void BST::insert(node *tree, node *newnode)
             return;
         }
     }
-    cout<<cnt;NL;
+
 }
 
 int main()

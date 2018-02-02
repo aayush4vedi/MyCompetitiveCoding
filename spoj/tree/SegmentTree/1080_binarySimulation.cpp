@@ -88,6 +88,7 @@ void updateRangeUtil(int si, int ss, int se, int us,
             lazy[si*2 + 1]   += diff;
             lazy[si*2 + 2]   += diff;
         }
+        lazy[si]=0;
         return;
     }
     int mid = (ss+se)/2;
@@ -204,25 +205,29 @@ void constructST(int arr[], int n)
 }
 int main()
 {
-    int arr[] = {1, 3, 5, 7, 9, 11};
-    int n = sizeof(arr)/sizeof(arr[0]);
-
-    // Build segment tree from given array
+  DRI(t);
+  REP(c,1,t){
+    string s;cin>>s;
+    int n= s.length();
+    int arr[n];
+    REP(i,0,n)arr[i]=s[i]-'0';
     constructST(arr, n);
-    REP(i,0,n)cout<<point_query(0,0,n-1,i)<<" ";
-    NL;
-    // Print sum of values in array from index 1 to 3
-    printf("Sum of values in given range = %d\n",
-           getSum(n, 1, 3));
+    DRI(q);
+    while(q--){
+      string s;cin>>s;
+      if(s== "I"){
+        DRII(l,r);
+        updateRange(n,l-1,r-1,1);
+        REP(i,0,n)cout<<point_query(0,0,n-1,i)%2<<" ";
+        NL;
+      }else{
+        DRI(x);
+        cout<<point_query(0,0,n-1,x-1)%2;NL;
+      }
+    }
 
-    // Add 10 to all nodes at indexes from 1 to 5.
-    cout<<"updating:dd 10 to all nodes at indexes from 1 to 5\n ";
-    updateRange(n, 1, 5, 10);
-    REP(i,0,n)cout<<point_query(0,0,n-1,i)<<" ";
+    //REP(i,0,n)cout<<arr[tree[i]]<<" ";
     NL;
-    // Find sum after the value is updated
-    printf("Updated sum of values in given range = %d\n",
-            getSum( n, 1, 3));
-
-    return 0;
+  }
+  return 0;
 }

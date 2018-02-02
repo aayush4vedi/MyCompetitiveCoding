@@ -61,7 +61,11 @@ const int MOD = 1e9+7;
 const int SIZE = 4e6+10;
 const int MAX = 1e9+1;
 
-
+int foo(string s, int l, int h){
+  if(l>h)return INT_MAX;
+  if(l==h)return 0;
+  if(l==h-1)return
+}
 
 int main(){
   DRI(t);

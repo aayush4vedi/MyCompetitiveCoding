@@ -79,16 +79,16 @@ const int MAX = 1e9+1;
 //   zzz;
 // }
 //
-int main(){
-  string s, sub;
-  getline(cin,s);
-  cin>>sub;
-  int cnt=0;
-  size_t found = s.find(sub,0);
-  while(found != string::npos){
-    cnt++;
-    found = s.find(sub,found+1);
-  }
-  cout<<cnt;NL;
-  zzz;
-}
+// int main(){
+//   string s, sub;
+//   getline(cin,s);
+//   cin>>sub;
+//   int cnt=0;
+//   size_t found = s.find(sub,0);
+//   while(found != string::npos){
+//     cnt++;
+//     found = s.find(sub,found+1);
+//   }
+//   cout<<cnt;NL;
+//   zzz;
+// }
