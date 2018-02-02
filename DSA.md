@@ -82,7 +82,8 @@
                                           ------------------------------------4.Range Query-O(logN)
                                           <br>
                                           ---------------------------------------------4.1 Range Sum Query<br>
-                                          ---------------------------------------------4.1 Range Min Query
+                                          ---------------------------------------------4.1 Range Min Query<br>
+                                          ------------------------------------TIP.To traverse array-print arr[i]
                                           </details>
                                           <details>
                                           <summary>---------------------Code: Lazy Propagation-segTree</summary>
@@ -95,7 +96,8 @@
                                           ------------------------------------2.Update an range-O(logN) //while upar wala does in O(nlogN)<br>
                                           ------------------------------------5.Point-Query//to see updated array(logN)
                                           <br>
-                                          ------------------------------------4.Range Query-O(logN)
+                                          ------------------------------------TIP.To traverse array-REP(i,0,n)cout<<pointer-query(0,n-1,i-1);
+                                          ------------------------------------6.Range Query-O(logN)
                                           <br>
                                           ---------------------------------------------4.1 Range Sum Query<br>
                                           ---------------------------------------------4.1 Range Min Query
