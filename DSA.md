@@ -133,6 +133,8 @@
                                         <summary>------------code</summary>
                                         <details>
                                                  <summary>------------1.Mine</summary>
+                                                 1.GfG: use when a bool value is reqd in class(is_last,count)-doesnt contains delete- https://www.geeksforgeeks.org/trie-insert-and-search/
+                                                 2.GoTigers!-easy deletion(in C)-http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html
                                                  <br>------------------Includes:
                                                  ------------------------0.Build trie-O(n*m)<br>
                                                  ------------------------1.Insertion-O(key lenght){time},O(alphabet_size*key_lenght*no_of_keys){space}<br>
@@ -149,7 +151,7 @@
                                                  http://pastebin.com/kUYHiLRC
                                         </details>
                                         <details>
-                                                 <summary>------------3.Using Classes</summary>
+                                                 <summary>------------3.Using Classes </summary>
                                                  https://gist.github.com/reterVision/8487831
                                         </details>
                                         <details>
@@ -184,9 +186,9 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                                         Solution: https://www.hackerrank.com/challenges/contacts/editorial
                                                 </details>
                                                 <details>
-                                                        <summary>------------------1.</summary>
-                                                        Link:   <br>
-                                                        Solution: 
+                                                        <summary>------------------1.Find if a string is prefix of any other</summary>
+                                                        Link: https://www.hackerrank.com/challenges/no-prefix-set/problem <br>
+                                                        Solution: https://www.hackerrank.com/challenges/no-prefix-set/editorial
                                                 </details>                                                
                                                 <details>
                                                         <summary>------------------1.</summary>
