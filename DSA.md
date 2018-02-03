@@ -189,7 +189,13 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                                         <summary>------------------(M).Find if a string is prefix of any other</summary>
                                                         Link: https://www.hackerrank.com/challenges/no-prefix-set/problem <br>
                                                         Solution: https://www.hackerrank.com/challenges/no-prefix-set/editorial
-                                                </details>                                                                                                              </details>
+                                                </details>              
+                                                <details>
+                                                        <summary>------------------(M).Phone list-SPOJ: used vector of occurrences in node declaration</summary>
+                                                        Link: http://www.spoj.com/problems/PHONELST/<br>
+                                                        Solution: http://theoryofprogramming.com/2015/08/24/trie-tree-practise-spoj-phonelst/
+                                                </details>                                   
+                                          </details>http://theoryofprogramming.com/2015/08/24/trie-tree-practise-spoj-phonelst/
                                 </details>
                         </details>
                         <details>
