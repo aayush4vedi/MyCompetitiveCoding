@@ -126,6 +126,27 @@
                         </details>
                         <details>
                                 <summary>------Trie</summary>
+                                ------------reTRIEval of data
+                                <br>------------used in dictionary searching for strings
+                                <details>
+                                        <summary>------------code</summary>
+                                        <details>
+                                                 <summary>------------1.Mine</summary>
+                                                 <br>------------------Includes:
+                                                 ------------------------1.Insertion<br>
+                                                 ------------------------2.Search<br>
+                                                 ------------------------3.Deletion<br>
+                                                 ------------------------4.Lexographical print<br>
+                                        </details>
+                                        <details>
+                                                 <summary>------------2.Using map</summary>
+                                                 http://pastebin.com/fyqsH65k
+                                        </details>
+                                         <details>
+                                                 <summary>------------2.Using Linked list</summary>
+                                                 http://pastebin.com/kUYHiLRC
+                                        </details>
+                                </details>
                         </details>
                         <details>
                                 <summary>------BIT/AVL Tree</summary>
