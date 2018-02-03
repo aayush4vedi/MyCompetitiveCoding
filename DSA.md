@@ -194,8 +194,12 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                                         <summary>------------------(M).Phone list-SPOJ: used vector of occurrences in node declaration</summary>
                                                         Link: http://www.spoj.com/problems/PHONELST/<br>
                                                         Solution: http://theoryofprogramming.com/2015/08/24/trie-tree-practise-spoj-phonelst/
-                                                </details>                                   
-                                          </details>http://theoryofprogramming.com/2015/08/24/trie-tree-practise-spoj-phonelst/
+                                                </details>  
+                                                <details>
+                                                        <summary>------------------(D).Partial Search & Lexographical Print</summary>
+                                                        Link:http://theoryofprogramming.com/2015/09/01/trie-tree-practise-spoj-dict/ 
+                                                </details>                                            
+                                          </details>
                                 </details>
                         </details>
                         <details>
