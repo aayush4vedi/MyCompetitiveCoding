@@ -2,7 +2,7 @@
 
 <details open>
 <summary>Data Structures</summary>
-<br>
+<br>*this Man has done what you're doing- https://github.com/rabiulcste
   <details>
   <summary>---Tree</summary>
                     <details>
@@ -239,10 +239,126 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
               <br>
       </details>
       <details>
-  <summary>---Graph</summary>
-    <details>
-    <summary>------Graph Theory</summary>
-    </details>
+              <summary>---Graph</summary>
+              <details>
+                      <summary>---------1.Representation</summary>
+                      Link: https://gist.github.com/mailpraveens/78713d5d69601bdb6737
+              </details>
+               <details>
+                      <summary>---------2.BFS</summary>
+                      <details>
+                              <summary>---------------2.1.BFS</summary>
+                              link: https://github.com/rabiulcste/Graph-Theory/blob/master/BFS.cpp
+                      </details>
+                       <details>
+                              <summary>---------------2.2.BFS using color{W,G,B}</summary>
+                              link: https://github.com/rabiulcste/Graph-Theory/blob/master/BFS%20using%20color.cpp
+                      </details>
+                       <details>
+                              <summary>---------------2.3. 2D BFS</summary>
+                              Code: https://github.com/rabiulcste/Graph-Theory/blob/master/BFS%20(2D).cpp
+                              example: https://stackoverflow.com/questions/37654296/breadth-first-search-on-2d-array
+                      </details>
+                </details>
+                <details>
+                      <summary>---------3.DFS</summary>
+                      <details>
+                               <summary>---------------3.1 DFS using adjacency list</summary>
+                                link: https://github.com/rabiulcste/Graph-Theory/blob/master/DFS.cpp
+                      </details>
+                      <details>
+                               <summary>---------------3.2 DFS using adjacency matrix</summary>
+                               link: https://github.com/rabiulcste/Graph-Theory/blob/master/DFS%20using%20matrix.cpp
+                      </details>
+                      <details>
+                               <summary>---------------3.3 2D-DFS</summary>
+                               link: https://github.com/rabiulcste/Graph-Theory/blob/master/DFS%202D.cpp
+                      </details>
+                      <details>
+                               <summary>---------------3.3 DFS - Leaf Count and Print</summary>
+                               link: https://github.com/aayush4vedi/MyCompetitiveCoding/edit/master/DSA.md
+                      </details>
+                      <details>
+                               <summary>---------------3.3 Cycle detection using DFS</summary>
+                               link: https://github.com/rabiulcste/Graph-Theory/blob/master/Cycle%20in%20a%20Graph%20using%20DFS.cpp
+                      </details>
+              </details>
+              <details>
+                      <summary>---------4.Shortest Path</summary>
+                      <details>
+                              <summary>---------------4.1 Djikstra's {works only for + edge weight}</summary>
+                              ------to find the shortest paths from the source vertex to all other vertices in the graph.
+                                      <details>
+                                      <summary>---------------4.1.1 Djikstra's Easy</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Dijkstra%20easy.cpp
+                                      </details>
+                                      <details>
+                                      <summary>---------------4.1.2 Djikstra's 2D</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Dijkstra%202D.cpp
+                                      </details>
+                                      <details>
+                                      <summary>---------------4.1.3 Djikstra's Path Print</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Dijkstra%20Path%20Print.cpp
+                                      </details>
+                                      <details>
+                                      <summary>---------------4.1.4 Djikstra's !easy</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Dijkstra's%20Algorithm.cpp
+                                      </details>https://github.com/rabiulcste/Graph-Theory/blob/master/Bellman%20Ford%20Algorithm.cpp
+                      </details>
+                      <details>
+                              <summary>---------------4.2 Bellman Ford {works for -ve edge weight too}-O(V.E)</summary>
+                              ------to find the shortest paths from the source vertex to all other vertices in the graph.
+                                      <details>
+                                      <summary>---------------4.2.1 Bellman Ford</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Bellman%20Ford%20Algorithm.cpp
+                                      </details>
+                                      <details>
+                                      <summary>---------------4.2.2 Bellman Ford easy</summary>
+                                      link: https://github.com/aayush4vedi/MyCompetitiveCoding/edit/master/DSA.md
+                                      </details>
+                                      <details>
+                                      <summary>---------------4.2.3 Bellman Ford using matrix</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Bellman%20Ford%20using%20matrix.cpp
+                                      </details>
+                      </details>
+                      <details>
+                              <summary>---------------4.3 Floyd-Warshall's {works only for both +/- edge weight}-O(v^3)</summary>
+                              ------used to find the shortest paths between between all pairs of vertices in a graph
+                              link: 
+                                      <details>
+                                      <summary>---------------4.3.1 Floyd-Warshall's</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Floyd%20Warshall%20algorithm.cpp
+                                      </details>       
+                                      <details>
+                                      <summary>---------------4.3.1 Floyd-Warshall's easy</summary>
+                                      link: https://github.com/rabiulcste/Graph-Theory/blob/master/Floyd%20Warshall%20Easy.cpp
+                                      </details>  
+                      </details>                
+              </details>
+                <details>
+                      <summary>---------5.Minimum Spanning Tree</summary>
+                                <details>
+                                         <summary>---------------5.1.Kruskal's - O(ElogV)</summary>
+                                ---builds the spanning tree by adding edges one by one into a growing spanning tree.
+                                <br>---follows GREEDY approach as in each iteration it finds an edge which has least weight and add it to the growing spanning tree.<br>
+---code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Krushkal%20Algorithm.cpp
+                                </details>
+                                <details>
+                                         <summary>---------------5.2.Prim's - O(ElogV)</summary>
+                                ---also use Greedy approach<br>---here we grow the spanning tree from a starting position<br>--- Unlike an edge in Kruskal's, we add vertex to the growing spanning tree in Prim's.<br>
+code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algorithm.cpp
+                                </details>
+                </details>
+                <details>
+                      <summary>---------6.Flood Fill</summary>
+              </details>
+                <details>
+                      <summary>---------7.Topological Sort</summary>
+              </details>
+                <details>
+                      <summary>1---------</summary>
+              </details>
+      </details>
   </details>
   <br>
   <details>
