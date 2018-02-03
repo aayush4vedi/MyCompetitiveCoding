@@ -152,6 +152,10 @@
                                                  <summary>------------3.Using Classes</summary>
                                                  https://gist.github.com/reterVision/8487831
                                         </details>
+                                        <details>
+                                                 <summary>------------4.Memory Effecient(& easy)</summary>
+                                                 http://www.techiedelight.com/memory-efficient-trie-implementation-using-map-insert-search-delete/
+                                        </details>
                                 </details>
                                 <details>
                                         <summary>------------Questions</summary>
