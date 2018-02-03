@@ -344,7 +344,7 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
 ---code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Krushkal%20Algorithm.cpp
                                 </details>
                                 <details>
-                                         <summary>---------------5.2.Prim's - O(ElogV)</summary>
+                                         <summary>---------------5.2.Prim's - O((E+V)logV)</summary>
                                 ---also use Greedy approach<br>---here we grow the spanning tree from a starting position<br>--- Unlike an edge in Kruskal's, we add vertex to the growing spanning tree in Prim's.<br>
 code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algorithm.cpp
                                 </details>
@@ -356,7 +356,9 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                       <summary>---------7.Topological Sort</summary>
               </details>
                 <details>
-                      <summary>1---------</summary>
+                      <summary>---------8.Articulation Point</summary>
+                      ---a vertex is called an articulation point if removing it and all the edges associated with it results in the increase of the number of connected components in the graph
+                      <br>--code: https://github.com/rabiulcste/Graph-Theory/blob/master/Articulation%20Point.cpp
               </details>
       </details>
   </details>
