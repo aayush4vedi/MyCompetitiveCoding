@@ -127,14 +127,16 @@
                         <details>
                                 <summary>------Trie</summary>
                                 ------------reTRIEval of data
+                                <br>------------ Trie can store information about keys/numbers/strings compactly in a tree.
                                 <br>------------used in dictionary searching for strings
                                 <details>
                                         <summary>------------code</summary>
                                         <details>
                                                  <summary>------------1.Mine</summary>
                                                  <br>------------------Includes:
-                                                 ------------------------1.Insertion<br>
-                                                 ------------------------2.Search<br>
+                                                 ------------------------0.Build trie-O(n*m)<br>
+                                                 ------------------------1.Insertion-O(key lenght){time},O(alphabet_size*key_lenght*no_of_keys){space}<br>
+                                                 ------------------------2.Search-O(key lenght){time},O(alphabet_size*key_lenght*no_of_keys){space}<br>
                                                  ------------------------3.Deletion<br>
                                                  ------------------------4.Lexographical print<br>
                                         </details>
@@ -145,6 +147,28 @@
                                          <details>
                                                  <summary>------------2.Using Linked list</summary>
                                                  http://pastebin.com/kUYHiLRC
+                                        </details>
+                                        <details>
+                                                 <summary>------------3.Using Classes</summary>
+                                                 https://gist.github.com/reterVision/8487831
+                                        </details>
+                                </details>
+                                <details>
+                                        <summary>------------Questions</summary>
+                                        <details>
+                                                 <summary>------------------1.Find 2 elements in array with max XOR value                                                        </summary>
+                                                 Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
+                                                 <br>solution: https://www.geeksforgeeks.org/minimum-xor-value-pair/
+                                        </details>
+                                        <details>
+                                                 <summary>------------------1.Find subarray with maximum XOR                                                        </summary>
+                                                 Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
+                                                 <br>solution: https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/
+                                        </details>
+                                        <details>
+                                                 <summary>------------------1.print the number of subarrays whose XOR is less than K                                                        </summary>
+                                                 Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
+                                                 <br>solution: https://www.geeksforgeeks.org/subarray-xor-less-k/
                                         </details>
                                 </details>
                         </details>
