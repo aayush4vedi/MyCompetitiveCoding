@@ -186,16 +186,10 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                                         Solution: https://www.hackerrank.com/challenges/contacts/editorial
                                                 </details>
                                                 <details>
-                                                        <summary>------------------1.Find if a string is prefix of any other</summary>
+                                                        <summary>------------------(M).Find if a string is prefix of any other</summary>
                                                         Link: https://www.hackerrank.com/challenges/no-prefix-set/problem <br>
                                                         Solution: https://www.hackerrank.com/challenges/no-prefix-set/editorial
-                                                </details>                                                
-                                                <details>
-                                                        <summary>------------------1.</summary>
-                                                        Link:   <br>
-                                                        Solution: 
-                                                </details>                                          
-                                        </details>
+                                                </details>                                                                                                              </details>
                                 </details>
                         </details>
                         <details>
