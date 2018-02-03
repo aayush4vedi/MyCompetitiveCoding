@@ -154,25 +154,45 @@
                                         </details>
                                         <details>
                                                  <summary>------------4.Memory Effecient(& easy)</summary>
-                                                 http://www.techiedelight.com/memory-efficient-trie-implementation-using-map-insert-search-delete/
-                                        </details>
+http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html                                        </details>
                                 </details>
                                 <details>
                                         <summary>------------Questions</summary>
                                         <details>
-                                                 <summary>------------------1.Find 2 elements in array with max XOR value                                                        </summary>
-                                                 Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
-                                                 <br>solution: https://www.geeksforgeeks.org/minimum-xor-value-pair/
+                                                <summary>---------------(A)Bit-string wale(XOR)</summary>
+                                                <details>
+                                                       <summary>------------------1.Find 2 elements in array with max XOR value                                                        </summary>
+                                                       Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
+                                                       <br>solution: https://www.geeksforgeeks.org/minimum-xor-value-pair/
+                                              </details>
+                                              <details>
+                                                       <summary>------------------1.Find subarray with maximum XOR                                                        </summary>
+                                                       Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
+                                                       <br>solution: https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/
+                                              </details>
+                                              <details>
+                                                       <summary>------------------1.print the number of subarrays whose XOR is less than K                                                        </summary>
+                                                       Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
+                                                       <br>solution: https://www.geeksforgeeks.org/subarray-xor-less-k/
+                                              </details>
                                         </details>
                                         <details>
-                                                 <summary>------------------1.Find subarray with maximum XOR                                                        </summary>
-                                                 Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
-                                                 <br>solution: https://www.geeksforgeeks.org/find-the-maximum-subarray-xor-in-a-given-array/
-                                        </details>
-                                        <details>
-                                                 <summary>------------------1.print the number of subarrays whose XOR is less than K                                                        </summary>
-                                                 Link: https://threads-iiith.quora.com/Tutorial-on-Trie-and-example-problems
-                                                 <br>solution: https://www.geeksforgeeks.org/subarray-xor-less-k/
+                                                <summary>---------------(B)Alpha-string</summary>
+                                                <details>
+                                                        <summary>------------------(E).Add & count partial appearnces</summary>
+                                                        Link:  https://www.hackerrank.com/challenges/contacts/problem <br>
+                                                        Solution: https://www.hackerrank.com/challenges/contacts/editorial
+                                                </details>
+                                                <details>
+                                                        <summary>------------------1.</summary>
+                                                        Link:   <br>
+                                                        Solution: 
+                                                </details>                                                
+                                                <details>
+                                                        <summary>------------------1.</summary>
+                                                        Link:   <br>
+                                                        Solution: 
+                                                </details>                                          
                                         </details>
                                 </details>
                         </details>
