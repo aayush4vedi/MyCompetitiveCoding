@@ -350,16 +350,69 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                 </details>
                 </details>
                 <details>
-                      <summary>---------6.Flood Fill</summary>
+                      <summary>---------6.Check Eulerian or not</summary>
+                      <details>
+                                <summary>-------------6.1 for directed graph</summary>
+                                 ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Eulerian%20for%20Directed%20Graph.cpp
+                      </details>
+                       <details>
+                                <summary>-------------6.1 for undirected graph</summary>
+                                 ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Eulerian%20for%20Undirected%20Graph.cpp
+                      </details>
               </details>
                 <details>
-                      <summary>---------7.Topological Sort</summary>
+                      <summary>---------7.Bipartite</summary>
+                      <details>
+                               <summary>--------------7.1 isBipartite</summary>
+                               ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/IsBipartite.cpp
+                      </details>
+                      <details>
+                               <summary>--------------7.1 Max Bipartite Matching</summary>
+                               ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Max%20Bipartite%20Matching.cpp
+                      </details>
+              </details>
+              <details>
+                      <summary>---------8.Topological Sort</summary>
+                      <details>
+                              <summary>-------------8.1 Topological Sort- Easy</summary>
+                               ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Topsort%20easy%20full-code.cpp
+                      </details>
+                      <details>
+                              <summary>-------------8.1 Topological Sort in DAG</summary>
+                               ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Topsort%20in%20DAG.cpp
+                      </details>                
               </details>
                 <details>
-                      <summary>---------8.Articulation Point</summary>
+                      <summary>---------9.Articulation Point</summary>
                       ---a vertex is called an articulation point if removing it and all the edges associated with it results in the increase of the number of connected components in the graph
                       <br>--code: https://github.com/rabiulcste/Graph-Theory/blob/master/Articulation%20Point.cpp
               </details>
+              <details>
+                      <summary>---------10. Connected</summary>
+                      <details>
+                                <summary>-------------10.1. No. of connected components</summary>
+                                ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/No.%20of%20Connected%20Components%20in%20a%20Graph.cpp
+                      </details>
+                      <details>
+                                <summary>-------------10.2. No. of Strongly connected components</summary>
+                                ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Strongly%20Connected%20Components.cpp
+                      </details>
+            </details>
+            <details>
+                      <summary>---------11.Max Flow</summary>
+                      <details>
+                              <summary>---------------11.1. Edmonds-Karp's</summary>
+                              ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Max%20Flow%20Edmonds-Karp%20Algorithm.cpp
+                      </details>
+            </details>
+            <details>
+                     <summary>---------------12.Min Vertex Cover</summary>
+                              ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Min%20Vertex%20Cover.cpp
+             </details>
+              <details>
+                     <summary>---------------13.Cut Vertex</summary>
+                              ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Cut%20Vertex.cpp
+             </details>
       </details>
   </details>
   <br>
@@ -380,7 +433,10 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
   <details>  
   
   <summary>---Disjoint Set</summary>
-    
+    <details>
+  <summary>---------Union Find</summary>
+  ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Union-Find%20(Disjoint%20sets%20data%20structure).cpp
+  </details>
   </details>
   <br>
   <details>
