@@ -532,12 +532,53 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>                  
                         <details>
                                 <summary>------Edit Distance</summary>
+                                --->> convert string1 to string2 by remove/delete/insert<br>
+                                <details>
+                                        <summary>--------------Code: </summary>
+                                        <details>
+                                                 <summary>-----------------(1)Recursion: O(3^n)</summary>
+                                                  Link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Edit_Distance_Recursive.cpp
+                                        </details>
+                                        <details>
+                                                 <summary>-----------------(1)DP: O(n*m):O(n*m)::time:space</summary>
+                                                  Link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Edit_Distance_Bottom_Up.cpp
+                                        </details>                                  
+                                </details>
                         </details>
                         <details>
+                                <summary>------Distinct Subsequences</summary>
+                                --->> Given a string;count all distict subsequences((2^n)-repeated)<br>
+                                --->> Link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Distinct_Subsequence.cpp
+                        </details> 
+                        <details>
+                                <summary>------Joshephus Problem:</summary>
+                                 <details>
+                                         <summary>--->>Statement:</summary>
+                                         Given the total number of persons n and a number k which indicates that k-1 persons are skipped and kth person is killed in circle. The task is to choose the place in the initial circle so that you are the last one remaining and so survive.<br>Code O(n) : https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Josephus_Problem.cpp
+                                </details>                                 
+                        </details>                    
+                        <details>
                                 <summary>------LCS</summary>
+                                <details>
+                                        <summary>-----------1.LCS length -O(m*n)</summary>
+                                        Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LCS_Length_(bottom%20up).cpp
+                                </details>  
+                                <details>
+                                        <summary>-----------1.LCS print-O(m*n)</summary>
+                                        Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LCS_Print_Backtrack.cpp
+                                </details>
+                                <details>
+                                        <summary>-----------1.LCS print(sentence)-O(m*n)</summary>
+                                        Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LCS_Print_(sentence).cpp
+                                </details>                            
                         </details>    
                         <details>
                                 <summary>------Longest Increasing subseq</summary>
+                                <details>
+                                        <summary>---->> Code for:</summary>
+                                        (1)LIS length- O(nlogn)<br>-code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Length_Of_LIS.cpp<br>
+                                        (2) LIS print- O(nlogn) vs O(n^2)<br>-code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LIS-O(nlogn).cpp
+                                 </details>   
                                  <details>
                                         <summary>--------->>Questions</summary>
                                         ------------------------(1)Building Bridges problem- sort by north x and apply LIS<br>
@@ -546,13 +587,21 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>    
                         <details>
                                 <summary>------Longest Palindromic Subseq</summary>
+                                -code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Longest_Palindromic_Subsequence.cpp
                         </details>    
                         <details>
                                 <summary>------Matrix Chain Multiplication</summary>
+                                -->> About: given a chain of matrices a[]{a[i](nxm), a[i+1](mxp)i.e. all the consecutive matrices can be multiplied}; find the order of multiplication to maximise the result: A(BC)or(AB)C<br>
+                                -code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Matrix_Chain_Multiflication.cpp
                         </details>    
                         <details>
-                                <summary>------Max Sum</summary>
-                        </details>    
+                                <summary>------Largest sum 1D contiguous Array</summary>
+                                -code- O(n) : https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Largest_sum_1D_contiguous_array.cpp
+                        </details>
+                       <details>
+                                <summary>------Max Sum such that no 2 elements are adjacent</summary>
+                                -code- o(n) : https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/MaxSumForNonAdjacentElements.cpp
+                        </details>                     
                         <details>
                                 <summary>------Min Cost</summary>
                         </details>        
