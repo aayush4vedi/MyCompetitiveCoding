@@ -446,26 +446,80 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
 </details>
 <br><br>
 <details open>
-<summary>Algorithms</summary>
-  <br>
-  <details>
-  <summary>---DP</summary>
-    
-  </details>
-  <br>
-  <details>
-  <summary>---Greedy</summary>
-    
-  </details>
-  <br>  
-  <details>
-    <summary>---Binary and Ternary Search</summary>
-  </details>
-  <br>
-  <details>
-    <summary>---String ALgo<summary>
-  </details>
-
+        <summary>Algorithms</summary>
+        <br>
+                <details>
+                        <summary>---DP</summary>
+                        <details>
+                                <summary>------Knapsack</summary>
+                                <br>--Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack
+                                <details>
+                                        <summary>----------(1) 0-1 Knapsack</summary>
+                                        <details>
+                                                  <summary>---------->>>Bottom-up Approach(DP)</summary>
+                                                  --Complexity- O(nW)<br>
+                                                  --Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/0-1Knapsack_bottom_up.cpp
+                                        </details>                                     
+                                </details>
+                        </details>
+                        <details>
+                                <summary>------BitMask</summary>
+                        </details>
+                        <details>
+                                <summary>------Coin Change</summary>
+                        </details>
+                        <details>
+                                <summary>------Distict Subsequence</summary>
+                        </details>
+                        <details>
+                                <summary>------Edit Distance</summary>
+                        </details>
+                        <details>
+                                <summary>------LCS</summary>
+                        </details>    
+                        <details>
+                                <summary>------Longest Increasing subseq</summary>
+                        </details>    
+                        <details>
+                                <summary>------Longest Palindromic Subseq</summary>
+                        </details>    
+                        <details>
+                                <summary>------Matrix Chain Multiplication</summary>
+                        </details>    
+                        <details>
+                                <summary>------Max Sum</summary>
+                        </details>    
+                        <details>
+                                <summary>------Min Cost</summary>
+                        </details>        
+                        <details>
+                                <summary>------nCr</summary>
+                        </details>        
+                        <details>
+                                <summary>------Palindomic Partitioning</summary>
+                        </details>        
+                        <details>
+                                <summary>------RMQ-sparse table</summary>
+                        </details>       
+                        <details>
+                                <summary>------Subset sum-2D</summary>
+                        </details>        
+                        <details>
+                                <summary>------Weighted Job scheduling</summary>
+                        </details>                          
+                </details>
+                <br>
+                <details>
+                        <summary>---Greedy</summary>
+                </details>
+                <br>  
+                <details>
+                        <summary>---Binary and Ternary Search</summary>
+                </details>
+                <br>
+                <details>
+                        <summary>---String ALgo<summary>
+                </details>
 </details>
 <br><br>
 <details open>
