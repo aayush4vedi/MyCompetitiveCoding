@@ -451,10 +451,13 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                 <details>
                         <summary>---DP</summary>
                         ##The last resort of any interviewer set on seeing you fail<br>
+                        <details>
+                        <summary>--------->>About</summary>  
                         --Diff b/w MEMOIZATION & DP: https://www.codechef.com/wiki/tutorial-dynamic-programming
                         --How to identify DP problems: it must have-<br>
                         ----(A)Optimal Substructure: we can get the final answer just by combining ans of subproblems<br>
                         ----(B)Overlapping Subproblems: same value is being asked again&again."Remember your past."<br>
+                        </details>
                         <details>
                                   <summary>---------->>>How to solve?</summary>
                                   --Fab article:https://blog.pramp.com/how-to-solve-any-dynamic-programming-problem-603b6fbbd771<br>
@@ -491,15 +494,21 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                           ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/bitmask_how_many_subsets_with_sum_%3C%3DK.cpp
                                           <br>-------------------->> 2D bitmask- job assignment problem : O(2^n)<br>
                                           ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/bitmask2D_job_assignment_problem.cpp
+                                          <br>-------------------->>[Easy]https://www.codechef.com/problems/MARCHA1                                                       <br>-------------------->>[Easy]https://www.codechef.com/JAN13/problems/LEALCO
+                                          <br>-------------------->>[Easy]http://www.spoj.com/problems/GNY07H/
+                                          <br>-------------------->>[Easy]http://www.spoj.com/problems/HIST2/
+                                          <br>-------------------->>[Easy]http://www.spoj.com/problems/M3TILE/
+                                          <br>-------------------->>[Medium]http://www.spoj.com/problems/COURIER/
+                                          <br>-------------------->>[Hard]http://www.spoj.com/problems/BABY/
+                                          <br>-------------------->>[Hard]http://www.spoj.com/problems/HELPBOB/
                                 </details>                          
                         </details>
                         <details>
                                 <summary>------Coin Change</summary>
                                 ------------>> Problem: given infinite supply of coins of denominations a[], find how many ways can sum N be given?<br>
                                 ------------>> Solution- O(m*n)<br>----//Optimal substructure: f(a[],n,N)=f(a[],n-1,N)+f(a[],n,N-am)//(i)not taking the n'th coin and (ii)taking it<br>----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/coin_change.cpp
-                        </details>
-                        <details>
-                                <summary>------Distict Subsequence</summary>
+                                <br>------------->> Min no of coins to make given change:<br>
+                                  ---code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Minimum_number_of_coins_for_a_given_change.cpp
                         </details>
                         <details>
                                 <summary>------Digit DP</summary>
@@ -603,10 +612,15 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                 -code- o(n) : https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/MaxSumForNonAdjacentElements.cpp
                         </details>                     
                         <details>
-                                <summary>------Min Cost</summary>
+                                <summary>------Min Cost Path in 2D matrix</summary>
+                                (1)Right,Down, Diagonally-right-down<br>
+                                 ---code O(n*m) : https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Minimum_Cost_Path_RDDrd.cpp<br>
+                                (2)Up,Down,Right,Left<br>
+                                 ---code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Min_cost_path_RLUD.cpp
                         </details>        
                         <details>
                                 <summary>------nCr</summary>
+                                --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/nCr.cpp
                         </details>        
                         <details>
                                 <summary>------Palindomic Partitioning</summary>
