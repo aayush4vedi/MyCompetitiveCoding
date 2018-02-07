@@ -502,6 +502,13 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                 <summary>------Distict Subsequence</summary>
                         </details>
                         <details>
+                                <summary>------Digit DP</summary>
+                                <details>
+                                        <summary>---------->>Where to use:</summary>
+                                        --calculation of how many numbers between two values ( say, A and B) satisfying a particular property
+                                </details>                                
+                        </details>                  
+                        <details>
                                 <summary>------Edit Distance</summary>
                         </details>
                         <details>
@@ -532,7 +539,10 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>        
                         <details>
                                 <summary>------Palindomic Partitioning</summary>
-                        </details>        
+                        </details>    
+                        <details>
+                                <summary>------Rod Cutting</summary>
+                        </details>                    
                         <details>
                                 <summary>------RMQ-sparse table</summary>
                         </details>       
