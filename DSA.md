@@ -450,16 +450,35 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
         <br>
                 <details>
                         <summary>---DP</summary>
+                        ##The last resort of any interviewer set on seeing you fail<br>
+                        --Diff b/w MEMOIZATION & DP: https://www.codechef.com/wiki/tutorial-dynamic-programming
+                        --How to identify DP problems: it must have-<br>
+                        ----(A)Optimal Substructure: we can get the final answer just by combining ans of subproblems<br>
+                        ----(B)Overlapping Subproblems: same value is being asked again&again."Remember your past."<br>
+                        <details>
+                                  <summary>---------->>>How to solve?</summary>
+                                  --Fab article:https://blog.pramp.com/how-to-solve-any-dynamic-programming-problem-603b6fbbd771<br>
+                                  --the FAST Method:<br>
+                                  -------(1) find the First solution  - just write the (ineffecient)brute force recursion you can think of<br>
+                                  -------(2) Analyse the solution - if it has both (A)&&(B); buckle up for a buttload of DPing<br>
+                                  -------(3) identify the Subproblem - (top_downing)save the result of each subproblem as we compute it and then check before computing any value whether or not it’s already computed.<br>
+                                  -------(4) Turn around the solution - (bottom_upping) With our previous (top-down) solution, we started with n and repeatedly broke it down into smaller and smaller values until we reached n == 1 and n == 0. Now, instead, we’ll start with the base cases and work our way up until we get the result.<br>
+                        </details>
                         <details>
                                 <summary>------Knapsack</summary>
-                                <br>--Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack
+                                --Given weights and values of n items, put these items in a knapsack of capacity W to get the maximum total value in the knapsack
                                 <details>
                                         <summary>----------(1) 0-1 Knapsack</summary>
                                         <details>
                                                   <summary>---------->>>Bottom-up Approach(DP)</summary>
                                                   --Complexity- O(nW)<br>
                                                   --Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/0-1Knapsack_bottom_up.cpp
-                                        </details>                                     
+                                        </details>
+                                        <details>
+                                                  <summary>---------->>>Overlapping Subproblem Approach(recursion)</summary>
+                                                  --Complexity- O(2^2)<br>
+                                                  --Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/0-1Knapsack_recursive.cpp
+                                        </details>                                       
                                 </details>
                         </details>
                         <details>
@@ -511,7 +530,11 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                 <br>
                 <details>
                         <summary>---Greedy</summary>
-                </details>
+                        --How to identify Greedy problems:<br>
+                        <details>
+                                <summary>------------(1)Fractional Knapsack problem</summary>
+                          </details>    
+                </details>                
                 <br>  
                 <details>
                         <summary>---Binary and Ternary Search</summary>
