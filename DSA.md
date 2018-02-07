@@ -656,16 +656,20 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                 <summary>------Rod Cutting</summary>
                                  -->> Problem:<br>
                                   -Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces.
-                                  -code: O(n^2) 
+                                  -code: O(n^2) https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/RodCut.cpp
                         </details>                    
                         <details>
                                 <summary>------RMQ-sparse table</summary>
+                                code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Range%20Min%20Query%20(Sparse%20Table).cpp
                         </details>       
                         <details>
                                 <summary>------Subset sum-2D</summary>
+                                code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Sum_of_subset(2D).cpp
                         </details>        
                         <details>
                                 <summary>------Weighted Job scheduling</summary>
+                                -->> Statement:<br>Given N jobs where every job is represented by following three elements of it:{ Start Time,Finish Time,Profit or Value Associated}.<br>
+Find the maximum profit subset of jobs such that no two jobs in the subset overlap.<br> --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Weighted_Job_Scheduling.cpp
                         </details>                          
                 </details>
                 <br>
