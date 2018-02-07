@@ -483,6 +483,25 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                                   --Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/0-1Knapsack_recursive.cpp
                                         </details>                                       
                                 </details>
+                                <details>
+                                          <summary>-----------------------------Questions:</summary>
+                                          <br>-------------------> Unbounded Knapsack(repetition is allowed) https://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/ 
+                                          <br>-------------------> Fractional Knapsack https://www.geeksforgeeks.org/fractional-knapsack-problem/ 
+                                          <br>-------------------> https://discuss.codechef.com/questions/42898/exam-editorial-ncc-2014                                  
+                                          <br>------------------->https://discuss.codechef.com/questions/87642/ssq-editorial
+                                          <br>------------------->https://discuss.codechef.com/questions/75766/effdeliv-editorial
+                                          <br>------------------->https://discuss.codechef.com/questions/80457/coex01-editorial
+                                          <br>------------------->https://discuss.codechef.com/questions/87809/wa-in-eqgifts-problem-on-iarcs-pls-help
+                                          <br>------------------->https://discuss.codechef.com/questions/90330/seabox-editorial
+                                          <br>------------------->https://stackoverflow.com/questions/48616925/maximum-value-taken-by-thief
+                                          <br>------------------->https://stackoverflow.com/questions/48560646/a-variant-of-the-knapsack-algorithm
+                                          <br>------------------->https://stackoverflow.com/questions/48552724/fast-knapsack-solver-for-big-problems                             
+                                          <br>------------------->http://www.spoj.com/problems/KNAPSACK/
+                                          <br>------------------->http://www.spoj.com/problems/FOODIE/
+                                          <br>------------------->http://www.spoj.com/problems/LKS/
+                                          <br>------------------->http://www.spoj.com/problems/MINVEST/
+                                          <br>------------------->http://www.spoj.com/problems/WACHOVIA/                                    
+                                 </details>
                         </details>
                         <details>
                                 <summary>------BitMask</summary>
@@ -573,13 +592,17 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                         Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LCS_Length_(bottom%20up).cpp
                                 </details>  
                                 <details>
-                                        <summary>-----------1.LCS print-O(m*n)</summary>
+                                        <summary>-----------2.LCS print-O(m*n)</summary>
                                         Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LCS_Print_Backtrack.cpp
                                 </details>
                                 <details>
-                                        <summary>-----------1.LCS print(sentence)-O(m*n)</summary>
+                                        <summary>-----------3.LCS print(sentence)-O(m*n)</summary>
                                         Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/LCS_Print_(sentence).cpp
-                                </details>                            
+                                </details>  
+                                <details>
+                                        <summary>-----------0.shortest common subsequence</summary>
+                                        Code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Shortest_Common_Subsequence.cpp
+                                </details>                             
                         </details>    
                         <details>
                                 <summary>------Longest Increasing subseq</summary>
@@ -624,9 +647,16 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>        
                         <details>
                                 <summary>------Palindomic Partitioning</summary>
+                                --->> Print min #cuts to make all substrs palin<br>
+                                - code -O(n^2) :https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/PalindromePartitioningMinCut.cpp
+                                <br>--->> Print all palindromic substrs:{Not-DP} <br>
+                                - code - https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/PrintAllPalindromes.cpp
                         </details>    
                         <details>
                                 <summary>------Rod Cutting</summary>
+                                 -->> Problem:<br>
+                                  -Given a rod of length n inches and an array of prices that contains prices of all pieces of size smaller than n. Determine the maximum value obtainable by cutting up the rod and selling the pieces.
+                                  -code: O(n^2) 
                         </details>                    
                         <details>
                                 <summary>------RMQ-sparse table</summary>
