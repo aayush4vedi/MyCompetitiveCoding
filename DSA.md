@@ -505,8 +505,30 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                 <summary>------Digit DP</summary>
                                 <details>
                                         <summary>---------->>Where to use:</summary>
-                                        --calculation of how many numbers between two values ( say, A and B) satisfying a particular property
-                                </details>                                
+                                        --calculation of how many numbers between two values ( say, A and B) satisfying a particular property<br>
+                                        --Answer=solve(B)-solve(A-1) 
+                                </details>     
+                                <details>
+                                        <summary>---------->>Example: <br>---(1)how many integers in the interval [L..R] have sum divisible by a number K<br>--solution: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/digitDP_how_many_digits_with_sumk.cpp<br>---(2)Sum of digits from A to B <br>--solution: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/digitDP_calculate_sum_of_dig_fromAtoB.cpp
+                                        </summary>
+                                </details>   
+                                <details>
+                                        <summary>---------->> Problems:</summary>
+                                         --(.) https://www.codechef.com/problems/WORKCHEF <br>
+                                         --(.) http://www.spoj.com/problems/NUMTSN/<br>
+                                         --(.) http://www.spoj.com/problems/LUCIFER/<br>
+                                         --(.) http://www.spoj.com/problems/RAONE/<br>  
+                                         --(.) http://www.spoj.com/problems/PR003004/<br>
+                                         --(.) http://www.spoj.com/problems/CPCRC1C/<br>
+                                         --(.) https://devskill.com/CodingProblems/ViewProblem/392<br>
+                                         --(.) https://www.codechef.com/problems/DIGIMU<br>  
+                                         --(.) http://www.spoj.com/problems/TAP2012C/en/<br>
+                                         --(.) http://codeforces.com/gym/100886/problem/G<br>
+                                         --(.) https://vjudge.net/problem/LightOJ-1205<br>  
+                                         --(.) http://codeforces.com/contest/628/problem/D<br> 
+                                         --(.) https://toph.co/p/lids<br> 
+                                         --(.) https://vjudge.net/problem/LightOJ-1068                                  
+                                </details>
                         </details>                  
                         <details>
                                 <summary>------Edit Distance</summary>
