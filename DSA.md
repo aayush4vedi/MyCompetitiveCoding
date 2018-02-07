@@ -495,6 +495,8 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>
                         <details>
                                 <summary>------Coin Change</summary>
+                                ------------>> Problem: given infinite supply of coins of denominations a[], find how many ways can sum N be given?<br>
+                                ------------>> Solution- O(m*n)<br>----//Optimal substructure: f(a[],n,N)=f(a[],n-1,N)+f(a[],n,N-am)//(i)not taking the n'th coin and (ii)taking it<br>----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/coin_change.cpp
                         </details>
                         <details>
                                 <summary>------Distict Subsequence</summary>
