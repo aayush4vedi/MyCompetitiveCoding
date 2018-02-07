@@ -483,6 +483,15 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>
                         <details>
                                 <summary>------BitMask</summary>
+                                 ----------->> Has exponantial space&time complexities.<br>
+                                 ----------->> When to use: "To solve a sub problem, I need the previously visited positions/indices"
+                                <details>
+                                         <summary>------Questions:</summary>  
+                                          -------------------->> 1D bitmask-How many subsets with sum >=k : O(n*2^n)<br>
+                                          ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/bitmask_how_many_subsets_with_sum_%3C%3DK.cpp
+                                          <br>-------------------->> 2D bitmask- job assignment problem : O(2^n)<br>
+                                          ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/bitmask2D_job_assignment_problem.cpp
+                                </details>                          
                         </details>
                         <details>
                                 <summary>------Coin Change</summary>
@@ -498,6 +507,11 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         </details>    
                         <details>
                                 <summary>------Longest Increasing subseq</summary>
+                                 <details>
+                                        <summary>--------->>Questions</summary>
+                                        ------------------------(1)Building Bridges problem- sort by north x and apply LIS<br>
+                                        ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/building_Bridges_Problem_LIS.cpp 
+                                </details>                            
                         </details>    
                         <details>
                                 <summary>------Longest Palindromic Subseq</summary>
