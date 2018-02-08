@@ -841,10 +841,7 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                  -->>to find the Longest Palindromic Sub-string in any string in o(N) <br>
                                  -- code: https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
                         </details>
-                         </details>
-                          </details>
                </details>
-<br><br>
 <details open>
 <summary>Game Theory</summary>
 
