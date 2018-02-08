@@ -675,10 +675,61 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                 <br>
                 <details>
                         <summary>---Greedy</summary>
-                        --How to identify Greedy problems:<br>
                         <details>
-                                <summary>------------(1)Fractional Knapsack problem</summary>
+                                <summary>----->>About:<summary>
+                                  --makes a locally-optimal choice in the hope that this choice will lead to a globally-optimal solution.<br>-------------->>How to identify Greedy problems: think along these lines-<br>
+                          --(1) Do I have a choice b/w diff alternatives at some point?<br>
+                          --(2) Does this choice result in sub-problems that can be solved individually?<br>
+                          --(3) Optimal substructure: Will I be able to use the solution of the sub-problem to derive a solution for the overall problem?<br>
+                         </details>
+                         <details>
+                                <summary>------------(.) Fractional Knapsack problem</summary>
                           </details>    
+                        <details>
+                                <summary>------------(.) Bin Packing Problem</summary>
+                          </details>    
+                        <details>
+                                <summary>------------(.) Set Cover Problem</summary>
+                          </details> 
+                         <details>
+                                <summary>------------(.) K centers problem</summary>
+                          </details>    
+                        <details>
+                                <summary>------------(.) Job Sequencing</summary>
+                          </details>    
+                        <details>
+                                <summary>------------(.) Dijkstra's</summary>
+                          </details>         
+                        <details>
+                                <summary>------------(.) Prim's MST</summary>
+                          </details>  
+                        <details>
+                                <summary>------------(.) Huffman Coding</summary>
+                          </details>  
+                        <details>
+                                <summary>------------(.) Kruskal MST</summary>
+                          </details>  
+                        <details>
+                                <summary>------------(.) Activity Selection Problem</summary>
+                          </details>          
+                        <details>
+                                <summary>------------(.) Coloring a graph</summary>
+                          </details>     
+                        <details>
+                                <summary>------------(.) Traveling Salesman Problem</summary>
+                          </details>      
+                        <details>
+                                <summary>------------(.) Subset-sum Problem</summary>
+                          </details>  
+                        <details>
+                                <summary>------------(.) </summary>
+                          </details> 
+                        <details>
+                                <summary>------------(.) </summary>
+                          </details>  
+                        <details>
+                                <summary>------------(.) </summary>
+                          </details>                   
                 </details>                
                 <br>  
                 <details>
