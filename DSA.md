@@ -413,6 +413,55 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                      <summary>---------------13.Cut Vertex</summary>
                               ---link: https://github.com/rabiulcste/Graph-Theory/blob/master/Cut%20Vertex.cpp
              </details>
+             <details>
+                      <summary>------------(.) Graph Coloring</summary>
+                      <details>
+                                <summary>---------------------->>> Standard Problems</summary>
+                                <details>
+                                       <summary>--- Perform Coloring on Edges</summary>
+                                        ---------------performs greedy coloring on edges<br>
+                                        -------->code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/performs_coloring_on_EDGEs_of_graph.cpp
+                                </details> 
+                                <details>
+                                       <summary>--- Perform Coloring on Vertices</summary>
+                                        -------------performs greedy coloring on vertices<br>
+                                        -------->code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/performs_coloring_on_VERTICES_of_given_graph.cpp
+                                </details>  
+                                <details>
+                                       <summary>--- Perform Coloring on All Possible Edges</summary>
+                                        ---------------//for all the possible n*(n-1)/2 edges<br>//doesnt even asks for edges<br>
+                                        -------->code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/perform_edge_coloring_on_complete_graph.cpp
+                                </details> 
+                                <details>
+                                       <summary>--- Checks if 2 graphs are bipartitie using 2 color thormem</summary>
+                                        --------------- //uses adj matrix<br>
+                                        -------->code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/check_if_2_graphs_are_bipartitie_using_2_color_theorem.cpp
+                                </details>    
+                                <details>
+                                       <summary>--- Perform Coloring on Given Bipartite Graph</summary>
+                                        ---------------takes a bipartite graph as input and outputs
+    colours of the each vertex after coloring the vertices<br>
+                                        -------->code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/performs_graph_coloring_on_given_bipartite_graph.cpp
+                                </details> 
+                                <details>
+                                       <summary>--- Finds Chromatic number and performs coloring on cyclic graph</summary>
+                                         -------->code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/finds_chromatic_no_and_perform_coloring.cpp
+                                </details>      
+                                <details>
+                                       <summary>--- Finds independent sets in graph by graph coloring</summary>
+                                        ---------------finds largest independent set by graph coloring<br>
+                                        ---------------In graph theory, an independent set or stable set is a set of vertices in a graph, no two of which are adjacent. That is, it is a set I of vertices such that for every two vertices in I, there is no edge connecting the two. <br>       ---->>code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/find_independent_sets_in_graph_by_graph_coloring.cpp
+                                        --------------- <br>
+                                </details> 
+                      </details>                                       
+                      <details>
+                              <summary>------------(.) Uses:<summary>
+                                       <br>-- Making schedule/timetables
+                                       <br>-- sudoku
+                                        <br>-- Bipartite Graph
+                                        <br>-- Four coloring problem: code- https://github.com/okaydemir/4-color-theorem/blob/master/four_color.cpp
+                      </details>     
+                </details> 
       </details>
   </details>
   <br>
@@ -732,56 +781,7 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                             <summary>------------(.) Activity Selection Problem</summary>
                                             ---->>> You are given n activities with their start and finish times. Select the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a time.<br>
                                             --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Greedy/job_sequencing_with_deadline.cpp
-                                      </details>          
-                                    <details>
-                                            <summary>------------(.) Graph Coloring</summary>
-                                            <details>
-                                                      <summary>---------------------->>> Standard Problems</summary>
-                                                      <details>
-                                                             <summary>--- Perform Coloring on Edges</summary>
-                                                              ---------------performs greedy coloring on edges<br>
-                                                              -------->code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/performs_coloring_on_EDGEs_of_graph.cpp
-                                                      </details> 
-                                                      <details>
-                                                             <summary>--- Perform Coloring on Vertices</summary>
-                                                              -------------performs greedy coloring on vertices<br>
-                                                              -------->code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/performs_coloring_on_VERTICES_of_given_graph.cpp
-                                                      </details>  
-                                                      <details>
-                                                             <summary>--- Perform Coloring on All Possible Edges</summary>
-                                                              ---------------//for all the possible n*(n-1)/2 edges<br>//doesnt even asks for edges<br>
-                                                              -------->code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/perform_edge_coloring_on_complete_graph.cpp
-                                                      </details> 
-                                                      <details>
-                                                             <summary>--- Checks if 2 graphs are bipartitie using 2 color thormem</summary>
-                                                              --------------- //uses adj matrix<br>
-                                                              -------->code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/check_if_2_graphs_are_bipartitie_using_2_color_theorem.cpp
-                                                      </details>    
-                                                      <details>
-                                                             <summary>--- Perform Coloring on Given Bipartite Graph</summary>
-                                                              ---------------takes a bipartite graph as input and outputs
-colours of the each vertex after coloring the vertices<br>
-                                                              -------->code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/performs_graph_coloring_on_given_bipartite_graph.cpp
-                                                      </details> 
-                                                      <details>
-                                                             <summary>--- Finds Chromatic number and performs coloring on cyclic graph</summary>
-                                                               -------->code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/finds_chromatic_no_and_perform_coloring.cpp
-                                                      </details>      
-                                                      <details>
-                                                             <summary>--- Finds independent sets in graph by graph coloring</summary>
-                                                              ---------------finds largest independent set by graph coloring<br>
-                                                              ---------------In graph theory, an independent set or stable set is a set of vertices in a graph, no two of which are adjacent. That is, it is a set I of vertices such that for every two vertices in I, there is no edge connecting the two. <br>       ---->>code:https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Graph_Coloring/find_independent_sets_in_graph_by_graph_coloring.cpp
-                                                              --------------- <br>
-                                                      </details> 
-                                            </details>                                       
-                                            <details>
-                                                    <summary>------------(.) Uses:<summary>
-                                                             <br>-- Making schedule/timetables
-                                                             <br>-- sudoku
-                                                              <br>-- Bipartite Graph
-                                                              <br>-- Four coloring problem: code- https://github.com/okaydemir/4-color-theorem/blob/master/four_color.cpp
-                                            </details>     
-                                      </details>     
+                                      </details>              
                                     <details>
                                             <summary>------------(.) Traveling Salesman Problem</summary>
                                       </details>      
