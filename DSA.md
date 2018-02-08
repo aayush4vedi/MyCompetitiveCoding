@@ -2,7 +2,8 @@
 
 <details open>
 <summary>Data Structures</summary>
-<br>*this Man has done what you're doing- https://github.com/rabiulcste
+*this Man has done what you're doing- https://github.com/rabiulcste
+<br> An Awesome List for competitive coding[codeforces]- http://codeforces.com/blog/entry/23054
   <details>
   <summary>---Tree</summary>
                     <details>
@@ -812,6 +813,22 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                 </details> 
                 <details>
                         <summary>---Binary and Ternary Search</summary>
+                        ----------->> HR tut on Ternary search: https://www.hackerearth.com/practice/algorithms/searching/ternary-search/tutorial/
+                        <details>
+                                 <summary>-------->> Problems</summary>
+                                  <details>
+                                           <summary>-----------HackerRank Problems: </summary>
+                                            https://www.hackerrank.com/domains/algorithms/search
+                                  </details>
+                                  <details>
+                                             <summary>-----------Spoj Problems-Binary Search</summary>
+                                            http://codeforces.com/problemset/tags/binary%20search
+                                  </details>
+                                  <details>
+                                             <summary>-----------Spoj Problems-Ternary Search</summary>
+                                            http://codeforces.com/problemset/tags/ternary%20search
+                                  </details>                             
+                        </details>               
                 </details>
                 <details>
                         <summary>---String ALgo<summary>
@@ -846,21 +863,37 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                   ----HackerRank QB: https://www.hackerrank.com/domains/algorithms/strings
                            </details>
                </details>
-<details open>
-<summary>Game Theory</summary>
-
-</details>
+              <details open>
+                          <summary>Game Theory</summary>
+                          <details>
+                                  <summary>--- Tutorials</summary>
+                          -->> To Read: https://medium.com/@lohitmarodia/game-theory-competitive-programming-98120cc14da3<br>
+                          -->> TopCoder: https://www.topcoder.com/community/data-science/data-science-tutorials/algorithm-games/<br>
+                          -->> Game of Nin: https://codeforcex.quora.com/Game-Theory-with-examples
+                          </details>  
+                          <details>
+                                  <summary>---Problems</summary>
+                                  -->> Codechef: https://www.codechef.com/problems/GTH
+                                  -->> HR Question Bank: https://www.hackerrank.com/domains/algorithms/game-theory
+                          </details>                  
+              </details>
 <br><br>
 <details open>
-    <summary>Maths</summary><br>
-    <details>
-    <summary>---Number Theory</summary>
-    </details><br>
-    <details>
-    <summary>---Combinotrics</summary>
-    </details><br>
-    <details>
-    <summary>---Geomatry</summary>
-    </details><br>
+        <summary>Maths</summary><br>
+        <details>
+                 <summary>---Number Theory</summary>
+                  -------->> codechef tut: https://www.codechef.com/wiki/tutorial-number-theory/<br>
+                  -------->> Codeforces: https://artofproblemsolving.com/community/c90633h1291397<br>
+                  -------->> Russian Coder's Problem set- http://e-maxx.ru/algo/
+        </details>
+        <details>
+                 <summary>---Combinotrics</summary>
+                 --------->> Topcoder tut: https://www.topcoder.com/community/data-science/data-science-tutorials/basics-of-combinatorics/<br>
+                 --------->> 
+        </details>
+        <details>
+                 <summary>---Geomatry</summary>
+        </details>
+        ------>>>>> Integer Encyclopedia: https://oeis.org/search?q=1%2C2%2C3%2C6%2C11%2C23%2C47%2C106%2C235&language=english&go=Search<br>
 </details>
 <br><br><br>
