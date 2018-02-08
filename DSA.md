@@ -809,8 +809,7 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                              <summary>-----------Problem</summary>
                                   </details>
                         </details>
-                </details>                
-                <br>  
+                  <br>  
                 <details>
                         <summary>---Binary and Ternary Search</summary>
                 </details>
@@ -837,7 +836,6 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                            -->> This algorithm finds all occurrences of a pattern in a text in linear time:O(m+n)<br>
                                           Read: https://ivanyu.me/blog/2013/10/15/z-algorithm/
                                  </details>
-                        </details>
                         <details>
                                 <summary>------------Manchars' Algo</summary>
                                  -->>to find the Longest Palindromic Sub-string in any string in o(N) <br>
