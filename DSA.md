@@ -725,12 +725,12 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                 <details>
                         <summary>---Greedy</summary>
                         <details>
-                                <summary>----->>About:<summary>
+                        <summary>----->>About:</summary>
                                   --makes a locally-optimal choice in the hope that this choice will lead to a globally-optimal solution.<br>-------------->>How to identify Greedy problems: think along these lines-<br>
                           --(1) Do I have a choice b/w diff alternatives at some point?<br>
                           --(2) Does this choice result in sub-problems that can be solved individually?<br>
                           --(3) Optimal substructure: Will I be able to use the solution of the sub-problem to derive a solution for the overall problem?<br> ------------------------>>>>>Greedy vs DP:<br>---given a problem which can be solved by greedy method, it can also be solved by dp but IT IS OVERKILLING.
-                         </details>
+                        </details>
                          <details>
                                   <summary>--------->>>Standard Problems</summary>
                                   <details>
@@ -809,15 +809,13 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                              <summary>-----------Problem</summary>
                                   </details>
                         </details>
-                  <br>  
                 <details>
                         <summary>---Binary and Ternary Search</summary>
                 </details>
-                <br>
                 <details>
                         <summary>---String ALgo<summary>
                         <details>
-                                <summary>-------> Pattern Search: <summary>
+                                <summary>-------> Pattern Search: </summary>
                                 <details>
                                          <summary>------------(1) Knuth-Morris-Pratt</summary>
                                           --->> prints all occurrences of pat[] in txt[]
@@ -832,16 +830,18 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                 ---------->> code: https://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/
                                 </details>
                                  <details>
-                                          <summary>------------(1) Z algorith</summary>
+                                          <summary>------------(2) Z algorith</summary>
                                            -->> This algorithm finds all occurrences of a pattern in a text in linear time:O(m+n)<br>
                                           Read: https://ivanyu.me/blog/2013/10/15/z-algorithm/
                                  </details>
+                        </details>  
                         <details>
-                                <summary>------------Manchars' Algo</summary>
+                                <summary>--------> Manchars' Algo</summary>
                                  -->>to find the Longest Palindromic Sub-string in any string in o(N) <br>
                                  -- code: https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
                         </details>
                 </details>
+             </details>             
 </details>
 <br><br>
 <details open>
