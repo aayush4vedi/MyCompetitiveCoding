@@ -780,35 +780,35 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                     <details>
                                             <summary>------------(.) Activity Selection Problem</summary>
                                             ---->>> You are given n activities with their start and finish times. Select the maximum number of activities that can be performed by a single person, assuming that a person can only work on a single activity at a time.<br>
-                                            --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Greedy/job_sequencing_with_deadline.cpp
-                                      </details>              
+                                            --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Greedy/activity_selection_problem.cpp
+                                      </details>  
+                                     <details>
+                                            <summary>------------(.) Graph Coloring Problem</summary>
+                                            --->> See under Graphs
+                                     </details>    
                                     <details>
                                             <summary>------------(.) Traveling Salesman Problem</summary>
+                                            --->>> Statement: Given a set of cities and distance between every pair of cities, the problem is to find the shortest possible route that visits every city exactly once and returns back to the starting point.
+                                            <br>---->> NP Hard- There is no polynomial time know solution for this problem.
+                                            <details>
+                                            <summary>---->> Diff btw Hamiltonian and TSP</summary>
+                                                      -- The Hamiltoninan cycle problem is to find if there exist a tour that visits every city exactly once. Here we know that Hamiltonian Tour exists (because the graph is complete) and in fact many such tours exist, the problem is to find a minimum weight Hamiltonian Cycle.
+                                           </details>
+                                            -->> code: O(n!)<br> https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/Greedy/TSP.cpp
                                       </details>      
                                     <details>
-                                            <summary>------------(.) Subset-sum Problem</summary>
-                                      </details>  
-                                    <details>
-                                            <summary>------------(.) </summary>
-                                      </details> 
-                                    <details>
                                             <summary>------------(.) </summary>
                                       </details>  
-                                    <details>
-                                            <summary>------------(.) </summary>
-                                    </details>    
                          </details>   
                          <details>
                                   <summary>------->>> Problems</summary>
                                    <details>
-                                             <summary>-----------Problem</summary>
+                                             <summary>----------------------------------> 501 problems-set{sorted by difficulty level}</summary>
+                                              https://a2oj.com/Category.jsp?ID=56
                                   </details>
                                    <details>
                                              <summary>-----------Problem</summary>
                                   </details>
-                                   <details>
-                                             <summary>-----------Problem</summary>
-                                  </details>                           
                         </details>
                 </details>                
                 <br>  
