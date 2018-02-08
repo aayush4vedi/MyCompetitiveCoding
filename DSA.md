@@ -893,7 +893,12 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
         </details>
         <details>
                  <summary>---Geomatry</summary>
+                 <details>
+                          <summary>------- Examples</summary>
+                          --https://github.com/AlexandruValeanu/Competitive-Programming/tree/master/Geometry-Algorithms
+                 </details>
         </details>
         ------>>>>> Integer Encyclopedia: https://oeis.org/search?q=1%2C2%2C3%2C6%2C11%2C23%2C47%2C106%2C235&language=english&go=Search<br>
 </details>
 <br><br><br>
+                          
