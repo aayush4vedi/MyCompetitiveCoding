@@ -722,7 +722,6 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
 Find the maximum profit subset of jobs such that no two jobs in the subset overlap.<br> --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Weighted_Job_Scheduling.cpp
                         </details>                          
                 </details>
-                <br>
                 <details>
                         <summary>---Greedy</summary>
                         <details>
@@ -818,6 +817,32 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                 <br>
                 <details>
                         <summary>---String ALgo<summary>
+                        <details>
+                                <summary>-------> Pattern Search: <summary>
+                                <details>
+                                         <summary>------------(1) Knuth-Morris-Pratt</summary>
+                                          --->> prints all occurrences of pat[] in txt[]
+                                         <details>
+                                                 <summary>------------>> Advantages over Naive method</summary>
+                                       -- Naive: O(m(n-m+1));KMP : O(n+m)
+                                     <br>-- Naive doesn’t work well in cases where we see many matching characters followed by a mismatching character.
+                                     <br>-- The KMP matching algorithm uses degenerating property (pattern having same sub-patterns appearing more than once in the pattern) of the pattern
+                                         </details>
+                                 ------>> Idea: whenever we detect a mismatch , we already know some of the characters in the text of next window. We take advantage of this information to avoid matching the characters that we know will anyway match.<br>
+                                --------------------------->> Must read-to get idea : http://jakeboxer.com/blog/2009/12/13/the-knuth-morris-pratt-algorithm-in-my-own-words/  
+                                ---------->> code: https://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/
+                                </details>
+                                 <details>
+                                          <summary>------------(1) Z algorith</summary>
+                                           -->> This algorithm finds all occurrences of a pattern in a text in linear time:O(m+n)<br>
+                                          Read: https://ivanyu.me/blog/2013/10/15/z-algorithm/
+                                 </details>
+                        </details>
+                        <details>
+                                <summary>------------Manchars' Algo</summary>
+                                 -->>to find the Longest Palindromic Sub-string in any string in o(N) <br>
+                                 -- code: https://www.geeksforgeeks.org/manachers-algorithm-linear-time-longest-palindromic-substring-part-4/
+                        </details>
                 </details>
 </details>
 <br><br>
