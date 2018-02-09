@@ -1,9 +1,11 @@
 # DSA topics for Competitive Coding #
 
-<details open>
-<summary>Data Structures</summary>
 *this Man has done what you're doing- https://github.com/rabiulcste
 <br> An Awesome List for competitive coding[codeforces]- http://codeforces.com/blog/entry/23054
+
+
+<details open>
+<summary>Data Structures</summary>
   <details>
   <summary>---Tree</summary>
                     <details>
@@ -37,6 +39,16 @@
                                             ------------------------------------13.Diagonal Print-not working with class(goto                                            GfG)<br>
                            </details>
                            <details>
+                                    <summary>--------------- Other Basic Implementations</summary>
+                                    ------>> Check BST or Not:<br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20is%20BST%20or%20not.cpp
+                                    ------>> Convert BST to array: <br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Convert%20a%20BST%20to%20an%20Array.cpp<br>
+                                    ------>> Create BST from sorted array: <br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20(Create)%20From%20Sorted%20Array.cpp<br>
+                                    ------>> Find Min/Max-recursive: <br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20Find%20Min%20and%20Max%20Recursive.cpp<br>
+                                    ------>> Convert BST to Min Heap: <br> -- https://www.geeksforgeeks.org/convert-bst-min-heap/<br>
+                                    ------>> Contruct BST from given Level order transversal: <br> --https://www.geeksforgeeks.org/construct-bst-given-level-order-traversal/<br>
+                                    ------>> Find K'th smallest element in BST: <br> --https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
+                           </details>
+                           <details>
                                    <summary>---------------Uses</summary>
                                    <details>
                                            <summary>---------------------In heaps/Maps</summary>
@@ -44,6 +56,18 @@
                            </details>
                            <details>
                                    <summary>---------------Questions</summary>
+                                           <details>
+                                                     <summary>--------------------------- 10 questions from HR</summary>
+                                                      ---> https://www.hackerearth.com/practice/data-structures/trees/binary-search-tree/practice-problems/
+                                            </details>
+                                           <details>
+                                                     <summary>--------------------------- Veronica MArs- HR</summary>
+                                                      ---> https://www.hackerrank.com/contests/womens-codesprint/challenges/mars-and-the-binary-search-tree
+                                            </details>    
+                                           <details>
+                                                     <summary>--------------------------- Codechef</summary>
+                                                      ---> https://www.codechef.com/problems/MCO16503
+                                            </details>                                  
                                             <details>
                                                      <summary>---------------------------Topic</summary>
                                                       Link: http://www.spoj.com/problems/BST/
@@ -237,6 +261,9 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                               <summary>------Prefix Tree</summary>
                       </details>
              </details>
+            <details>
+                    <summary>-------------------------->> Misc Problems on Trees:</summary>
+            </details>            
               <br>
       </details>
       <details>
@@ -820,6 +847,10 @@ Find the maximum profit subset of jobs such that no two jobs in the subset overl
                                            <summary>-----------HackerRank Problems: </summary>
                                             https://www.hackerrank.com/domains/algorithms/search
                                   </details>
+                                  <details>
+                                           <summary>-----------Codechef Tagged with Binary Search: </summary>
+                                           https://www.codechef.com/tags/problems/binary-search
+                                  </details>                          
                                   <details>
                                              <summary>-----------Spoj Problems-Binary Search</summary>
                                             http://codeforces.com/problemset/tags/binary%20search
