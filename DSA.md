@@ -230,6 +230,11 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                         <details>
                                 <summary>------BIT/AVL Tree</summary>
                                 <details>
+                                        <summary>--------About</summary>
+                                        -->> Def.: is a self-balancing BST where the difference between heights of left and right subtrees cannot be > 1 for all nodes(i.e. balancing factor <= 1).<br>
+                                        -->> Why bother making another tree: 
+                                </details>
+                                <details>
                                          <summary>Uses</summary>
                                           <details>
                                                    <summary>Find kth smallest element in array after sorting for each query</summary>
