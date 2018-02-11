@@ -8,6 +8,7 @@
 <summary>Data Structures</summary>
   <details>
   <summary>---Tree</summary>
+                    ------------->> When to use:<br>-If you need to maintain a list of objects that are sorted and unique, and if you need to be able to quickly insert and retrieve objects to and from this list, the ideal data structure will be a tree set (or a tree map, if you consider each object a key and associate another object called a value to it).
                     <details>
                             <summary>------Binary Tree</summary>
                              Khaali
@@ -271,6 +272,47 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                         </details>
                         <details>
                                  <summary>------Balanced Binary tree(2):Red Black Tree</summary>
+                                <details>
+                                        <summary>--------About</summary>
+                                        -->> Def.: is a self-balancing BST where very node follows following rules.:<br>
+                                        ---------------(1)Every node has a color either red or black. <br>
+                                        ---------------(2)Root of tree is always black <br>                               
+                                        ---------------(3)There are no two adjacent red nodes  <br>
+                                        ---------------(4)Every path from root to a NULL node has same number of black nodes                                           <details>
+                                                 <summary>-->> Why bother making another tree:---- </summary>
+                                         </details>  
+                                                ----------------->> Red Black vs BST:<br> 
+                                                ---> In skewed BST(elements are inserted monotonically); operations (e.g., search, max, min, insert, delete.. etc) take O(n) time{as h=n here}.Height of an AVL tree is always O(Logn)<br>
+                                                ----------------->> AVL vs Red-Black tree:<br>
+                                                ---> Both do operations in O(logN).<br>
+                                                ---> AVL trees cause more rotations during insertion and deletion, hence are MORE BALANCED.So, if more:<br>
+                                                --------------* insertion/deletion is required: use Red Black tree<br>
+                                                --------------* search is required            : use AVL tree
+                          </details>
+                                <details>
+                                        <summary>------------>> Template</summary>
+                                        ----(1) Includes: insert,display,inorder,preorder,postorder,delete:<br>
+                                        -- https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/tree/AVL_tree/template.cpp<br>
+                                  </details>                          
+                                <details>
+                                         <summary>------------>> Uses</summary>
+                                          <details>
+                                                   <summary>----Find kth smallest element in array after sorting for each query</summary>
+                                          </details>
+                                          <details>
+                                                   <summary>----Find median in running array</summary>
+                                                    -- https://www.geeksforgeeks.org/?p=14873
+                                          </details>   
+                                          <details>
+                                                   <summary>----Maximum of all subarrays of size k</summary>
+                                                    -->> Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.<br>
+                                                    -- https://www.geeksforgeeks.org/?p=11306
+                                          </details>   
+                                          <details>
+                                                   <summary>----Count number of smaller elements on right side of each element</summary>
+                                                  -- https://www.geeksforgeeks.org/?p=17235
+                                          </details>                                     
+                                </details>                          
                          </details>    
                         <details>
                                 <summary>------Heap</summary>
