@@ -272,13 +272,13 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                         </details>
                         <details>
                                  <summary>------Balanced Binary tree(2):Red Black Tree</summary>
-                                <details>
+                                  <details>
                                         <summary>--------About</summary>
                                         -->> Def.: is a self-balancing BST where very node follows following rules.:<br>
                                         ---------------(1)Every node has a color either red or black. <br>
                                         ---------------(2)Root of tree is always black <br>                               
                                         ---------------(3)There are no two adjacent red nodes  <br>
-                                        ---------------(4)Every path from root to a NULL node has same number of black nodes<br>                               ---> Every Red Black Tree with n nodes has height <= 2Log2(n+1)
+                                        ---------------(4)Every path from root to a NULL node has same number of black nodes<br>                               ---> Every Red Black Tree with n nodes has height < = 2Log2(n+1)
                                           <details>
                                                  <summary>-->> Why bother making another tree:---- </summary>
                                                 ----------------->> Red Black vs BST:<br> 
@@ -293,26 +293,10 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                 <details>
                                         <summary>------------>> Template</summary>
                                         ----(1) Includes: insert,display,inorder,preorder,postorder,delete:<br>
-                                        -- https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/tree/AVL_tree/template.cpp<br>
+                                        -- https://gist.github.com/nandor/9249431<br>
                                   </details>                          
                                 <details>
-                                         <summary>------------>> Uses</summary>
-                                          <details>
-                                                   <summary>----Find kth smallest element in array after sorting for each query</summary>
-                                          </details>
-                                          <details>
-                                                   <summary>----Find median in running array</summary>
-                                                    -- https://www.geeksforgeeks.org/?p=14873
-                                          </details>   
-                                          <details>
-                                                   <summary>----Maximum of all subarrays of size k</summary>
-                                                    -->> Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.<br>
-                                                    -- https://www.geeksforgeeks.org/?p=11306
-                                          </details>   
-                                          <details>
-                                                   <summary>----Count number of smaller elements on right side of each element</summary>
-                                                  -- https://www.geeksforgeeks.org/?p=17235
-                                          </details>                                     
+                                         <summary>------------>> Uses</summary>                               
                                 </details>                          
                          </details>    
                         <details>
