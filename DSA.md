@@ -228,19 +228,50 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                 </details>
                         </details>
                         <details>
-                                <summary>------BIT/AVL Tree</summary>
+                                <summary>------Balanced Binary tree(1): BIT/AVL Tree</summary>
                                 <details>
                                         <summary>--------About</summary>
+                                        -->>  Adelson, Velski & Landis<br>
                                         -->> Def.: is a self-balancing BST where the difference between heights of left and right subtrees cannot be > 1 for all nodes(i.e. balancing factor <= 1).<br>
-                                        -->> Why bother making another tree: 
-                                </details>
+                                        <details>
+                                                 <summary>-->> Why bother making another tree:---- </summary>
+                                         </details>  
+                                                ----------------->> AVL vs BST:<br> 
+                                                ---> In skewed BST(elements are inserted monotonically); operations (e.g., search, max, min, insert, delete.. etc) take O(n) time{as h=n here}.Height of an AVL tree is always O(Logn)<br>
+                                                ----------------->> AVL vs Red-Black tree:<br>
+                                                ---> Both do operations in O(logN).<br>
+                                                ---> AVL trees cause more rotations during insertion and deletion, hence are MORE BALANCED.So, if more:<br>
+                                                --------------* insertion/deletion is required: use Red Black tree<br>
+                                                --------------* search is required            : use AVL tree
+                          </details>
                                 <details>
-                                         <summary>Uses</summary>
+                                        <summary>------------>> Template</summary>
+                                        ----(1) Includes: insert,display,inorder,preorder,postorder,delete:<br>
+                                        -- https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/tree/AVL_tree/template.cpp<br>
+                                  </details>                          
+                                <details>
+                                         <summary>------------>> Uses</summary>
                                           <details>
-                                                   <summary>Find kth smallest element in array after sorting for each query</summary>
-                                          </details>                                  
+                                                   <summary>----Find kth smallest element in array after sorting for each query</summary>
+                                          </details>
+                                          <details>
+                                                   <summary>----Find median in running array</summary>
+                                                    -- https://www.geeksforgeeks.org/?p=14873
+                                          </details>   
+                                          <details>
+                                                   <summary>----Maximum of all subarrays of size k</summary>
+                                                    -->> Given an array and an integer k, find the maximum for each and every contiguous subarray of size k.<br>
+                                                    -- https://www.geeksforgeeks.org/?p=11306
+                                          </details>   
+                                          <details>
+                                                   <summary>----Count number of smaller elements on right side of each element</summary>
+                                                  -- https://www.geeksforgeeks.org/?p=17235
+                                          </details>                                     
                                 </details>
                         </details>
+                        <details>
+                                 <summary>------Balanced Binary tree(2):Red Black Tree</summary>
+                         </details>    
                         <details>
                                 <summary>------Heap</summary>
                                 <details>
@@ -250,10 +281,7 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                         <summary>---------MaxHeap</summary>
                                 </details>
                        </details>
-                      <details>
-                              <summary>------Red Black Tree</summary>
-                      </details>
-                      <details>
+                       <details>
                               <summary>------Splay Tree</summary>
                       </details>
                       <details>
