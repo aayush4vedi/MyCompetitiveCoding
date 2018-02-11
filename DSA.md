@@ -236,14 +236,14 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                         -->> Def.: is a self-balancing BST where the difference between heights of left and right subtrees cannot be > 1 for all nodes(i.e. balancing factor <= 1).<br>
                                         <details>
                                                  <summary>-->> Why bother making another tree:---- </summary>
-                                         </details>  
                                                 ----------------->> AVL vs BST:<br> 
                                                 ---> In skewed BST(elements are inserted monotonically); operations (e.g., search, max, min, insert, delete.. etc) take O(n) time{as h=n here}.Height of an AVL tree is always O(Logn)<br>
                                                 ----------------->> AVL vs Red-Black tree:<br>
                                                 ---> Both do operations in O(logN).<br>
                                                 ---> AVL trees cause more rotations during insertion and deletion, hence are MORE BALANCED.So, if more:<br>
                                                 --------------* insertion/deletion is required: use Red Black tree<br>
-                                                --------------* search is required            : use AVL tree
+                                                --------------* search is required            : use AVL tree                                          
+                                         </details>  
                           </details>
                                 <details>
                                         <summary>------------>> Template</summary>
@@ -278,17 +278,18 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                         ---------------(1)Every node has a color either red or black. <br>
                                         ---------------(2)Root of tree is always black <br>                               
                                         ---------------(3)There are no two adjacent red nodes  <br>
-                                        ---------------(4)Every path from root to a NULL node has same number of black nodes                                           <details>
+                                        ---------------(4)Every path from root to a NULL node has same number of black nodes<br>                               ---> Every Red Black Tree with n nodes has height <= 2Log2(n+1)
+                                          <details>
                                                  <summary>-->> Why bother making another tree:---- </summary>
-                                         </details>  
                                                 ----------------->> Red Black vs BST:<br> 
                                                 ---> In skewed BST(elements are inserted monotonically); operations (e.g., search, max, min, insert, delete.. etc) take O(n) time{as h=n here}.Height of an AVL tree is always O(Logn)<br>
                                                 ----------------->> AVL vs Red-Black tree:<br>
                                                 ---> Both do operations in O(logN).<br>
                                                 ---> AVL trees cause more rotations during insertion and deletion, hence are MORE BALANCED.So, if more:<br>
                                                 --------------* insertion/deletion is required: use Red Black tree<br>
-                                                --------------* search is required            : use AVL tree
-                          </details>
+                                                --------------* search is required            : use AVL tree                                    
+                                         </details>  
+                              </details>
                                 <details>
                                         <summary>------------>> Template</summary>
                                         ----(1) Includes: insert,display,inorder,preorder,postorder,delete:<br>
