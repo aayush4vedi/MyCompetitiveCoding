@@ -294,6 +294,7 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                         <summary>------------>> Template</summary>
                                         ----(1) Includes: insert,display,inorder,preorder,postorder,delete:<br>
                                         -- https://gist.github.com/nandor/9249431<br>
+                                        ----(2) Inlcudes: insert, delete, get min, decrease key
                                   </details>                          
                                 <details>
                                          <summary>------------>> Uses</summary>                               
@@ -301,12 +302,37 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                          </details>    
                         <details>
                                 <summary>------Heap</summary>
+                                -->> About: is a complete Binary tree(except last level nodes), with elements filled in inc//dec order.<br>
                                 <details>
                                         <summary>---------MinHeap</summary>
+                                        <details>
+                                                 <summary>------------------->> Template: {insert,delete- both O(logn)}</summary>
+                                                  -- https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/tree/minHeap/template.cpp
+                                        </details>
                                 </details>
                                         <details>
                                         <summary>---------MaxHeap</summary>
+                                        <details>
+                                                 <summary>------------------->> Template: {insert,delete- both O(logn)}</summary>
+                                                  --http://www.sanfoundry.com/cpp-program-implement-max-heap/
+                                        </details>                                                  
                                 </details>
+                                <details>
+                                        <summary>----->>>>>>> Uses:</summary>
+                                        --> Heap sort:  sort an array in O(nLogn) time<br>
+                                        --> Priority Queue: Priority queues can be efficiently implemented using Binary Heap because it supports insert(), delete() and extractmax(), decreaseKey() operations in O(logn) time. Binomoial Heap and Fibonacci Heap are variations of Binary Heap.<br>
+                                        --> in Graph algo: Djisktra's, Prims'<br>
+                                        --> 
+                                </details>
+                                <details>
+                                        <summary>------Problems on Heap</summary>
+                                        -- codechef tagged: https://www.codechef.com/tags/problems/heap<br>
+                                        -- codemonk{4Q}: https://www.hackerearth.com/challenge/competitive/code-monk-heaps-and-priority-queues/problems/<br>
+                                        -- https://www.codechef.com/problems/ANUMLA<br>
+                                        -- http://www.spoj.com/problems/PRO/<br>
+                                        -- http://www.spoj.com/problems/EXPEDI/<br>
+                                        -- http://www.spoj.com/problems/LAZYPROG/
+                               </details>                          
                        </details>
                        <details>
                               <summary>------Splay Tree</summary>
