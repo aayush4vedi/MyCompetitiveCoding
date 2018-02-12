@@ -335,6 +335,25 @@ http://yihuad.blogspot.in/2013/11/trie-implementation-in-c-geeksforgeeks.html   
                                </details>                          
                        </details>
                        <details>
+                              <summary>------Fenwick Tree</summary>
+                               <details>
+                                      <summary>----------About</summary>
+                                 -A BIT (Binary Indexed Tree) or Fenwick Tree is a data structure providing efficient methods for calculation and manipulation of the prefix sums of a table of values.
+                              </details>      
+                               <details>
+                                      <summary>------------Template</summary>
+                                      --code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/tree/Fenwick/template.cpp<br>
+                                 It supports the following operations :<br>
+                                SUM(1…b): Cumulative sum of elements in the range [1…b]<br>
+                                SUM(a…b): Cumulative sum of elements in the range [a…b]<br>
+                                UPDATE(k, v): Update kth element by an amount v ( v can be +ve or -ve)<br>
+                                SCALE_UP(c): Multiply all elements by an amount c<br>
+                                SCALE_DOWN(c): Divide all elements by an amount c<br>
+                                Space Complexity: O(N) for N elements<br>
+                                Time Complexity: O(log N) for SUM and UPDATE and O(N) for SCALE, where N is the number of elements
+                              </details>                         
+                      </details>  
+                       <details>
                               <summary>------Splay Tree</summary>
                       </details>
                       <details>
