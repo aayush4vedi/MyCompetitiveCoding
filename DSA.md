@@ -698,9 +698,9 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                                           ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/bitmask_how_many_subsets_with_sum_%3C%3DK.cpp
                                           <br>-------------------->> 2D bitmask- job assignment problem : O(2^n)<br>
                                           ----link: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/bitmask2D_job_assignment_problem.cpp
-                                          <br>-------------------->>[Easy] Trivial - fill 3XN tile with 2X1 tiles: http://www.algorithmist.com/index.php/UVa_10918                                    
-                                          <br>-------------------->>[Easy] fill 4XN tile with 2X1 tiles: https://www.codechef.com/problems/MARCHA1                                                       <br>-------------------->>[Easy]https://www.codechef.com/JAN13/problems/LEALCO
-                                          <br>-------------------->>[Easy]http://www.spoj.com/problems/GNY07H/
+                                          <br>-------------------->>[Easy] https://www.codechef.com/problems/MARCHA1                                                      <br>-------------------->>[Easy]https://www.codechef.com/JAN13/problems/LEALCO
+                                          <br>-------------------->>[Easy] Trivial - fill 3XN tile with 2X1 tiles: http://www.algorithmist.com/index.php/UVa_10918                                             
+                                          <br>-------------------->>[Easy] fill 4XN tile with 2X1 tiles:http://www.spoj.com/problems/GNY07H/
                                           <br>-------------------->>[Easy]http://www.spoj.com/problems/HIST2/
                                           <br>-------------------->>[Easy]http://www.spoj.com/problems/M3TILE/
                                           <br>-------------------->>[Medium]http://www.spoj.com/problems/COURIER/
