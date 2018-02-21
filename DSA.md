@@ -41,13 +41,15 @@
                            </details>
                            <details>
                                     <summary>--------------- Other Basic Implementations</summary>
-                                    ------>> Check BST or Not:<br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20is%20BST%20or%20not.cpp
+                                    ------>> Check BST or Not:<br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20is%20BST%20or%20not.cpp<br>
                                     ------>> Convert BST to array: <br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Convert%20a%20BST%20to%20an%20Array.cpp<br>
                                     ------>> Create BST from sorted array: <br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20(Create)%20From%20Sorted%20Array.cpp<br>
                                     ------>> Find Min/Max-recursive: <br> -- https://github.com/rabiulcste/Data-Structure/blob/master/Binary-Search-Tree/Binary%20Tree%20Find%20Min%20and%20Max%20Recursive.cpp<br>
                                     ------>> Convert BST to Min Heap: <br> -- https://www.geeksforgeeks.org/convert-bst-min-heap/<br>
                                     ------>> Contruct BST from given Level order transversal: <br> --https://www.geeksforgeeks.org/construct-bst-given-level-order-traversal/<br>
                                     ------>> Find K'th smallest element in BST: <br> --https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/
+                                <br>------>> Find distance between two nodes:<br> --https://www.geeksforgeeks.org/find-distance-between-two-nodes-of-a-binary-tree/<br>
+                                <br>------>> Find maximum node b/w two nodes:<br> --https://www.geeksforgeeks.org/maximum-element-two-nodes-bst/<br>
                            </details>
                            <details>
                                    <summary>---------------Uses</summary>
