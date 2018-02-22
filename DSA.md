@@ -851,7 +851,12 @@ code: https://github.com/rabiulcste/Graph-Theory/blob/master/Mst%20Prims%20Algor
                         <details>
                                 <summary>------Subset sum-2D</summary>
                                 code: https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/dp/Sum_of_subset(2D).cpp
-                        </details>        
+                        </details> 
+                        <details>
+                                <summary>------partition of array into k parts such that max sum of a part is minimum</summary>
+                                problem: http://www.spoj.com/problems/SEQPAR/<br>
+                                solution: https://stackoverflow.com/questions/39673898/divide-array-into-k-contiguos-partitions-such-that-sum-of-maximum-partition-is-m
+                        </details>                      
                         <details>
                                 <summary>------Weighted Job scheduling</summary>
                                 -->> Statement:<br>Given N jobs where every job is represented by following three elements of it:{ Start Time,Finish Time,Profit or Value Associated}.<br>
