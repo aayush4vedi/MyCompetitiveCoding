@@ -106,7 +106,6 @@
                     7.16 number of iterations to pass infor into all nodes<br>
             </details>                        
     </details>
-    ---
     <details>
         <summary>Special Trees</summary>
         <details>
@@ -140,35 +139,26 @@
             <summary>8.Prefix Tree</summary>
         </details>  
     </details>
-    ---
     <details>
         <summary>Graphs</summary>
     </details> 
-    ---
     <details>
         <summary>Linked List</summary>
     </details>
-    ---
     <details>
         <summary>Hash</summary>
     </details>
-        ---
     <details>
         <summary>Array</summary>
     </details>
-    ---
     <details>
         <summary>Strings</summary>
     </details>    
  
 </details>
-___
-___
 <details>
     <summary>Algo</summary>
 </details>     
-___
-___
 <!-- demo -->
 <details>
     <summary></summary>
