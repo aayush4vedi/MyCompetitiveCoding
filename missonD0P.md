@@ -110,17 +110,68 @@
         <summary>Special Trees</summary>
         <details>
             <summary>1.Segment Tree</summary>
+            <details>
+                <summary>1.1 Const</summary>
+            </details>   
+            <details>
+                <summary>1.2 getSum</summary>
+            </details>   
+            <details>
+                <summary>1.3 Update</summary>
+            </details>   
+            <details>
+                <summary>1.4 RMQ</summary>
+            </details>   
+            <details>
+                <summary>1.5 Lazy Prop</summary>
+            </details>                                                                  
         </details>  
         <details>
             <summary>2.Trie </summary>
+            <details>
+                    <summary>2.1 Const</summary>
+            </details>  
+            <details>
+                    <summary>2.2 Insert</summary>
+            </details>                
+             <details>
+                    <summary>2.3 Search</summary>
+            </details>          
+            <details>
+                    <summary>2.4 Delete</summary>
+            </details> 
+             <details>
+                    <summary>2.5 Longest Prefix</summary>
+            </details>          
+            <details>
+                    <summary>2.6 Unque rows in boolean matrix</summary>
+            </details>                                             
         </details>  
         <details>
             <summary>3.Balanced BT</summary>
             <details>
                 <summary>3.1 AVL/BIT</summary>
+                <details>
+                        <summary>3.1.1 Declare </summary>
+                </details>                      
+                <details>
+                        <summary>3.1.2 Insertion </summary>
+                </details>          
+                <details>
+                        <summary>3.1.3 Deletion </summary>
+                </details>                   
             </details>   
             <details>
                 <summary>3.2 Red-Black Tree</summary>
+                <details>
+                        <summary>3.2.1 Declare </summary>
+                </details>                      
+                <details>
+                        <summary>3.2.2 Insertion </summary>
+                </details>          
+                <details>
+                        <summary>3.2.3 Deletion </summary>
+                </details>                      
             </details>                    
         </details> 
         <details>
@@ -128,6 +179,21 @@
         </details>  
         <details>
             <summary>5.Splay Tree</summary>
+                <details>
+                        <summary>5.1.1 Declare </summary>
+                </details>  
+                <details>
+                        <summary>5.1.2 Rotation </summary>
+                </details>                                      
+                <details>
+                        <summary>5.1.3 Search </summary>
+                </details>                        
+                <details>
+                        <summary>5.1.4 Insertion </summary>
+                </details>          
+                <details>
+                        <summary>5.1.5 Deletion </summary>
+                </details>                  
         </details>  
         <details>
             <summary>6.Fenwick Tree</summary>
@@ -138,6 +204,15 @@
         <details>
             <summary>8.Prefix Tree</summary>
         </details>  
+        <details>
+            <summary>9.B-Tree</summary>
+        </details>   
+        <details>
+            <summary>10. KD Tree</summary>
+        </details>    
+        <details>
+            <summary>11.Treap</summary>
+        </details>                           
     </details>
     <details>
         <summary>Graphs</summary>
