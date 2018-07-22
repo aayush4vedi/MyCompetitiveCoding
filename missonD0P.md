@@ -10,7 +10,8 @@
 
 ## TODO's :
     - [ ] Write complexities in front of each line
-    - [ ]
+    - [ ] 
+    - [ ] Keep updating list(the list is not even 50% of GfG)
 
 
 ## Notes: 
@@ -557,6 +558,190 @@
     </details>
     <details>
         <summary>Array</summary>
+    <details>
+        <summary>1. Rotations</summary>
+        <details>
+            <summary>1.1 Rotate by d(all 3)</summary>
+        </details> 
+        <details>
+            <summary>1.2 reversal algo for arr rot</summary>
+        </details>      
+        <details>
+            <summary>1.3 block swap algo</summary>
+        </details>      
+        <details>
+            <summary>1.4 cyclically rotate arr</summary>
+        </details>      
+        <details>
+            <summary>1.5 Search ele in sorted and rotated arr</summary>
+        </details>      
+        <details>
+            <summary>1.6 given sorted & rotated arr, find 2 sum</summary>
+        </details>      
+        <details>
+            <summary>1.7 find rotation count in rotated sorted arr</summary>
+        </details>      
+        <details>
+            <summary>1.8 find min in rot-sorted arr</summary>
+        </details>      
+    </details> 
+    <details>
+        <summary>2. Arr-Rearr</summary>
+        <details>
+            <summary>2.1 rearr such that arr[i]=i</summary>
+        </details> 
+        <details>
+            <summary>2.2 reverse arr</summary>
+        </details>      
+        <details>
+            <summary>2.3 Rearrange array such that arr[i] >= arr[j] if i is even and arr[i]<=arr[j] if i is odd and j < i</summary>
+        </details>      
+        <details>
+            <summary>2.4 Rearrange positive and negative numbers</summary>
+        </details>      
+        <details>
+            <summary>2.5 Move all zeroes to end of array
+(both sets)</summary>
+        </details>      
+        <details>
+            <summary>2.6 Minimum swaps required to bring all elements less than or equal to k together</summary>
+        </details>      
+        <details>
+            <summary>2.7 Rearrange array such that even positioned are greater than odd</summary>
+        </details>      
+        <details>
+            <summary>2.8 Rearrange an array in order – smallest, largest, 2nd smallest, 2nd largest, ..
+</summary>
+        </details>      
+        <details>
+            <summary>2.9 Arrange given numbers to form the biggest number</summary>
+        </details>      
+        <details>
+            <summary>2.10 
+Rearrange an array in maximum minimum form(both sets)</summary>
+        </details>   
+        <details>
+            <summary>2.11 Move all negative numbers to beginning and positive to end(both sets)</summary>
+        </details> 
+        <details>
+            <summary>2.12 Rearrange array such that even index elements are smaller and odd index elements are greater
+</summary>
+        </details>      
+        <details>
+            <summary>2.13 Positive elements at even and negative at odd positions</summary>
+        </details>      
+        <details>
+            <summary>2.14 Segregate 0s and 1s in an array</summary>
+        </details>      
+        <details>
+            <summary>2.15 Longest Bitonic Subsequence
+</summary>
+        </details>      
+        <details>
+            <summary>2.16 Largest subarray with equal number of 0s and 1s</summary>
+        </details>      
+        <details>
+            <summary>2.17 Maximum Product Sub-array
+</summary>
+        </details>      
+        <details>
+            <summary>2.18 Replace every element with the greatest element on right side
+</summary>
+        </details>  
+        <details>
+            <summary>2.19 Construction of Longest Increasing Subsequenc</summary>
+        </details> 
+        <details>
+            <summary>2.19 
+Sort elements by frequenc</summary>
+        </details>      
+        <details>
+            <summary>2.20 Three way partitioning</summary>
+        </details>      
+        <details>
+            <summary>2.21 Convert array into Zig-Zag fashion</summary>
+        </details>      
+        <details>
+            <summary>2.22 Minimum number of swaps required for arranging pairs adjacent to each other</summary>
+        </details>                                  
+    </details>      
+    <details>
+        <summary>3. Order statistics </summary>
+        <details>
+            <summary>3.1 K’th Smallest/Largest Element in Unsorted Array(all 3 sets & stl & heap)</summary>
+        </details> 
+        <details>
+            <summary>3.2 Kth smallest element in a row-wise and column-wise sorted 2D arra(all 2 sets)</summary>
+        </details>      
+        <details>
+            <summary>3.3 Largest ele</summary>
+        </details>      
+        <details>
+            <summary>3.4 Largest 3 ele's</summary>
+        </details>      
+        <details>
+            <summary>3.5 Mean and median of an unsorted array</summary>
+        </details>      
+        <details>
+            <summary>3.6 Median of Stream of Running Integers</summary>
+        </details>      
+        <details>
+            <summary>3.7 Minimum product of k integers in an array of positive Integers</summary>
+        </details>      
+        <details>
+            <summary>3.8 K-th Largest Sum Contiguous Subarray
+</summary>
+        </details>      
+        <details>
+            <summary>3.9 K maximum sum combinations from two arrays</summary>
+        </details>      
+        <details>
+            <summary>3.10 K maximum sums of overlapping contiguous sub-arrays</summary>
+        </details>          
+        <details>
+            <summary>3.11 K maximum sums of non-overlapping contiguous sub-arrays</summary>
+        </details>   
+        <details>
+            <summary>3.12 Find k pairs with smallest sums in two arrays</summary>
+        </details>          
+        <details>
+            <summary>3.13 Second largest element in an array</summary>
+        </details>   
+        <details>
+            <summary>3.14 k-th smallest absolute difference of two elements in an array
+</summary>
+        </details>          
+        <details>
+            <summary>3.15 Find the smallest missing number</summary>
+        </details>   
+        <details>
+            <summary>3.16 Maximum sum such that no two elements are adjacent</summary>
+        </details>   
+        <details>
+            <summary>3.17 Next Greater Element</summary>
+        </details>   
+        <details>
+            <summary>3.1</summary>
+        </details>   
+        <details>
+            <summary>3.1</summary>
+        </details>                                                                          
+    </details>      
+    <details>
+        <summary>4. Range Queries</summary>
+    </details> 
+    <details>
+        <summary>5. Searching & Sorting</summary>
+    </details>      
+    <details>
+        <summary><6. Optimization</summary>
+    </details>                  
+    <details>
+        <summary><7. Matrix</summary>
+    </details> 
+    <details>
+        <summary>8. Misc</summary>
+    </details>          
     </details>
     <details>
         <summary>Strings</summary>
