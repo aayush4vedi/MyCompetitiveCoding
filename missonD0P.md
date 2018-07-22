@@ -458,6 +458,99 @@
     </details> 
     <details>
         <summary>Linked List</summary>
+        <details>
+            <summary>1.Singly Linked List</summary>
+            <details>
+                <summary>1.1 Declaration</summary>
+            </details> 
+            <details>
+                <summary>1.2 Traversal</summary>
+            </details>      
+            <details>
+                <summary>1.3 Insertion</summary>
+            </details>      
+            <details>
+                <summary>1.4 Deletion</summary>
+            </details>      
+            <details>
+                <summary>1.5 Delete a ll</summary>
+            </details>      
+            <details>
+                <summary>1.6 Search</summary>
+            </details>      
+            <details>
+                <summary>1.7 Nth node from end</summary>
+            </details>      
+            <details>
+                <summary>1.8 Print middle ele</summary>
+            </details>      
+            <details>
+                <summary>1.9 detect loop</summary>
+            </details>      
+            <details>
+                <summary>1.10 Find length of loop</summary>
+            </details>    
+            <details>
+                <summary>1.11 isPalindrome?</summary>
+            </details>   
+            <details>
+                <summary>1.12 Remove Duplicates from(sorted and unsorted)</summary>
+            </details>    
+            <details>
+                <summary>1.13 Swap nodes</summary>
+            </details>    
+            <details>
+                <summary>1.14 move last element to front</summary>
+            </details>   
+            <details>
+                <summary>1.15 intersection of 2 ll</summary>
+            </details>    
+            <details>
+                <summary>1.16.1 quicksort</summary>
+            </details>    
+            <details>
+                <summary>1.16.2 insertion sort</summary>
+            </details> 
+            <details>
+                <summary>1.16.3 merge sort</summary>
+            </details>                            
+            <details>
+                <summary>1.17 Reverse a ll(2 pointer & recursion)</summary>
+            </details>   
+            <details>
+                <summary>1.18 Merge 2 ll</summary>
+            </details>   
+            <details>
+                <summary>1.19 Alternate odd and even nodes print</summary>
+            </details>    
+            <details>
+                <summary>1.20 add 2 numbers rep by ll(both sets)</summary>
+            </details>  
+            <details>
+                <summary>1.21 Rotate ll</summary>
+            </details>   
+            <details>
+                <summary>1.22 flatten ll</summary>
+            </details> 
+            <details>
+                <summary>1.23 Three sum</summary>
+            </details>   
+            <details>
+                <summary>1.24 sort a ll of 0s,1s,2s</summary>
+            </details> 
+            <details>
+                <summary>1.25 add 1 to a number</summary>
+            </details>   
+            <details>
+                <summary>1.26 delete a node at given position</summary>
+            </details>                                                                                                                                          
+        </details> 
+        <details>
+            <summary>2. Circular Linked List</summary>
+        </details>      
+        <details>
+            <summary>3.Doubly Linked List</summary>
+        </details>             
     </details>
     <details>
         <summary>Hash</summary>
