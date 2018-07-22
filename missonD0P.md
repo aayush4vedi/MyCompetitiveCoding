@@ -1,9 +1,26 @@
 # A dynamic list of GfG problems-interview rounds :neckbeard:
 
-## TODO's :##
+# Plan: #
+* 1st Iteration(15- 29 July)
+    - Enlisting
+* 2nd Iteration(1-15 Aug)
+    - likh-likh ke(each)
+* 3rd Iteration(16-30 Aug)
+    - code each
 
-## Notes: ##
-<details open>
+## TODO's :
+    - [ ] Write complexities in front of each line
+    - [ ]
+
+
+## Notes: 
+```diff
+-only valid when #Interviewer_gets_em#
++stack of implementaion helps heaps in recursion(GfG BIT videos)
+```
+
+
+<details>
     <summary>Data Structures</summary>
     <details>
         <summary>BST</summary>
@@ -316,7 +333,7 @@
             </details>  
         </details>   
         <details>
-            <summary><5.Back-Track/summary>
+            <summary><5.Back-Track</summary>
             <details>
                 <summary>5.1 if path of length >= k exists?</summary>
             </details> 
