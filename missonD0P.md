@@ -216,6 +216,228 @@
     </details>
     <details>
         <summary>Graphs</summary>
+        <details>
+            <summary>1.Intro & Traversal</summary>
+            <details>
+                <summary>1.1 Rep(stl and class)</summary>
+            </details>   
+            <details>
+                <summary>1.2 BFS</summary>
+            </details>   
+            <details>
+                <summary>1.2 0-1 BFS</summary>
+            </details>               
+            <details>
+                <summary>1.3 DFS</summary>
+            </details>     
+            <details>
+                <summary>1.4 Find Mother Vertex</summary>
+            </details>   
+            <details>
+                <summary>1.5 Watet-jug Prob(BFS)</summary>
+            </details>   
+            <details>
+                <summary>1.6 Count #trees in forest</summary>
+            </details>          
+            <details>
+                <summary>1.7 level of each node</summary>
+            </details>   
+            <details>
+                <summary>1.8 Print All paths</summary>
+            </details>   
+            <details>
+                <summary>1.9 Min #edges b/w 2 vertices</summary>
+            </details>     
+            <details>
+                <summary>1.10 Count #nodes at dist k</summary>
+            </details>   
+            <details>
+                <summary>1.11 BFS for disconnected</summary>
+            </details>   
+            <details>
+                <summary>1.12 Min #moves by knight to reach target</summary>
+            </details>  
+            <details>
+                <summary>1.12 Check if 2 nodes are in same path </summary>
+            </details>                                                                         
+        </details>   
+        <details>
+            <summary>2.Cycle</summary>
+            <details>
+                <summary>2.1 Detect Cycle in Directed Graph</summary>
+            </details>             
+            <details>
+                <summary>2.2 Detect Cycle in Un-Directed Graph</summary>
+            </details>             
+            <details>
+                <summary>2.3 Detect Cycle in Directed Grap Using Colors</summary>
+            </details>       
+           <details>
+                <summary>2.4 Detect -ve cycle: Bellman Ford</summary>
+            </details>             
+            <details>
+                <summary>2.5 Detect -ve cycle: Floyd Warshall</summary>
+            </details>             
+            <details>
+                <summary>2.6 Union Find Algo</summary>
+            </details>
+            <details>
+                <summary>2.6 Magical Indices in Array</summary>
+            </details>                                                           
+        </details>   
+        <details>
+            <summary>3.Topological Sort</summary>
+            <details>
+                <summary>3.1 About</summary>
+            </details> 
+            <details>
+                <summary>3.2 All Top sort of directed connected graph</summary>
+            </details>      
+            <details>
+                <summary>3.3 Kahn's algo</summary>
+            </details>      
+            <details>
+                <summary>3.4 Longest Path(all 3)</summary>
+            </details>                  
+        </details>  
+        <details>
+            <summary>4.MSP</summary>
+            <details>
+                <summary>4.1 Prims algo(also STL, adjc list)</summary>
+            </details> 
+            <details>
+                <summary>4.2 Kruskal's(also stl)</summary>
+            </details>      
+            <details>
+                <summary>4.3 Boruvka</summary>
+            </details>      
+            <details>
+                <summary>4.4 Total #spanning trees</summary>
+            </details>  
+        </details>   
+        <details>
+            <summary><5.Back-Track/summary>
+            <details>
+                <summary>5.1 if path of length >= k exists?</summary>
+            </details> 
+            <details>
+                <summary>5.2 Tug of war</summary>
+            </details>      
+            <details>
+                <summary>5.3 Knight tour</summary>
+            </details>      
+            <details>
+                <summary>5.4 Rat in maze</summary>
+            </details>      
+            <details>
+                <summary>5.5 n-Queen</summary>
+            </details>      
+            <details>
+                <summary>5.6 m-coloring</summary>
+            </details>      
+            <details>
+                <summary>5.7 HAMILTONIAN CYCLE</summary>
+            </details>                 
+        </details>   
+        <details>
+            <summary>6.Shortest Path</summary>
+            <details>
+                <summary>6.1 Dijkstra's(also stl & linked list)</summary>
+            </details>      
+            <details>
+                <summary>6.2 printning all paths in Dijkstra</summary>
+            </details>      
+            <details>
+                <summary>6.3 Bellman Ford</summary>
+            </details>      
+            <details>
+                <summary>6.4 Floyd Warshall</summary>
+            </details>      
+            <details>
+                <summary>6.5 Johnson</summary>
+            </details>      
+            <details>
+                <summary>6.6 Dial's</summary>
+            </details>      
+            <details>
+                <summary>6.7 shortest path in directed acyclic graph</summary>
+            </details>      
+            <details>
+                <summary>6.8 Karp's</summary>
+            </details>      
+            <details>
+                <summary>6.9 0-1 BFS</summary>
+            </details>                       
+        </details>  
+        <details>
+            <summary>7.Connectivity</summary>
+            <details>
+                <summary>7.1 connectivity in directed graph</summary>
+            </details>      
+            <details>
+                <summary>7.2 is path exists?</summary>
+            </details>      
+            <details>
+                <summary>7.3 Articulation Points</summary>
+            </details>      
+            <details>
+                <summary>7.4 Biconnected components</summary>
+            </details>      
+            <details>
+                <summary>7.5 Biconnected Graph</summary>
+            </details>      
+            <details>
+                <summary>7.6 Bridges</summary>
+            </details>      
+            <details>
+                <summary>7.7 Eulerian Paths</summary>
+            </details>        
+            <details>
+                <summary>7.8 Fleury's</summary>
+            </details>      
+            <details>
+                <summary>7.9 Strongly Connected</summary>
+            </details>      
+            <details>
+                <summary>7.10 Taragn's</summary>
+            </details>      
+            <details>
+                <summary>7.11 # non-reachable nvertices</summary>
+            </details>      
+            <details>
+                <summary>7.12 check if graph is tree?</summary>
+            </details>      
+        </details>   
+        <details>
+            <summary>8.Max Flow</summary>
+            <details>
+                <summary>8.1 Ford-Fulkerson</summary>
+            </details> 
+            <details>
+                <summary>8.2 #edge-disjoint paths b/w 2 vertices</summary>
+            </details>      
+            <details>
+                <summary>8.3 Min s-t cut flow</summary>
+            </details>      
+            <details>
+                <summary>8.4 Max bipartite matching</summary>
+            </details>      
+            <details>
+                <summary>8.5 Karger's </summary>
+            </details>      
+            <details>
+                <summary>8.6 Dinic's</summary>
+            </details>                  
+        </details>   
+        <details>
+            <summary>9.Hard</summary>
+            <details>
+                <summary>9.1 Graph Coloring</summary>
+            </details> 
+            <details>
+                <summary>9.2 TSP(travelling slaseman)</summary>
+            </details>                  
+        </details>                                      
     </details> 
     <details>
         <summary>Linked List</summary>
@@ -235,6 +457,35 @@
     <summary>Algo</summary>
 </details>     
 <!-- demo -->
+<!-- 
+<details>
+    <summary></summary>
+</details> 
 <details>
     <summary></summary>
 </details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>      
+<details>
+    <summary></summary>
+</details>          
+  -->
