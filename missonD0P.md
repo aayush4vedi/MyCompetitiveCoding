@@ -732,6 +732,66 @@ Sort elements by frequenc</summary>
     </details> 
     <details>
         <summary>5. Searching & Sorting</summary>
+            <details>
+                <summary>5.1 Search for key</summary>
+                 <details>
+                    <summary>5.1.1 Linear</summary>
+                </details> 
+                <details>
+                    <summary>5.1.2 Binary</summary>
+                </details>      
+                <details>
+                    <summary>5.1.3 Ternary</summary>
+                </details>      
+                <details>
+                    <summary>5.1.4 Jump</summary>
+                </details>      
+                <details>
+                    <summary>5.1.5 Interpolation</summary>
+                </details>      
+                <details>
+                    <summary>5.1.6 Exponantial</summary>
+                </details>                     
+            </details>     
+            <details>
+                <summary>5.2 Search for pattern</summary>
+                <details>
+                    <summary>5.2.1 KMP</summary>
+                </details> 
+                <details>
+                    <summary>5.2.2 Rabin_karp</summary>
+                </details>  
+            </details>  
+            <details>
+                <summary>5.2 Sort</summary>
+                <details>
+                    <summary>5.2.1 Selection(betterment and stability)</summary>
+                </details> 
+                <details>
+                    <summary>5.2.2 Bubble(betterment) </summary>
+                </details>      
+                <details>
+                    <summary>5.2.3 Insertion(recursion)</summary>
+                </details>      
+                <details>
+                    <summary>5.2.4 Quick(recursion)</summary>
+                </details>      
+                <details>
+                    <summary>5.2.5 Merge</summary>
+                </details>      
+                <details>
+                    <summary>5.2.6 Heap</summary>
+                </details>      
+                <details>
+                    <summary>5.2.7 Counting</summary>
+                </details>      
+                <details>
+                    <summary>5.2.8 Bucket</summary>
+                </details> 
+                <details>
+                    <summary>5.2.9 Merge</summary>
+                </details>                                  
+            </details>                           
     </details>      
     <details>
         <summary><6. Optimization</summary>
