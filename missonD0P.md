@@ -729,7 +729,24 @@ Sort elements by frequenc</summary>
     </details>      
     <details>
         <summary>4. Range Queries</summary>
+    </details>      
+    <details>
+        <summary><6. Optimization</summary>
+    </details>                  
+    <details>
+        <summary><7. Matrix</summary>
     </details> 
+    <details>
+        <summary>8. Misc</summary>
+    </details>          
+    </details>
+    <details>
+        <summary>Strings</summary>
+    </details>    
+ 
+</details>
+<details>
+    <summary>Algo</summary>
     <details>
         <summary>5. Searching & Sorting</summary>
             <details>
@@ -792,24 +809,7 @@ Sort elements by frequenc</summary>
                     <summary>5.2.9 Merge</summary>
                 </details>                                  
             </details>                           
-    </details>      
-    <details>
-        <summary><6. Optimization</summary>
-    </details>                  
-    <details>
-        <summary><7. Matrix</summary>
-    </details> 
-    <details>
-        <summary>8. Misc</summary>
-    </details>          
-    </details>
-    <details>
-        <summary>Strings</summary>
-    </details>    
- 
-</details>
-<details>
-    <summary>Algo</summary>
+    </details>     
 </details>     
 <!-- demo -->
 <!-- 
