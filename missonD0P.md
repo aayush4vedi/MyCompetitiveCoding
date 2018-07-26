@@ -1872,7 +1872,410 @@ Count ways to assign unique cap to every person</summary>
         </details>            
     </details>      
     <details>
-        <summary>5.Geometry/Maths</summary>
+        <summary>6.Geometry/Maths</summary>
+        <details>
+            <summary>6.1 Geo</summary>
+            <details>
+                <summary>6.1.1 Lines</summary>
+                <details>
+                    <summary>6.1.1.1 How to check if two given line segments intersect?</summary>
+                </details> 
+                <details>
+                    <summary>6.1.1.2 Given n line segments, find if any two segments intersect</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.3 Klee’s Algorithm (Length Of Union Of Segments of a line)
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.4 Count maximum points on same line
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.5 Find an Integer point on a line segment with given two ends</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.6 Minimum lines to cover all points
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.7 Minimum block jumps to reach destination</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.8 Program for Point of Intersection of Two Lines</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.9 Represent a given set of points by the best possible straight line</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.10 Program to find line passing through 2 Points</summary>
+                </details>    
+                <details>
+                    <summary>6.1.1.11 Reflection of a point about a line in C++
+</summary>
+                </details> 
+                <details>
+                    <summary>6.1.1.12 Find points at a given distance on a line of given slope
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.13 Number of ordered points pair satisfying line equation</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.14 Check if a line passes through the origin
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.15 Count of different straight lines with total n points with m collinear
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.16 Number of horizontal or vertical line segments to connect 3 points
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.17 Program to find the mid-point of a line</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.18 Section formula (Point that divides a line in given ratio)</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.19 Sum of Manhattan distances between all pairs of points</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.20 Minimum number of points to be removed to get remaining points on one side of axis
+</summary>
+                </details> 
+                <details>
+                    <summary>6.1.1.21 Program to find slope of a line
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.22 Maximum integral co-ordinates with non-integer distances
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.1.23 Direction of a Point from a Line Segment
+</summary>
+                </details>    
+                <details>
+                    <summary>6.1.1.24 Find intersection point of lines inside a section
+</summary>
+                </details>    
+                <details>
+                    <summary>6.1.1.25 Program to check if three points are collinear</summary>
+                </details>                                                                                     
+            </details> 
+            <details>
+                <summary>6.1.2 Triangles</summary>
+                <details>
+                    <summary>6.1.2.1 Check whether a given point lies inside a triangle or not
+</summary>
+                </details> 
+                <details>
+                    <summary>6.1.2.2 C program to find area of a triangle
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.3 Count Integral points inside a Triangle
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.4 Classify a triangle
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.5 Maximum height when coins are arranged in a triangle</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.6 Find all sides of a right angled triangle from given hypotenuse and area | Set 1</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.7 Maximum number of 2×2 squares that can be fit inside a right isosceles triangle
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.8 Check if right triangle possible from given area and hypotenuse
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.9 Triangle with no point inside
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.10 Find all angles of a given triangle</summary>
+                </details> 
+                <details>
+                    <summary>6.1.2.11 Program to find Circumcenter of a Triangle</summary>
+                </details> 
+                <details>
+                    <summary>6.1.2.12 Number of Triangles that can be formed given a set of lines in Euclidean Plane</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.13 Triangular Matchstick Number</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.14 Number of jump required of given length to reach a point of form (d, 0) from origin in 2D plane
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.15 Program to calculate area of Circumcircle of an Equilateral Triangle</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.16 Check whether triangle is valid or not if sides are given</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.17 Program to find third side of triangle using law of cosines</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.18 Find the dimensions of Right angled triangle
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.19 Program to calculate area and perimeter of equilateral triangle
+</summary>
+                </details>      
+                <details>
+                    <summary>6.1.2.20 Count of acute, obtuse and right triangles with given sides</summary>
+                </details>  
+                <details>
+                    <summary>6.1.2.21 Minimum height of a triangle with given base and area
+</summary>
+                </details>  
+                <details>
+                    <summary>6.1.2.22 Maximum number of squares that can fit in a right angle isosceles triangle
+</summary>
+                </details>                                                                
+            </details>      
+            <details>
+                <summary>6.1.3 Rect|Sq|Circle</summary>
+                <details>
+                    <summary>6.1.3.1 Rect</summary>
+                    <details>
+                        <summary>6.1.3.1.1 Find if two rectangles overlap</summary>
+                    </details> 
+                    <details>
+                        <summary>6.1.3.1.2 Check if four segments form a rectangle</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.3 Check whether a given point lies inside a rectangle or not</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.4 Minimum Perimeter of n blocks
+</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.5 Number of rectangles in N*M grid</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.6 Find Corners of Rectangle using mid points</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.7 Coordinates of rectangle with given points lie inside</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.8 Total area of two overlapping rectangles</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.1.9 Program for Area And Perimeter Of Rectangle</summary>
+                    </details>                                                               
+                </details>  
+                <details>
+                    <summary>6.1.3.2 Sq</summary>
+                    <details>
+                        <summary>6.1.3.2.1 Program to find Perimeter / Circumference of Square and Rectangle</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.2.2 
+Program for Area Of Square</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.2.3 Number of unique rectangles formed using N unit squares</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.2.4 How to check if given four points form a square</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.2.5 Paper Cut into Minimum Number of Squares</summary>
+                    </details>                                                                                          
+                </details>   
+                <details>
+                    <summary>6.1.3.3 Circle</summary>
+                    <details>
+                        <summary>6.1.3.3.1 Program to find area of a circle
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.2 Non-crossing lines to connect points in a circle</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.3 Circle and Lattice Points</summary>
+                    </details>  
+                    <details>
+                        <summary>6.1.3.3.4 Queries on count of points lie inside a circle
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.5 Check whether a point exists in circle sector or not</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.6 Pizza cut problem (Or Circle Division by Lines)
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.7 Minimum revolutions to move center of a circle to a target</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.8 Angular Sweep (Maximum points that can be enclosed in a circle of given radius)
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.9 Check if a line touches or intersects a circle
+</summary>
+                    </details>  
+                    <details>
+                        <summary>6.1.3.3.10 Check if a given circle lies completely inside the ring formed by two concentric circles
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.11 Area of a Circumscribed Circle of a Square
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.12 Path in a Rectangle with Circles</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.13 Area of square Circumscribed by Circle</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.14 Count ways to divide circle using N non-intersecting chords
+</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.15 Find the center of the circle using endpoints of diameter
+</summary>
+                    </details>  
+                    <details>
+                        <summary>6.1.3.3.16 Program to find area of a Circular Segment</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.17 Program to find smallest difference of angles of two parts of a given circle</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.18 Arc length from given Angle</summary>
+                    </details>      
+                    <details>
+                        <summary>6.1.3.3.19 Area of a Circular Sector</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.20 Find minimum radius such that atleast k point lie inside the circle</summary>
+                    </details>                                     <details>
+                        <summary>6.1.3.3.21 Program to find Circumference of a Circle</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.22 Check whether given circle resides in boundary maintained by two other circles</summary>
+                    </details>  
+                    <details>
+                        <summary>6.1.3.3.23 Check if two given circles touch or intersect each other</summary>
+                    </details>   
+                    <details>
+                        <summary>6.1.3.3.24 Count of obtuse angles in a circle with ‘k’ equidistant points between 2 given points</summary>
+                    </details>                                                                                 
+                </details>                                              
+            </details>      
+            <details>
+                <summary>6.1.4 3D obj</summary>
+                <details>
+                    <summary>1 Find the perimeter of a cylinder</summary>
+                </details> 
+                <details>
+                    <summary>2 Find the Surface area of a 3D figure
+</summary>
+                </details>      
+                <details>
+                    <summary>3 Program for distance between two points on earth
+</summary>
+                </details>      
+                <details>
+                    <summary>4 Calculate Volume of Dodecahedron
+</summary>
+                </details>      
+                <details>
+                    <summary>5 Program for Volume and Surface area of Frustum of Cone</summary>
+                </details>      
+                <details>
+                    <summary>6 Program for volume of Pyramid</summary>
+                </details>      
+                <details>
+                    <summary>7 Pythagorean Quadruple</summary>
+                </details>      
+            </details>      
+            <details>
+                <summary>6.1.5 Quadilateral</summary>
+                <details>
+                    <summary>1 Number of parallelograms when n horizontal parallel lines intersect m vertical parallellines</summary>
+                </details> 
+                <details>
+                    <summary>2 Program for Circumference of a Parallelogram
+</summary>
+                </details>      
+                <details>
+                    <summary>3 Program to calculate area and perimeter of Trapezium
+</summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>      
+                <details>
+                    <summary></summary>
+                </details>                      
+            </details>      
+            <details>
+                <summary>6.1.6 Polygon & Convex Hull</summary>
+                <details>
+                    <summary>1 How to check if a given point lies inside or outside a polygon?</summary>
+                </details> 
+                <details>
+                    <summary>2 Find number of diagonals in n sided convex polygon</summary>
+                </details>      
+                <details>
+                    <summary>3 Convex Hull | Set 1 (Jarvis’s Algorithm or Wrapping)</summary>
+                </details>      
+                <details>
+                    <summary>4 Convex Hull | Set 2 (Graham Scan)
+</summary>
+                </details>      
+                <details>
+                    <summary>5  Quickhull Algorithm for Convex Hull
+</summary>
+                </details>      
+                <details>
+                    <summary>6 Convex Hull (Simple Divide and Conquer Algorithm)
+</summary>
+                </details>                   
+            </details>      
+            <details>
+                <summary>6.1.7 Misc</summary>
+            </details>                  
+        </details> 
+        <details>
+            <summary>6.2 Maths</summary>
+        </details>           
     </details>      
     <details>
         <summary>6.Div & Conq</summary>
