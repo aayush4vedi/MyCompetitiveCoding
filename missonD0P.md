@@ -4,7 +4,7 @@
 * 1st Iteration(15- 29 July)
     - Enlisting
 * 2nd Iteration(1-15 Aug)
-    - likh-likh ke(each)
+    - likh-likh ke(each) & !lite_this_time
 * 3rd Iteration(16-30 Aug)
     - code each
 * do from GfG itself
@@ -23,6 +23,7 @@
 - Respect every Question & they will respect you
 +stack of implementaion helps heaps in recursion(GfG BIT videos)
 -Directi == DP( do as much as can)
++ itna ki, koi sote mei utha ke puche toh bhi(cz that's gonna happen YOU KNOW THAT)
 ```
 
 
@@ -1416,140 +1417,140 @@ Count ways to assign unique cap to every person</summary>
         <details>
             <summary>4.6 Misc</summary>
             <details>
-                <summary>1 Split n into maximum composite numbers</summary>
+                <summary>4.6.1 Split n into maximum composite numbers</summary>
             </details> 
             <details>
-                <summary>2 Maximum trains for which stoppage can be provided</summary>
+                <summary>4.6.2 Maximum trains for which stoppage can be provided</summary>
             </details>      
             <details>
-                <summary>3 Buy Maximum Stocks if i stocks can be bought on i-th day
+                <summary>4.6.3 Buy Maximum Stocks if i stocks can be bought on i-th day
 </summary>
             </details>      
             <details>
-                <summary>4 Find the minimum and maximum amount to buy all N candies
+                <summary>4.6.4 Find the minimum and maximum amount to buy all N candies
 </summary>
             </details>      
             <details>
-                <summary>5 Maximum sum possible equal to sum of three stacks
+                <summary>4.6.5 Maximum sum possible equal to sum of three stacks
 </summary>
             </details>      
             <details>
-                <summary>6 Maximum elements that can be made equal with k updates
+                <summary>4.6.6 Maximum elements that can be made equal with k updates
 </summary>
             </details>      
             <details>
-                <summary>7 Divide cuboid into cubes such that sum of volumes is maximum
+                <summary>4.6.7 Divide cuboid into cubes such that sum of volumes is maximum
 </summary>
             </details>      
             <details>
-                <summary>8 Maximum number of customers that can be satisfied with given quantity
+                <summary>4.6.8 Maximum number of customers that can be satisfied with given quantity
 </summary>
             </details>      
             <details>
-                <summary>9 Minimum Fibonacci terms with sum equal to K
+                <summary>4.6.9 Minimum Fibonacci terms with sum equal to K
 </summary>
             </details>      
             <details>
-                <summary>10 Divide 1 to n into two groups with minimum sum difference
+                <summary>4.6.10 Divide 1 to n into two groups with minimum sum difference
 </summary>
             </details>  
             <details>
-                <summary>11 Minimize cash flow among friends
+                <summary>4.6.11 Minimize cash flow among friends
 </summary>
             </details> 
             <details>
-                <summary>12 Minimum rotations to unlock a circular lock
+                <summary>4.6.12 Minimum rotations to unlock a circular lock
 </summary>
             </details>      
             <details>
-                <summary>13 Paper cut into minimum number of squares
+                <summary>4.6.13 Paper cut into minimum number of squares
 </summary>
             </details>      
             <details>
-                <summary>14 Minimum difference between groups of size two
+                <summary>4.6.14 Minimum difference between groups of size two
 </summary>
             </details>      
             <details>
-                <summary>15 Minimum rooms for m events of n batches with given schedule
+                <summary>4.6.15 Minimum rooms for m events of n batches with given schedule
 </summary>
             </details>      
             <details>
-                <summary>16 Connect n ropes with minimum cost
+                <summary>4.6.16 Connect n ropes with minimum cost
 </summary>
             </details>      
             <details>
-                <summary>17 Minimum Cost to cut a board into squares
+                <summary>4.6.17 Minimum Cost to cut a board into squares
 </summary>
             </details>      
             <details>
-                <summary>18 Minimum cost to process m tasks where switching costs
+                <summary>4.6.18 Minimum cost to process m tasks where switching costs
 </summary>
             </details>      
             <details>
-                <summary>19 Minimum cost to make array size 1 by removing larger of pairs
+                <summary>4.6.19 Minimum cost to make array size 1 by removing larger of pairs
 </summary>
             </details>      
             <details>
-                <summary>20 Minimum cost for acquiring all coins with k extra coins allowed with every coin</summary>
+                <summary>4.6.20 Minimum cost for acquiring all coins with k extra coins allowed with every coin</summary>
             </details>   
             <details>
-                <summary>21 Minimum time to finish all jobs with given constraints </summary>
+                <summary>4.6.21 Minimum time to finish all jobs with given constraints </summary>
             </details> 
             <details>
-                <summary>22 Minimum number of Platforms required for a railway/bus station
+                <summary>4.6.22 Minimum number of Platforms required for a railway/bus station
 </summary>
             </details>      
             <details>
-                <summary>23 Minimize the maximum difference between the heights of towers
+                <summary>4.6.23 Minimize the maximum difference between the heights of towers
 </summary>
             </details>      
             <details>
-                <summary>24 Minimum increment by k operations to make all elements equal</summary>
+                <summary>4.6.24 Minimum increment by k operations to make all elements equal</summary>
             </details>      
             <details>
-                <summary>25 Minimum edges to reverse to make path from a source to a destination</summary>
+                <summary>4.6.25 Minimum edges to reverse to make path from a source to a destination</summary>
             </details>      
             <details>
-                <summary>26 Find minimum number of currency notes and values that sum to given amount</summary>
+                <summary>4.6.26 Find minimum number of currency notes and values that sum to given amount</summary>
             </details>      
             <details>
-                <summary>27 Minimum initial vertices to traverse whole matrix with given conditions</summary>
+                <summary>4.6.27 Minimum initial vertices to traverse whole matrix with given conditions</summary>
             </details>      
             <details>
-                <summary>28 Find the Largest Cube formed by Deleting minimum Digits from a number</summary>
+                <summary>4.6.28 Find the Largest Cube formed by Deleting minimum Digits from a number</summary>
             </details>      
             <details>
-                <summary>29 Check if it is possible to survive on Island
+                <summary>4.6.29 Check if it is possible to survive on Island
 </summary>
             </details>      
             <details>
-                <summary>30 Largest palindromic number by permuting digits
+                <summary>4.6.30 Largest palindromic number by permuting digits
 </summary>
             </details>   
             <details>
-                <summary>31 Smallest number with sum of digits as N and divisible by 10^N</summary>
+                <summary>4.6.31 Smallest number with sum of digits as N and divisible by 10^N</summary>
             </details> 
             <details>
-                <summary>32 Find Smallest number with given number of digits and digits sum
+                <summary>4.6.32 Find Smallest number with given number of digits and digits sum
 </summary>
             </details>      
             <details>
-                <summary>33 Rearrange characters in a string such that no two adjacent are same
+                <summary>4.6.33 Rearrange characters in a string such that no two adjacent are same
 </summary>
             </details>      
             <details>
-                <summary>34 Rearrange a string so that all same characters become d distance away
+                <summary>4.6.34 Rearrange a string so that all same characters become d distance away
 </summary>
             </details>      
             <details>
-                <summary>35 Print a closest string that does not contain adjacent duplicates
+                <summary>4.6.35 Print a closest string that does not contain adjacent duplicates
 </summary>
             </details>      
             <details>
-                <summary>36 Smallest subset with sum greater than all other elements</summary>
+                <summary>4.6.36 Smallest subset with sum greater than all other elements</summary>
             </details>      
             <details>
-                <summary>37 Lexicographically largest subsequence such that every character occurs at least k times</summary>
+                <summary>4.6.37 Lexicographically largest subsequence such that every character occurs at least k times</summary>
             </details>      
         </details>      
         <details>
@@ -1576,6 +1577,299 @@ Count ways to assign unique cap to every person</summary>
     </details>      
     <details>
         <summary>5.Bitwise</summary>
+        <details>
+            <summary>5.1 Basic</summary>
+            <details>
+                <summary>5.1.1 Find the element that appears once</summary>
+            </details> 
+            <details>
+                <summary>5.1.2 Detect if two integers have opposite signs
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.3 Add 1 to a given number</summary>
+            </details>      
+            <details>
+                <summary>5.1.4 Multiply a given Integer with 3.5
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.5 Turn off the rightmost set bit</summary>
+            </details>      
+            <details>
+                <summary>5.1.6 Find whether a given number is a power of 4 or not
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.7 Compute modulus division by a power-of-2-number</summary>
+            </details>      
+            <details>
+                <summary>5.1.8 Rotate bits of a number
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.9 Find the Number Occurring Odd Number of Times
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.10 Check for Integer Overflow
+</summary>
+            </details>   
+            <details>
+                <summary>5.1.11 Count set bits in an integer
+</summary>
+            </details> 
+            <details>
+                <summary>5.1.12 Count number of bits to be flipped to convert A to B
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.13 Efficient way to multiply with 7</summary>
+            </details>      
+            <details>
+                <summary>5.1.14 Program to find whether a no is power of two</summary>
+            </details>      
+            <details>
+                <summary>5.1.15 Position of rightmost set bit
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.16 Binary representation of a given number</summary>
+            </details>      
+            <details>
+                <summary>5.1.17 Find position of the only set bit
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.18 How to swap two numbers without using a temporary variable?
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.19 Swap two nibbles in a byte</summary>
+            </details>      
+            <details>
+                <summary>5.1.20 How to turn off a particular bit in a number?
+</summary>
+            </details>   
+            <details>
+                <summary>5.1.21 Russian Peasant (Multiply two numbers using bitwise operators)
+</summary>
+            </details> 
+            <details>
+                <summary>5.1.22 Add two bit strings
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.23 Write your own strcmp that ignores cases</summary>
+            </details>      
+            <details>
+                <summary>5.1.24 Check if two numbers are equal without using arithmetic and comparison operators
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.25 Find XOR of two number without using XOR operator</summary>
+            </details>      
+            <details>
+                <summary>5.1.26 Calculate XOR from 1 to n</summary>
+            </details>      
+            <details>
+                <summary>5.1.27 Count minimum bits to flip such that XOR of A and B equal to C</summary>
+            </details>      
+            <details>
+                <summary>5.1.28 Efficient method for 2’s complement of a binary string</summary>
+            </details>      
+            <details>
+                <summary>5.1.29 Toggling k-th bit of a number</summary>
+            </details>      
+            <details>
+                <summary>5.1.30 Convert decimal fraction to binary number
+</summary>
+            </details>   
+            <details>
+                <summary>5.1.31 Set the rightmost unset bit
+</summary>
+            </details> 
+            <details>
+                <summary>5.1.32 Convert a binary number to octal</summary>
+            </details>      
+            <details>
+                <summary>5.1.33 Toggle bits in the given range</summary>
+            </details>      
+            <details>
+                <summary>5.1.34 Toggle the last m bits
+</summary>
+            </details>      
+            <details>
+                <summary>5.1.........100</summary>
+            </details>      
+        </details> 
+        <details>
+            <summary>5.2 Intermediate</summary>
+            <details>
+                <summary>5.2.1 Swap bits in a given number</summary>
+            </details> 
+            <details>
+                <summary>5.2.2 Little and Big Endian Mystery
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.3 Smallest of three integers without comparison operators</summary>
+            </details>      
+            <details>
+                <summary>5.2.4 A Boolean Array Puzzle
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.5 Compute the integer absolute value (abs) without branching
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.6 Compute the minimum or maximum of two integers without branching</summary>
+            </details>      
+            <details>
+                <summary>5.2.7 Find the two non-repeating elements in an array of repeating elements</summary>
+            </details>      
+            <details>
+                <summary>5.2.8 Write an Efficient C Program to Reverse Bits of a Number
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.9 Smallest power of 2 greater than or equal to n
+</summary>
+            </details>    
+            <details>
+                <summary>5.2.10 find the parity of an unsigned integer</summary>
+            </details> 
+            <details>
+                <summary>5.2.11 Swap all odd and even bits
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.12 Check if binary representation of a number is palindrome
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.13 Generate n-bit Gray Codes
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.14 Check if a given number is sparse or not
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.15 Euclid’s Algorithm when % and / operations are costly
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.16 Find nth Magic Number
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.17 How to swap two bits in a given integer?
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.18 Calculate square of a number without using *, / and pow()</summary>
+            </details>      
+            <details>
+                <summary>5.2.19 enerate 0 and 1 with 25% and 75% probability</summary>
+            </details>            
+            <details>
+                <summary>5.2.20 Find even occurring elements in an array of limited range</summary>
+            </details> 
+            <details>
+                <summary>5.2.21 Cyclic Redundancy Check and Modulo-2 Division</summary>
+            </details>      
+            <details>
+                <summary>5.2.22 Copy set bits in a range</summary>
+            </details>      
+            <details>
+                <summary>5.2.23 Check if a number is Bleak
+</summary>
+            </details>      
+            <details>
+                <summary>5.2.24 Count strings with consecutive 1’s
+</summary>
+            </details>    
+            <details>
+                <summary>5.2.25 Gray to Binary and Binary to Gray conversion
+</summary>
+            </details>                                      
+            <details>
+                <summary>5.2......100</summary>
+            </details>                  
+        </details>      
+        <details>
+            <summary>5.3 Hard</summary>
+            <details>
+                <summary>5.3.1 Count total set bits in all numbers from 1 to n
+</summary>
+            </details> 
+            <details>
+                <summary>5.3.2 Program to count number of set bits in an (big) array
+</summary>
+            </details>      
+            <details>
+                <summary>5.3.3 Next higher number with same number of set bits</summary>
+            </details>      
+            <details>
+                <summary>5.3.4 Karatsuba algorithm for fast multiplication</summary>
+            </details>      
+            <details>
+                <summary>5.3.5 Find the maximum subarray XOR in a given array
+</summary>
+            </details>      
+            <details>
+                <summary>5.3.6 Inserting m into n such that m starts at bit j and ends at bit i</summary>
+            </details>      
+            <details>
+                <summary>5.3.7 Find Duplicates of array using bit array
+</summary>
+            </details>      
+            <details>
+                <summary>5.3.8 Find longest sequence of 1’s in binary representation with one flip</summary>
+            </details>      
+            <details>
+                <summary>5.3.9 Closest (or Next) smaller and greater numbers with same number of set bits
+</summary>
+            </details>      
+            <details>
+                <summary>5.3.10 Bitmasking and Dynamic Programming | Set-2 (TSP)</summary>
+            </details>   
+            <details>
+                <summary>5.3.11 Compute the parity of a number using XOR and table look-up
+</summary>
+            </details> 
+            <details>
+                <summary>5.3.12 XOR Encryption by Shifting Plaintext</summary>
+            </details>      
+            <details>
+                <summary>5.3.13 Count pairs in an array which have at least one digit common
+</summary>
+            </details>      
+            <details>
+                <summary>5.3.14 Levelwise Alternating OR and XOR operations in Segment Tree</summary>
+            </details>      
+            <details>
+                <summary>5.3.15 Booth’s Multiplication Algorithm</summary>
+            </details>      
+            <details>
+                <summary>5.3.16 Leftover element after performing alternate Bitwise OR and Bitwise XOR operations on adjacent pairs</summary>
+            </details>      
+            <details>
+                <summary>5.3.17 Number of pairs with Pandigital Concatenation
+</summary>
+            </details>      
+            <details>
+                <summary>5.3.18 Find the n-th number whose binary representation is a palindrome</summary>
+            </details>      
+            <details>
+                <summary>5.3.........100</summary>
+            </details>                        
+        </details>       
+        <details>
+            <summary>5.4 Misc</summary>
+        </details>            
     </details>      
     <details>
         <summary>5.Geometry/Maths</summary>
