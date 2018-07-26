@@ -809,7 +809,416 @@ Sort elements by frequenc</summary>
                     <summary>1.2.9 Merge</summary>
                 </details>                                  
             </details>                           
-    </details>     
+    </details>  
+    <details>
+        <summary>2.Bakctrack</summary>
+        <details>
+            <summary>2.1 Knight's Tour</summary>
+        </details> 
+        <details>
+            <summary>2.2 Rat in maze( || multiple jumps allowed)</summary>
+        </details>      
+        <details>
+            <summary>2/3 N-Queen Prob( || in O(n)space)</summary>
+        </details>      
+        <details>
+            <summary>2.4 Subset Sum</summary>
+        </details>      
+        <details>
+            <summary>2.5 m-coloring prob</summary>
+        </details>      
+        <details>
+            <summary>2.6 Hamiltonian Cycle</summary>
+        </details>      
+        <details>
+            <summary>2.7 Sudoku</summary>
+        </details>      
+        <details>
+            <summary>2.8 Cryptarithmetic Puzzle( ||stl)</summary>
+        </details>      
+        <details>
+            <summary>2.9 Magnet Puzzle</summary>
+        </details>      
+        <details>
+            <summary>2.10 Boggle ( || using Trie)</summary>
+        </details>  
+        <details>
+            <summary>2.11 Remove invalid parentheses</summary>
+        </details> 
+        <details>
+            <summary>2.12 Print all permutations of string</summary>
+        </details>      
+        <details>
+            <summary>2.13 Tug Of War</summary>
+        </details>      
+        <details>
+            <summary>2.14 8-queen problem</summary>
+        </details>      
+        <details>
+            <summary>2.15 combinational Sum</summary>
+        </details>      
+        <details>
+            <summary>2.16 Backtrack to find all subsets</summary>
+        </details>  
+        <details>
+            <summary>2.17 Count all possible paths between 2 vertices</summary>
+        </details> 
+        <details>
+            <summary>2.18 FInd all distinct subsets of given set</summary>
+        </details>      
+    </details> 
+    <details>
+        <summary>3.DP</summary>
+        <details>
+            <summary>3.1 Concepts</summary>
+            <details>
+                <summary>3.1.1 Tabulation vs Memoization</summary>
+            </details>      
+            <details>
+                <summary>3.1.2 Optimal Substructure Property</summary>
+            </details>  
+            <details>
+                <summary>3.1.3 Overlapping Subproblems Property</summary>
+            </details>      
+            <details>
+                <summary>3.1.4 How to solve DP</summary>
+            </details>              
+        </details> 
+        <details>
+            <summary>3.2 Adv Concepts</summary>
+            <details>
+                <summary>3.2.1 Bitmasking -1D</summary>
+            </details>      
+            <details>
+                <summary>3.2.2 Bitmasking -2D</summary>
+            </details>      
+            <details>
+                <summary>3.2.3 Digit DP</summary>
+            </details>                 
+        </details> 
+        <details>
+            <summary>3.3 Basic Prob</summary>
+            <details>
+                <summary>3.3.1 Ugly Numbers</summary>
+            </details> 
+            <details>
+                <summary>3.3.2 Fibonacci Numbers</summary>
+            </details>  
+            <details>
+                <summary>3.3.3 nth Catalan number</summary>
+            </details> 
+            <details>
+                <summary>3.3.3 Bell numbers(#ways to partiton a set)</summary>
+            </details>   
+            <details>
+                <summary>3.3.4 Binomial Coeff</summary>
+            </details> 
+            <details>
+                <summary>3.3.5 Tiling Prob</summary>
+            </details>  
+            <details>
+                <summary>3.3.5 Gold Mine Prob</summary>
+            </details> 
+            <details>
+                <summary>3.3.6 Coin Change Prob</summary>
+            </details>                                        
+            <details>
+                <summary>3.3.7 Friends Pairing Prob</summary>
+            </details> 
+            <details>
+                <summary>3.3.8 Subset Sum Prob( || in O(sum)space)</summary>
+            </details>  
+            <details>
+                <summary>3.3.9 subsets with sum divisible by m</summary>
+            </details> 
+            <details>
+                <summary>3.3.10 Largest divisible pairs subset</summary>
+            </details>   
+            <details>
+                <summary>3.3.11 Perfect Sum prob(print all subsets with given sum)</summary>
+            </details> 
+            <details>
+                <summary>3.3.12 nCr</summary>
+            </details>  
+            <details>
+                <summary>3.3.13 Cutting a rod</summary>
+            </details> 
+            <details>
+                <summary>3.3.14 Tiling with Dominos</summary>
+            </details>        
+            <details>
+                <summary>3.3.15 Print Fibonacci series in reverse order</summary>
+            </details>      
+            <details>
+                <summary>3.3.16 Longest common subsequence(|| space optimised sol)</summary>
+            </details>        
+            <details>
+                <summary>3.3.17 Longest Repeated Subsequence</summary>
+            </details>      
+            <details>
+                <summary>3.3.18 Find n-th element from Stern’s Diatomic Series</summary>
+            </details>        
+            <details>
+                <summary>3.3.19 Find maximum possible stolen value from houses
+</summary>
+            </details>   
+            <details>
+                <summary>3.3.20 Find number of solutions of a linear equation of n variables</summary>
+            </details>        
+            <details>
+                <summary>3.3.21 Count number of ways to reach a given score in a game</summary>
+            </details>      
+            <details>
+                <summary>3.3.22 Count ways to reach the nth stair using step 1, 2 or 3</summary>
+            </details>        
+            <details>
+                <summary>3.3.23 Counts paths from a point to reach Origin
+</summary>
+            </details>   
+            <details>
+                <summary>3.3.23 Count number of ways to cover a distance
+</summary>
+            </details>        
+            <details>
+                <summary>3.3.24 Count ways to divide circle using N non-intersecting chords
+</summary>
+            </details>   
+            <details>
+                <summary>3.3.25 Count the number of ways to tile the floor of size n x m using 1 x m size tiles</summary>
+            </details>        
+            <details>
+                <summary>3.3.26 Count all possible paths from top left to bottom right of a mXn matrix</summary>
+            </details>   
+            <details>
+                <summary>3.3.27 Unique paths in a Grid with Obstacles</summary>
+            </details>        
+            <details>
+                <summary>3.3.28 Number of n-digits non-decreasing integers</summary>
+            </details>      
+            <details>
+                <summary>3.3.29 Number of decimal numbers of length k, that are strict monotone</summary>
+            </details>        
+            <details>
+                <summary>3.3.30 Different ways to sum n using numbers greater than or equal to m</summary>
+            </details>  
+            <details>
+                <summary>3.3..........100</summary>
+            </details>                  
+        </details>      
+        <details>
+            <summary>3.4 Intermediate Prob</summary>
+            <details>
+                <summary>3.4.1 Lobb number</summary>
+            </details>     
+            <details>
+                <summary>3.4.2 Eulerian number</summary>
+            </details> 
+            <details>
+                <summary>3.4.3 Delannoy number</summary>
+            </details>     
+            <details>
+                <summary>3.4.4 Rencontres number</summary>
+            </details>  
+            <details>
+                <summary>3.4.5 Super ugly numbers(Number whose prime factors are in given set)</summary>
+            </details>     
+            <details>
+                <summary>3.4.6 Jacobsthal and Jacobsthal-Lucas numbers</summary>
+            </details> 
+            <details>
+                <summary>3.4.7 0-1 Knapsack Problem</summary>
+            </details>     
+            <details>
+                <summary>3.4.8 Printing Items in 0/1 Knapsack</summary>
+            </details>   
+            <details>
+                <summary>3.4.9 Unbounded Knapsack (Repetition of items allowed)
+</summary>
+            </details>     
+            <details>
+                <summary>3.5.6 A Space Optimized DP solution for 0-1 Knapsack Problem
+</summary>            
+            <details>
+                <summary>3.4.10 Floyd Warshall Algorithm
+</summary>
+            </details> 
+            <details>
+                <summary>3.4.11 Bellman–Ford Algorithm
+</summary>
+            </details>     
+            <details>
+                <summary>3.4.12 Egg Dropping Puzzle
+</summary>
+            </details>  
+            <details>
+                <summary>3.4.13 Temple Offerings</summary>
+            </details>     
+            <details>
+                <summary>3.4.14 Dice Throw Problem</summary>
+            </details> 
+            <details>
+                <summary>3.4.15 Word Break Prob</summary>
+            </details>     
+            <details>
+                <summary>3.4.16 Word Break Problem</summary>
+            </details>   
+            <details>
+                <summary>3.4.17 Vertex Cover Problem</summary>
+            </details> 
+            <details>
+                <summary>3.4.18 Tile Stacking Problem</summary>
+            </details>     
+            <details>
+                <summary>3.4.19 Box-Stacking Problem
+</summary>
+            </details>   
+            <details>
+                <summary>3.4.20 Highway Billboard Problem</summary>
+            </details> 
+            <details>
+                <summary>3.4.21 Partition Problem
+(all 3 sets)</summary>
+            </details>     
+            <details>
+                <summary>3.4.22 High-effort vs. Low-effort Tasks Problem</summary>
+            </details>   
+            <details>
+                <summary>3.4.23 Longest Bitonic Subsequence
+</summary>
+            </details> 
+            <details>
+                <summary>3.4.24 Longest Palindromic Subsequence
+(|| with O(n))</summary>
+            </details>     
+            <details>
+                <summary>3.4.25 Count All Palindromic Subsequence in a given String</summary>
+            </details>  
+            <details>
+                <summary>3.4.26 Number of palindromic subsequences of length k
+</summary>
+            </details> 
+            <details>
+                <summary>3.4.27 Shortest Common Supersequence
+</summary>
+            </details>     
+            <details>
+                <summary>3.4.28 Longest Repeating Subsequence</summary>
+            </details>   
+            <details>
+                <summary>3.4.29 Count Distinct Subsequences</summary>
+            </details> 
+            <details>
+                <summary>3.4.30 Longest Zig-Zag Subsequence</summary>
+            </details>     
+            <details>
+                <summary>3.4.31 Largest sum Zigzag sequence in a matrix
+</summary>
+            </details>   
+            <details>
+                <summary>3.4.32 Weighted job scheduling(all 3 sets)</summary>
+            </details> 
+            <details>
+                <summary>3.4.33 Number of paths with exactly k coins
+</summary>
+            </details>     
+            <details>
+                <summary>3.4.34 Count Possible Decodings of a given Digit Sequence</summary>
+            </details>   
+            <details>
+                <summary>3.4.35 Count number of ways to partition a set into k subsets</summary>
+            </details> 
+            <details>
+                <summary>3.4.36 Count of n digit numbers whose sum of digits equals to given sum
+</summary>
+            </details>     
+            <details>
+                <summary>3.4.37 
+Count ways to assign unique cap to every person</summary>
+            </details>     
+            <details>
+                <summary>3.4.38 Length of the longest substring without repeating characters</summary>
+            </details>     
+            <details>
+                <summary>3.4.  Travelling Salesman Problem | Set 1 (Naive and Dynamic Programming)</summary>
+            </details>     
+            <details>
+                <summary>3.4..........100</summary>
+            </details>                                                                                                                 
+        </details>      
+        <details>
+            <summary>3.5 Hard Prob</summary>
+            <details>
+                <summary>3.5.1 Palindrome Partitioning </summary>
+            </details>  
+            <details>
+                <summary>3.5.2 Word-wrap Problem</summary>
+            </details>  
+            <details>
+                <summary>3.5.3 Painters problem</summary>
+            </details>  
+            <details>
+                <summary>3.5.4 Boolean Parenthesization Problem
+</summary>
+            </details>  
+            <details>
+                <summary>3.5.5 Program for Bridge and Torch problem</summary>
+            </details>  
+            <details>
+                <summary>3.5.6 A Space Optimized DP solution for 0-1 Knapsack Problem
+</summary>
+            </details>   
+            <details>
+                <summary>3.5.7 Matrix Chain Multiplication</summary>                                                          
+            </details>
+            <details>
+                <summary>3.5.8 Printing brackets in Matrix Chain Multiplication Problem</summary>                                                          
+            </details>
+            <details>
+                <summary>3.5.9 Number of palindromic paths in a matrix
+</summary>                                                          
+            </details>
+            <details>
+                <summary>3.5.10 Largest rectangular sub-matrix whose sum is 0
+</summary>                                                          
+            </details>
+            <details>
+                <summary>3.5.11 Largest rectangular sub-matrix having sum divisible by k
+</summary>                                                          
+            </details>
+            <details>
+                <summary>3.5.12 Largest area rectangular sub-matrix with equal number of 1’s and 0’s
+            </summary> 
+             <details>
+            <details>
+                <summary>3.5.13 Maximum sum bitonic subarray</summary>
+            </details> 
+            <details>
+                <summary>3.5.14 Maximum sum rectangle in a 2D matrix</summary>
+            </details>      
+            <details>
+                <summary>3.5.15 Maximum Subarray Sum Excluding Certain Elements</summary>
+            </details>      
+            <details>
+                <summary>3.5.16 Maximum weight transformation of a given string
+</summary>
+            </details>                   
+            </details>                                    
+                <summary>3.4..........100</summary>
+            </details>                             
+        </details>      
+    </details>      
+    <details>
+        <summary>4.Greedy</summary>
+    </details>      
+    <details>
+        <summary>5.Bitwise</summary>
+    </details>      
+    <details>
+        <summary>5.Geometry/Maths</summary>
+    </details>      
+    <details>
+        <summary>6.Div & Conq</summary>
+    </details>    
 </details>     
 <!-- demo -->
 <!-- 
