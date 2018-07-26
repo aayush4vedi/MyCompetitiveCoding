@@ -2275,10 +2275,59 @@ Program for Area Of Square</summary>
         </details> 
         <details>
             <summary>6.2 Maths</summary>
+            <details>
+                <summary>6.2.1 GCD & LCM</summary>
+            </details> 
+            <details>
+                <summary>6.2.2 Factorisation</summary>
+            </details>      
+            <details>
+                <summary>6.2.3 Fibonacci Numbers</summary>
+            </details>      
+            <details>
+                <summary>6.2.4 Modular arithmetic</summary>
+            </details>      
+            <details>
+                <summary>6.2.5 Catalan numbers</summary>
+            </details>      
+            <details>
+                <summary>6.2.6 Eular Totient Function</summary>
+            </details>      
+            <details>
+                <summary>6.2.7 nCr's</summary>
+            </details>      
+            <details>
+                <summary>6.2.8 Chinese Reminder thm</summary>
+            </details>      
+            <details>
+                <summary>6.2.9 Prime</summary>
+            </details>      
+            <details>
+                <summary>6.2.10 Primes</summary>
+            </details>  
+            <details>
+                <summary>6.2.11 Set theory</summary>
+            </details> 
+            <details>
+                <summary>6.2.12 Sieve</summary>
+            </details>      
+            <details>
+                <summary>6.2.13 Divisibility</summary>
+            </details>      
+            <details>
+                <summary>6.2.14 Algebra</summary>
+            </details>      
+            <details>
+                <summary>6.2.15 Number Systems conversions</summary>
+            </details>      
+            <details>
+                <summary>6.2.16 Misc</summary>
+            </details>      
         </details>           
     </details>      
     <details>
         <summary>6.Div & Conq</summary>
+        ----@TOBE: find non-repeating probs
     </details>    
 </details>     
 <!-- demo -->
