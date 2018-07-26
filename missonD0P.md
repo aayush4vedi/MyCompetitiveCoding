@@ -20,6 +20,7 @@
 ## Notes: 
 ```diff
 -only valid when #Interviewer_gets_em#
+- Respect every Question & they will respect you
 +stack of implementaion helps heaps in recursion(GfG BIT videos)
 -Directi == DP( do as much as can)
 ```
