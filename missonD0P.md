@@ -7,10 +7,13 @@
     - likh-likh ke(each)
 * 3rd Iteration(16-30 Aug)
     - code each
+* do from GfG itself
+    - update list & outsider view
 
 ## TODO's :
     - [ ] Write complexities in front of each line
-    - [ ] 
+    - [ ] Directi's coding questions 
+    - [ ]
     - [ ] Keep updating list(the list is not even 50% of GfG)
 
 
@@ -18,6 +21,7 @@
 ```diff
 -only valid when #Interviewer_gets_em#
 +stack of implementaion helps heaps in recursion(GfG BIT videos)
+-Directi == DP( do as much as can)
 ```
 
 
@@ -1051,6 +1055,14 @@ Sort elements by frequenc</summary>
 </summary>
             </details>  
             <details>
+                <summary>3.4.13 Min Cost Path
+</summary>
+            </details>          
+            <details>
+                <summary>3.4.14 Min cost path
+</summary>
+            </details>                  
+            <details>
                 <summary>3.4.13 Temple Offerings</summary>
             </details>     
             <details>
@@ -1209,6 +1221,357 @@ Count ways to assign unique cap to every person</summary>
     </details>      
     <details>
         <summary>4.Greedy</summary>
+        <details>
+            <summary>4.1 Standard algos</summary>
+            <details>
+                <summary>4.1.1 Activity Selection Prob</summary>
+            </details> 
+            <details>
+                <summary>4.1.2 Egyptian Fraction</summary>
+            </details>      
+            <details>
+                <summary>4.1.3 Job Sequencing Problem
+(~||disjoint sets || loss minimisation-1||loss minimisation -2)</summary>
+            </details>      
+            <details>
+                <summary>4.1.4 Huffman Coding(~||for sorted input)</summary>
+            </details>  
+            <details>
+                <summary>4.1.5 Huffman Decoding</summary>
+            </details> 
+            <details>
+                <summary>4.1.6 Water Connection Prob</summary>
+            </details>      
+            <details>
+                <summary>4.1.7 Policeman catch thieves</summary>
+            </details>      
+            <details>
+                <summary>4.1.8 Minimum Swaps for Bracket Balancing</summary>
+            </details>      
+           <details>
+                <summary>4.1.9 Fitting Shelves Problem
+</summary>
+            </details>      
+           <details>
+                <summary>4.1.10 Assign Mice to Holes
+</summary>
+            </details>                                                   
+        </details> 
+        <details>
+            <summary>4.2 Greedy in Graph</summary>
+            <details>
+                <summary>4.2.1 Kruskal's MSP</summary>
+            </details> 
+            <details>
+                <summary>4.2.2 Prim's MSP</summary>
+            </details>      
+            <details>
+                <summary>4.2.3 Boruvka's MSP</summary>
+            </details>      
+            <details>
+                <summary>4.2.3 Dijkstra's shortest path</summary>
+            </details>      
+            <details>
+                <summary>4.2.4 Dial's</summary>
+            </details>      
+            <details>
+                <summary>4.2.5 Min cost</summary>
+            </details>      
+            <details>
+                <summary>4.2.6 Max flow</summary>
+            </details>      
+            <details>
+                <summary>4.2.7 #single cycle components in undirected graph</summary>
+            </details>      
+        </details>      
+        <details>
+            <summary>4.3 Greedy in arrays</summary>
+            <details>
+                <summary>4.3.1 Min product subset</summary>
+            </details> 
+            <details>
+                <summary>4.3.2 Max product subset</summary>
+            </details>      
+            <details>
+                <summary>4.3.3 Maximize array sum after k-negations(both sets)</summary>
+            </details>      
+            <details>
+                <summary>4.3.4 Maximize the sum of arr[i]*i
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.5 Maximum sum of increasing order elements from n arrays
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.6 Maximum sum of absolute difference of an array</summary>
+            </details>      
+            <details>
+                <summary>4.3.7 Maximize sum of consecutive differences in a circular array</summary>
+            </details>      
+            <details>
+                <summary>4.3.8 Maximum height pyramid from the given array of objects
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.9 Partition into two subarrays of lengths k and (N – k) such that the difference of sums is maximum
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.10 Minimum sum of product of two arrays</summary>
+            </details>     
+            <details>
+                <summary>4.3.11 Minimum sum by choosing minimum of pairs from array
+</summary>
+            </details> 
+            <details>
+                <summary>4.3.12 Minimum sum of absolute difference of pairs of two arrays
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.13 Minimum operations to make GCD of array a multiple of k
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.14 Minimum sum of absolute difference of pairs of two arrays
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.15 Minimum sum of two numbers formed from digits of an array
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.16 Minimum increment/decrement to make array non-Increasing</summary>
+            </details>      
+            <details>
+                <summary>4.3.17 Minimize sum of product of two arrays with permutation allowed</summary>
+            </details>      
+            <details>
+                <summary>4.3.18 Sorting array with reverse around middle
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.19 Sum of Areas of Rectangles possible for an array
+</summary>
+            </details>      
+            <details>
+                <summary>4.3.20 Array element moved by k using single moves</summary>
+            </details>           
+            <details>
+                <summary>4.3.21 Find if k bookings possible with given arrival and departure times
+</summary>
+            </details>           
+            <details>
+                <summary>4.3.22 Lexicographically smallest array after at-most K consecutive swaps
+</summary>
+            </details> 
+            <details>
+                <summary>4.3.23 Largest lexicographic array with at-most K consecutive swaps
+</summary>
+            </details>                                                            
+        </details>      
+        <details>
+            <summary>4.4 Greedy in OS</summary>
+            <details>
+                <summary>4.4.1 First Fit algorithm in Memory Management</summary>
+            </details> 
+            <details>
+                <summary>4.4.2 Best Fit algorithm in Memory Management
+</summary>
+            </details>      
+            <details>
+                <summary>4.4.3 Worst Fit algorithm in Memory Management</summary>
+            </details>      
+            <details>
+                <summary>4.4.4 Operating System | Program for Next Fit algorithm in Memory Management
+</summary>
+            </details>      
+            <details>
+                <summary>4.4.5 Shortest Job First Scheduling
+</summary>
+            </details>      
+            <details>
+                <summary>4.4.6 Program for Shortest Job First (SJF) scheduling | Set 2 (Preemptive)
+</summary>
+            </details>      
+            <details>
+                <summary>4.4.7 Schedule jobs so that each server gets equal load
+</summary>
+            </details>      
+            <details>
+                <summary>4.4.8 Job Scheduling with two jobs allowed at a time</summary>
+            </details>      
+            <details>
+                <summary>4.4.9 Scheduling priority tasks in limited time and minimizing loss
+</summary>
+            </details>      
+            <details>
+                <summary>4.4.10 Page Replacement (~|| LRU || FIFO)</summary>
+            </details>                      
+        </details>      
+        <details>
+            <summary>4.5 Apporx Greedy for NP-complete probs</summary>
+        </details>      
+        <details>
+            <summary>4.6 Misc</summary>
+            <details>
+                <summary>1 Split n into maximum composite numbers</summary>
+            </details> 
+            <details>
+                <summary>2 Maximum trains for which stoppage can be provided</summary>
+            </details>      
+            <details>
+                <summary>3 Buy Maximum Stocks if i stocks can be bought on i-th day
+</summary>
+            </details>      
+            <details>
+                <summary>4 Find the minimum and maximum amount to buy all N candies
+</summary>
+            </details>      
+            <details>
+                <summary>5 Maximum sum possible equal to sum of three stacks
+</summary>
+            </details>      
+            <details>
+                <summary>6 Maximum elements that can be made equal with k updates
+</summary>
+            </details>      
+            <details>
+                <summary>7 Divide cuboid into cubes such that sum of volumes is maximum
+</summary>
+            </details>      
+            <details>
+                <summary>8 Maximum number of customers that can be satisfied with given quantity
+</summary>
+            </details>      
+            <details>
+                <summary>9 Minimum Fibonacci terms with sum equal to K
+</summary>
+            </details>      
+            <details>
+                <summary>10 Divide 1 to n into two groups with minimum sum difference
+</summary>
+            </details>  
+            <details>
+                <summary>11 Minimize cash flow among friends
+</summary>
+            </details> 
+            <details>
+                <summary>12 Minimum rotations to unlock a circular lock
+</summary>
+            </details>      
+            <details>
+                <summary>13 Paper cut into minimum number of squares
+</summary>
+            </details>      
+            <details>
+                <summary>14 Minimum difference between groups of size two
+</summary>
+            </details>      
+            <details>
+                <summary>15 Minimum rooms for m events of n batches with given schedule
+</summary>
+            </details>      
+            <details>
+                <summary>16 Connect n ropes with minimum cost
+</summary>
+            </details>      
+            <details>
+                <summary>17 Minimum Cost to cut a board into squares
+</summary>
+            </details>      
+            <details>
+                <summary>18 Minimum cost to process m tasks where switching costs
+</summary>
+            </details>      
+            <details>
+                <summary>19 Minimum cost to make array size 1 by removing larger of pairs
+</summary>
+            </details>      
+            <details>
+                <summary>20 Minimum cost for acquiring all coins with k extra coins allowed with every coin</summary>
+            </details>   
+            <details>
+                <summary>21 Minimum time to finish all jobs with given constraints </summary>
+            </details> 
+            <details>
+                <summary>22 Minimum number of Platforms required for a railway/bus station
+</summary>
+            </details>      
+            <details>
+                <summary>23 Minimize the maximum difference between the heights of towers
+</summary>
+            </details>      
+            <details>
+                <summary>24 Minimum increment by k operations to make all elements equal</summary>
+            </details>      
+            <details>
+                <summary>25 Minimum edges to reverse to make path from a source to a destination</summary>
+            </details>      
+            <details>
+                <summary>26 Find minimum number of currency notes and values that sum to given amount</summary>
+            </details>      
+            <details>
+                <summary>27 Minimum initial vertices to traverse whole matrix with given conditions</summary>
+            </details>      
+            <details>
+                <summary>28 Find the Largest Cube formed by Deleting minimum Digits from a number</summary>
+            </details>      
+            <details>
+                <summary>29 Check if it is possible to survive on Island
+</summary>
+            </details>      
+            <details>
+                <summary>30 Largest palindromic number by permuting digits
+</summary>
+            </details>   
+            <details>
+                <summary>31 Smallest number with sum of digits as N and divisible by 10^N</summary>
+            </details> 
+            <details>
+                <summary>32 Find Smallest number with given number of digits and digits sum
+</summary>
+            </details>      
+            <details>
+                <summary>33 Rearrange characters in a string such that no two adjacent are same
+</summary>
+            </details>      
+            <details>
+                <summary>34 Rearrange a string so that all same characters become d distance away
+</summary>
+            </details>      
+            <details>
+                <summary>35 Print a closest string that does not contain adjacent duplicates
+</summary>
+            </details>      
+            <details>
+                <summary>36 Smallest subset with sum greater than all other elements</summary>
+            </details>      
+            <details>
+                <summary>37 Lexicographically largest subsequence such that every character occurs at least k times</summary>
+            </details>      
+        </details>      
+        <details>
+            <summary>4.7 Greedy for special cases of DP probs</summary>
+            <details>
+                <summary>4.7.1 Set Cover Prob</summary>
+            </details> 
+            <details>
+                <summary>4.7.2 Bin Packing Prob</summary>
+            </details>      
+            <details>
+                <summary>4.7.3 Graph Coloring</summary>
+            </details>      
+            <details>
+                <summary>4.7.4 K-centre Prob</summary>
+            </details>      
+            <details>
+                <summary>4.7.5 Shortest superstring</summary>
+            </details>      
+            <details>
+                <summary>4.7.6 TSP(naive-dry || MST)</summary>
+            </details>               
+        </details>        
     </details>      
     <details>
         <summary>5.Bitwise</summary>
