@@ -524,6 +524,7 @@
                 <details>
                     <summary>11.5 Traversal </summary>
                 </details>    
+        </details>
     </details>
     <details>
         <summary>Graphs</summary>
