@@ -200,6 +200,206 @@
         </details> 
         <details>
             <summary>4.Heap</summary>
+            <details>
+                <summary>4.1 Binary Heap</summary>
+                <details>
+                    <summary>4.1.1 construct-heapify</summary>
+                </details>      
+                <details>
+                    <summary>4.1.2 Insert key</summary>
+                </details>      
+                <details>
+                    <summary>4.1.3 Delete</summary>
+                </details>      
+                <details>
+                    <summary>4.1.3 Decrease key</summary>
+                </details>      
+                <details>
+                    <summary>4.1.4 get Min</summary>
+                </details>
+            </details> 
+            <details>
+                <summary>4.2 Binomial Heap</summary>
+                <details>
+                    <summary>4.2.1 construct-heapify</summary>
+                </details>      
+                <details>
+                    <summary>4.2.2 Insert key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Delete</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Decrease key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.4 get Min</summary>
+                </details>  
+                <details>
+                    <summary>4.2.5 Merge</summary>
+                </details>                                
+            </details>      
+            <details>
+                <summary>4.3 Fibonacci Heap</summary>
+                <details>
+                    <summary>4.2.1 construct-heapify</summary>
+                </details>      
+                <details>
+                    <summary>4.2.2 Insert key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Delete</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Decrease key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.4 get Min</summary>
+                </details>  
+                <details>
+                    <summary>4.2.5 Merge</summary>
+                </details>                    
+            </details>      
+            <details>
+                <summary>4.4 Leftist Heap</summary>
+                <details>
+                    <summary>4.2.1 construct-heapify</summary>
+                </details>      
+                <details>
+                    <summary>4.2.2 Insert key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Delete</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Decrease key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.4 get Min</summary>
+                </details>  
+                <details>
+                    <summary>4.2.5 Merge</summary>
+                </details>                    
+            </details>      
+            <details>
+                <summary>4.5 K-ary Heap</summary>
+                <details>
+                    <summary>4.2.1 construct-heapify</summary>
+                </details>      
+                <details>
+                    <summary>4.2.2 Insert key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Delete</summary>
+                </details>      
+                <details>
+                    <summary>4.2.3 Decrease key</summary>
+                </details>      
+                <details>
+                    <summary>4.2.4 get Min</summary>
+                </details>  
+                <details>
+                    <summary>4.2.5 Merge</summary>
+                </details>                    
+            </details>      
+            <details>
+                <summary>4.6 Heap Sort(~| iterative)</summary>
+            </details>      
+            <details>
+                <summary>4.7 How to check if a given array represents a Binary Heap?</summary>
+            </details>      
+            <details>
+                <summary>4.8 K’th Largest Element in an array</summary>
+            </details>      
+            <details>
+                <summary>4.9 K’th Smallest/Largest Element in Unsorted Array(both sets)</summary>
+            </details>      
+            <details>
+                <summary>4.10 Sort an almost sorted array</summary>
+            </details>  
+            <details>
+                <summary>4.11 Tournament Tree (Winner Tree) and Binary Heap
+</summary>
+            </details> 
+            <details>
+                <summary>4.12 Check if a given Binary Tree is Heap
+</summary>
+            </details>      
+            <details>
+                <summary>4.13 Connect n ropes with minimum cost
+</summary>
+            </details>      
+            <details>
+                <summary>4.14 Sort a nearly sorted (or K sorted) array
+</summary>
+            </details>      
+            <details>
+                <summary>4.14 Merge k sorted arrays(both sets)</summary>
+            </details>      
+            <details>
+                <summary>4.14 Sort numbers stored on different machines
+</summary>
+            </details>      
+            <details>
+                <summary>4.15 Largest Derangement of a Sequence
+</summary>
+            </details>      
+            <details>
+                <summary>4.16 K maximum sum combinations from two arrays
+</summary>
+            </details>      
+            <details>
+                <summary>4.17 Maximum distinct elements after removing k elements
+</summary>
+            </details>      
+            <details>
+                <summary>4.18 Maximum difference between two subsets of m elements
+</summary>
+            </details>  
+            <details>
+                <summary>4.19 Height of a complete binary tree (or Heap) with N nodes
+</summary>
+            </details> 
+            <details>
+                <summary>4.20 Median of Stream of Running Integers using STL
+</summary>
+            </details>      
+            <details>
+                <summary>4.21 Largest triplet product in a stream
+</summary>
+            </details>      
+            <details>
+                <summary>4.22 Find k numbers with most occurrences in the given array
+</summary>
+            </details>      
+            <details>
+                <summary>4.23 Convert BST to Min Heap
+</summary>
+            </details>      
+            <details>
+                <summary>4.24 Merge two binary Max Heaps
+</summary>
+            </details>      
+            <details>
+                <summary>4.25 K-th Largest Sum Contiguous Subarray
+</summary>
+            </details>      
+            <details>
+                <summary>4.26 Convert min Heap to max Heap
+</summary>
+            </details>      
+            <details>
+                <summary>4.27 Array Representation Of Binary Heap
+</summary>
+            </details>      
+            <details>
+                <summary>4.28 Sum of all elements between k1’th and k2’th smallest elements
+</summary>
+            </details>   
+            <details>
+                <summary>4.29 K’th largest element in a stream
+</summary>
+            </details>                                                    
         </details>  
         <details>
             <summary>5.Splay Tree</summary>
