@@ -2186,41 +2186,41 @@ Program for Area Of Square</summary>
             <details>
                 <summary>6.1.4 3D obj</summary>
                 <details>
-                    <summary>1 Find the perimeter of a cylinder</summary>
+                    <summary> 6.1.4.1 Find the perimeter of a cylinder</summary>
                 </details> 
                 <details>
-                    <summary>2 Find the Surface area of a 3D figure
+                    <summary> 6.1.4.2 Find the Surface area of a 3D figure
 </summary>
                 </details>      
                 <details>
-                    <summary>3 Program for distance between two points on earth
+                    <summary> 6.1.4.3 Program for distance between two points on earth
 </summary>
                 </details>      
                 <details>
-                    <summary>4 Calculate Volume of Dodecahedron
+                    <summary> 6.1.4.4 Calculate Volume of Dodecahedron
 </summary>
                 </details>      
                 <details>
-                    <summary>5 Program for Volume and Surface area of Frustum of Cone</summary>
+                    <summary> 6.1.4.5 Program for Volume and Surface area of Frustum of Cone</summary>
                 </details>      
                 <details>
-                    <summary>6 Program for volume of Pyramid</summary>
+                    <summary> 6.1.4.6 Program for volume of Pyramid</summary>
                 </details>      
                 <details>
-                    <summary>7 Pythagorean Quadruple</summary>
+                    <summary> 6.1.4.7 Pythagorean Quadruple</summary>
                 </details>      
             </details>      
             <details>
                 <summary>6.1.5 Quadilateral</summary>
                 <details>
-                    <summary>1 Number of parallelograms when n horizontal parallel lines intersect m vertical parallellines</summary>
+                    <summary> 6.1.5.1 Number of parallelograms when n horizontal parallel lines intersect m vertical parallellines</summary>
                 </details> 
                 <details>
-                    <summary>2 Program for Circumference of a Parallelogram
+                    <summary> 6.1.5.2 Program for Circumference of a Parallelogram
 </summary>
                 </details>      
                 <details>
-                    <summary>3 Program to calculate area and perimeter of Trapezium
+                    <summary> 6.1.5.3 Program to calculate area and perimeter of Trapezium
 </summary>
                 </details>      
                 <details>
@@ -2248,24 +2248,24 @@ Program for Area Of Square</summary>
             <details>
                 <summary>6.1.6 Polygon & Convex Hull</summary>
                 <details>
-                    <summary>1 How to check if a given point lies inside or outside a polygon?</summary>
+                    <summary> 6.1.6.1 How to check if a given point lies inside or outside a polygon?</summary>
                 </details> 
                 <details>
-                    <summary>2 Find number of diagonals in n sided convex polygon</summary>
+                    <summary> 6.1.6.2 Find number of diagonals in n sided convex polygon</summary>
                 </details>      
                 <details>
-                    <summary>3 Convex Hull | Set 1 (Jarvis’s Algorithm or Wrapping)</summary>
+                    <summary> 6.1.6.3 Convex Hull | Set 1 (Jarvis’s Algorithm or Wrapping)</summary>
                 </details>      
                 <details>
-                    <summary>4 Convex Hull | Set 2 (Graham Scan)
+                    <summary> 6.1.6.4 Convex Hull | Set 2 (Graham Scan)
 </summary>
                 </details>      
                 <details>
-                    <summary>5  Quickhull Algorithm for Convex Hull
+                    <summary> 6.1.6.5  Quickhull Algorithm for Convex Hull
 </summary>
                 </details>      
                 <details>
-                    <summary>6 Convex Hull (Simple Divide and Conquer Algorithm)
+                    <summary> 6.1.6.6 Convex Hull (Simple Divide and Conquer Algorithm)
 </summary>
                 </details>                   
             </details>      
@@ -2277,51 +2277,933 @@ Program for Area Of Square</summary>
             <summary>6.2 Maths</summary>
             <details>
                 <summary>6.2.1 GCD & LCM</summary>
+                <details>
+                    <summary> 6.2.1.1 GCD & LCM</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.1.2 LCM of array</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.3 GCD of Array</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.4 Basic and Extended Euclidean algorithms
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.5 Product of given N fractions in reduced form</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.6 GCD of two numbers when one of them can be very large
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.7 Stein’s Algorithm for finding GCD
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.8 GCD of two numbers formed by n repeating x and y times</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.9 Count number of pairs (A <= N, B <= N) such that gcd (A , B) is B
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.10 First N natural can be divided into two sets with given difference and co-prime sums</summary>
+                </details>  
+                <details>
+                    <summary> 6.2.1.11 Minimum gcd operations to make all array elements one
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.1.12 GCD of floating point numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.13 GCD of digits of a given number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.14 Minimum operations to make GCD of array a multiple of k
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1.15 Given GCD G and LCM L, find number of possible pairs (a, b)</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.1...........100</summary>
+                </details>      
             </details> 
             <details>
                 <summary>6.2.2 Factorisation</summary>
+                <details>
+                    <summary> 6.2.2.1 Prime factors
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.2.2 Smith Numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.3 Sphenic Number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.4 Hoax Number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.5 k-th prime factor of a given number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.6 Prime Factorization using Sieve O(log n) for multiple queries
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.7 Find politeness of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.8 Find sum of even factors of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.9 Find largest prime factor of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.10 Finding power of prime number p in n!
+</summary>
+                </details>   
+                <details>
+                    <summary> 6.2.2.11 Find all divisors of a natural number
+(all 3 sets)</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.2.12 Find numbers with n-divisors in a given range
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.13 Find minimum number to be divided to make a number a perfect square
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.14 Sum of all proper divisors of a natural number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.15 Sum of largest prime factor of each number less than equal to n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.2.........100</summary>
+                </details>                                      
             </details>      
             <details>
                 <summary>6.2.3 Fibonacci Numbers</summary>
+                <details>
+                    <summary> 6.2.3.1 Fibonacci Numbers
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.3.2 How to check if a given number is Fibonacci number?
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.3 Zeckendorf’s Theorem (Non-Neighbouring Fibonacci Representation)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.4 Finding nth Fibonacci Number using Golden Ratio
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.5 Matrix Exponentiation
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.6 Fibonacci Coding
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.7 n’th multiple of a number in Fibonacci Series
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.8 GCD and Fibonacci Numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.9 Cassini’s Identity
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.10 N-bonacci Numbers
+</summary>
+                </details>  
+                <details>
+                    <summary> 6.2.3.11 The Magic of Fibonacci Numbers</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.3.12 Program to print Fibonacci Triangle
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.13 Space efficient iterative method to Fibonacci number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.14 Factorial of each element in Fibonacci series
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.15 Hosoya’s Triangle
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.16 Prime numbers and Fibonacci
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.17 Leonardo Number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.18 Fibonacci number in an array
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.3.......100</summary>
+                </details>                                  
             </details>      
             <details>
                 <summary>6.2.4 Modular arithmetic</summary>
+                <details>
+                    <summary> 6.2.4.1 Modular Exponantiation</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.4.2 Modular multiplicative inverse</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.3 Modular Division
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.4 Multiplicative order
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.5 Find Square Root under Modulo p(both sets)</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.6 Euler’s criterion (Check if square root under modulo p exists)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.7 Multiply large integers under large modulo
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.8 Find sum of modulo K of first N natural number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.9 How to compute mod of a big number?</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.10 Modulo 10^9+7 (1000000007)</summary>
+                </details>   
+                <details>
+                    <summary> 6.2.4.11 Find (a^b)%m where ‘a’ is very large
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.4.12 Number of solutions to Modular Equations
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.13 Recursive sum of digits of a number formed by repeated appends
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.14 Find value of y mod (2 raised to power x)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.15 Modular multiplicative inverse from 1 to n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.16 Find unit digit of x raised to power y
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.17 Given two numbers a and b find all x such that a % x = b
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.18 Exponential Squaring (Fast Modulo Multiplication)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.19 Trick for modular division ( (x1 * x2 …. xn) / b ) mod (m)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.4.20 Count number of solutions of x^2 = 1 (mod p) in given range
+</summary>
+                </details>   
+                <details>
+                    <summary> 6.2.4.21 Breaking an Integer to get Maximum Product
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.4......100</summary>
+                </details>      
             </details>      
             <details>
                 <summary>6.2.5 Catalan numbers</summary>
+                <details>
+                    <summary> 6.2.5.1 Catalan numbers
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.5.2 Applications of Catalan Numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.5.3 Program for nth Catalan Number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.5.4 Dyck path
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.5.5 Non-crossing lines to connect points in a circle
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.5.6 Succinct Encoding of Binary Tree
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.5.7 Find the number of valid parentheses expressions of given length
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.5.....100</summary>
+                </details>                   
             </details>      
             <details>
                 <summary>6.2.6 Eular Totient Function</summary>
+                <details>
+                    <summary> 6.2.6.1 Euler’s Totient Function
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.6.2 Optimized Euler Totient Function for Multiple Evaluations
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.3 Euler’s Totient function for all numbers smaller than or equal to n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.4 Primitive root of a prime number n modulo n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.5 Euler’s Four Square Identity
+</summary>
+                </details>                
             </details>      
             <details>
-                <summary>6.2.7 nCr's</summary>
+                <summary> 6.2.6.6.2.7 nCr's</summary>
+                <details>
+                    <summary> 6.2.6.1 Binomial Coefficient
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.6.2 Compute nCr%p (DP || Lucas thm || Fermat Little thm)</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.3 Probability for three randomly chosen numbers to be in AP
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.4 Rencontres Number (Counting partial derangements)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.5 Sum of squares of binomial coefficients
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.6 Find sum of even index binomial coefficients
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.7 Maximum binomial coefficient term value
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.8 Program for Binomial Coefficients table
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.9 Sum of Binomial coefficients
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.10 Space and time efficient Binomial Coefficient
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.6.11 Count ways to express even number ‘n’ as sum of even integers
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.6.12 Maximum points of intersection n circles
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.13 Horner’s Method for Polynomial Evaluation
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.14 Print all possible combinations of r elements in a given array of size n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.15 Program to find the Volume of a Triangular Prism
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.6.16 Significance of Pascal’s Identity
+</summary>
+                </details>      
+                <details>
+                    <summary>17 Sum of all elements up to Nth row in a Pascal triangle
+</summary>
+                </details>      
             </details>      
             <details>
                 <summary>6.2.8 Chinese Reminder thm</summary>
+                <details>
+                    <summary> 6.2.8.1 Intro</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.8.2 Inverse Modulo based Implementation</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.3 Cyclic Redundancy Check and Modulo-2 Division
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.4 Using Chinese Remainder Theorem to Combine Modular equations
+</summary>
+                </details>                 
             </details>      
             <details>
-                <summary>6.2.9 Prime</summary>
+                <summary> 6.2.8.6.2.9 Factorial</summary>
+                <details>
+                    <summary> 6.2.8.1 basic</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.8.2 Legendre’s formula (Given p and n, find the largest x such that p^x divides n!)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.3 Sum of divisors of factorial of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.4 Count Divisors of Factorial
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.5 Compute n! under modulo p
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.6 Double factorial
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.7 Count trailing zeroes in factorial of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.8 Factorial of a large number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.9 Primorial of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.10 Find the first natural number whose factorial is divisible by x
+</summary>
+                </details>   
+                <details>
+                    <summary> 6.2.8.11 Count numbers formed by given two digit with sum having given digits
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.8.12 Generate a list of n consecutive composite numbers</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.13 Expressing factorial n as sum of consecutive numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.14 Find maximum power of a number that divides a factorial
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.15 Trailing number of 0s in product of two factorials
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.16 Print factorials of a range in right aligned format
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.17 GCD of factorials of two numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.18 Largest power of k in n! (factorial) where k may not be prime
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.19 One line function for factorial of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.20 Find all factorial numbers less than or equal to n
+</summary>
+                </details>    
+                <details>
+                    <summary> 6.2.8.21 Find the last digit when factorial of A divides factorial of B
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.8.22 An interesting solution to get all prime numbers smaller than n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.23 Calculating Factorials using Stirling Approximation
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.24 Check if a number is a Krishnamurthy Number or not
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.25 Count digits in a factorial(both sets)</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.26 No of Factors of n!</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.8.....100</summary>
+                </details>                                  
             </details>      
             <details>
                 <summary>6.2.10 Primes</summary>
+                <details>
+                    <summary> 6.2.10.1 Basic</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.10.2 Special prime numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.3 Prime numbers and Fibonacci
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.4 Left-Truncatable Prime
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.5 Mersenne Prime
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.6 Super Prime
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.7 Palindromic Primes
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.8 Prime Triplet
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.9 Hardy-Ramanujan Theorem
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.10 Rosser’s Theorem
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.10.11 Fermat’s little theorem
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.10.12 Composite Number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.13 Euclid Euler Theorem
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.14 Euclid’s Lemma
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.15 Primality Test(school thm| Fermat's thm | Miller-Rabin | Solovay-Strassen | Lucas-Lehmer|Vantieghems | AKS)</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.16 2^x + 1 and Prime</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.17 Recursive program for prime number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.10.18 Circular primes less than n
+</summary>
+                </details>      
             </details>  
             <details>
                 <summary>6.2.11 Set theory</summary>
+                <details>
+                    <summary> 6.2.11.1 Minimize the absolute difference of sum of two subsets
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.11.2 Sum of all subsets of a set formed by first n natural numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.11.3 Sum of average of all subsets
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.11.4 Bell Numbers (Number of ways to Partition a Set)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.11.5 Power Set
+</summary>
+                </details>                    
             </details> 
             <details>
                 <summary>6.2.12 Sieve</summary>
+                <details>
+                    <summary> 6.2.12.1 Sieve of Eratosthenes
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.12.2 Segmented Sieve</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.12.3 Sieve of Atkin
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.12.4 Sieve of Sundaram to print all primes smaller than n
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.12.5 Sieve of Eratosthenes in 0(n) time complexity
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.12.6 Arithmetic Number
+</summary>
+                </details>      
             </details>      
             <details>
                 <summary>6.2.13 Divisibility</summary>
+                <details>
+                    <summary> 6.2.13.1 Check if a large number is divisible by 3 or not</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.13.2 Number of digits to be removed to make a number divisible by 3</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.3 Find whether a given integer is a power of 3 or not
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.4 Check if a large number is divisible by 4 or not
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.5 Count rotations divisible by 4
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.6 Number of substrings divisible by 4 in a string of integers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.7 Check if a large number is divisible by 6 or not
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.8 Prove that atleast one of three consecutive even numbers is divisible by 6
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.9 Sum of all numbers divisible by 6 in a given range
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.10 Number of substrings divisible by 6 in a string of integers
+</summary>
+                </details>   
+                <details>
+                    <summary> 6.2.13.11 Print digit’s position to be removed to make a number divisible by 6
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.13.12 Check divisibility by 7
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.13 To check whether a large number is divisible by 7
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.14 Remainder with 7 for large numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.13.15 Count rotations divisible by 8
+</summary>
+                </details>      
+                <details>
+                    <summary>.....100</summary>
+                </details>      
             </details>      
             <details>
                 <summary>6.2.14 Algebra</summary>
+                <details>
+                    <summary> 6.2.14.1 Find x and y satisfying ax + by = n
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.14.2 Calculate the Discriminant Value
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.3 Program for dot product and cross product of two vectors
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.4 Iterated Logarithm log*(n)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.5 Program to find correlation coefficient
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.6 Program for Muller Method
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.7 Number of sextuplets (or six values) that satisfy an equation
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.8 Complete the sequence generated by a polynomial
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.9 Find the minimum value of m that satisfies ax + by = m and all values after m also satisfy
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.10 Roots of Unity
+</summary>
+                </details>  
+                <details>
+                    <summary> 6.2.14.11 Number of non-negative integral solutions of a + b + c = n
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.14.12 Roots of quadratic equation
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.13 Find smallest values of x and y such that ax – by = 0
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.14 Generate Pythagorean Triplets
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.15 Square root of an integer
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.16 Find number of solutions of a linear equation of n variables
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.17 Write an iterative O(Log y) function for pow(x, y)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.18 Program to add two polynomials
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.19 Multiply two polynomials
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.14.20 Efficient program to calculate e^x
+</summary>
+                </details>                  
             </details>      
             <details>
                 <summary>6.2.15 Number Systems conversions</summary>
+                <details>
+                    <summary> 6.2.15.1 Exponential notation of a decimal number
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.15.2 Check if a number is power of k using base changing method
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.3 Check if number is palindrome or not in Octal
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.4 Check if a number N starts with 1 in b-base
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.5 Convert a binary number to hexadecimal number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.6 Program for decimal to hexadecimal conversion
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.7 Converting a Real Number (between 0 and 1) to Binary String
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.8 Count of Binary Digit numbers smaller than N
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.9 Write a program to add two numbers in base 14
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.15.10 Convert from any base to decimal and vice versa
+</summary>
+                </details>                
             </details>      
             <details>
                 <summary>6.2.16 Misc</summary>
+                <details>
+                    <summary> 6.2.16.1 Tau</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.16.2 Interquartile Range (IQR)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.3 Simulated Annealing
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.4 Break the number into three parts
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.5 Pseudo Random Number Generator (PRNG)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.6 Square root of a number using log
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.7 Find ways an Integer can be expressed as sum of n-th power of unique natural numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.8 N’th palindrome of K digits
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.9 N-th root of a number
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.10 Find the minimum difference between Shifted tables of two numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.11 Check if a number is a power of another number
+</summary>
+                </details> 
+                <details>
+                    <summary> 6.2.16.12 Check perfect square using addition/subtraction
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.13 Number of perfect squares between two given numbers
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.14 Count Derangements (Permutation such that no element appears in its original position)
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.15 Program to evaluate simple expressions
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.16 Generate all unique partitions of an integer
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.17 Program to convert a given number to words
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.18 Make a fair coin from a biased coin
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.19 Generate integer from 1 to 7 with equal probability
+</summary>
+                </details>      
+                <details>
+                    <summary> 6.2.16.20 Implement *, – and / operations using only + arithmetic operator
+</summary>
+                </details>                      
             </details>      
         </details>           
     </details>      
