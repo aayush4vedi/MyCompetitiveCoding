@@ -1219,7 +1219,8 @@ Count ways to assign unique cap to every person</summary>
             </details>                                    
                 <summary>3.4..........100</summary>
             </details>                             
-        </details>      
+        </details>  
+    </details>              
     </details>      
     <details>
         <summary>4.Greedy</summary>
