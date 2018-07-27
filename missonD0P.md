@@ -151,7 +151,7 @@
             </details>                                                                  
         </details>  
         <details>
-            <summary>2.Trie </summary>
+            <summary>2.Trie/prefix tree </summary>
             <details>
                     <summary>2.1 Const</summary>
             </details>  
@@ -421,22 +421,109 @@
         </details>  
         <details>
             <summary>6.Fenwick Tree</summary>
+                <details>
+                        <summary>6.1 construct </summary>
+                </details>  
+                <details>
+                        <summary>6.2 getSum </summary>
+                </details>                                      
+                <details>
+                        <summary>6.3 Update </summary>
+                </details>                        
+                <details>
+                        <summary>6.4 Applications </summary>
+                         <details>
+                                <summary>6.4.1 Count inversions in an array </summary>
+                        </details>  
+                        <details>
+                                <summary>6.4.2 Counting Triangles in a Rectangular space using BIT </summary>
+                        </details>                                      
+                </details>    
+                <details>
+                        <summary>6.5 2-D BIT/Fenwick Tree </summary>
+                </details>                  
         </details>    
         <details>
             <summary>7.suffix tree</summary>
-        </details>  
-        <details>
-            <summary>8.Prefix Tree</summary>
+            <details>
+                <summary>7.1 Build</summary>
+            </details> 
+            <details>
+                <summary>7.2 pattern search</summary>
+            </details>      
+            <details>
+                <summary>7.3 Suffix Array nLogn Algorithm
+</summary>
+            </details>      
+            <details>
+                <summary>7.4 kasai’s Algorithm for Construction of LCP array from Suffix Array
+</summary>
+            </details>      
+            <details>
+                <summary>7.5 Ukkonen’s Suffix Tree Construction(all 5 parts)</summary>
+            </details>      
+            <details>
+                <summary>7.6 Application:</summary>
+                <details>
+                    <summary>7.6.1 Substring Check
+</summary>
+                </details>      
+                <details>
+                    <summary>7.6.2 Searching All Patterns
+</summary>
+                </details>      
+                <details>
+                    <summary>7.6.3 Longest Repeated Substring</summary>
+                </details>      
+                <details>
+                    <summary>7.6.4 Longest Common Substring</summary>
+                </details>  
+                <details>
+                    <summary>7.6.4 Longest Palindromic Substring</summary>
+                </details>                            
+            </details>      
         </details>  
         <details>
             <summary>9.B-Tree</summary>
+                <details>
+                    <summary>9.1 Into</summary>
+                </details>   
+                <details>
+                    <summary>9.2 Insert</summary>
+                </details>    
+                <details>
+                    <summary>9.3 Delete</summary>
+                </details>            
         </details>   
         <details>
             <summary>10. KD Tree</summary>
+                <details>
+                    <summary>10.1 Into</summary>
+                </details>   
+                <details>
+                    <summary>10.2 Search & Insert</summary>
+                </details>    
+                <details>
+                    <summary>10.3 Delete</summary>
+                </details>              
         </details>    
         <details>
             <summary>11.Treap</summary>
-        </details>                           
+                <details>
+                    <summary>11.1 Rotate</summary>
+                </details>   
+                <details>
+                    <summary>11.2 Search </summary>
+                </details>    
+                <details>
+                    <summary>11.3 Insert</summary>
+                </details> 
+                <details>
+                    <summary>11.4 Delete</summary>
+                </details>   
+                <details>
+                    <summary>11.5 Traversal </summary>
+                </details>    
     </details>
     <details>
         <summary>Graphs</summary>
