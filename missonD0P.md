@@ -628,7 +628,7 @@
             </details>  
         </details>   
         <details>
-            <summary><5.Back-Track</summary>
+            <summary>5.Back-Track</summary>
             <details>
                 <summary>5.1 if path of length >= k exists?</summary>
             </details> 
@@ -849,6 +849,514 @@
     </details>
     <details>
         <summary>Hash</summary>
+        <details>
+            <summary>1. Basics</summary>
+            <details>
+                    <summary>1.1 Intro</summary>
+                </details>      
+                <details>
+                    <summary>1.2 Trivial Hashing</summary>
+                </details>      
+                <details>
+                    <summary>1.3 Separate Chaining</summary>
+                </details>      
+                <details>
+                    <summary>1.4 Open Addressing</summary>
+                </details>      
+                <details>
+                    <summary>1.5 Double Hasing</summary>
+                </details>             
+        </details> 
+        <details>
+            <summary>2. Easy</summary>
+            <details>
+                <summary> 2.1 Print a Binary Tree in Vertical Order</summary>
+            </details> 
+            <details>
+                <summary> 2.2 Find whether an array is subset of another array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.3 Union and Intersection of two linked lists
+</summary>
+            </details>      
+            <details>
+                <summary> 2.4 Given an array A[] and a number x, check for pair in A[] with sum as x
+</summary>
+            </details>      
+            <details>
+                <summary> 2.5 Minimum delete operations to make all elements of array same
+</summary>
+            </details>      
+            <details>
+                <summary> 2.6 Minimum operation to make all elements equal in array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.7 Maximum distance between two occurrences of same element in array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.8 Count maximum points on same line
+</summary>
+            </details>      
+            <details>
+                <summary> 2.9 Check if a given array contains duplicate elements within k distance from each other
+</summary>
+            </details>      
+            <details>
+                <summary> 2.10 Find duplicates in a given array when elements are not limited to a range
+</summary>
+            </details>         
+            <details>
+                <summary> 2.11 Find top k (or most frequent) numbers in a stream
+</summary>
+            </details> 
+            <details>
+                <summary> 2.12 Most frequent element in an array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.13 Smallest subarray with all occurrences of a most frequent element
+</summary>
+            </details>      
+            <details>
+                <summary> 2.14 First element occurring k times in an array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.15 Given an array of pairs, find all symmetric pairs in it
+</summary>
+            </details>      
+            <details>
+                <summary> 2.16 Find the only repetitive element between 1 to n-1
+</summary>
+            </details>      
+            <details>
+                <summary> 2.17 Find any one of the multiple repeating elements in read only array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.18 Find top three repeated in array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.19 Group multiple occurrence of array elements ordered by first occurrence
+</summary>
+            </details>      
+            <details>
+                <summary> 2.20 How to check if two given sets are disjoint?
+</summary>
+            </details>         
+            <details>
+                <summary> 2.21 Non-overlapping sum of two sets
+</summary>
+            </details> 
+            <details>
+                <summary> 2.22 Find elements which are present in first array and not in second
+</summary>
+            </details>      
+            <details>
+                <summary> 2.23 Check if two arrays are equal or not
+</summary>
+            </details>      
+            <details>
+                <summary> 2.24 Pair with given sum and maximum shortest distance from end
+</summary>
+            </details>      
+            <details>
+                <summary> 2.25 Find missing elements of a range
+</summary>
+            </details>      
+            <details>
+                <summary> 2.26 k-th missing element in increasing sequence which is not present in a given sequence
+</summary>
+            </details>      
+            <details>
+                <summary> 2.27 Find pair with greatest product in array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.28 Minimum number of subsets with distinct elements
+</summary>
+            </details>      
+            <details>
+                <summary> 2.29 Remove minimum number of elements such that no common element exist in both array</summary>
+            </details>      
+            <details>
+                <summary> 2.30 Count items common to both the lists but with different prices
+</summary>
+            </details>         
+            <details>
+                <summary> 2.31 Minimum Index Sum for Common Elements of Two Lists
+</summary>
+            </details> 
+            <details>
+                <summary> 2.32 Find pairs with given sum such that elements of pair are in different rows
+</summary>
+            </details>      
+            <details>
+                <summary> 2.33 Common elements in all rows of a given matrix
+</summary>
+            </details>      
+            <details>
+                <summary> 2.34 Find distinct elements common to all rows of a matrix
+</summary>
+            </details>      
+            <details>
+                <summary> 2.35 Find all permuted rows of a given row in a matrix
+</summary>
+            </details>      
+            <details>
+                <summary> 2.36 Change the array into a permutation of numbers from 1 to n
+</summary>
+            </details>      
+            <details>
+                <summary> 2.37 Count pairs with given sum
+</summary>
+            </details>      
+            <details>
+                <summary> 2.38 Count pairs from two sorted arrays whose sum is equal to a given value x
+</summary>
+            </details>      
+            <details>
+                <summary> 2.39 Count pairs from two linked lists whose sum is equal to a given value
+</summary>
+            </details>      
+            <details>
+                <summary> 2.40 Count quadruples from four sorted arrays whose sum is equal to a given value x
+</summary>
+            </details> 
+            <details>
+                <summary> 2.41 Number of subarrays having sum exactly equal to k
+</summary>
+            </details>      
+            <details>
+                <summary> 2.42 Count pairs whose products exist in array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.43 Given two unsorted arrays, find all pairs whose sum is x
+</summary>
+            </details>      
+            <details>
+                <summary> 2.44 Frequency of each element in an unsorted array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.45 Sort elements by frequency
+</summary>
+            </details>         
+            <details>
+                <summary> 2.46 Find pairs in array whose sums already exist in array
+</summary>
+            </details> 
+            <details>
+                <summary> 2.47 Find all pairs (a, b) in an array such that a % b = k
+</summary>
+            </details>      
+            <details>
+                <summary> 2.47 Convert an array to reduced form | Set 1 (Simple and Hashing)
+</summary>
+            </details>      
+            <details>
+                <summary> 2.48 Return maximum occurring character in an input string
+</summary>
+            </details>      
+            <details>
+                <summary> 2.49 Group words with same set of characters
+</summary>
+            </details>      
+            <details>
+                <summary> 2.50 Second most repeated word in a sequence
+</summary>
+            </details>      
+            <details>
+                <summary> 2.51 Smallest element repeated exactly ‘k’ times (not limited to small range)
+</summary>
+            </details>      
+            <details>
+                <summary> 2.52 Numbers with prime frequencies greater than or equal to k
+</summary>
+            </details>      
+            <details>
+                <summary> 2.53 Find k numbers with most occurrences in the given array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.54 Find the first repeating element in an array of integers
+</summary>
+            </details>   
+            <details>
+                <summary> 2.55 Find sum of non-repeating (distinct) elements in an array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.56 Non-Repeating Element
+</summary>
+            </details>      
+            <details>
+                <summary> 2.57 k-th distinct (or non-repeating) element in an array.
+</summary>
+            </details>      
+            <details>
+                <summary> 2.58 Print All Distinct Elements of a given integer array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.59 Only integer with positive value in positive negative value in array
+</summary>
+            </details>      
+            <details>
+                <summary> 2.60 Pairs of Positive Negative values in an array
+</summary>
+            </details>                                                 
+        </details>      
+        <details>
+            <summary>3. Intermediate</summary>
+            <details>
+                <summary> 3.1 Find Itinerary from a given list of tickets</summary>
+            </details>      
+            <details>
+                <summary> 3.2 Find number of Employees Under every Employee
+</summary>
+            </details>      
+            <details>
+                <summary> 3.3 Count divisible pairs in an array
+</summary>
+            </details>    
+            <details>
+                <summary> 3.4 Check if an array can be divided into pairs whose sum is divisible by k
+</summary>
+            </details>      
+            <details>
+                <summary> 3.5 Longest subarray with sum divisible by k
+</summary>
+            </details>      
+            <details>
+                <summary> 3.6 Subarray with no pair sum divisible by K
+</summary>
+            </details> 
+            <details>
+                <summary> 3.7 Print array elements that are divisible by at-least one other
+</summary>
+            </details>      
+            <details>
+                <summary> 3.8 Find three element from different three arrays such that that a + b + c = sum
+</summary>
+            </details>      
+            <details>
+                <summary> 3.9 Find four elements a, b, c and d in an array such that a+b = c+d
+</summary>
+            </details>    
+            <details>
+                <summary> 3.10 Find the largest subarray with 0 sum
+</summary>
+            </details>      
+            <details>
+                <summary> 3.11 Printing longest Increasing consecutive subsequence
+</summary>
+            </details>      
+            <details>
+                <summary> 3.12 Longest Increasing consecutive subsequence
+</summary>
+            </details>   
+            <details>
+                <summary> 3.13 Longest subsequence such that difference between adjacents is one | Set 2
+</summary>
+            </details>      
+            <details>
+                <summary> 3.14 Longest Consecutive Subsequence
+</summary>
+            </details>      
+            <details>
+                <summary> 3.15 Largest increasing subsequence of consecutive integers
+</summary>
+            </details>    
+            <details>
+                <summary> 3.16 Count subsets having distinct even numbers
+</summary>
+            </details>      
+            <details>
+                <summary> 3.17 Count distinct elements in every window of size k
+</summary>
+            </details>      
+            <details>
+                <summary> 3.18 Maximum possible sum of a window in an array such that elements of same window in other array are unique</summary>
+            </details> 
+            <details>
+                <summary> 3.19 Distributing items when a person cannot take more than two items of same type
+</summary>
+            </details>      
+            <details>
+                <summary> 3.20 Design a data structure that supports insert, delete, search and getRandom in constant time
+</summary>
+            </details>      
+            <details>
+                <summary> 3.21 Check if array contains contiguous integers with duplicates allowed
+</summary>
+            </details>    
+            <details>
+                <summary> 3.22 Length of the largest subarray with contiguous elements
+</summary>
+            </details>      
+            <details>
+                <summary> 3.23 Find if there is a subarray with 0 sum
+</summary>
+            </details>      
+            <details>
+                <summary> 3.24 Print all subarrays with 0 sum
+</summary>
+            </details> 
+            <details>
+                <summary> 3.25 Find subarray with given sum | Set 2 (Handles Negative Numbers)
+</summary>
+            </details>    
+            <details>
+                <summary> 3.26 Find four elements that sum to a given value</summary>
+            </details>      
+            <details>
+                <summary> 3.27 Implementing own Hash Table with Open Addressing Linear Probing in C++</summary>
+            </details>      
+            <details>
+                <summary> 3.28 Vertical Sum in a given Binary Tree</summary>
+            </details> 
+            <details>
+                <summary> 3.29 Group Shifted String
+</summary>
+            </details>      
+            <details>
+                <summary> 3.30 Minimum insertions to form a palindrome with permutations allowed
+</summary>
+            </details>      
+            <details>
+                <summary> 3.31 Check for Palindrome after every character replacement Query
+</summary>
+            </details>    
+            <details>
+                <summary> 3.32 Maximum length subsequence with difference between adjacent elements as either 0 or 1 | Set 2
+</summary>
+            </details>      
+            <details>
+                <summary> 3.33 Maximum difference between frequency of two elements such that element having greater frequency is also greater
+</summary>
+            </details>      
+            <details>
+                <summary> 3.34 Difference between highest and least frequencies in an array
+</summary>
+            </details>  
+            <details>
+                <summary> 3.35 Maximum difference between first and last indexes of an element in array
+</summary>
+            </details>      
+            <details>
+                <summary> 3.36 Maximum possible difference of two subsets of an array
+</summary>
+            </details>      
+            <details>
+                <summary> 3.37 Sorting using trivial hash function</summary>
+            </details> 
+            <details>
+                <summary> 3.38 Smallest subarray with k distinct numbers
+</summary>
+            </details>      
+            <details>
+                <summary> 3.39 Longest subarray not having more then K distinct elements
+</summary>
+            </details>      
+            <details>
+                <summary> 3.40 Sum of f(a[i], a[j]) over all pairs in an array of n integers
+</summary>
+            </details>    
+            <details>
+                <summary> 3.41 Find number of pairs in an array such that their XOR is 0
+</summary>
+            </details>      
+            <details>
+                <summary> 3.42 Maximize elements using another array</summary>
+            </details>                                                                             
+        </details>      
+        <details>
+            <summary>4. Hard</summary>
+            <details>
+                <summary> 4.1 Clone a Binary Tree with Random Pointers
+</summary>
+            </details>     
+            <details>
+                <summary> 4.2 Largest subarray with equal number of 0s and 1s
+</summary>
+            </details>   
+            <details>
+                <summary> 4.3 Longest subarray having count of 1s one more than count of 0s
+</summary>
+            </details>     
+            <details>
+                <summary> 4.4 Count Substrings with equal number of 0s, 1s and 2s
+</summary>
+            </details>    
+            <details>
+                <summary> 4.5 Print all triplets in sorted array that form AP
+</summary>
+            </details>     
+            <details>
+                <summary> 4.6 All unique triplets that sum up to a given value
+</summary>
+            </details>   
+            <details>
+                <summary> 4.7 Find all triplets with zero sum
+</summary>
+            </details>     
+            <details>
+                <summary> 4.8 Count number of triplets with product equal to given number
+</summary>
+            </details>    
+            <details>
+                <summary> 4.9 Count of index pairs with equal elements in an array
+</summary>
+            </details>     
+            <details>
+                <summary> 4.10 Palindrome Substring Queries</summary>
+            </details>   
+            <details>
+                <summary> 4.11 Find smallest range containing elements from k lists</summary>
+            </details>     
+            <details>
+                <summary> 4.12 Range Queries for Frequencies of array elements</summary>
+            </details>    
+            <details>
+                <summary> 4.13 Elements to be added so that all elements of a range are present in array</summary>
+            </details>     
+            <details>
+                <summary> 4.14 Cckoo Hashing – Worst case O(1) Lookup!</summary>
+            </details>   
+            <details>
+                <summary> 4.15 Subarrays with distinct elements</summary>
+            </details>     
+            <details>
+                <summary> 4.16 Count subarrays having total distinct elements same as original array
+</summary>
+            </details>  
+            <details>
+                <summary> 4.17 Count subarrays with same even and odd elements
+</summary>
+            </details>     
+            <details>
+                <summary> 4.18 Minimum number of distinct elements after removing m items
+</summary>
+            </details>    
+            <details>
+                <summary> 4.19 Distributing items when a person cannot take more than two items of same type</summary>
+            </details>     
+            <details>
+                <summary> 4.20 Maximum consecutive numbers present in an array</summary>
+            </details>   
+            <details>
+                <summary> 4.21 Maximum array from two given arrays keeping order same</summary>
+            </details>     
+            <details>
+                <summary> 4.22 Maximum number of chocolates to be distributed equally among k students</summary>
+            </details>                                                                           
+        </details>      
     </details>
     <details>
         <summary>Array</summary>
