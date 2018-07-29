@@ -24,6 +24,7 @@
 +stack of implementaion helps heaps in recursion(GfG BIT videos)
 -Directi == DP( do as much as can)
 + itna ki, koi sote mei utha ke puche toh bhi(cz that's gonna happen YOU KNOW THAT)
+- make notes in copy
 ```
 
 
@@ -37,7 +38,7 @@
                     1.2 Insert<br>
                     1.3.1 Delete a node<br>
                     1.3.2 Delete a tree<br>
-                    1.4 search(key 'x')
+                    1.4 search(key 'x')<br>
                     1.5.1 Array to BST<br>
                     1.5.2 BST to array<br>
             </details> 
@@ -46,7 +47,7 @@
                     2.1.1 DFS-recursion<br>
                     2.1.2 DFS-1 stack<br>
                     2.1.3 DFS-2 stack<br>
-                    2.1.4 DFS-Morris Traversal<br>
+                    2.1.4 [ ]DFS-Morris Traversal<br>
                     2.2 BFS<br>
                     2.3 Line By Line BFS<br>
                     2.4 Diagonal BFS<br>
@@ -56,12 +57,13 @@
             <details>
                 <summary>3.Const & Conv</summary>
                     3.1 Construct a tree from:<br>
-                        3.1.1 preO & postO<br>
+                        3.1.1 [ ]preO & postO(has to be full BT)<br>
                         3.1.2 inO & preO<br>
-                        3.1.3 preO & postO of Mirror Tree<br>
-                        3.1.4 Linked List Rep<br>
+                        3.1.3 inO & post<br>
+                        3.1.4 [ ]preO & postO of Mirror Tree<br>
+                        3.1.5 Linked List Rep(complete)<br>
                     3.2 Convert a BST to:<br>
-                        3.2.1 Double Linked list(all 4 sets)<br>
+                        3.2.1 [ ]Double Linked list(all 4 sets)<br>
                         3.2.2 Sum Tree<br>
                     3.3 Flip the tree<br>
                     3.4 Min swaps to convert BT to BST<br>
@@ -1575,7 +1577,7 @@ Sort elements by frequenc</summary>
             <details>
                 <summary>1.2 Search for pattern</summary>
                 <details>
-                    <summary>1.2.1 KMP</summary>
+                    <summary>1.2.1 KMP [link](https://www.quora.com/What-is-the-best-resource-to-learn-KMP-Algorithm)</summary>
                 </details> 
                 <details>
                     <summary>1.2.2 Rabin_karp</summary>
