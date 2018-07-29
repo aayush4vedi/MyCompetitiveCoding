@@ -1577,10 +1577,10 @@ Sort elements by frequenc</summary>
             <details>
                 <summary>1.2 Search for pattern</summary>
                 <details>
-                    <summary>1.2.1 KMP [link](https://www.quora.com/What-is-the-best-resource-to-learn-KMP-Algorithm)</summary>
+                    <summary>1.2.1 [ ]KMP [link](https://www.quora.com/What-is-the-best-resource-to-learn-KMP-Algorithm)</summary>
                 </details> 
                 <details>
-                    <summary>1.2.2 Rabin_karp</summary>
+                    <summary>1.2.2 [ ]Rabin_karp</summary>
                 </details>  
             </details>  
             <details>
@@ -1598,20 +1598,17 @@ Sort elements by frequenc</summary>
                     <summary>1.2.4 Quick(recursion)</summary>
                 </details>      
                 <details>
-                    <summary>1.2.5 Merge</summary>
+                    <summary>1.2.5 [ ]Merge</summary>
                 </details>      
                 <details>
-                    <summary>1.2.6 Heap</summary>
+                    <summary>1.2.6 [ ]Heap</summary>
                 </details>      
                 <details>
-                    <summary>1.2.7 Counting</summary>
+                    <summary>1.2.7 [ ]Counting</summary>
                 </details>      
                 <details>
-                    <summary>1.2.8 Bucket</summary>
+                    <summary>1.2.8 [ ]Bucket</summary>
                 </details> 
-                <details>
-                    <summary>1.2.9 Merge</summary>
-                </details>                                  
             </details>                           
     </details>  
     <details>
