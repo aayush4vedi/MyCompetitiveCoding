@@ -1612,7 +1612,7 @@ Sort elements by frequenc</summary>
             </details>                           
     </details>  
     <details>
-        <summary>2.Bakctrack</summary>
+        <summary>2. [ ]Bakctrack</summary>
         <details>
             <summary>2.1 Knight's Tour</summary>
         </details> 
@@ -1686,7 +1686,7 @@ Sort elements by frequenc</summary>
             </details>              
         </details> 
         <details>
-            <summary>3.2 Adv Concepts</summary>
+            <summary>3.2 [ ]Adv Concepts</summary>
             <details>
                 <summary>3.2.1 Bitmasking -1D</summary>
             </details>      
