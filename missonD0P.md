@@ -2023,13 +2023,21 @@ Count ways to assign unique cap to every person</summary>
             <summary>4.1 Standard algos</summary>
             <details>
                 <summary>4.1.1 Activity Selection Prob</summary>
+                --[x]
             </details> 
             <details>
                 <summary>4.1.2 Egyptian Fraction</summary>
+                --[x]
             </details>      
             <details>
                 <summary>4.1.3 Job Sequencing Problem
 (~||disjoint sets || loss minimisation-1||loss minimisation -2)</summary>
+            1. No-loss & all acitivies take unit time, maximise profit:<br>
+            1.1. [ ] Greedy(O(n2))<br>
+            2.1. [ ] Disjoint Sets{create(O(n),find(O(n),O(n2)-worst, O(n)-av))}<br>
+            2.All activities take diff time, minimise loss:<br>
+            2.1. [ ] using stable sort(O(nlogn))<br>
+            2.1. [ ] Heapify
             </details>      
             <details>
                 <summary>4.1.4 Huffman Coding(~||for sorted input)</summary>
