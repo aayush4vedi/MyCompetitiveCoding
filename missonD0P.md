@@ -2033,38 +2033,47 @@ Count ways to assign unique cap to every person</summary>
                 <summary>4.1.3 Job Sequencing Problem
 (~||disjoint sets || loss minimisation-1||loss minimisation -2)</summary>
             1. No-loss & all acitivies take unit time, maximise profit:<br>
-            1.1. [ ] Greedy(O(n2))<br>
-            2.1. [ ] Disjoint Sets{create(O(n),find(O(n),O(n2)-worst, O(n)-av))}<br>
+            1.1. [x] Greedy(O(n2))<br>
+            2.1. [x] Disjoint Sets{create(O(n),find(O(n),O(n2)-worst, O(n)-av))}<br>
             2.All activities take diff time, minimise loss:<br>
-            2.1. [ ] using stable sort(O(nlogn))<br>
+            2.1. [x] using stable sort(O(nlogn))<br>
             2.1. [ ] Heapify
             </details>      
             <details>
                 <summary>4.1.4 Huffman Coding(~||for sorted input)</summary>
+                ---[ ]
             </details>  
             <details>
                 <summary>4.1.5 Huffman Decoding</summary>
+                ---[ ]
             </details> 
             <details>
                 <summary>4.1.6 Water Connection Prob</summary>
+                ---[x]<br>
+                -----------dfs for forest, amazing!
             </details>      
             <details>
                 <summary>4.1.7 Policeman catch thieves</summary>
+                ---[x]<br>
+                -----------your's : O(n*k), GfG's : O(n)
             </details>      
             <details>
                 <summary>4.1.8 Minimum Swaps for Bracket Balancing</summary>
+                ---[x]
             </details>      
            <details>
                 <summary>4.1.9 Fitting Shelves Problem
 </summary>
+                ---[x]
             </details>      
            <details>
                 <summary>4.1.10 Assign Mice to Holes
 </summary>
+                ---[x]
             </details>                                                   
         </details> 
         <details>
-            <summary>4.2 Greedy in Graph</summary>
+            <summary>4.2 [ ] Greedy in Graph</summary>
             <details>
                 <summary>4.2.1 Kruskal's MSP</summary>
             </details> 
