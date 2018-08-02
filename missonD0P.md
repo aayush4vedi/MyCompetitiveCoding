@@ -25,11 +25,38 @@
 -Directi == DP( do as much as can)
 + itna ki, koi sote mei utha ke puche toh bhi(cz that's gonna happen YOU KNOW THAT)
 - make notes in copy
++ [ ]:undone, [x]:done, [-]time_waste
 ```
 
 
 <details>
     <summary>Data Structures</summary>
+    <details>
+            <summary>Priority Queues</summary>
+            <details>
+                    <summary>1.About</summary>
+                    --is an extesion of QUEUES: O(n)<br>
+                    --every item has a priority associated with it.<br>
+                    --heigher priority -> dequeued earlier<br>
+                    --if same priority -> dequeued acc to their number in queue<br>
+                    --Eg: Bihari ji mandir ki line
+            </details>       
+            <details>
+                    <summary>2.Implementation</summary>
+                    -- priority_queue<int> pq;<br>
+                    -- pq.push : O(1)<br>
+                    -- pq.size()<br>
+                    -- pq.top() : O(n)<br>
+                    -- pq.pop()
+            </details>    
+            <details>
+                    <summary>3.Applications</summary>
+                    --Heap<br>
+                    --Dijkstra's<br>
+                    --Prims'<br>
+                    --Huffman coding
+            </details>                                       
+    </details>
     <details>
         <summary>BST</summary>
             <details>
@@ -202,6 +229,16 @@
         </details> 
         <details>
             <summary>4.Heap</summary>
+            <details>
+                <summary>4.0 stl implementation</summary>
+                -- min Heap: priority_queue <int, vector<int>, greater<int> > pq;<br>
+                ---- vector: max Heap: make_heap(v.begin(),v.end());<br>
+                ---- v.pb(x);<br>
+                ---- push_heap(all(v));<br>
+                ---- v.front;//max ele<br>
+                ---- pop_heap(all(v));<br>
+                -- Heap sort: sort_heap(all(v));<br>
+            </details>
             <details>
                 <summary>4.1 Binary Heap</summary>
                 <details>
@@ -2103,49 +2140,62 @@ Count ways to assign unique cap to every person</summary>
             <summary>4.3 Greedy in arrays</summary>
             <details>
                 <summary>4.3.1 Min product subset</summary>
+                ---[x]
             </details> 
             <details>
                 <summary>4.3.2 Max product subset</summary>
+                ---[x]
             </details>      
             <details>
                 <summary>4.3.3 Maximize array sum after k-negations(both sets)</summary>
+                ---[x] [ ]
             </details>      
             <details>
                 <summary>4.3.4 Maximize the sum of arr[i]*i
 </summary>
+                ---[x]
             </details>      
             <details>
                 <summary>4.3.5 Maximum sum of increasing order elements from n arrays
 </summary>
+                ---[x]
             </details>      
             <details>
                 <summary>4.3.6 Maximum sum of absolute difference of an array</summary>
+                ---[x]
             </details>      
             <details>
                 <summary>4.3.7 Maximize sum of consecutive differences in a circular array</summary>
+                --[-]
             </details>      
             <details>
                 <summary>4.3.8 Maximum height pyramid from the given array of objects
 </summary>
+                ---[x]
             </details>      
             <details>
                 <summary>4.3.9 Partition into two subarrays of lengths k and (N – k) such that the difference of sums is maximum
 </summary>
+                ---[-]
             </details>      
             <details>
                 <summary>4.3.10 Minimum sum of product of two arrays</summary>
+                ---[-]
             </details>     
             <details>
                 <summary>4.3.11 Minimum sum by choosing minimum of pairs from array
 </summary>
+                ---[-]
             </details> 
             <details>
                 <summary>4.3.12 Minimum sum of absolute difference of pairs of two arrays
 </summary>
+                ---[-]
             </details>      
             <details>
                 <summary>4.3.13 Minimum operations to make GCD of array a multiple of k
 </summary>
+                ---[-]
             </details>      
             <details>
                 <summary>4.3.14 Minimum sum of absolute difference of pairs of two arrays
@@ -2154,9 +2204,12 @@ Count ways to assign unique cap to every person</summary>
             <details>
                 <summary>4.3.15 Minimum sum of two numbers formed from digits of an array
 </summary>
+            ---[x] - simple sort: O(logn)<br>
+            ---[x] - min heap   :O(n)
             </details>      
             <details>
                 <summary>4.3.16 Minimum increment/decrement to make array non-Increasing</summary>
+                ---[[x]] : min_heap
             </details>      
             <details>
                 <summary>4.3.17 Minimize sum of product of two arrays with permutation allowed</summary>
