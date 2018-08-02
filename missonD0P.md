@@ -58,6 +58,10 @@
             </details>                                       
     </details>
     <details>
+        <summary>DSU</summary>
+        --come to help when no-one does T_T //hamesha maat khilwata hai
+    </details>
+    <details>
         <summary>BST</summary>
             <details>
                 <summary>1.Intro</summary>
@@ -2284,29 +2288,36 @@ Count ways to assign unique cap to every person</summary>
             <summary>4.6 Misc</summary>
             <details>
                 <summary>4.6.1 Split n into maximum composite numbers</summary>
+                ---[x]
             </details> 
             <details>
                 <summary>4.6.2 Maximum trains for which stoppage can be provided</summary>
+                --[[ ]]
             </details>      
             <details>
                 <summary>4.6.3 Buy Maximum Stocks if i stocks can be bought on i-th day
 </summary>
+                --[x] same algo but nice implementation-O(nlogn)
             </details>      
             <details>
                 <summary>4.6.4 Find the minimum and maximum amount to buy all N candies
 </summary>
+                --[x]
             </details>      
             <details>
                 <summary>4.6.5 Maximum sum possible equal to sum of three stacks
 </summary>
+                --[x]
             </details>      
             <details>
                 <summary>4.6.6 Maximum elements that can be made equal with k updates
 </summary>
+                --[[ ]]
             </details>      
             <details>
                 <summary>4.6.7 Divide cuboid into cubes such that sum of volumes is maximum
 </summary>
+                --[-]
             </details>      
             <details>
                 <summary>4.6.8 Maximum number of customers that can be satisfied with given quantity
@@ -2315,6 +2326,7 @@ Count ways to assign unique cap to every person</summary>
             <details>
                 <summary>4.6.9 Minimum Fibonacci terms with sum equal to K
 </summary>
+                --[-]
             </details>      
             <details>
                 <summary>4.6.10 Divide 1 to n into two groups with minimum sum difference
