@@ -15,6 +15,7 @@
     - [ ] Directi's coding questions 
     - [ ]
     - [ ] Keep updating list(the list is not even 50% of GfG)
+    - [ ] [pointers and memory](https://www.youtube.com/watch?v=CpjVucvAc3g&index=7&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
 
 
 ## Notes: 
@@ -3157,16 +3158,20 @@ Program for Area Of Square</summary>
                 <summary>6.2.1 GCD & LCM</summary>
                 <details>
                     <summary> 6.2.1.1 GCD & LCM</summary>
+                    --[]
                 </details> 
                 <details>
                     <summary> 6.2.1.2 LCM of array</summary>
+                    --[-]
                 </details>      
                 <details>
                     <summary> 6.2.1.3 GCD of Array</summary>
-                </details>      
+                </details>    
+                    --[-]  
                 <details>
                     <summary> 6.2.1.4 Basic and Extended Euclidean algorithms
 </summary>
+                    --[x]
                 </details>      
                 <details>
                     <summary> 6.2.1.5 Product of given N fractions in reduced form</summary>
