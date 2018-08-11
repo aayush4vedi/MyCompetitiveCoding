@@ -16,7 +16,7 @@
     - [ ]
     - [ ] Keep updating list(the list is not even 50% of GfG)
     - [ ] [pointers and memory](https://www.youtube.com/watch?v=CpjVucvAc3g&index=7&list=PL2_aWCzGMAwLZp6LMUKI3cc7pgGsasm2_)
-
+    - tuples in c++//return multiple values from function
 
 ## Notes: 
 ```diff
@@ -575,28 +575,34 @@
         <details>
             <summary>1.Intro & Traversal</summary>
             <details>
-                <summary>1.1 Rep(stl and class)</summary>
+                <summary>1.1 [x] Rep(stl and class)</summary>
             </details>   
             <details>
-                <summary>1.2 BFS</summary>
+                <summary>1.2 [x] BFS</summary>
+                --: O(V+E)-adjList, O(v^2)-adjMatrrix
+                -- https://stackoverflow.com/questions/26549140/breadth-first-search-time-complexity-analysis
             </details>   
             <details>
-                <summary>1.2 0-1 BFS</summary>
+                <summary>1.2.1 [ ] 0-1 BFS</summary>
+                --- it's 'deque' & not 'dequeue'
             </details>               
             <details>
-                <summary>1.3 DFS</summary>
+                <summary>1.3 [x]DFS</summary>
             </details>     
             <details>
-                <summary>1.4 Find Mother Vertex</summary>
+                <summary>1.4 [[ ]]Find Mother Vertex</summary>
             </details>   
             <details>
-                <summary>1.5 Watet-jug Prob(BFS)</summary>
+                <summary>1.5 [[ ]]Watet-jug Prob(BFS)</summary>
+                --[ ]Euclid's GCD
+                --[ ]BFS
+                --DP
             </details>   
             <details>
-                <summary>1.6 Count #trees in forest</summary>
+                <summary>1.6 [[x]]Count #trees in forest</summary>
             </details>          
             <details>
-                <summary>1.7 level of each node</summary>
+                <summary>1.7 [x]level of each node</summary>
             </details>   
             <details>
                 <summary>1.8 Print All paths</summary>
@@ -614,8 +620,11 @@
                 <summary>1.12 Min #moves by knight to reach target</summary>
             </details>  
             <details>
-                <summary>1.12 Check if 2 nodes are in same path </summary>
-            </details>                                                                         
+                <summary>1.13 Check if 2 nodes are in same path </summary>
+            </details> 
+            <details>
+                <summary>1.14 Minimum number of operation required to convert number x into y </summary>
+            </details>                                                                                     
         </details>   
         <details>
             <summary>2.Cycle</summary>
@@ -1596,7 +1605,7 @@ Sort elements by frequenc</summary>
     <details>
         <summary>1. Searching & Sorting</summary>
             <details>
-                <summary>1.1 Search for key</summary>
+                <summary>1.1 [x] Search for key</summary>
                  <details>
                     <summary>1.1.1 Linear</summary>
                 </details> 
@@ -1617,7 +1626,7 @@ Sort elements by frequenc</summary>
                 </details>                     
             </details>     
             <details>
-                <summary>1.2 Search for pattern</summary>
+                <summary>1.2 [x]Search for pattern</summary>
                 <details>
                     <summary>1.2.1 [ ]KMP [link](https://www.quora.com/What-is-the-best-resource-to-learn-KMP-Algorithm)</summary>
                 </details> 
@@ -3284,10 +3293,11 @@ Program for Area Of Square</summary>
                 </details>                                      
             </details>      
             <details>
-                <summary>6.2.3 Fibonacci Numbers</summary>
+                <summary>6.2.3Fibonacci Numbers</summary>
                 <details>
                     <summary> 6.2.3.1 Fibonacci Numbers
-</summary>
+</summary> 
+                --[x] [ ] [ ] [ ] [ ]
                 </details> 
                 <details>
                     <summary> 6.2.3.2 How to check if a given number is Fibonacci number?
