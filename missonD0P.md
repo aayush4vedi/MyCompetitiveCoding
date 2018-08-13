@@ -587,15 +587,15 @@
                 --- it's 'deque' & not 'dequeue'
             </details>               
             <details>
-                <summary>1.3 [x]DFS</summary>
+                <summary>1.3 [x] DFS</summary>
             </details>     
             <details>
                 <summary>1.4 [[ ]]Find Mother Vertex</summary>
             </details>   
             <details>
                 <summary>1.5 [[ ]]Watet-jug Prob(BFS)</summary>
-                --[ ]Euclid's GCD
-                --[ ]BFS
+                --[ ]Euclid's GCD<br>
+                --[ ]BFS<br>
                 --DP
             </details>   
             <details>
@@ -606,33 +606,35 @@
             </details>   
             <details>
                 <summary>1.8 Print All paths</summary>
+                --[ ] using BFS<br>
+                --[ ] using DFS
             </details>   
             <details>
-                <summary>1.9 Min #edges b/w 2 vertices</summary>
+                <summary>1.9 [ ]Min #edges b/w 2 vertices</summary>
             </details>     
             <details>
-                <summary>1.10 Count #nodes at dist k</summary>
+                <summary>1.10 [ ]Count #nodes at dist k</summary>
             </details>   
             <details>
-                <summary>1.11 BFS for disconnected</summary>
+                <summary>1.11 [-]BFS for disconnected</summary>
             </details>   
             <details>
-                <summary>1.12 Min #moves by knight to reach target</summary>
+                <summary>1.12 [[ ]]Min #moves by knight to reach target</summary>
             </details>  
             <details>
                 <summary>1.13 Check if 2 nodes are in same path </summary>
             </details> 
             <details>
-                <summary>1.14 Minimum number of operation required to convert number x into y </summary>
+                <summary>1.14 [[ ]]Minimum number of operation required to convert number x into y </summary>
             </details>                                                                                     
         </details>   
         <details>
             <summary>2.Cycle</summary>
             <details>
-                <summary>2.1 Detect Cycle in Directed Graph</summary>
+                <summary>2.1 [ ]Detect Cycle in Directed Graph</summary>
             </details>             
             <details>
-                <summary>2.2 Detect Cycle in Un-Directed Graph</summary>
+                <summary>2.2 [ ]Detect Cycle in Un-Directed Graph</summary>
             </details>             
             <details>
                 <summary>2.3 Detect Cycle in Directed Grap Using Colors</summary>
@@ -668,7 +670,7 @@
         <details>
             <summary>4.MSP</summary>
             <details>
-                <summary>4.1 Prims algo(also STL, adjc list)</summary>
+                <summary>4.1 [ ]Prims algo(also STL, adjc list)</summary>
             </details> 
             <details>
                 <summary>4.2 Kruskal's(also stl)</summary>
@@ -707,16 +709,16 @@
         <details>
             <summary>6.Shortest Path</summary>
             <details>
-                <summary>6.1 Dijkstra's(also stl & linked list)</summary>
+                <summary>6.1 [ ]Dijkstra's(also stl & linked list)</summary>
             </details>      
             <details>
                 <summary>6.2 printning all paths in Dijkstra</summary>
             </details>      
             <details>
-                <summary>6.3 Bellman Ford</summary>
+                <summary>6.3 [ ] Bellman Ford</summary>
             </details>      
             <details>
-                <summary>6.4 Floyd Warshall</summary>
+                <summary>6.4 [ ]Floyd Warshall</summary>
             </details>      
             <details>
                 <summary>6.5 Johnson</summary>
@@ -1725,6 +1727,8 @@ Sort elements by frequenc</summary>
             <summary>3.1 Concepts</summary>
             <details>
                 <summary>3.1.1 Tabulation vs Memoization</summary>
+                --(DO)tabulation = bottom up(start from ground & become expert)<br>
+                --(ADD)memoization = top down(keep on breaking down bigger problems into smaller one)
             </details>      
             <details>
                 <summary>3.1.2 Optimal Substructure Property</summary>
@@ -1739,13 +1743,13 @@ Sort elements by frequenc</summary>
         <details>
             <summary>3.2 [ ]Adv Concepts</summary>
             <details>
-                <summary>3.2.1 Bitmasking -1D</summary>
+                <summary>3.2.1 [[[ ]]]Bitmasking -1D</summary>
             </details>      
             <details>
-                <summary>3.2.2 Bitmasking -2D</summary>
+                <summary>3.2.2 [[ ]]Bitmasking -2D</summary>
             </details>      
             <details>
-                <summary>3.2.3 Digit DP</summary>
+                <summary>3.2.3 [[ ]]Digit DP</summary>
             </details>                 
         </details> 
         <details>
@@ -1755,57 +1759,65 @@ Sort elements by frequenc</summary>
             </details> 
             <details>
                 <summary>3.3.2 Fibonacci Numbers</summary>
+                --[x]O(n),O(n)<br>
+                --[ ]O(1),O(n)<br>
+                --[ ]O(logn),O(logn)
             </details>  
             <details>
                 <summary>3.3.3 nth Catalan number</summary>
+                --[x]O(n^2)-recursive formula<br>
+                --[ ]O(n)-binomial coeff
             </details> 
             <details>
-                <summary>3.3.3 Bell numbers(#ways to partiton a set)</summary>
+                <summary>3.3.3.2 [x]Bell numbers(#ways to partiton a set)</summary>
             </details>   
             <details>
-                <summary>3.3.4 Binomial Coeff</summary>
+                <summary>3.3.4 [x]Binomial Coeff</summary>
             </details> 
             <details>
-                <summary>3.3.5 Tiling Prob</summary>
+                <summary>3.3.5 [x]Tiling Prob</summary>
             </details>  
             <details>
-                <summary>3.3.5 Gold Mine Prob</summary>
+                <summary>3.3.5.2 [[ ]]old Mine Prob</summary>
             </details> 
             <details>
-                <summary>3.3.6 Coin Change Prob</summary>
+                <summary>3.3.6 [[x]]Coin Change Prob</summary>
             </details>                                        
             <details>
-                <summary>3.3.7 Friends Pairing Prob</summary>
+                <summary>3.3.7 [x]Friends Pairing Prob</summary>
             </details> 
             <details>
-                <summary>3.3.8 Subset Sum Prob( || in O(sum)space)</summary>
+                <summary>3.3.8 [x]Subset Sum Prob( || in O(sum)space)</summary>
             </details>  
             <details>
-                <summary>3.3.9 subsets with sum divisible by m</summary>
+                <summary>3.3.9 [ ]subsets with sum divisible by m</summary>
             </details> 
             <details>
-                <summary>3.3.10 Largest divisible pairs subset</summary>
+                <summary>3.3.10 [ ]Largest divisible pairs subset</summary>
             </details>   
             <details>
-                <summary>3.3.11 Perfect Sum prob(print all subsets with given sum)</summary>
+                <summary>3.3.11 [ ]Perfect Sum prob(print all subsets with given sum)</summary>
             </details> 
             <details>
-                <summary>3.3.12 nCr</summary>
+                <summary>3.3.12 [ ]nCr</summary>
             </details>  
             <details>
-                <summary>3.3.13 Cutting a rod</summary>
+                <summary>3.3.13 [ ]Cutting a rod</summary>
             </details> 
             <details>
-                <summary>3.3.14 Tiling with Dominos</summary>
-            </details>        
+                <summary>3.3.14 [ ]Tiling with Dominos</summary>
+            </details>   
             <details>
-                <summary>3.3.15 Print Fibonacci series in reverse order</summary>
+                <summary>3.3.14.2 [ ]Painting Fence Algorithm</summary>
+            </details>                    
+            <details>
+                <summary>3.3.15 [-]Print Fibonacci series in reverse order</summary>
             </details>      
             <details>
-                <summary>3.3.16 Longest common subsequence(|| space optimised sol)</summary>
+                <summary>3.3.16 [ ]Longest common subsequence(|| space optimised sol)</summary>
             </details>        
             <details>
-                <summary>3.3.17 Longest Repeated Subsequence</summary>
+                <summary>3.3.17 [ ]Longest Repeated Subsequence</summary>
             </details>      
             <details>
                 <summary>3.3.18 Find n-th element from Stern’s Diatomic Series</summary>
@@ -1878,13 +1890,13 @@ Sort elements by frequenc</summary>
                 <summary>3.4.6 Jacobsthal and Jacobsthal-Lucas numbers</summary>
             </details> 
             <details>
-                <summary>3.4.7 0-1 Knapsack Problem</summary>
+                <summary>3.4.7 [ ]0-1 Knapsack Problem</summary>
             </details>     
             <details>
-                <summary>3.4.8 Printing Items in 0/1 Knapsack</summary>
+                <summary>3.4.8 [ ]Printing Items in 0/1 Knapsack</summary>
             </details>   
             <details>
-                <summary>3.4.9 Unbounded Knapsack (Repetition of items allowed)
+                <summary>3.4.9 [ ]Unbounded Knapsack (Repetition of items allowed)
 </summary>
             </details>     
             <details>
@@ -1899,7 +1911,7 @@ Sort elements by frequenc</summary>
 </summary>
             </details>     
             <details>
-                <summary>3.4.12 Egg Dropping Puzzle
+                <summary>3.4.12 [ ]Egg Dropping Puzzle
 </summary>
             </details>  
             <details>
@@ -1914,7 +1926,7 @@ Sort elements by frequenc</summary>
                 <summary>3.4.13 Temple Offerings</summary>
             </details>     
             <details>
-                <summary>3.4.14 Dice Throw Problem</summary>
+                <summary>3.4.14 [ ]Dice Throw Problem</summary>
             </details> 
             <details>
                 <summary>3.4.15 Word Break Prob</summary>
