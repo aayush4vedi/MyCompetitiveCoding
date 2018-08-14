@@ -811,43 +811,54 @@
         <details>
             <summary>1.Singly Linked List</summary>
             <details>
-                <summary>1.1 Declaration</summary>
+                <summary>1.1 [x]Declaration</summary>
+                --node name cannot be 'new' :P
             </details> 
             <details>
-                <summary>1.2 Traversal</summary>
+                <summary>1.2 [x]Traversal</summary>
             </details>      
             <details>
-                <summary>1.3 Insertion</summary>
+                <summary>1.3 [x]Insertion</summary>
+                --rat liya bhai rat liya
             </details>      
             <details>
-                <summary>1.4 Deletion</summary>
+                <summary>1.4 [x]Deletion</summary>
+                --[x]delete key<br>
+                --[x]delete at given position
             </details>      
             <details>
-                <summary>1.5 Delete a ll</summary>
+                <summary>1.5 [x]Delete a ll</summary>
             </details>      
             <details>
-                <summary>1.6 Search</summary>
+                <summary>1.6 [x]Search</summary>
             </details>      
             <details>
-                <summary>1.7 Nth node from end</summary>
+                <summary>1.7 [x]Nth node from end</summary>
+                --recursion<br>
+                --2 pointers
             </details>      
             <details>
-                <summary>1.8 Print middle ele</summary>
+                <summary>1.8 [x]Print middle ele</summary>
             </details>      
             <details>
-                <summary>1.9 detect loop</summary>
+                <summary>1.9 [x]detect loop</summary>
             </details>      
             <details>
-                <summary>1.10 Find length of loop</summary>
-            </details>    
+                <summary>1.10 [x]Find length of loop</summary>
+            </details>  
             <details>
-                <summary>1.11 isPalindrome?</summary>
+                <summary>1.10.0 [ ]Reverse a LL</summary>
+                --[x]iterative : that GIF though<br>
+                --[ ]recursive
+            </details>                
+            <details>
+                <summary>1.11 [x]isPalindrome?</summary>
             </details>   
             <details>
-                <summary>1.12 Remove Duplicates from(sorted and unsorted)</summary>
+                <summary>1.12 [x]Remove Duplicates from(sorted and unsorted)</summary>
             </details>    
             <details>
-                <summary>1.13 Swap nodes</summary>
+                <summary>1.13 [ ]Swap nodes</summary>
             </details>    
             <details>
                 <summary>1.14 move last element to front</summary>
@@ -856,17 +867,14 @@
                 <summary>1.15 intersection of 2 ll</summary>
             </details>    
             <details>
-                <summary>1.16.1 quicksort</summary>
+                <summary>1.16.1 [[ ]]quicksort</summary>
             </details>    
             <details>
-                <summary>1.16.2 insertion sort</summary>
+                <summary>1.16.2 [[ ]]insertion sort</summary>
             </details> 
             <details>
-                <summary>1.16.3 merge sort</summary>
+                <summary>1.16.3 [[ ]]merge sort</summary>
             </details>                            
-            <details>
-                <summary>1.17 Reverse a ll(2 pointer & recursion)</summary>
-            </details>   
             <details>
                 <summary>1.18 Merge 2 ll</summary>
             </details>   
@@ -874,7 +882,7 @@
                 <summary>1.19 Alternate odd and even nodes print</summary>
             </details>    
             <details>
-                <summary>1.20 add 2 numbers rep by ll(both sets)</summary>
+                <summary>1.20 [[ ]]add 2 numbers rep by ll(both sets)</summary>
             </details>  
             <details>
                 <summary>1.21 Rotate ll</summary>
@@ -889,17 +897,14 @@
                 <summary>1.24 sort a ll of 0s,1s,2s</summary>
             </details> 
             <details>
-                <summary>1.25 add 1 to a number</summary>
+                <summary>1.25 [[ ]]add 1 to a number</summary>
             </details>   
-            <details>
-                <summary>1.26 delete a node at given position</summary>
-            </details>                                                                                                                                          
         </details> 
         <details>
-            <summary>2. Circular Linked List</summary>
+            <summary>2. [ ]Circular Linked List</summary>
         </details>      
         <details>
-            <summary>3.Doubly Linked List</summary>
+            <summary>3.[ ]Doubly Linked List</summary>
         </details>             
     </details>
     <details>
