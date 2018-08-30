@@ -66,22 +66,22 @@
         <summary>BST</summary>
             <details>
                 <summary>1.Intro</summary>
-                    1.1 Declare<br>
-                    1.2 Insert<br>
-                    1.3.1 Delete a node<br>
-                    1.3.2 Delete a tree<br>
-                    1.4 search(key 'x')<br>
-                    1.5.1 Array to BST<br>
-                    1.5.2 BST to array<br>
+                    1.1 [x]Declare<br>
+                    1.2 [x]Insert<br>
+                    1.3 [x]search(key 'x')<br>
+                    1.4.1 [x]Delete a node<br>
+                    1.4.2 [x]Delete a tree<br>
+                    1.5.1 [ ]Array to BST<br>
+                    1.5.2 [ ]BST to array<br>
             </details> 
             <details>
                 <summary>2.Traversal</summary>
-                    2.1.1 DFS-recursion<br>
-                    2.1.2 DFS-1 stack<br>
-                    2.1.3 DFS-2 stack<br>
-                    2.1.4 [ ]DFS-Morris Traversal<br>
-                    2.2 BFS<br>
-                    2.3 Line By Line BFS<br>
+                    2.1.1 [x]DFS-recursion<br>
+                    2.1.2 [x]DFS-1 stack<br>
+                    2.1.3 [ ]DFS-2 stack<br>
+                    2.1.4 [ ]DFS-w/o recursion,w/o stack:Morris Traversal<br>
+                    2.2 [x]BFS<br>
+                    2.3 [x]Line By Line BFS<br>
                     2.4 Diagonal BFS<br>
                     2.5 Spiral BFS<br>
                     2.6 Rerse BFS<br>
@@ -626,7 +626,7 @@
             </details> 
             <details>
                 <summary>1.14 [[ ]]Minimum number of operation required to convert number x into y </summary>
-            </details>                                                                                     
+            </details>                                        https://www.spoj.com/problems/SHOP/                                    
         </details>   
         <details>
             <summary>2.Cycle</summary>
