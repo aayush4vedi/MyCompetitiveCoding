@@ -625,8 +625,9 @@
                 <summary>1.13 Check if 2 nodes are in same path </summary>
             </details> 
             <details>
-                <summary>1.14 [[ ]]Minimum number of operation required to convert number x into y </summary>
-            </details>                                        https://www.spoj.com/problems/SHOP/                                    
+                <summary>1.14 [[ ]]Minimum number of operation required to convert number x into y </summary>cd
+            </details>                                        BFS: https://www.spoj.com/problems/SHOP/  <br> DFS: https://www.spoj.com/problems/ABCPATH/ <br> 
+            ^ similar: https://www.spoj.com/problems/ALLIZWEL/<br>                                
         </details>   
         <details>
             <summary>2.Cycle</summary>
@@ -650,8 +651,37 @@
             </details>
             <details>
                 <summary>2.6 Magical Indices in Array</summary>
-            </details>                                                           
-        </details>   
+            </details>     
+            ----**Bipartite: If G is bipartite, then it cannot contain any odd-length cycles. In fact, the converse is also true. If a graph G does not contain any odd-length cycles, then it is bipartite. Thus, odd cycles are the only obstacle to bipartiteness.<br>
+            Pick any vertex s ∈ V and color it Red
+            ```
+            q.enqueue(s)
+            while !q.empty()
+            u = q.dequeue()
+            foreach v in u.adjList:
+                if v.color is nil:
+                v.color = (u.color == Red) ? Black : Red
+                q.enqueue(v)
+                elif v.color == u.color:
+                return "Not Bipartite"
+            return "Bipartite"                                     ```  
+            Bipartite: https://www.spoj.com/problems/BUGLIFE/
+        </details>  
+        <details>
+                <summary>3 Bipartite</summary>
+                <details>
+                    <summary>3.1 using BFS</summary>
+                </details> 
+                <details>
+                    <summary>3.1 using DFS</summary>
+                </details> 
+                <details>
+                    <summary>3.1 check for odd length cycle</summary>
+                </details> 
+                <details>
+                    <summary>3.1 About</summary>
+                </details>                                 
+            </details>  
         <details>
             <summary>3.Topological Sort</summary>
             <details>
