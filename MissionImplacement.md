@@ -725,3 +725,34 @@
     - [Alien Dictionray](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)
     - [Water jug problem](https://www.geeksforgeeks.org/water-jug-problem-using-bfs/)
     - [ath in a Rectangle with Circles](https://www.geeksforgeeks.org/path-rectangle-containing-circles/)
+
+
+<hr>
+
+# 8. Array
+- `* ` Transpose: `(i,0,R)(j,i,c)swap(`A<sub>ij</sub>, A<sub>ji</sub>`)`
+- `* ` Rotate Matrix 90<sup>o</sup>:
+    1. Take transpose then (`AC` \ `CR`)
+    - **C**lockwise: rev **R**ow
+    - **A**nticlockwise: rev **C**ol
+- kaden's [Max Sum cont subarr](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+- [Repeat & Missing Number](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
+- [Pascal's Triangle](https://www.geeksforgeeks.org/pascal-triangle/)
+- [Next Permutation](https://www.geeksforgeeks.org/find-the-next-lexicographically-greater-word-than-a-given-word/)
+- [Next Palindrome](https://www.geeksforgeeks.org/given-a-number-find-next-smallest-palindrome-larger-than-this-number/)
+- [Majority Element](https://www.geeksforgeeks.org/majority-element/) : Moore's voting algo
+- [Max Path sum](https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
+- [Product Array Puzzle](https://www.geeksforgeeks.org/a-product-array-puzzle/) -antilog
+- [Max contig. series of 1's](https://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/)
+- [Container with most water](https://www.geeksforgeeks.org/container-with-most-water/)
+- [Find maximum value of Sum( i*arr[i])](https://www.geeksforgeeks.org/find-maximum-value-of-sum-iarri-with-only-rotations-on-given-array-allowed/)
+- [Move all zeroes to end of array](https://www.geeksforgeeks.org/move-zeroes-end-array-set-2-using-single-traversal/)
+- [Rearrange positive and negative numbers](https://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers/)
+- [Find the largest three elements in an array](https://www.geeksforgeeks.org/find-the-largest-three-elements-in-an-array/)
+- [Given an array arr[], find the maximum j – i such that arr[j] > arr[i]](https://www.geeksforgeeks.org/given-an-array-arr-find-the-maximum-j-i-such-that-arrj-arri/)
+- [Find the closest pair from two sorted arrays](https://www.geeksforgeeks.org/given-two-sorted-arrays-number-x-find-pair-whose-sum-closest-x/)
+- [Find zeroes to be flipped so that number of consecutive 1’s is maximized](https://www.geeksforgeeks.org/find-zeroes-to-be-flipped-so-that-number-of-consecutive-1s-is-maximized/)
+- [Sort an array in wave form](https://www.geeksforgeeks.org/sort-array-wave-form-2/)
+- `* `[Count Inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
+- [Minimum number of swaps required to sort an array](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
+- [Find whether an array is subset of another array](https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
