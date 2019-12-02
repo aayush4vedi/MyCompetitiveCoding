@@ -634,3 +634,62 @@
     - [Connect n ropes with minimum cost](https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/)
     - [Rearrange characters in a string such that no two adjacent are same](https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/)
     - [Check if it is possible to survive on Island](https://www.geeksforgeeks.org/survival/)
+
+<hr>
+
+# 7. DP
+- [Tabulation vs Memoization](https://www.geeksforgeeks.org/tabulation-vs-memoization/)
+- ## Basic
+    - [Ugly Numbers](https://www.geeksforgeeks.org/ugly-numbers/)
+    - [Fibonacci Num](https://www.geeksforgeeks.org/program-for-nth-fibonacci-number/)
+    - [Catalan Num](https://www.geeksforgeeks.org/program-nth-catalan-number/)
+    - [Binom coeff](https://www.geeksforgeeks.org/binomial-coefficient-dp-9/)
+    - [Tiling Prob](https://www.geeksforgeeks.org/tiling-problem/)
+    - [Coin Change](https://www.geeksforgeeks.org/coin-change-dp-7/)
+    - [Friends Pairing](https://www.geeksforgeeks.org/friends-pairing-problem/)
+    - [Subset Sum Problem](https://www.geeksforgeeks.org/subset-sum-problem-dp-25/)
+    - [Game:Choice of Area](https://www.geeksforgeeks.org/game-theory-choice-area/)
+    - [Rod Cutting](https://www.geeksforgeeks.org/cutting-a-rod-dp-13/)
+    - [Dominos Tiling- 2X1 on 3X1 board](https://www.geeksforgeeks.org/tiling-with-dominoes/)
+    - [Painting Fence](https://www.geeksforgeeks.org/painting-fence-algorithm/)
+    - [LIS: Longest Increasing Subsequence](https://www.geeksforgeeks.org/longest-increasing-subsequence-dp-3/)
+    - [LCS: Longest Common Subsequence](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/)
+    - [Printing LCS](https://www.geeksforgeeks.org/printing-longest-common-subsequence-set-2-printing/)
+    - [LCS of 3 strings](https://www.geeksforgeeks.org/lcs-longest-common-subsequence-three-strings/) - 3D array
+    - [Min Cost Path](https://www.geeksforgeeks.org/min-cost-path-dp-6/)
+    - [Minimum number of jumps to reach end](https://www.geeksforgeeks.org/minimum-number-of-jumps-to-reach-end-of-a-given-array/)
+    - [Count number of ways to reach a given score in a game](https://www.geeksforgeeks.org/count-number-ways-reach-given-score-game/)
+    - [Count of different ways to express N as the sum of 1, 3 and 4](https://www.geeksforgeeks.org/count-ofdifferent-ways-express-n-sum-1-3-4/)
+    - [Counts paths from a point to reach Origin](https://www.geeksforgeeks.org/counts-paths-point-reach-origin/)
+    - [Count number of ways to cover a distance](https://www.geeksforgeeks.org/count-number-of-ways-to-cover-a-distance/)
+    - [Count ways to divide circle using N non-intersecting chords](https://www.geeksforgeeks.org/count-ways-divide-circle-using-n-non-intersecting-chords/)
+    - Kaden's Algo: [Largest Sum Contiguous Subarray](https://www.geeksforgeeks.org/largest-sum-contiguous-subarray/)
+        ```cpp
+        for (int i = 1; i < size; i++) 
+        { 
+                curr_max = max(a[i], curr_max+a[i]); 
+                max_so_far = max(max_so_far, curr_max); 
+        } 
+        ```
+- ## Medium
+    - [0-1 Knapsack](https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/)
+    - [Unbounded Knapsack](https://www.geeksforgeeks.org/unbounded-knapsack-repetition-items-allowed/)
+    - [Egg Dropping Puzzle](https://www.geeksforgeeks.org/egg-dropping-puzzle-dp-11/)
+    - [Longest Palindromic Subsequence](https://www.geeksforgeeks.org/longest-palindromic-subsequence-dp-12/)
+    - [Longest Repeating Subsequence](https://www.geeksforgeeks.org/longest-repeating-subsequence/)
+    - [Largest sum Zigzag sequence in a matrix](https://www.geeksforgeeks.org/largest-sum-zig-zag-sequence-in-a-matrix/)
+    - [Length of Longest Balanced Paranthesis Subsequence](https://www.geeksforgeeks.org/length-longest-balanced-subsequence/)
+    - `* ` [Weighted Job Scheduling](https://www.geeksforgeeks.org/weighted-job-scheduling/)
+    - `* `[Count Possible Decodings of a given Digit Sequence](https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/)
+    - [Count number of ways to partition a set into k subsets](https://www.geeksforgeeks.org/count-number-of-ways-to-partition-a-set-into-k-subsets/)
+    - [Count ways to assign unique cap to every person: **Bitmasking**](https://www.geeksforgeeks.org/bitmasking-and-dynamic-programming-set-1-count-ways-to-assign-unique-cap-to-every-person/)
+    - [Maximum size subset with given sum](https://www.geeksforgeeks.org/maximum-size-subset-given-sum/)
+    - [Maximum Product Subarray](https://www.geeksforgeeks.org/maximum-product-subarray-added-negative-product-case/)
+    - [Minimum Cost To Make Two Strings Identical](https://www.geeksforgeeks.org/minimum-cost-make-two-strings-identical/)
+    - [Minimum insertions to form a palindrome](https://www.geeksforgeeks.org/minimum-insertions-to-form-a-palindrome-dp-28/)
+- ## Hard?
+    - [Palindrome Partitioning](https://www.geeksforgeeks.org/palindrome-partitioning-dp-17/)
+    - [Painter’s partition problem](https://www.geeksforgeeks.org/painters-partition-problem/)
+    - [Matrix Chain Multiplication](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)
+
+<hr>
