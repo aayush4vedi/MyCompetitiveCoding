@@ -404,9 +404,85 @@
 
 <hr>
 
-
-
-
 # 3.A Stacks
+- ### Implementation
+    - [Implement Queue using Stack](https://www.geeksforgeeks.org/queue-using-stacks/):
+        - 2 stacks
+        - 1 stack (rec)
+            ```cpp
+            int deQueue() 
+                { if (s.empty()){exit(0);} 
+                    int x = s.top(); 
+                    s.pop(); 
+                    if (s.empty()) return x; 
+                    int item = deQueue(); 
+                    s.push(x); 
+                    return item; 
+                } 
+            ```
+    - Implement Stack using Queue:
+        - [2 Queue](https://www.geeksforgeeks.org/implement-stack-using-queue/)
+        - [1 Queue](https://www.geeksforgeeks.org/implement-a-stack-using-single-queue/) (!rec)
+    - [Design stack with `getMin()` in `O(1)` time & `O(1)` space](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
+- ### Operation
+    - Reverse a stack
+        - [Using another stack](https://www.geeksforgeeks.org/reverse-stack-without-using-extra-space/)
+        - [Recursion](https://www.geeksforgeeks.org/reverse-a-stack-using-recursion/)
+    - Sort a stack
+        - [Using another stack](https://www.geeksforgeeks.org/sort-stack-using-temporary-stack/)
+        - [Recursion](https://www.geeksforgeeks.org/sort-a-stack-using-recursion/)
+- ### Questions
+    - [Stock-span problem](https://www.geeksforgeeks.org/the-stock-span-problem/) :left mei kitne mujhse <= hai?
+        ```cpp
+            stack<int> st; 
+            st.push(0); 
+            S[0] = 1; 
+            for (int i = 1; i < n; i++) { 
+                while (!st.empty() && price[st.top()] <= price[i]) st.pop(); 
+                S[i] = (st.empty()) ? (i + 1) : (i - st.top()); 
+                st.push(i); 
+            } 
+        ```
+    - [Check for balanced paranthesis](https://www.geeksforgeeks.org/check-for-balanced-parentheses-in-an-expression/)
+    - [Next Greater Element](https://www.geeksforgeeks.org/next-greater-element/)
+    - [Celebrity Problem](https://www.geeksforgeeks.org/the-celebrity-problem/)
+    - [Arithmetic expression evaluation](https://www.geeksforgeeks.org/arithmetic-expression-evalution/)
+    - [Merge overlapping intervals](https://www.geeksforgeeks.org/merging-intervals/)
+    - [Largest Rect. area in Histogram](https://www.geeksforgeeks.org/largest-rectangle-under-histogram/)
+        ```cpp
+        while (i < n) 
+            { 
+                if (s.empty() || hist[s.top()] <= hist[i]) s.push(i++); 
+                else
+                {   tp = s.top();  // store the top index 
+                    s.pop();  // pop the top 
+                    area_with_top = hist[tp] * (s.empty() ? i : i - s.top() - 1); 
+                    if (max_area < area_with_top) max_area = area_with_top; 
+                } 
+            } 
+            while (s.empty() == false) 
+            { 
+                tp = s.top(); 
+                s.pop(); 
+                area_with_top = hist[tp] * (s.empty() ? i : i - s.top() - 1); 
+                if (max_area < area_with_top) max_area = area_with_top; 
+            } 
+        ```
+    - [Length of largest valid substring](https://www.geeksforgeeks.org/length-of-the-longest-valid-substring/)
+    - [Min number of bracket reversals needed to make an expression balanced](https://www.geeksforgeeks.org/minimum-number-of-bracket-reversals-needed-to-make-an-expression-balanced/)
 
 # 3.B Queues
+- ### Implementation
+    - [DLL implementation of Queue](https://www.geeksforgeeks.org/implementation-deque-using-doubly-linked-list/)
+- ### Operation
+    - Reverse 
+        - [itr](https://www.geeksforgeeks.org/reversing-a-queue/)
+        - [recursive](https://www.geeksforgeeks.org/reversing-queue-using-recursion/)
+- ### Questions
+    - [LRU cache](https://www.geeksforgeeks.org/lru-cache-implementation/)
+    - [Max element in sliding window of size K](https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/)
+    - First non-repeating element in stream
+    - [Min time required to rot all oranges](https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/)
+    - [Petrol pump problem](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
+    - [Find the largest multiple of 3](https://www.geeksforgeeks.org/find-the-largest-number-multiple-of-3/)
+    - [Non-repeating character in a stream](https://www.geeksforgeeks.org/queue-based-approach-for-first-non-repeating-character-in-a-stream/)
