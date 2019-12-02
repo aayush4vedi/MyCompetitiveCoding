@@ -693,3 +693,35 @@
     - [Matrix Chain Multiplication](https://www.geeksforgeeks.org/matrix-chain-multiplication-dp-8/)
 
 <hr>
+
+# 8. Graph
+- `vector <int> adj[E];` `REP(i,0,V){ajd[x].pb(y);}`
+- ## Algos
+    - [BFS](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/) | [DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/) :: both `O(V+E)` when implemented with `adjList`
+    - [MST](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/):
+        - Kruskal's -`O(ElogV)`
+        - Prim's -`O((V+E)logV)` :BFS with PQ
+    - [Shortest Path](https://www.hackerearth.com/practice/algorithms/graphs/shortest-path-algorithms/tutorial/):
+        - Bellman Ford - `O(V.E)`
+        - Dijkstra - `O(V + ElogV)`
+        - Floyd Warshall - `O(V^3)`
+    - [Flood Fill](https://www.hackerearth.com/practice/algorithms/graphs/flood-fill-algorithm/tutorial/)
+    - [Hamiltonian Path](https://www.hackerearth.com/practice/algorithms/graphs/hamiltonian-path/tutorial/)
+    - Euler Path
+    - [Topological Sort](https://www.hackerearth.com/practice/algorithms/graphs/topological-sort/tutorial/):
+        ```cpp
+        f(x){   //gives topological sort in t[]
+            vis[x] = true;
+            REP(nei of x){
+                if(adj[x][i] not in vis){
+                    f(adj[x][i]);
+                }
+            }
+            T.insert_in_begin(x);
+        }
+        ```
+- ## Questions
+    - [Jumping Numbers](https://www.geeksforgeeks.org/print-all-jumping-numbers-smaller-than-or-equal-to-a-given-value/)
+    - [Alien Dictionray](https://www.geeksforgeeks.org/given-sorted-dictionary-find-precedence-characters/)
+    - [Water jug problem](https://www.geeksforgeeks.org/water-jug-problem-using-bfs/)
+    - [ath in a Rectangle with Circles](https://www.geeksforgeeks.org/path-rectangle-containing-circles/)
