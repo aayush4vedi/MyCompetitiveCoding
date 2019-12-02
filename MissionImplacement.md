@@ -6,11 +6,11 @@
 <br>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#notes"><img src="https://img.shields.io/badge/Notes-f39f37" alt="Notes"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#1linked-list"><img src="https://img.shields.io/badge/Linked List-8FD400" alt="Linked List"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Trees -FF5050" alt="Trees"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Stack&Queue-0081AB" alt="Stack&Queue"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Search-FD5240" alt="Search"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Sort-614051" alt="Sort"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/BackTrack-253529" alt="BackTrack"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#2-trees"><img src="https://img.shields.io/badge/Trees -FF5050" alt="Trees"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md##3a-stacks"><img src="https://img.shields.io/badge/Stack&Queue-0081AB" alt="Stack&Queue"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#4-search"><img src="https://img.shields.io/badge/Search-FD5240" alt="Search"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#5-sort"><img src="https://img.shields.io/badge/Sort-614051" alt="Sort"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#6-backtrack"><img src="https://img.shields.io/badge/BackTrack-253529" alt="BackTrack"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
 <a href="https://https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
