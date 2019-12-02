@@ -222,5 +222,57 @@
 - [Deepest Node](https://www.geeksforgeeks.org/find-deepest-node-binary-tree/)
 - `*` [Connect Nodes @SameLevel](https://www.geeksforgeeks.org/connect-nodes-level-level-order-traversal/)
 
+## 2.2 BST
+- [Insertion](https://www.geeksforgeeks.org/binary-search-tree-set-1-search-and-insertion/)
+- [Deletion](https://www.geeksforgeeks.org/binary-search-tree-set-2-delete/)
+- [BST vs HashTable](https://www.geeksforgeeks.org/advantages-of-bst-over-hash-table/):
+    - Where [HashTables](https://www.geeksforgeeks.org/hashing-set-1-introduction/) win:: HashTables have O(1) for:
+        1. Search
+        2. Insert
+        3. Delete
+    - Where BST win:
+        1. sorting (inO)
+        2. Easier Range Queries
+        3. Easier to implement
+### Construct
+- [from preO](https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/): O(n<sup>2</sup>) & O(n)- `if( key > min && key < max )`
+- [from arr](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) => `T(n) = 2T(n/2) + C` => `O(n)`
+- [from sorted ll](https://www.geeksforgeeks.org/sorted-linked-list-to-balanced-bst/)
+- `* ` [Construct all possible BSTs for keys 1 to N](https://www.geeksforgeeks.org/construct-all-possible-bsts-for-keys-1-to-n/)
+- `* ` [BST to DLL](https://www.geeksforgeeks.org/in-place-convert-a-given-binary-tree-to-doubly-linked-list/) :: don't ignore!
+- `* ` [Merge Two Balanced Binary Search Trees](https://www.geeksforgeeks.org/merge-two-balanced-binary-search-trees/):
+    - Insert elements from 1st to 2nd BST: `mLog(m+n-1)`
+    - Sort inO's & merge & construct BST: `O(m+n)`
+    - Convert BSTs to DLLs, merge, construct BST: `O(m+n)`
+### Check & Search
+- [Check BST](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) :
+    ```cpp
+    bool f(node* node, int min, int max)  
+    {  
+        if (node==NULL) return true;  
+        if (node->data < min || node->data > max) return false;  
+        return (f(node->left, min, node->data-1) && f(node->right, node->data+1, max)); 
+    }
+    ```
+- [LCA](https://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/)
+- `* `[Find k-th smallest element](https://www.geeksforgeeks.org/find-k-th-smallest-element-in-bst-order-statistics-in-bst/):
+    1. inO
+    2. Keep rank(#) of elements: if(#root > k =>search in right)
+- [Find pair with given sum](https://www.geeksforgeeks.org/find-a-pair-with-given-sum-in-bst/):
+    - Array
+    - `* `In-place:(*Inorder and Reverse Inorder traversal*) 2 nodes problem, starting @leftmost & rightmost
+- [Find Median in O(n) time & O(1) space](https://www.geeksforgeeks.org/find-median-bst-time-o1-space/) -similar to k-th smallest; maintain ranks
+- [Find closest element](https://www.geeksforgeeks.org/find-closest-element-binary-search-tree/)(node with min absolute diff)
+- [inO successor](https://www.geeksforgeeks.org/inorder-successor-in-binary-search-tree/)
+### Misc
+- `* `[2 nodes swapped, correct BST](https://www.geeksforgeeks.org/fix-two-swapped-nodes-of-bst/) ::3 pointer problem
+- [Print common nodes in 2 BSTs](https://www.geeksforgeeks.org/print-common-nodes-in-two-binary-search-trees/)
+- [Count inversions in Array](https://www.geeksforgeeks.org/count-inversions-in-an-array-set-2-using-self-balancing-bst/)
+- [Rank of element in stream](https://www.geeksforgeeks.org/rank-element-stream/)
+- [Minimum Possible value of |ai + aj – k| for given array and k](https://www.geeksforgeeks.org/minimum-possible-value-ai-aj-k-given-array-k/)
+
+## 2.3 Adv Trees
+## 2.4 Heaps
+
 
 
