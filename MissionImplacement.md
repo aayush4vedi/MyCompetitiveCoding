@@ -115,7 +115,7 @@
         - [Build BT](https://www.geeksforgeeks.org/full-and-complete-binary-tree-from-given-preorder-and-postorder-traversals/)
         - [find postO](https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/)
     - check if given preO, inO, posO are of same BT : [Build Tree](https://www.geeksforgeeks.org/check-if-given-preorder-inorder-and-postorder-traversals-are-of-same-tree/)-O(n<sup>2</sup>) | [use `len` var in preO to check in postO & inO](https://www.geeksforgeeks.org/check-if-given-preorder-inorder-and-postorder-traversals-are-of-same-tree-set-2/)- O(1) space
-    - [populate inO successor as next node](https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/) => **reverse order traversal**
+    - `*` [populate inO successor as next node](https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/) => **reverse order traversal**
         ```cpp
             Node *x = NULL;  
             if (p)  
@@ -146,11 +146,81 @@
     - [Right](https://www.geeksforgeeks.org/print-right-view-binary-tree-2/)
     - [Top](https://www.geeksforgeeks.org/print-nodes-in-the-top-view-of-binary-tree-set-3/)
     - [Bottom](https://www.geeksforgeeks.org/bottom-view-binary-tree/)
-- [Boundary Traversal](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/)
+- `*` [Boundary Traversal](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/)
 ### Conversion
+- [Sorted DLL to BT](https://www.geeksforgeeks.org/in-place-conversion-of-sorted-dll-to-balanced-bst/) : 2 methods
+- [BT to Sum Tree](https://www.geeksforgeeks.org/convert-a-given-tree-to-sum-tree/)
+    ```cpp
+    int f(node *Node)  
+    {  
+        if(Node == NULL)return 0;  
+        int old_val = Node->data;  
+        Node->data = f(Node->left) + f(Node->right);  
+        return Node->data + old_val;  
+    }  
+    ```
+- [BT to Mirror Tree](https://www.geeksforgeeks.org/write-an-efficient-c-function-to-convert-a-tree-into-its-mirror-tree/)
+- * [Ternary exp to BT](https://www.geeksforgeeks.org/convert-ternary-expression-binary-tree/)
+    ```cpp
+        Node * root =newNode(str[i]); 
+        if(i==str.length()-1) return root; 
+        i++; 
+        if(str[i]=='?') 
+        { i++; 
+          root->left = convertExpression(str,i); 
+          i++; 
+          root->right = convertExpression(str,i); 
+          return root; 
+        } 
+        else return root; 
+    ```
+- `*` [BT to BST](https://www.geeksforgeeks.org/binary-tree-to-binary-search-tree-conversion/) => Get inO, sort it, use it to construct to BST
+- [Min swaps reqd to convert BT to BST](https://www.geeksforgeeks.org/minimum-swap-required-convert-binary-tree-binary-search-tree/) :get inorder & count [#swaps to sort an array](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
 ### Check
+- [is SumTree?](https://www.geeksforgeeks.org/check-if-a-given-binary-tree-is-sumtree/)
+- [is SubTree?](https://www.geeksforgeeks.org/check-if-a-binary-tree-is-subtree-of-another-binary-tree/)
+    ```cpp
+    bool isSubtree(node *T, node *S)  
+    {  
+        if (S == NULL) return true;  
+        if (T == NULL) return false;  
+        if (areIdentical(T, S)) return true;  
+        return isSubtree(T->left, S) ||isSubtree(T->right, S);  
+    }  
+    ```
+- [Check if 2 nodes are at same level](https://www.geeksforgeeks.org/check-leaves-level/)
+- [if Cousins?](https://www.geeksforgeeks.org/check-two-nodes-cousins-binary-tree/)
+- [is perfectBT?](https://www.geeksforgeeks.org/check-weather-given-binary-tree-perfect-not/)
+- [is fullBT?](https://www.geeksforgeeks.org/check-whether-binary-tree-full-binary-tree-not/)
+- [is height Balanced?](https://www.geeksforgeeks.org/check-given-binary-tree-follows-height-property-red-black-tree/)
+- [are identical trees?](https://www.geeksforgeeks.org/iterative-function-check-two-trees-identical/)
+- [are mirror trees?](https://www.geeksforgeeks.org/check-if-two-trees-are-mirror/)
+- [is given graph a tree?](https://www.geeksforgeeks.org/check-given-graph-tree/)
+    1. No cycle : run BFS/DFS from any node & check vis[]
+    2. isConnected: : run BFS/DFS to check all vertices reachable or not
 ### Print
+- [longest leaf to leaf path](https://www.geeksforgeeks.org/print-longest-leaf-leaf-path-binary-tree/)
+- `*` [root to given node path](https://www.geeksforgeeks.org/print-path-root-given-node-binary-tree/) ::Backtrack
 ### Summation
+- `*` [Sum oflongest root to leaf path](https://www.geeksforgeeks.org/sum-nodes-longest-path-root-leaf-node/)
+- [find maxPathSum b/w 2 nodes](https://www.geeksforgeeks.org/find-maximum-path-sum-in-a-binary-tree/)
+- [check if root to leaf path == `k`](https://www.geeksforgeeks.org/check-root-leaf-path-given-sequence/)
 ### LCA
+- `*` [find LCA](https://www.geeksforgeeks.org/lowest-common-ancestor-binary-tree-set-1/)
+    ```cpp
+        if (root == NULL) return NULL; 
+        if (root->key == n1 || root->key == n2) return root; 
+        Node *left_lca  = findLCA(root->left, n1, n2); 
+        Node *right_lca = findLCA(root->right, n1, n2); 
+        if (left_lca && right_lca) return root; 
+        return (left_lca != NULL)? left_lca: right_lca; 
+    ```
 ### Misc
+- `*` [Delete a node](https://www.geeksforgeeks.org/deletion-binary-tree/)
+- [Delete a BT](https://www.geeksforgeeks.org/write-a-c-program-to-delete-a-tree/)
+- [Diameter](https://www.geeksforgeeks.org/diameter-of-a-binary-tree/) `return max(height(tree->left)+height(tree->right)+1, max(diameter(tree->left),diameter(tree->right)))`
+- [Deepest Node](https://www.geeksforgeeks.org/find-deepest-node-binary-tree/)
+- `*` [Connect Nodes @SameLevel](https://www.geeksforgeeks.org/connect-nodes-level-level-order-traversal/)
+
+
 
