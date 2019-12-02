@@ -32,6 +32,60 @@
     (ii)    .. = ........   => `T(n)` = &theta;(`n`<sup>c</sup>log`n`)     <br>
     (iii)   .. = ........   => `T(n)` = &theta;(f`(n)`)
 
+- Binary Exponantiation:
+    ```cpp
+    int f(x,n){
+        if(n==0)return 1;
+        if(n&1)return x*f(x*x, (n-1)/2);
+        return           f(x*x, n/2);
+    }
+    ```
+- GCD:
+    ```cpp
+    int f(a,b){
+        i(b==0)return a;
+        return f(b, a%b);
+    }
+    ```
+- Sieve of Eratosthenes: `O(Nlog(logN))`
+    ```cpp
+    void sieve(int N) {
+        bool isPrime[N+1];
+        for(int i = 0; i <= N;++i) {
+            isPrime[i] = true;
+        }
+        isPrime[0] = false;
+        isPrime[1] = false;
+        for(int i = 2; i * i <= N; ++i) {
+            if(isPrime[i] == true) {
+                // Mark all the multiples of i as composite numbers
+                for(int j = i * i; j <= N ;j += i)
+                    isPrime[j] = false;
+            }
+        }
+    }
+    ```
+- [Euler'a Totient Function](https://www.geeksforgeeks.org/eulers-totient-function/)
+- [Bit Manipulation](https://www.hackerearth.com/practice/notes/bit-manipulation/):
+    - Left Shift ( 1 `<<` n = 2<sup>n</sup>): equivalent to multiplying the bit pattern with `2n`
+    - Right Shift ( 16 `>>` 4 = 1): equivalent to dividing the bit pattern with `2n`
+    - `(x-1)`: Means flipping all the bits to the right of rightmost 1 in x and also including the rightmost 1
+    - Check if a given number is a power of 2: `return (x && !(x & (x - 1)));`
+    - Count the number of ones in the binary representation of n: `while(n){ n = n& (n-1); cnt++}`
+    - Check if the i-th bit is set in the binary form of N : `if( N & (1 << i)) return true; else return false;`
+    - generate all the possible subsets of an array:
+        ```cpp
+            for(int i = 0;i < (1 << N); ++i)
+            {
+                for(int j = 0;j < N;++j)
+                    if(i & (1 << j))
+                        cout << A[j] << ‘ ‘;
+                cout << endl;
+            }
+        ```
+    - `x ^ ( x & (x-1))` :Returns the rightmost 1 in binary representation of x
+    - `x & (-x)` : Returns the rightmost 1 in binary representation of x
+    - `x | (1 << n)` : Returns the number x with the nth bit set
 <hr>
 
 # 1.Linked List:
@@ -756,3 +810,14 @@
 - `* `[Count Inversions in an array](https://www.geeksforgeeks.org/counting-inversions/)
 - [Minimum number of swaps required to sort an array](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
 - [Find whether an array is subset of another array](https://www.geeksforgeeks.org/find-whether-an-array-is-subset-of-another-array-set-1/)
+
+<hr>
+
+
+# 9. String
+
+- []()
+- []()
+- []()
+- []()
+- []()
