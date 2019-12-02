@@ -816,8 +816,14 @@
 
 # 9. String
 
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Longest Common Prefix](https://www.geeksforgeeks.org/longest-common-prefix-using-word-by-word-matching/)
+- [Count & Say](https://www.geeksforgeeks.org/look-and-say-sequence/)
+- [Min deletion reqd to make palindrome](https://www.geeksforgeeks.org/minimum-number-deletions-make-string-palindrome/)
+- [atoi](https://www.geeksforgeeks.org/write-your-own-atoi/)
+- [Roman to int](https://www.geeksforgeeks.org/converting-roman-numerals-decimal-lying-1-3999/)
+- [Int to Roman](https://www.geeksforgeeks.org/converting-decimal-number-lying-between-1-to-3999-to-roman-numerals/)
+- [Excel to row](https://www.geeksforgeeks.org/find-excel-column-number-column-title/)
+- [Row to excel](https://www.geeksforgeeks.org/find-excel-column-name-given-number/)
+- `* `[Recursively remove all duplicates in string](https://www.geeksforgeeks.org/remove-consecutive-duplicates-string/)
+- [Smallest window that contains all characters of string itself](https://www.geeksforgeeks.org/smallest-window-contains-characters-string/)
+- [Print words of a string in reverse order](https://www.geeksforgeeks.org/print-words-string-reverse-order/)
