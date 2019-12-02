@@ -534,3 +534,45 @@
     - [Anagram substring search](https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/)
     - [Search a Word in a 2D Grid of characters](https://www.geeksforgeeks.org/search-a-word-in-a-2d-grid-of-characters/)
 <hr>
+
+# 5. Sort
+- ## Algos:
+    | Algo      | Best  | Avg. | Worst |
+    |:---------:|:-----:|:----:|:-----:|
+    |[Selection](https://www.geeksforgeeks.org/selection-sort/) | &ohm;(n<sup>2</sup>) | &theta;(n<sup>2</sup>) | O(n<sup>2</sup>)|
+    |[Bubble](https://www.geeksforgeeks.org/bubble-sort/) |&ohm;(n) |&theta;(n<sup>2</sup>) | O(n<sup>2</sup>)|
+    |[Insertion](https://www.geeksforgeeks.org/insertion-sort/) |&ohm;(n) |&theta;(n<sup>2</sup>) |O(n<sup>2</sup>) |
+    |[Merge](https://www.geeksforgeeks.org/merge-sort/) |&ohm;(nlogn) |&theta;(nlogn) |O(nlogn) |
+    |[Quick](https://www.geeksforgeeks.org/quick-sort/) |&ohm;(nlogn) |&theta;(nlogn)  |O(n<sup>2</sup>) |
+    |[Heap](https://www.geeksforgeeks.org/heap-sort/) |&ohm;(nlogn) |&theta;(nlogn)  |O(nlogn) |
+    |[Counting](https://www.geeksforgeeks.org/counting-sort/) |O(n+k) | | |
+    |[Radix](https://www.geeksforgeeks.org/radix-sort/) |&ohm;(nk) |&theta;(nk)  |O(nk) |
+    |[Bucket](https://www.geeksforgeeks.org/bucket-sort-2/) |&ohm;(n+k) |&theta;(n+k)  |O(n<sup>2</sup>) |
+- ## Questions:
+    - [Count inversions in array](https://www.geeksforgeeks.org/counting-inversions/) -MergeSort
+    - [Sort an array of 0s, 1s and 2s](https://www.geeksforgeeks.org/sort-an-array-of-0s-1s-and-2s/)
+    - [Sort a nearly sorted (or K sorted) array](https://www.geeksforgeeks.org/nearly-sorted-algorithm/) -InsertionSort
+    - [Find number of pairs (x, y) in an array such that x^y > y^x](https://www.geeksforgeeks.org/find-number-pairs-xy-yx/)
+    - [Count all distinct pairs with difference equal to k](https://www.geeksforgeeks.org/count-pairs-difference-equal-k/)
+    - [Given a sorted array and a number x, find the pair in array whose sum is closest to x](https://www.geeksforgeeks.org/given-sorted-array-number-x-find-pair-array-whose-sum-closest-x/)
+    - [Sort an array in wave form](https://www.geeksforgeeks.org/sort-array-wave-form-2/)
+    - [Find the point where maximum intervals overlap](https://www.geeksforgeeks.org/find-the-point-where-maximum-intervals-overlap/)
+    - [Sorting an array of dates](https://www.geeksforgeeks.org/how-to-sort-an-array-of-dates-in-cc/)
+    - [Minimum sum of two numbers formed from digits of an array](https://www.geeksforgeeks.org/minimum-sum-two-numbers-formed-digits-array/)
+    - [Find a permutation that causes worst case of Merge Sort](https://www.geeksforgeeks.org/find-a-permutation-that-causes-worst-case-of-merge-sort/)
+    - [Rearrange positive and negative numbers with constant extra space](https://www.geeksforgeeks.org/rearrange-positive-and-negative-numbers/)
+    - [Count distinct occurrences as a subsequence](https://www.geeksforgeeks.org/count-distinct-occurrences-as-a-subsequence/)
+    - [Minimum number of swaps required to sort an array](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/)
+    - [Number of swaps to sort when only adjacent swapping allowed](https://www.geeksforgeeks.org/number-swaps-sort-adjacent-swapping-allowed/)
+    - [Minimum swaps to make two arrays identical](https://www.geeksforgeeks.org/minimum-swaps-to-make-two-array-identical/)
+    - [Count minimum number of subsets with consecutive numbers](https://www.geeksforgeeks.org/count-minimum-number-subsets-subsequences-consecutive-numbers/)
+    - [Chocolate Distribution Problem](https://www.geeksforgeeks.org/chocolate-distribution-problem/)
+    - [Check whether Arithmetic Progression can be formed from the given array](https://www.geeksforgeeks.org/check-whether-arithmetic-progression-can-formed-given-array/)
+    - [Find all triplets with zero sum](https://www.geeksforgeeks.org/find-triplets-array-whose-sum-equal-zero/)
+    - [Sort an array of large numbers](https://www.geeksforgeeks.org/sort-array-large-numbers/)
+    - [Program to check if an array is sorted or not](https://www.geeksforgeeks.org/program-check-array-sorted-not-iterative-recursive/)
+
+<hr>
+
+# 6. Backtrack
+
