@@ -234,7 +234,6 @@
     - Where BST win:
         1. sorting (inO)
         2. Easier Range Queries
-        3. Easier to implement
 ### Construct
 - [from preO](https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/): O(n<sup>2</sup>) & O(n)- `if( key > min && key < max )`
 - [from arr](https://www.geeksforgeeks.org/sorted-array-to-balanced-bst/) => `T(n) = 2T(n/2) + C` => `O(n)`
@@ -388,7 +387,6 @@
         ```
     - [Longest Common Prefix](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
     - [Minimum XOR Value Pair](https://www.geeksforgeeks.org/minimum-xor-value-pair/)
-    - [Implement a Dictionary](https://www.geeksforgeeks.org/implement-a-dictionary-using-trie/)
 - ### BIT/Fenwick Tree
 - ### XOR List
 ## 2.4 Heaps
@@ -421,8 +419,6 @@
                 } 
             ```
     - Implement Stack using Queue:
-        - [2 Queue](https://www.geeksforgeeks.org/implement-stack-using-queue/)
-        - [1 Queue](https://www.geeksforgeeks.org/implement-a-stack-using-single-queue/) (!rec)
     - [Design stack with `getMin()` in `O(1)` time & `O(1)` space](https://www.geeksforgeeks.org/design-a-stack-that-supports-getmin-in-o1-time-and-o1-extra-space/)
 - ### Operation
     - Reverse a stack
@@ -486,3 +482,55 @@
     - [Petrol pump problem](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
     - [Find the largest multiple of 3](https://www.geeksforgeeks.org/find-the-largest-number-multiple-of-3/)
     - [Non-repeating character in a stream](https://www.geeksforgeeks.org/queue-based-approach-for-first-non-repeating-character-in-a-stream/)
+
+<hr>
+
+# 4. Search
+- ## Binary Search
+    - Algo:
+        ```cpp
+        if (r >= l) { 
+                int mid = l + (r - l) / 2; 
+                if (arr[mid] == x) return mid; 
+                if (arr[mid] > x) return binarySearch(arr, l, mid - 1, x); 
+                return binarySearch(arr, mid + 1, r, x); 
+            } 
+        ```
+    - Median of 2 sorted array
+        - [Same size](https://www.geeksforgeeks.org/median-of-two-sorted-arrays/)
+        - [Diff size](https://www.geeksforgeeks.org/median-of-two-sorted-arrays-of-different-sizes/)
+    - Median of Array
+    - [Kth smallest element in row & column-wise sorted matrix](https://www.geeksforgeeks.org/kth-smallest-element-in-a-row-wise-and-column-wise-sorted-2d-array-set-1/)
+    - Matrix madian
+    - Square root of x
+    - [Make all array elements equal with minimum cost](https://www.geeksforgeeks.org/make-array-elements-equal-minimum-cost/)
+    - [Find the Missing Number](https://www.geeksforgeeks.org/find-the-missing-number/)
+    - [Search an element in a sorted and rotated array](https://www.geeksforgeeks.org/search-an-element-in-a-sorted-and-pivoted-array/)
+    - [Two elements whose sum is closest to zero](https://www.geeksforgeeks.org/two-elements-whose-sum-is-closest-to-zero/)
+    - [Find the repeating and the missing](https://www.geeksforgeeks.org/find-a-repeating-and-a-missing-number/)
+    - [Find a peak element](https://www.geeksforgeeks.org/find-a-peak-in-a-given-array/)
+    - [Search in an almost sorted array](https://www.geeksforgeeks.org/search-almost-sorted-array/)
+    - [Find the first repeating element in an array of integers](https://www.geeksforgeeks.org/find-first-repeating-element-array-integers/)
+    - [Find common elements in three sorted arrays](https://www.geeksforgeeks.org/find-common-elements-three-sorted-arrays/)
+    - [Count 1’s in a sorted binary array](https://www.geeksforgeeks.org/count-1s-sorted-binary-array/)
+    - [Find the element that appears once in a sorted array](https://www.geeksforgeeks.org/find-the-element-that-appears-once-in-a-sorted-array/) -#ShareChat
+    - [Find the odd appearing element](https://www.geeksforgeeks.org/find-the-element-that-odd-number-of-times-in-olog-n-time/)
+    - [Find the largest three elements in an array](https://www.geeksforgeeks.org/find-the-largest-three-elements-in-an-array/)
+- ## String Search
+    - `is_permutations()` is used to check if two containers like string and vector are permutation of each other
+        - `is_permutation(v1.begin(), v1.end(), v2.begin())`
+        - [Given a pattern and a text, find all occurrences of pattern and its anagrams in text](https://www.geeksforgeeks.org/is_permutation-c-application-anagram-search/)
+            ```cpp
+            for (int i=0; i<=t_len-p_len; i++) 
+                    // Check if substring text[i..i+p_len] is a permutation of pat[]. 
+                    // Three parameters are : 
+                    // 1) Beginning position of current window in text 
+                    // 2) End position of current window in text 
+                    // 3) Pattern to be mathced with current window 
+                    if (is_permutation(text.begin()+i, text.begin()+i+p_len, pat.begin())) count++; 
+            ```
+    - [KMP](https://www.quora.com/What-is-the-best-resource-to-learn-KMP-Algorithm)
+    - [Z-algo](https://www.geeksforgeeks.org/z-algorithm-linear-time-pattern-searching-algorithm/) :`O(m + n)` 
+    - [Anagram substring search](https://www.geeksforgeeks.org/anagram-substring-search-search-permutations/)
+    - [Search a Word in a 2D Grid of characters](https://www.geeksforgeeks.org/search-a-word-in-a-2d-grid-of-characters/)
+<hr>
