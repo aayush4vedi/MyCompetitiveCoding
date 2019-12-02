@@ -90,6 +90,7 @@
 <hr>
 
 # 2. Trees
+
 ## 2.1 Binray Tree
 - Types(**FCP**):
     - **Full**: 0/2 leaf nodes
@@ -272,7 +273,140 @@
 - [Minimum Possible value of |ai + aj – k| for given array and k](https://www.geeksforgeeks.org/minimum-possible-value-ai-aj-k-given-array-k/)
 
 ## 2.3 Adv Trees
+- ### Segment Tree
+    - [HackerEarth Tut](https://www.hackerearth.com/practice/data-structures/advanced-data-structures/segment-trees/tutorial/)
+        - Build: `O(n)`
+            ```cpp
+            void build(int node, int start, int end)
+            {
+                if(start == end)
+                {
+                    tree[node] = A[start];
+                }
+                else
+                {
+                    int mid = (start + end) / 2;
+                    build(2*node, start, mid);
+                    build(2*node+1, mid+1, end);
+                    tree[node] = tree[2*node] + tree[2*node+1];
+                }
+            }
+            ```
+        - Update(at `idx`): `O(logn)`
+            ```cpp
+            void update(int node, int start, int end, int idx, int val)
+            {
+                if(start == end)
+                {
+                    A[idx] += val;
+                    tree[node] += val;
+                }
+                else
+                {
+                    int mid = (start + end) / 2;
+                    if(start <= idx and idx <= mid)
+                    {
+                        update(2*node, start, mid, idx, val);
+                    }
+                    else
+                    {
+                        update(2*node+1, mid+1, end, idx, val);
+                    }
+                    tree[node] = tree[2*node] + tree[2*node+1];
+                }
+            }
+            ```
+        - Query: `O(logn)`
+            ```cpp
+            int query(int node, int start, int end, int l, int r)
+            {
+                if(r < start or end < l)
+                {
+                    return 0;
+                }
+                if(l <= start and end <= r)
+                {
+                    return tree[node];
+                }
+                int mid = (start + end) / 2;
+                int p1 = query(2*node, start, mid, l, r);
+                int p2 = query(2*node+1, mid+1, end, l, r);
+                return (p1 + p2);
+            }
+            ```
+        - [Lazy Propagation](https://www.hackerearth.com/practice/notes/segment-tree-and-lazy-propagation/)
+
+- ### Self Balancing Trees:
+    -  ### AVL Tree
+        - [link](https://www.geeksforgeeks.org/avl-tree-set-1-insertion/)
+        - is a BST when diff b/w heights of left and right subtrees cannot be more than one for all nodes.
+        - Vs Red Black Tree:
+            - when search-heavy: AVL
+            - when insertion/deletion heavy: Red-Black(as AVL involves rotation)
+    - ### Red Black Tree
+        - [link](https://www.geeksforgeeks.org/red-black-tree-set-1-introduction-2/)
+        - Rules:
+            1) Every node has a color either red or black.
+            2) Root of tree is always black.
+            3) There are no two adjacent red nodes (A red node cannot have a red parent or red child).
+            4) Every path from a node (including root) to any of its descendant NULL node has the same number of black nodes.
+- ### Trie
+    - [struct](https://www.geeksforgeeks.org/trie-insert-and-search/):
+        ```cpp
+        struct TrieNode 
+        { 
+            struct TrieNode *children[ALPHABET_SIZE]; 
+            bool isEndOfWord; 
+        }; 
+        ```
+    - insert & search:
+        ```cpp
+        void insert(struct TrieNode *root, string key) 
+        { 
+            struct TrieNode *pCrawl = root; 
+            for (int i = 0; i < key.length(); i++) 
+            { 
+                int index = key[i] - 'a'; 
+                if (!pCrawl->children[index]) 
+                    pCrawl->children[index] = getNode(); 
+                pCrawl = pCrawl->children[index]; 
+            } 
+            pCrawl->isEndOfWord = true; 
+        } 
+        bool search(struct TrieNode *root, string key) 
+        { 
+            struct TrieNode *pCrawl = root; 
+            for (int i = 0; i < key.length(); i++) 
+            { 
+                int index = key[i] - 'a'; 
+                if (!pCrawl->children[index]) 
+                    return false; 
+                pCrawl = pCrawl->children[index]; 
+            } 
+            return (pCrawl != NULL && pCrawl->isEndOfWord); 
+        } 
+        ```
+    - [Longest Common Prefix](https://www.geeksforgeeks.org/longest-common-prefix-using-trie/)
+    - [Minimum XOR Value Pair](https://www.geeksforgeeks.org/minimum-xor-value-pair/)
+    - [Implement a Dictionary](https://www.geeksforgeeks.org/implement-a-dictionary-using-trie/)
+- ### BIT/Fenwick Tree
+- ### XOR List
 ## 2.4 Heaps
+- Max Heap: `pq<int>P`
+- Min Heap: `pq<int, vi, pii>P`
+- [Time Complexities](https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/):
+    - Heapify: `O(logn)`
+    - Building a heap: `O(n)`
+- [Heap Sort](https://www.geeksforgeeks.org/heap-sort/) : `O(logn)`
+- [Median of Stream of Running Integers](https://www.geeksforgeeks.org/median-of-stream-of-running-integers-using-stl/)
+- [Connect n ropes with minimum cost](https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/)
+- [Largest Derangement of a Sequence](https://www.geeksforgeeks.org/largest-derangement-sequence/)
+
+<hr>
 
 
 
+
+# 3.A Stacks
+
+# 3.B Queues
