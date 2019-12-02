@@ -575,4 +575,30 @@
 <hr>
 
 # 6. Backtrack
+- ## Standard 
+    - [The Knight’s tour problem](https://www.geeksforgeeks.org/the-knights-tour-problem-backtracking-1/)
+    - [Rat in a Maze](https://www.geeksforgeeks.org/rat-in-a-maze-backtracking-2/)
+    - [N Queen Problem](https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/)
+    - [Subset Sum](https://www.geeksforgeeks.org/subset-sum-backtracking-4/)
+    - [m Coloring Problem](https://www.geeksforgeeks.org/m-coloring-problem-backtracking-5/)
+    - [Hamiltonian Cycle](https://www.geeksforgeeks.org/hamiltonian-cycle-backtracking-6/)
+    - [Sudoku](https://www.geeksforgeeks.org/sudoku-backtracking-7/)
+    - [Magnet Puzzle](https://www.geeksforgeeks.org/magnet-puzzle-backtracking-9/)
+    - [Remove Invalid Parentheses](https://www.geeksforgeeks.org/remove-invalid-parentheses/)
+    - [print all permutations of a given string](https://www.geeksforgeeks.org/write-a-c-program-to-print-all-permutations-of-a-given-string/)
+    - [Print all possible paths from top left to bottom right of a matrix](https://www.geeksforgeeks.org/print-all-possible-paths-from-top-left-to-bottom-right-of-a-mxn-matrix/)
+- ## Questions
+    - [Combinational Sum](https://www.geeksforgeeks.org/combinational-sum/)
+    - [Find all subsets](https://www.geeksforgeeks.org/backtracking-to-find-all-subsets/)
+    - [Find all distinct subsets of a given set](https://www.geeksforgeeks.org/find-distinct-subsets-given-set/)
+    - [Power Set in Lexicographic order](https://www.geeksforgeeks.org/powet-set-lexicographic-order/)
+    - [Check if a given string is sum-string](https://www.geeksforgeeks.org/check-given-string-sum-string/)
+    - [Word Break Problem](https://www.geeksforgeeks.org/minimize-number-unique-characters-string/)
+    - [Minimize number of unique characters in string](https://www.geeksforgeeks.org/minimize-number-unique-characters-string/)
+    - [Count all possible paths between two vertices](https://www.geeksforgeeks.org/count-possible-paths-two-vertices/)
+    - [Find shortest safe route in a path with landmines](https://www.geeksforgeeks.org/find-shortest-safe-route-in-a-path-with-landmines/)
+
+<hr>
+
+# 6. Greedy
 
