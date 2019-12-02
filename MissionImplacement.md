@@ -1,26 +1,26 @@
 <p align="center">
 
 <br>
-<img src="" data-canonical-src="MiP" />
+<!-- <img src="" data-canonical-src="MiP" /> -->
 <br>
 <br>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#i-basic-tools"><img src="https://img.shields.io/badge/Notes-f39f37" alt="Notes"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#ii-front-end"><img src="https://img.shields.io/badge/Linked List-8FD400" alt="Linked List"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#iii--back-end"><img src="https://img.shields.io/badge/Trees -FF5050" alt="Trees"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#iv-database"><img src="https://img.shields.io/badge/Stack&Queue-0081AB" alt="Stack&Queue"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#v-rest"><img src="https://img.shields.io/badge/Search-FD5240" alt="Search"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#v-rest"><img src="https://img.shields.io/badge/Sort-614051" alt="Sort"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#v-rest"><img src="https://img.shields.io/badge/BackTrack-253529" alt="BackTrack"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#v-rest"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#5-task-automation"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#v-rest"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#iv-database"><img src="https://img.shields.io/badge/Database-0081AB" alt=Array"></a>
-<a href="https://github.com/aayush4vedi/The-Hitchhikers-Guide-to-the-Full-Stack-Developer#v-rest"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#notes"><img src="https://img.shields.io/badge/Notes-f39f37" alt="Notes"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#1linked-list"><img src="https://img.shields.io/badge/Linked List-8FD400" alt="Linked List"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Trees -FF5050" alt="Trees"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Stack&Queue-0081AB" alt="Stack&Queue"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Search-FD5240" alt="Search"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Sort-614051" alt="Sort"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/BackTrack-253529" alt="BackTrack"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
+<a href="https://https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Database-0081AB" alt=Array"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
 <br>
 <br>
 </p>
 
-# Notes:
+# 0.Notes:
 - Pointers:
     - `&` => *A(nd)*ddress of
     - `*` => Value@
@@ -31,6 +31,8 @@
     (i)     `c` < log<sub>b</sub>a    => `T(n)` = &theta;(n<sup>log<sub>b</sub>a</sup>)    <br>
     (ii)    .. = ........   => `T(n)` = &theta;(`n`<sup>c</sup>log`n`)     <br>
     (iii)   .. = ........   => `T(n)` = &theta;(f`(n)`)
+
+<hr>
 
 # 1.Linked List:
 ## (1.0) General
@@ -84,3 +86,71 @@
 - [Delete](https://www.geeksforgeeks.org/delete-a-node-in-a-doubly-linked-list/)
 - [Reverse](https://www.geeksforgeeks.org/reverse-a-doubly-linked-list/)
 - [XOR LL](https://www.geeksforgeeks.org/memory-efficient-doubly-linked-list/) - A memory efficient DLL
+
+<hr>
+
+# 2. Trees
+## 2.1 Binray Tree
+- Types(**FCP**):
+    - **Full**: 0/2 leaf nodes
+        - `l = i + 1`
+    - **Complete**: 
+        1. all levels except last, filled
+        2. last level has nodes as left as possible
+    - **Perfect**: 
+        1. 2 child
+        2. same level leaves
+        - Has 2<sup>h</sup> -1 nodes, where `h` is tree's height
+- [Insertion](https://www.geeksforgeeks.org/insertion-in-a-binary-tree-in-level-order/)
+- 
+### Traversal
+- **DFS**:
+    - [Recursive](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
+    - Iterative: 
+        - preO: [1 stack](https://www.geeksforgeeks.org/iterative-preorder-traversal/) => `while(!s.empty()){print; pop; s.inert(left) && s.insert(right);}`
+        - inO : [1 stack](https://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/) => `while(left){s.push(node)}; `
+        - postO: [1 stack](https://www.geeksforgeeks.org/iterative-postorder-traversal-using-stack/) | [2 stacks](https://www.geeksforgeeks.org/iterative-postorder-traversal/)
+    - given preO, construct *BST* : [see both](https://www.geeksforgeeks.org/construct-bst-from-given-preorder-traversa/): O(n<sup>2</sup>) & O(n)- `if( key > min && key < max )`
+    - given preO & inO:
+        - [Build BT](https://www.geeksforgeeks.org/full-and-complete-binary-tree-from-given-preorder-and-postorder-traversals/)
+        - [find postO](https://www.geeksforgeeks.org/print-postorder-from-given-inorder-and-preorder-traversals/)
+    - check if given preO, inO, posO are of same BT : [Build Tree](https://www.geeksforgeeks.org/check-if-given-preorder-inorder-and-postorder-traversals-are-of-same-tree/)-O(n<sup>2</sup>) | [use `len` var in preO to check in postO & inO](https://www.geeksforgeeks.org/check-if-given-preorder-inorder-and-postorder-traversals-are-of-same-tree-set-2/)- O(1) space
+    - [populate inO successor as next node](https://www.geeksforgeeks.org/populate-inorder-successor-for-all-nodes/) => **reverse order traversal**
+        ```cpp
+            Node *x = NULL;  
+            if (p)  
+            {   populateNext(p->right);  
+                p->next = x;  
+                x = p;  
+                populateNext(p->left);  
+            }
+        ```
+- **BFS** / Level Order Traversal:
+    - [queue](https://www.geeksforgeeks.org/level-order-tree-traversal/): O(n)
+    - [Height-wise](https://www.geeksforgeeks.org/level-order-tree-traversal/): O(n<sup>2</sup>)
+    - [line by line](https://www.geeksforgeeks.org/level-order-traversal-line-line-set-3-using-one-queue/) -uses `Q.size()`   
+    - [spiral](https://www.geeksforgeeks.org/level-order-traversal-in-spiral-form/)
+        - Height-wise
+        - Iterative: using **2 stacks**
+    - [reverse order](https://www.geeksforgeeks.org/reverse-level-order-traversal/)
+        - Height-wise
+        - Iterative: using **1Stack & 1 Queue**
+- Vertical order traversal
+    - [Map Based](https://www.geeksforgeeks.org/print-binary-tree-vertical-order-set-2/)
+    - [Level Order](https://www.geeksforgeeks.org/print-a-binary-tree-in-vertical-order-set-3-using-level-order-traversal/): Queue based
+- Diagonal traversal
+    - [Map](https://www.geeksforgeeks.org/diagonal-traversal-of-binary-tree/)
+    - [Queue](https://www.geeksforgeeks.org/iterative-diagonal-traversal-binary-tree/)
+- Views:
+    - [Left](https://www.geeksforgeeks.org/print-left-view-binary-tree/)
+    - [Right](https://www.geeksforgeeks.org/print-right-view-binary-tree-2/)
+    - [Top](https://www.geeksforgeeks.org/print-nodes-in-the-top-view-of-binary-tree-set-3/)
+    - [Bottom](https://www.geeksforgeeks.org/bottom-view-binary-tree/)
+- [Boundary Traversal](https://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/)
+### Conversion
+### Check
+### Print
+### Summation
+### LCA
+### Misc
+
