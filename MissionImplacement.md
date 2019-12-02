@@ -11,11 +11,11 @@
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#4-search"><img src="https://img.shields.io/badge/Search-FD5240" alt="Search"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#5-sort"><img src="https://img.shields.io/badge/Sort-614051" alt="Sort"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#6-backtrack"><img src="https://img.shields.io/badge/BackTrack-253529" alt="BackTrack"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
-<a href="https://https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/Database-0081AB" alt=Array"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#6-greedy"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
+<a href="https://https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#7-dp"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#8-graph"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#8-array"><img src="https://img.shields.io/badge/Database-0081AB" alt=Array"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#9-string"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
 <br>
 <br>
 </p>
