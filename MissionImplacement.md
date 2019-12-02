@@ -537,6 +537,8 @@
 
 # 5. Sort
 - ## Algos:
+    - External Sorting
+    - 
     | Algo      | Best  | Avg. | Worst |
     |:---------:|:-----:|:----:|:-----:|
     |[Selection](https://www.geeksforgeeks.org/selection-sort/) | &ohm;(n<sup>2</sup>) | &theta;(n<sup>2</sup>) | O(n<sup>2</sup>)|
@@ -602,3 +604,33 @@
 
 # 6. Greedy
 
+- ## Standard
+    - [Activity Selection](https://www.geeksforgeeks.org/activity-selection-problem-greedy-algo-1/)
+    - [Job Sequencing](https://www.geeksforgeeks.org/job-sequencing-problem/) : !simple & !similar to Activity Selection
+    - [Egyptian Fraction](https://www.geeksforgeeks.org/greedy-algorithm-egyptian-fraction/)
+    - [Huffman Coding](https://www.geeksforgeeks.org/huffman-coding-greedy-algo-3/)
+    - [Water Connection Problem](https://www.geeksforgeeks.org/water-connection-problem/)
+    - [Policemen catch thieves](https://www.geeksforgeeks.org/policemen-catch-thieves/)
+    - [Minimum Swaps for Bracket Balancing](https://www.geeksforgeeks.org/minimum-swaps-bracket-balancing/)
+    - [Fitting Shelves Problem](https://www.geeksforgeeks.org/fitting-shelves-problem/)
+    - [Assign Mice to Holes](https://www.geeksforgeeks.org/assign-mice-holes/)
+
+- ## Misc
+    - [Fractional Knapsack](https://www.geeksforgeeks.org/fractional-knapsack-problem/)
+    - [Minimum product subset of an array](https://www.geeksforgeeks.org/minimum-product-subset-array/)
+    - [Maximize the sum of arr[i]*i](https://www.geeksforgeeks.org/maximize-sum-arrii/)
+    - [Maximum sum of absolute difference of an array](https://www.geeksforgeeks.org/maximum-sum-absolute-difference-array/)
+    - [Maximum sum of increasing order elements from n arrays](https://www.geeksforgeeks.org/maximum-sum-increasing-order-elements-n-arrays/)
+    - [Partition into two subarrays of lengths k and (N – k) such that the difference of sums is maximum](https://www.geeksforgeeks.org/partition-into-two-subarrays-of-lengths-k-and-n-k-such-that-the-difference-of-sums-is-maximum/)
+    - [Minimum sum of product of two arrays](https://www.geeksforgeeks.org/minimum-sum-product-two-arrays/)
+    - [Minimum operations to make GCD of array a multiple of k](https://www.geeksforgeeks.org/minimum-operations-make-gcd-array-multiple-k/)
+    - [Minimum sum of absolute difference of pairs of two arrays](https://www.geeksforgeeks.org/minimum-sum-absolute-difference-pairs-two-arrays/)
+    - [Find Minimum number of Coins](https://www.geeksforgeeks.org/greedy-algorithm-to-find-minimum-number-of-coins/)
+    - [Split n into maximum composite numbers](https://www.geeksforgeeks.org/split-n-maximum-composite-numbers/)
+    - [Buy-Sell Stocks](https://www.geeksforgeeks.org/buy-maximum-stocks-stocks-can-bought-th-day/)
+    - [Min Cash Flow](https://www.geeksforgeeks.org/minimize-cash-flow-among-given-set-friends-borrowed-money/)
+    - [Minimum rotations to unlock a circular lock](https://www.geeksforgeeks.org/minimum-rotations-unlock-circular-lock/)
+    - [Paper Cut into Minimum Number of Squares](https://www.geeksforgeeks.org/paper-cut-minimum-number-squares/)
+    - [Connect n ropes with minimum cost](https://www.geeksforgeeks.org/connect-n-ropes-minimum-cost/)
+    - [Rearrange characters in a string such that no two adjacent are same](https://www.geeksforgeeks.org/rearrange-characters-string-no-two-adjacent/)
+    - [Check if it is possible to survive on Island](https://www.geeksforgeeks.org/survival/)
