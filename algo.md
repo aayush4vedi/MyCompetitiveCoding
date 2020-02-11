@@ -1,3 +1,26 @@
+<p align="center">
+"Data Structures & Algorithms in Python"
+<br>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#linked-list"><img src="https://img.shields.io/badge/Linked_List-f39f37" alt="Linked List"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#arrays"><img src="https://img.shields.io/badge/Front End-8FD400" alt="Array"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#matrix"><img src="https://img.shields.io/badge/Back End-FF5050" alt="Matrix"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#stack"><img src="https://img.shields.io/badge/Database-0081AB" alt=Stack"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#queue"><img src="https://img.shields.io/badge/REST-FD5240" alt="Queue"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#tree"><img src="https://img.shields.io/badge/Model & DA-614051" alt="Tree"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#graph"><img src="https://img.shields.io/badge/Auth-253529" alt="Graph"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#dynamic-programming"><img src="https://img.shields.io/badge/Python-4997D0" alt="DP"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#sort"><img src="https://img.shields.io/badge/Task Automation-719B6A" alt="Sort"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#string"><img src="https://img.shields.io/badge/Dev Ops-4570E6" alt="String"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#heap"><img src="https://img.shields.io/badge/Database-0081AB" alt=Heap"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#backtracking"><img src="https://img.shields.io/badge/Linked_List-f39f37" alt="Backtracking"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#maths"><img src="https://img.shields.io/badge/Auth-253529" alt="Maths"></a>
+<br>
+<br>
+</p>
+
+
+
+
 # Linked list
 * [Linked Lists Concept](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Linked%20Lists/Linked%20Lists.ipynb)
     * [Finding the length of linked list](https://github.com/OmkarPathak/Data-Structures-using-Python/blob/master/Linked%20Lists/P01_FindingLengthOfLinkedList.py)
