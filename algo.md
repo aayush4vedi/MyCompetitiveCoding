@@ -1,5 +1,5 @@
 <p align="center">
-<h1>"Data Structures & Algorithms in Python"</h1>
+# Data Structures & Algorithms in Python
 <br>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#linked-list"><img src="https://img.shields.io/badge/Linked_List-f39f37" alt="Linked List"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/algo.md#arrays"><img src="https://img.shields.io/badge/Front End-8FD400" alt="Array"></a>
