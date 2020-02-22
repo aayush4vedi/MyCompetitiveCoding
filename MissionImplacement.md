@@ -783,7 +783,9 @@
 
 <hr>
 
-# 8. Array
+# 8. Two Poiters
+
+# 9. Array
 - `* ` Transpose: `(i,0,R)(j,i,c)swap(`A<sub>ij</sub>, A<sub>ji</sub>`)`
 - `* ` Rotate Matrix 90<sup>o</sup>:
     1. Take transpose then (`AC` \ `CR`)
@@ -814,7 +816,7 @@
 <hr>
 
 
-# 9. String
+# 10. String
 
 - [Longest Common Prefix](https://www.geeksforgeeks.org/longest-common-prefix-using-word-by-word-matching/)
 - [Count & Say](https://www.geeksforgeeks.org/look-and-say-sequence/)
