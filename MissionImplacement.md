@@ -14,7 +14,7 @@
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#6-greedy"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
 <a href="https://https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#7-dp"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#8-graph"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#9-two-pointers"><img src="https://img.shields.io/badge/Array-0081AB" alt=Array"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#9-two-pointers"><img src="https://img.shields.io/badge/Array-0000AB" alt=2Pointers"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#10-array"><img src="https://img.shields.io/badge/Array-0081AB" alt=Array"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#11-string"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
 <br>
