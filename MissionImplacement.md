@@ -14,11 +14,13 @@
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#6-greedy"><img src="https://img.shields.io/badge/Greedy-4997D0" alt="Greedy"></a>
 <a href="https://https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#7-dp"><img src="https://img.shields.io/badge/DP-719B6A" alt="DP"></a>
 <a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#8-graph"><img src="https://img.shields.io/badge/Graph-4570E6" alt="Graph"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#8-array"><img src="https://img.shields.io/badge/Array-0081AB" alt=Array"></a>
-<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#9-string"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#9-two-pointers"><img src="https://img.shields.io/badge/Array-0081AB" alt=Array"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#10-array"><img src="https://img.shields.io/badge/Array-0081AB" alt=Array"></a>
+<a href="https://github.com/aayush4vedi/MyCompetitiveCoding/blob/master/MissionImplacement.md#11-string"><img src="https://img.shields.io/badge/String-FD5240" alt="String"></a>
 <br>
 <br>
 </p>
+ 
 
 # 0.Notes:
 - Pointers:
@@ -783,9 +785,9 @@
 
 <hr>
 
-# 8. Two Poiters
+# 9. Two Poiters
 
-# 9. Array
+# 10. Array
 - `* ` Transpose: `(i,0,R)(j,i,c)swap(`A<sub>ij</sub>, A<sub>ji</sub>`)`
 - `* ` Rotate Matrix 90<sup>o</sup>:
     1. Take transpose then (`AC` \ `CR`)
@@ -816,7 +818,7 @@
 <hr>
 
 
-# 10. String
+# 11. String
 
 - [Longest Common Prefix](https://www.geeksforgeeks.org/longest-common-prefix-using-word-by-word-matching/)
 - [Count & Say](https://www.geeksforgeeks.org/look-and-say-sequence/)
