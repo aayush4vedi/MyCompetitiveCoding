@@ -42,13 +42,16 @@
         return           f(x*x, n/2);
     }
     ```
-- GCD:
+- GCD: 
     ```cpp
-    int f(a,b){
+    int f(a,b){        //O(log(min(a,b))
         i(b==0)return a;
         return f(b, a%b);
     }
     ```
+    - [Euclid's theorem](https://www.geeksforgeeks.org/euclidean-algorithms-basic-and-extended/):
+      - 1. Sbutract smaller from larger until you can't
+      - 2. Divide larger with smaller until remainder is 0
 - Sieve of Eratosthenes: `O(Nlog(logN))`
     ```cpp
     void sieve(int N) {
@@ -159,7 +162,6 @@
         2. same level leaves
         - Has 2<sup>h</sup> -1 nodes, where `h` is tree's height
 - [Insertion](https://www.geeksforgeeks.org/insertion-in-a-binary-tree-in-level-order/)
-- 
 ### Traversal
 - **DFS**:
     - [Recursive](https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/)
@@ -533,7 +535,6 @@
 - ### Questions
     - [LRU cache](https://www.geeksforgeeks.org/lru-cache-implementation/)
     - [Max element in sliding window of size K](https://www.geeksforgeeks.org/sliding-window-maximum-maximum-of-all-subarrays-of-size-k/)
-    - First non-repeating element in stream
     - [Min time required to rot all oranges](https://www.geeksforgeeks.org/minimum-time-required-so-that-all-oranges-become-rotten/)
     - [Petrol pump problem](https://www.geeksforgeeks.org/find-a-tour-that-visits-all-stations/)
     - [Find the largest multiple of 3](https://www.geeksforgeeks.org/find-the-largest-number-multiple-of-3/)
@@ -751,7 +752,15 @@
 <hr>
 
 # 8. Graph
-- `vector <int> adj[E];` `REP(i,0,V){ajd[x].pb(y);}`
+- `vector <int> adj[E];`
+- `REP(i,0,V){ajd[x].pb(y);}`  
+- `REP(i,0,V){ REP(j,0,ajd[i].size()){cout<<adj[i][j] <<" ";} cout<<endl;}`
+- ```cpp
+    void init() {
+        for(int i = 0;i < E;++i)
+         visited[i] = false;
+    }
+    ```
 - ## Algos
     - [BFS](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/) | [DFS](https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/tutorial/) :: both `O(V+E)` when implemented with `adjList`
     - [MST](https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/):
@@ -785,7 +794,9 @@
 
 <hr>
 
-# 9. Two Poiters
+# 9. Two Poiters-Sliding Window
+- [Two Pointer archieve](https://www.geeksforgeeks.org/tag/two-pointer-algorithm/)
+- [Sliding window archieve](https://www.geeksforgeeks.org/tag/sliding-window/)
 
 # 10. Array
 - `* ` Transpose: `(i,0,R)(j,i,c)swap(`A<sub>ij</sub>, A<sub>ji</sub>`)`
