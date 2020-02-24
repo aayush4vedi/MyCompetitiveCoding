@@ -449,7 +449,7 @@
 - ### XOR List
 ## 2.4 Heaps
 - Max Heap: `pq<int>P`
-- Min Heap: `pq<int, vi, pii>P`
+- Min Heap: `pq<int, vi, gi>P` OR `priority_queue<int, vector<int>, greater<int>> pq;`
 - [Time Complexities](https://www.geeksforgeeks.org/time-complexity-of-building-a-heap/):
     - Heapify: `O(logn)`
     - Building a heap: `O(n)`
