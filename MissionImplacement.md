@@ -27,6 +27,15 @@
     - `&` => *A(nd)*ddress of
     - `*` => Value@
     >It's easier to give someone your address to find you than a copy of your house.
+- Split string with spaces into array of string:
+   ```cpp
+    string s1="split on     whitespace";
+    istringstream iss(s1);
+    vector<string> result;
+    for(string s;iss>>s;){
+        result.push_back(s);
+    }
+   ```
 - Masters's Theorem:<br>
     `T(n) = aT(n/b) + f(n)` , where f(n) = &theta;(n<sup>c</sup>)
     <br>
