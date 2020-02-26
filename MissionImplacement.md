@@ -87,11 +87,11 @@
     - Check if a given number is a power of 2: `return (x && !(x & (x - 1)));`
     - Count the number of ones in the binary representation of n: `while(n){ n = n& (n-1); cnt++}`
     - Check if the i-th bit is set in the binary form of N : `if( N & (1 << i)) return true; else return false;`
-    - generate all the possible subsets of an array:
+    - generate all the possible subsets of an array(here `n` is size of `A`):
         ```cpp
-            for(int i = 0;i < (1 << N); ++i)
+            for(int i = 0;i < (1 << n); ++i)
             {
-                for(int j = 0;j < N;++j)
+                for(int j = 0;j < n;++j)
                     if(i & (1 << j))
                         cout << A[j] << ‘ ‘;
                 cout << endl;
