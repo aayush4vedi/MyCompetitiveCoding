@@ -810,6 +810,14 @@
 
 # 10. Array
 - `* ` Transpose: `(i,0,R)(j,i,c)swap(`A<sub>ij</sub>, A<sub>ji</sub>`)`
+  - ```cpp
+    //in place- You've been doing it wrong.See this is the correct way
+    for(int i=0;i<n;i++){
+        for(int j=i+1;j<m;j++){
+            swap(v[i][j],v[j][i]);
+        }
+    }
+    ```
 - `* ` Rotate Matrix 90<sup>o</sup>:
     1. Take transpose then (`AC` \ `CR`)
     - **C**lockwise: rev **R**ow
